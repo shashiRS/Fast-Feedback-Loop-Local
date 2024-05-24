@@ -1,0 +1,281 @@
+{
+  "TestNode": {
+    "composition": {
+      "test_type_A_sync_exact": {
+        "url": "ARS540 Device.recording_output.test_type_A"
+      },
+      "test_type_A_sync_latest": {
+        "url": "ARS540 Device.recording_output.test_type_A"
+      },
+      "test_type_A_sync_nearest": {
+        "url": "ARS540 Device.recording_output.test_type_A"
+      },
+      "test_type_B_sync_exact": {
+        "url": "ARS540 Device.recording_output.test_type_B"
+      },
+      "test_type_B_sync_latest": {
+        "url": "ARS540 Device.recording_output.test_type_B"
+      },
+      "test_type_B_sync_nearest": {
+        "url": "ARS540 Device.recording_output.test_type_B"
+      }
+    },
+    "dataAvailabilityMode": "DATA_BASED",
+    "in_port": {
+      "test_type_A_sync_exact": {
+        "data": {
+          "type": "TestSigHeader"
+        },
+        "port": {
+          "size": "28",
+          "version": "1"
+        },
+        "sync": {
+          "algo": "GET_LAST_ELEMENT",
+          "mode": "Timestamp",
+          "sync_id": {
+            "name": "",
+            "url": ""
+          },
+          "syncref": {
+            "mode": "undefined",
+            "url": "undefined"
+          },
+          "timestamp": {
+            "name": "",
+            "url": ""
+          }
+        }
+      },
+      "test_type_A_sync_latest": {
+        "data": {
+          "type": "TestSigHeader"
+        },
+        "port": {
+          "size": "28",
+          "version": "1"
+        },
+        "sync": {
+          "algo": "GET_LAST_ELEMENT",
+          "mode": "Timestamp",
+          "sync_id": {
+            "name": "",
+            "url": ""
+          },
+          "syncref": {
+            "mode": "undefined",
+            "url": "undefined"
+          },
+          "timestamp": {
+            "name": "",
+            "url": ""
+          }
+        }
+      },
+      "test_type_A_sync_nearest": {
+        "data": {
+          "type": "TestSigHeader"
+        },
+        "port": {
+          "size": "28",
+          "version": "1"
+        },
+        "sync": {
+          "algo": "GET_LAST_ELEMENT",
+          "mode": "Timestamp",
+          "sync_id": {
+            "name": "",
+            "url": ""
+          },
+          "syncref": {
+            "mode": "undefined",
+            "url": "undefined"
+          },
+          "timestamp": {
+            "name": "",
+            "url": ""
+          }
+        }
+      },
+      "test_type_B_sync_exact": {
+        "data": {
+          "type": "TestSigHeader"
+        },
+        "port": {
+          "size": "28",
+          "version": "1"
+        },
+        "sync": {
+          "algo": "GET_LAST_ELEMENT",
+          "mode": "Timestamp",
+          "sync_id": {
+            "name": "",
+            "url": ""
+          },
+          "syncref": {
+            "mode": "undefined",
+            "url": "undefined"
+          },
+          "timestamp": {
+            "name": "",
+            "url": ""
+          }
+        }
+      },
+      "test_type_B_sync_latest": {
+        "data": {
+          "type": "TestSigHeader"
+        },
+        "port": {
+          "size": "28",
+          "version": "1"
+        },
+        "sync": {
+          "algo": "GET_LAST_ELEMENT",
+          "mode": "Timestamp",
+          "sync_id": {
+            "name": "",
+            "url": ""
+          },
+          "syncref": {
+            "mode": "undefined",
+            "url": "undefined"
+          },
+          "timestamp": {
+            "name": "",
+            "url": ""
+          }
+        }
+      },
+      "test_type_B_sync_nearest": {
+        "data": {
+          "type": "TestSigHeader"
+        },
+        "port": {
+          "size": "28",
+          "version": "1"
+        },
+        "sync": {
+          "algo": "GET_LAST_ELEMENT",
+          "mode": "Timestamp",
+          "sync_id": {
+            "name": "",
+            "url": ""
+          },
+          "syncref": {
+            "mode": "undefined",
+            "url": "undefined"
+          },
+          "timestamp": {
+            "name": "",
+            "url": ""
+          }
+        }
+      }
+    },
+    "logging": {
+      "console": {
+        "loglevel": "DEBUG"
+      },
+      "file": {
+        "loglevel": "DEBUG"
+      },
+      "router": {
+        "loglevel": "DEBUG"
+      }
+    },
+    "system_services": {
+      "timestamp": {
+        "mode": "signal",
+        "signal_unit": "us",
+        "signal_url": "undefined"
+      }
+    }
+  },
+  "next_controlbridge": {
+    "logging": {
+      "console": {
+        "loglevel": "DEBUG"
+      },
+      "file": {
+        "loglevel": "DEBUG"
+      },
+      "router": {
+        "loglevel": "DEBUG"
+      }
+    },
+    "profiling": {
+      "level": "OFF"
+    },
+    "version": {
+      "major": "0",
+      "minor": "0",
+      "patch": "0"
+    }
+  },
+  "next_databridge": {
+    "logging": {
+      "console": {
+        "loglevel": "DEBUG"
+      },
+      "file": {
+        "loglevel": "DEBUG"
+      },
+      "router": {
+        "loglevel": "DEBUG"
+      }
+    },
+    "profiling": {
+      "level": "OFF"
+    },
+    "version": {
+      "major": "0",
+      "minor": "0",
+      "patch": "0"
+    }
+  },
+  "next_player": {
+    "buffer_size": {
+      "max_read_ahead_MB": "30"
+    },
+    "filters": {
+      "expression": "",
+      "url": ""
+    },
+    "logging": {
+      "console": {
+        "loglevel": "DEBUG"
+      },
+      "file": {
+        "loglevel": "DEBUG"
+      },
+      "router": {
+        "loglevel": "DEBUG"
+      }
+    },
+    "orchestrator": {
+      "flow1": {
+        "clients": {
+          "TestNode": {
+            "exec1": ""
+          }
+        },
+        "meta": {
+          "delay": "0",
+          "sync": "1"
+        },
+        "type": "signal_name",
+        "value": "ARS540 Device.recording_output.trigger_B"
+      }
+    },
+    "realtime_factor": "10",
+    "stepping": {
+      "time_step": "40000"
+    },
+    "version": {
+      "major": "0",
+      "minor": "0",
+      "patch": "0"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+next_create_test(
+  NAME
+    trigger_handler_test
+  SRCS
+    trigger_handler_test.cpp
+  PRIVATEINCLUDEDIRS
+    ${PLAYER_SRC_DIR}/publisher/
+    ${CONTROL_INTERFACE_DIR}/
+  PRIVATELINKLIBS
+    next_sdk::next_appsupport
+  INSTALLTARGETS
+    mts_sentinel::client
+    mts_core_lib::modules
+)

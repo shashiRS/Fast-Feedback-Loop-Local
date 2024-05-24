@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\lib_version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\base_ctrl_data_generator\control_data_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_client_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_master_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_master.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\log_collector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\log_collector_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\rotating_file_sink_log_event_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\event_control\open_recording_status_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\event_control\orchestrator_event_binary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\event_control\player_state_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\event_control\player_command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\base_ctrl_data_generator\control_data_generator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_master_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_client_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\interface\next\control\orchestrator\orchestrator_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\interface\next\control\orchestrator\orchestrator_master.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\interface\next\control\orchestrator\flow_control_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\interface\next\control\log_collector\log_collector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\log_collector_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\rotating_file_sink_log_event_data.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\control\bin_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\control\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\control\version_info.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5C012A49-367D-3CF3-8F32-823C93801291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{51FCA844-B143-3928-B5F2-7A5277A977A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

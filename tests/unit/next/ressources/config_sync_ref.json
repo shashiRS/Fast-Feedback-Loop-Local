@@ -1,0 +1,24 @@
+{
+  "next_player": {
+    "orchestrator": {
+      "flow1": {
+        "meta": {
+          "delay": 0,
+          "sync": true
+        },
+        "type": "signal_name",
+        "value": "SIM VFB.SyncRef_Root.syncref",
+        "meta_info": {
+          "ref_value": "SIM VFB.SyncRef_Root.syncref.sSigHeader.uiTimeStamp"
+        },
+        "clients": [
+          [
+            "test_component",
+            "test_component_test_type_trigger"
+          ]
+        ]
+      }
+    },
+    "realtime_factor": "10"
+  }
+}

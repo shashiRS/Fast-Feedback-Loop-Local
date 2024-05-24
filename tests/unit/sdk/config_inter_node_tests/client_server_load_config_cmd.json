@@ -1,0 +1,22 @@
+{
+  "load_configuration_sequence": {
+    "dummy_str": "cmd_config",
+    "dummy_int": "80",
+    "cmd_dummy_int": "80",
+    "debug_level": "5",
+    "lower": {
+      "debug_level": "1",
+      "cmd_dummy2_int": "80"
+    }
+  },
+  "load_filtered_config_command_Line": {
+    "dummy_str": "cmd_config",
+    "dummy_int": "80",
+    "cmd_dummy_int": "80",
+    "debug_level": "5",
+    "lower": {
+      "debug_level": "1",
+      "cmd_dummy2_int": "80"
+    }
+  }
+}

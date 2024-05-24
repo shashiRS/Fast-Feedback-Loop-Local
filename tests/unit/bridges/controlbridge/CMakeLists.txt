@@ -1,0 +1,8 @@
+add_subdirectory(CommandHandler)
+add_subdirectory(EventHandler)
+add_subdirectory(http_post)
+add_subdirectory(LifecycleOrchestrator)
+add_subdirectory(log_distributor)
+add_subdirectory(PlayerEventDistributer)
+add_subdirectory(status_code_manager)
+add_subdirectory(status_queue_manager)

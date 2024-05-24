@@ -1,0 +1,43 @@
+{
+	"configuration": {
+		"exportType": ".csv",
+		"triggerBasedOn": "Signal",
+		"trigger": "ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp",
+		"directory": "D:\\test_component_export\\latest",
+		"signals": [
+			[
+				"ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp"
+			],
+			[
+				"SIM VFB.out.test_type_A_sync_latest.uiVersionNumber"
+			],
+			[
+				"SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiTimeStamp"
+			],
+			[
+				"SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiMeasurementCounter"
+			],
+			[
+				"SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiCycleCounter"
+			],
+			[
+				"SIM VFB.out.test_type_A_sync_latest.sSigHeader.eSigStatus"
+			],
+			[
+				"SIM VFB.out.test_type_B_sync_latest.uiVersionNumber"
+			],
+			[
+				"SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiTimeStamp"
+			],
+			[
+				"SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiMeasurementCounter"
+			],
+			[
+				"SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiCycleCounter"
+			],
+			[
+				"SIM VFB.out.test_type_B_sync_latest.sSigHeader.eSigStatus"
+			]
+		]
+	}
+}

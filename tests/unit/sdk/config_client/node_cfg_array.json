@@ -1,0 +1,52 @@
+{
+  "test1": {
+    "singleValue": "from_CFG",
+    "singleValueEmpty": "from_CFG"
+  },
+  "test2": {
+    "singleValue_t2": "from_CFG",
+    "singleValueEmpty": "from_CFG"
+  },
+  "test3": {
+    "singleValue_t3": "from_CFG",
+    "singleValueEmpty": "from_CFG"
+  },
+  "test": {
+    "requests": {
+      "CEM200_COH": {
+        "composition": {
+          "singleValue": "asdf",
+          "singleValueEmpty": "",
+          "m_pSefInputIf": [
+            "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+            "MFC5xx Device.FCU.ARSSepTuple3_Fcu1",
+            ""
+          ],
+          "m_pEmlInputIf": [
+            "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+            {
+              "alternatives": [
+                "CEM200_TPF2.m_tpObjectList",
+                "MFC5xx Device.TPF2.m_tpObjectList"
+              ]
+            },
+            {
+              "alternatives1": [
+                "CEM200_TPF2.m_tpObjectList1",
+                "MFC5xx Device.TPF2.m_tpObjectList1"
+              ]
+            }
+          ],
+          "m_pEmlInputIffail": [
+            {
+              "alternatives": {
+                "asdf": "1"
+              }
+            },
+            "MFC5xx Device.FCU.ARSSepTuple3_Fcu"
+          ]
+        }
+      }
+    }
+  }
+}

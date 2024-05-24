@@ -1,0 +1,89 @@
+"""
+    Copyright 2023 Continental Corporation
+
+    :file: swt_run_kpi.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script run kpi script to compare the results
+
+    :author:
+        - Rakesh Sadhu
+"""
+
+# standard Python import area
+import csv
+import json
+import os
+import time
+
+# PTF or custom import area
+from helper_files.ControlBridge import controlbridge_Variables
+from helper_files.DataBridge import databridge_Variables
+from helper_files.DataBridge.KPI import SIL_SIL_evaluation_module
+from helper_files.General import precondition
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.report import *
+from ptf.verify_utils import ptf_asserts, ptf_expects
+
+
+def SWT_EXPORT_ZREC_RECORDING():
+    DETAILS("Test case to export zrec urls and compare results w.r.t generated csv files")
+
+    VERIFIES("The test verifies if the results are consistence")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("databridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    precondition.precondition_databridge_with_recording("zrec")
+    # Send new config for exporter plugin
+    time.sleep(20)
+
+    path_to_conf = os.path.dirname(databridge_Variables.__file__)
+    conf = open(os.path.join(path_to_conf + "\\KPI\\zrec_exporter_plugin_conf_start.json"))
+    json_load_start = json.load(conf)
+    json_conf_exporter_start = json.dumps(json_load_start)
+
+    conf = open(os.path.join(path_to_conf + "\\KPI\\exporter_plugin_conf_stop.json"))
+    json_load = json.load(conf)
+    json_conf_exporter_stop = json.dumps(json_load)
+
+    time.sleep(10)
+
+    next_api.websocket.databridge.send(json_conf_exporter_start, False)
+    # Start playing recording
+    time.sleep(10)
+
+    PRECONDITION("Start to play the recording")
+    # sending the message to play the recording and receive the response
+    response_play = next_api.execute.play_recording()
+    # if controlbridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(bool(response_play), True, "Timeout while playing the recording. Message received: {}".format(response_play))
+    PRECONDITION("Recording is played")
+
+    next_api.websocket.databridge.send(json_conf_exporter_stop, False)
+    time.sleep(10)
+
+    json_format = json.loads(json_load_start["payload"]["arguments"])
+    csv_parser = SIL_SIL_evaluation_module.csv_parser(json_format["outputFolder"], 4)
+    csv_parser.start_kpi()
+
+    if os.path.exists(
+        os.path.abspath(os.path.join(json_format["outputFolder"], SIL_SIL_evaluation_module.kExportFileName))
+    ):
+        with open(os.path.join(json_format["outputFolder"], SIL_SIL_evaluation_module.kExportFileName), "r") as file:
+            csvreader = csv.reader(file)
+            for row in csvreader:
+                num_zeros = row.count("0")
+                ptf_asserts.verify(num_zeros == len(row), True, "Inconsistency between CSV exporter output num_zeros={0},len(row)={1}".format(num_zeros, len(row)))
+
+    else:
+        ptf_asserts.fail("CSV evaluation file does not exists")

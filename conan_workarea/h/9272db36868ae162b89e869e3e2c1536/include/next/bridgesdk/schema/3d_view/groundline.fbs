@@ -1,0 +1,19 @@
+file_identifier "GL01";
+attribute "version";
+
+namespace GuiSchema;
+
+table GroundLine (version: "0.0.1") {
+  id:int;                               // Required - Unique id per sensor and ground lines
+  pointsX:[float];                      // Required - x position of points to create line.
+  pointsY:[float];                      // Required - y position of points to create line.
+
+  dashed:bool;                          // Optional - For solid lines use false, for dashed lines use true.
+  lineWidth: double = 1;                // Optional - width of the line
+}
+
+table GroundLineList {
+  groundLines:[GroundLine];
+}
+
+root_type GroundLineList;

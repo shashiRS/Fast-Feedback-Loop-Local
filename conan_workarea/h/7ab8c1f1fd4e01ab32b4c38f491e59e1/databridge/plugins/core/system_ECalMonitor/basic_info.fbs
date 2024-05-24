@@ -1,0 +1,16 @@
+file_identifier "BI01";
+attribute "version";
+
+namespace profiler;
+table Basic {
+      name:string;
+}
+
+table BasicInformation (version: "0.0.1"){
+      name:string;            // Name of node/process
+      status:string;          // Meta information for node
+      timestamp:uint64=0;     // current timestamp
+      location:string;        //Location of the running process
+}
+
+root_type BasicInformation;

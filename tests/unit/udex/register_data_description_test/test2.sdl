@@ -1,0 +1,80 @@
+<SdlFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" ByteAlignment="1" Version="2.0">
+	<View Name="AlgoVehCycle" CycleID="207">
+		<Group Name="VehPar" Address="20300300" ArrayLen="1" Size="256">
+			<Signal Name="uiVersionNumber" Offset="0" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+			<SubGroup Name="sSigHeader" Offset="4" ArrayLen="1" Size="12">
+				<Signal Name="uiTimeStamp" Offset="0" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="uiMeasurementCounter" Offset="4" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="big-endian" Size="2"/>
+				<Signal Name="uiCycleCounter" Offset="6" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="big-endian" Size="2"/>
+				<Signal Name="eSigStatus" Offset="8" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="a_reserve" Offset="9" ArrayLen="3" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+			</SubGroup>
+			<SubGroup Name="VehParMain" Offset="10" ArrayLen="1" Size="100">
+				<Signal Name="State" Offset="0" ArrayLen="16" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="SelfSteerGrad" Offset="10" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<SubGroup Name="SteeringRatio" Offset="14" ArrayLen="1" Size="32">
+					<SubGroup Name="swa" Offset="0" ArrayLen="1" Size="16">
+						<Signal Name="ang" Offset="0" ArrayLen="2" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+						<Signal Name="rat" Offset="8" ArrayLen="2" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+					</SubGroup>
+					<SubGroup Name="vel" Offset="10" ArrayLen="1" Size="16">
+						<Signal Name="vel" Offset="0" ArrayLen="2" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+						<Signal Name="rat" Offset="8" ArrayLen="2" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+					</SubGroup>
+				</SubGroup>
+				<Signal Name="WheelBase" Offset="34" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="TrackWidthFront" Offset="38" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="TrackWidthRear" Offset="3C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="VehWeight" Offset="40" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="CntrOfGravHeight" Offset="44" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="AxisLoadDistr" Offset="48" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="WhlLoadDepFrontAxle" Offset="4C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="WhlLoadDepRearAxle" Offset="50" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="WhlCircumference" Offset="54" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="DrvAxle" Offset="58" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="WhlTcksPerRev" Offset="59" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="FrCrnrStiff" Offset="5C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="ReCrnrStiff" Offset="60" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+			</SubGroup>
+			<SubGroup Name="VehParAdd" Offset="74" ArrayLen="1" Size="52">
+				<Signal Name="State" Offset="0" ArrayLen="12" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="VehicleWidth" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="VehicleLength" Offset="10" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="CurbWeight" Offset="14" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="OverhangFront" Offset="18" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="FrontAxleRoadDist" Offset="1C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="WheelWidth" Offset="20" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="PassableHeight" Offset="24" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="DistCameraToHoodX" Offset="28" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="DistCameraToHoodY" Offset="2C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="SteeringVariant" Offset="30" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+			</SubGroup>
+			<SubGroup Name="SensorMounting" Offset="A8" ArrayLen="1" Size="40">
+				<Signal Name="State" Offset="0" ArrayLen="8" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="LatPos" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="LongPos" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="VertPos" Offset="10" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="LongPosToCoG" Offset="14" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="PitchAngle" Offset="18" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="Orientation" Offset="1C" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="RollAngle" Offset="20" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="YawAngle" Offset="24" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+			</SubGroup>
+			<SubGroup Name="Sensor" Offset="D0" ArrayLen="1" Size="28">
+				<Signal Name="State" Offset="0" ArrayLen="8" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="CoverDamping" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="fCoverageAngle" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="fLobeAngle" Offset="10" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="fCycleTime" Offset="14" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="uNoOfScans" Offset="18" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+			</SubGroup>
+			<SubGroup Name="SensorFovCrop" Offset="EC" ArrayLen="1" Size="20">
+				<Signal Name="State" Offset="0" ArrayLen="4" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+				<Signal Name="FovMaxPitch" Offset="4" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="FovMinPitch" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="FovMaxYaw" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+				<Signal Name="FovMinYaw" Offset="10" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian" Size="4"/>
+			</SubGroup>
+		</Group>
+	</View>
+</SdlFile>

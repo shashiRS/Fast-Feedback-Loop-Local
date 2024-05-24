@@ -1,0 +1,26 @@
+next_create_test(
+  NAME plugin_unittest_test
+  SRCS
+    plugin_unittest_test.cpp
+    plugin_datapublisher_test.cpp
+    plugin_datasusbscriber_test.cpp
+    plugin_3D_view_test.cpp
+    plugin_signal_explorer_test.cpp
+    plugin_mock.hpp
+    ${PLUGIN_MANAGER_SRC_DIR}/plugin_config_handler.cpp
+    ${PLUGIN_MANAGER_SRC_DIR}/process_manager.cpp
+  PRIVATEINCLUDEDIRS
+    ${PLUGIN_MANAGER_SRC_DIR}
+    ${PLUGINS_INTERFACE_DIR}
+    ${UNIT_TEST_COMMON_DIR}
+    ${DATABRIDGE_INTERFACE_DIR}
+  PRIVATELINKLIBS
+    jsoncpp_static
+    next_udex::next_udex
+    next_sdk::next_appsupport
+    next_plugin
+  USESDB
+  INSTALLTARGETS
+    mts_sentinel::client
+    mts_core_lib::modules
+)

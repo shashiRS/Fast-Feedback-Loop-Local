@@ -1,0 +1,61 @@
+{
+  "nested_arrays": {
+    "normal_variable": "val1",
+    "object_array": [
+      {
+        "dummy": "val",
+        "dummy1": "val"
+      }
+    ],
+    "nested_array1": [
+      "entry_elem1",
+      {
+        "alternatives": {
+          "new_value": "CEM200_TPF2.m_tpObjectList"
+        }
+      },
+      {
+        "alternatives1": [
+          "CEM200_TPF2.m_tpObjectList1",
+          "MFC5xx Device.TPF2.m_tpObjectList1"
+        ]
+      }
+    ],
+    "nested_array2": [
+      "entry_elem1",
+      {
+        "alternatives": {
+          "new_value": "CEM200_TPF2.m_tpObjectList"
+        }
+      },
+      {
+        "alternatives1": [
+          "CEM200_TPF2.m_tpObjectList1",
+          "MFC5xx Device.TPF2.m_tpObjectList1"
+        ]
+      },
+      "entry_elem2"
+    ],
+    "sub_childs_of_array": [
+      {
+        "object": {
+          "dummy": "val",
+          "dummy1": "val"
+        }
+      }
+    ]
+  },
+  "": {
+    "empty_comp_name": "1"
+  },
+  "local": {
+    "active:state": "init",
+    "": "CEM200_COH"
+  },
+  "lo:cal": {
+    "active_state": "init"
+  },
+  "CEM200_COH[0]": {
+    "version": "0.0.1"
+  }
+}

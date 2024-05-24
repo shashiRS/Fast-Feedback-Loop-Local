@@ -1,0 +1,11 @@
+﻿MTS.Package.TimeStamp,SIM VFB.out.test_type_A_sync_latest.uiVersionNumber,SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiTimeStamp,SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiMeasurementCounter,SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiCycleCounter,SIM VFB.out.test_type_A_sync_latest.sSigHeader.eSigStatus,SIM VFB.out.test_type_B_sync_latest.uiVersionNumber,SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiTimeStamp,SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiMeasurementCounter,SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiCycleCounter,SIM VFB.out.test_type_B_sync_latest.sSigHeader.eSigStatus
+6,1,120,2,2,1,0,0,0,0,0
+14,1,150,5,5,1,1,130,0,0,1
+23,1,179,8,8,1,1,191,2,2,1
+31,1,211,11,11,1,1,220,3,3,1
+37,1,230,13,13,1,1,250,4,4,1
+45,1,259,16,16,1,1,279,5,5,1
+55,1,310,6,6,1,1,310,6,6,1
+63,1,340,7,7,1,1,340,7,7,1
+71,1,410,27,27,1,1,409,8,8,1
+79,1,440,30,30,1,1,439,9,9,1

@@ -1,0 +1,8 @@
+{
+"channel":"DataStream",
+"event":"WidgetRequestsDataStreamUpdateEvent",
+"source":"NextGUI",
+"payload":{"dataClass":{"name":"NextExporter","version":"0.0.1"},
+"arguments":"{\"event\":\"UserPressedStopSignalExportingButton\",}"
+}
+}

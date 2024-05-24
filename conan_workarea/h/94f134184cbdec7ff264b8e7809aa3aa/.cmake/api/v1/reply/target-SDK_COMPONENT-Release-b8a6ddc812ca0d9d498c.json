@@ -1,0 +1,112 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"__bricks_install_add_dependencies_with_components",
+			"install",
+			"install_runtime",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"D:/.bbs_conan/3f54ddd49/1/cmake/pre/decorators/install_add_dependencies.cmake",
+			"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/.bricks/decorated_install.cmake",
+			"src/cmake/install_lib.cmake",
+			"src/sdk/sdk/CMakeLists.txt",
+			"src/sdk/appsupport/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 180,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 168,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 139,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 168,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 9
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "next_sdk::@48e9f1697bc1a73bde0c"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "next_appsupport::@46c4a43b3fe5f69dd73e"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bricks"
+	},
+	"id" : "SDK_COMPONENT::@48e9f1697bc1a73bde0c",
+	"name" : "SDK_COMPONENT",
+	"paths" : 
+	{
+		"build" : "src/sdk/sdk",
+		"source" : "src/sdk/sdk"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,915 @@
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && echo "customevent.duration.v2|1715777473784|start|5879377|bricks_conanfile|package|next.delivery[vs2017]|"
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+"customevent.duration.v2|1715777473784|start|5879377|bricks_conanfile|package|next.delivery[vs2017]|"
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --install D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --prefix D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62 --config Release --component PACKAGE_INFO
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/next-config.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/next-config-version.cmake
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --install D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --prefix D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62 --config Release --component NEXT_COMPONENT
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/lib/next.lib
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/NEXT_COMPONENT/exported-targets.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/NEXT_COMPONENT/exported-targets-release.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_control.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_udex.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/next/src/next_interface/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/next/src/next_interface/Release/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/data_types.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/next.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/next_callbacks.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/next_config.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_container.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_container.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/next/src/container/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/next/src/container/Release/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/build_flatbuffers.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/install_helper.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/link_helper.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/post_import.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/pluginhelper.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/testhelper.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/version_helper.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/version_info/version.h.in
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/version_info/version_info.rc.in
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/scripts/start_next_application.bat.in
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/scripts/start_project_executable.bat.in
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install/next_py_api_linux_wheel_info.yml
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install/next_py_api_wheel_info.yml
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install/next_py_api_win_wheel_info.yml
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install/reqs_for_wheel_build_and_upload.txt
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install/wheel_installation_helper.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install/wheel_installation_setup.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install/wheel_release.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install.bat
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/install.sh
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/config_classes
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/config_classes/path_parsing.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/config_classes/simulation_export.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/config_classes/simulation_flow.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/config_classes/simulation_input.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/config_classes/simulation_nodes.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/config_classes/simulation_run.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/config_classes/__init__.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/execution_classes
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/execution_classes/next_execution_classes.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/flow_processor.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/helper_classes
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/helper_classes/helper_functions.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/helper_classes/__init__.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/next_config_handler.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/next_execution.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/next_node_process.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/next_process_handler.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/output_watcher.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/status_code_handler.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/time_measurement.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_utils/__init__.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_variables
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_variables/global_vars.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_variables/next_execution_vars.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_variables/next_status_code.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_variables/__init__.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_websocket
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_websocket/next_websocket.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_websocket/websocket_sync.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/api_websocket/__init__.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/conf
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/conf/next_api_full_example_config.json
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/conf/python_api_schema.json
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/custom_executions
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/custom_executions/custom_executions.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/Logs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/Logs/.gitignore
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/next_api.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/next_py_api/__init__.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next_python/__init__.py
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal.ini
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/matchbox_example_app/matchbox_example_app.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/rec_generator/rec_generator.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/rec_generator/generated_rec.sdl
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/rec_generator/packages.txt
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/next_example_node/next_example_node.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/next_example_node/test_signal.sdl
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/test_component_node/test_component_node.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/test_component_node/lib_test_component_node.lib
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/test_component_node/lib_test_component_node.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/test_component_node/test_component.sdl
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/examples/next_subscriber_app/next_subscriber_app.exe
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --install D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --prefix D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62 --config Release --component PLAYER_COMPONENT
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_player.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/PLAYER_COMPONENT/exported-targets.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/PLAYER_COMPONENT/exported-targets-release.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_player.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_control.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_udex.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/player/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/player/Release/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/player
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/player/plugin
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/player/plugin/reader_interface.hpp
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/playerdefaultconfig.json
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sdl_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_xtypes_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_csv_exporter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_exporter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_opc.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sdc.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_swc.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_asap2.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_fibex.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_arxml.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ecu_data_matcher.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ecu_formatter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ecu_sd_formatter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ecu_sd_provider.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_swc_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sdc_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_can_arxml_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_can_data_matcher.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_can_fibex_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_can_formatter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_dbc.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_dbc_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ethernet_arxml_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ethernet_data_matcher.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ethernet_fibex_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ethernet_formatter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_nmea.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_gps_formatter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_gps_sdl_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_gps_data_matcher.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ref_cam_formatter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ref_cam_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ref_cam_data_matcher.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rt_range_probe.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rt_range_data_matcher.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rt_range_formatter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rt_range_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_velodyne_probe.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_flexray_formatter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_flexray_fibex_parser.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_flexray_data_matcher.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_signal_storage.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_udex_extractor.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_xtypes_data_matcher.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rrec_reader.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rec_exporter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rec_reader.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_zrec_reader.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_mdf.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_pcap_reader.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_mfc5xx_processor.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_svc_processor.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_amba_processor.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/avformat-60.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/avcodec-60.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/swresample-4.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/avutil-58.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/swscale-7.dll
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --install D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --prefix D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62 --config Release --component BRIDGES_COMPONENT
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/egovehicle_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/freegeometry_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/groundline_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/meta_info_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/pointcloud_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/primitive_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/trafficparticipant_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/view_update_generated.h
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler/basic_info_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler/cpu_profiler_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler/ecal_monitor_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler/network_graph_generated.h
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core/meta_info_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core/signal_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core/signal_update_generated.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core/types_generated.h
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view/egovehicle.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view/freegeometry.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view/groundline.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view/meta_info.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view/pointcloud.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view/primitive.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view/trafficparticipant.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/3d_view/view_update.bfbs
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/core
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/core/meta_info.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/core/signal.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/core/signal_update.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/core/types.bfbs
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/profiler
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/profiler/basic_info.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/profiler/cpu_profiler.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/profiler/ecal_monitor.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk//schema/profiler/network_graph.bfbs
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/lib/next_plugin.lib
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_plugin.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets-release.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_plugin.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_udex.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/bridgesdk/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/bridgesdk/Release/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/datatypes.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/data_manager.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/http_post.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_addons
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_addons/plugin_3D_view.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_addons/plugin_datapublisher.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_addons/plugin_datasubscriber.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_addons/plugin_helper_data_extractor.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_addons/plugin_regex_searcher.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_addons/plugin_signal_explorer.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_addons/plugin_signal_extractor.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/plugin_config.h
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/egovehicle.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/egovehicle.schema.json
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/freegeometry.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/groundline.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/groundline.schema.json
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/pointcloud.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/pointcloud.schema.json
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/primitive.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/primitive.schema.json
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/trafficparticipant.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/trafficparticipant.schema.json
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/3d_view/view_update.fbs
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core/meta_info.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core/signal.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core/signal_update.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/core/types.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/fov.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/path.fbs
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler/basic_info.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler/cpu_profiler.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler/ecal_monitor.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/profiler/network_graph.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/roadsign.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/schema/tunnel.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/support_fbs_types.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/bridgesdk/web_server.hpp
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_controlbridge.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_controlbridge.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_control.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_udex.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/controlbridge/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/controlbridge/Release/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_databridge.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_databridge.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_control.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_plugin.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_udex.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/databridge/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/databridge/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sdl_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_xtypes_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_csv_exporter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_exporter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_opc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sdc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_swc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_asap2.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_fibex.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_arxml.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ecu_data_matcher.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ecu_formatter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ecu_sd_formatter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ecu_sd_provider.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_swc_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sdc_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_can_arxml_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_can_data_matcher.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_can_fibex_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_can_formatter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_dbc.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_dbc_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ethernet_arxml_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ethernet_data_matcher.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ethernet_fibex_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ethernet_formatter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_nmea.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_gps_formatter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_gps_sdl_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_gps_data_matcher.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ref_cam_formatter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ref_cam_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_ref_cam_data_matcher.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rt_range_probe.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rt_range_data_matcher.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rt_range_formatter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rt_range_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_velodyne_probe.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_flexray_formatter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_flexray_fibex_parser.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_flexray_data_matcher.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_signal_storage.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_udex_extractor.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_xtypes_data_matcher.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rrec_reader.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rec_exporter.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_rec_reader.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_zrec_reader.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_mdf.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_pcap_reader.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_mfc5xx_processor.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_svc_processor.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_amba_processor.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/avformat-60.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/avcodec-60.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/swresample-4.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/avutil-58.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/swscale-7.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_ECalMonitor/system_ECalMonitor.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_ECalMonitor/system_ECalMonitor.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_ECalMonitor/ecal_monitor.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_ECalMonitor/basic_info.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_ECalMonitor/network_graph.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalExporter/system_SignalExporter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalExporter/system_SignalExporter.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalExporter/signal_exporter.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_RecExporter/system_RecExporter.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_RecExporter/system_RecExporter.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_RecExporter/rec_exporter.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_ReferenceCamera/system_ReferenceCamera.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_ReferenceCamera/system_ReferenceCamera.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_ReferenceCamera/reference_camera.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalList/system_SignalList.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalList/system_SignalList.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalList/signalList.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalProvider/system_SignalProvider.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalProvider/system_SignalProvider.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalProvider/signalProvider.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalRawData/system_SignalRawData.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalRawData/system_SignalRawData.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/system_SignalRawData/signal_raw_data_provider.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_ArrayTpObjects/view3D_ArrayTpObjects.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_ArrayTpObjects/view3D_ArrayTpObjects.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_ArrayTpObjects/trafficparticipant.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_ArrayTpObjects/trafficparticipant.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_CanTpObjects/view3D_CanTpObjects.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_CanTpObjects/view3D_CanTpObjects.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_CanTpObjects/trafficparticipant.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_CanTpObjects/trafficparticipant.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_EgoVehicle/view3D_EgoVehicle.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_EgoVehicle/view3D_EgoVehicle.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_EgoVehicle/egovehicle.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_EgoVehicle/primitive.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_EgoVehicle/egovehicle.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_EgoVehicle/primitive.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_Road/view3D_Road.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_Road/view3D_Road.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_Road/groundline.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_Road/groundline.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_PointCloud/view3D_PointCloud.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_PointCloud/view3D_PointCloud.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_PointCloud/pointcloud.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_PointCloud/pointcloud.bfbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_StructTpObjects/view3D_StructTpObjects.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_StructTpObjects/view3D_StructTpObjects.pdb
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_StructTpObjects/trafficparticipant.fbs
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/plugins/core/view3D_StructTpObjects/trafficparticipant.bfbs
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/fdp_dummy_data_creator.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/helper_functions.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/objects
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/objects/traffic_participant.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/OdometryTransformer.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/parking_types.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/Platform_Types.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/plugins_types.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/plugin_3d_view_utils.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/process_traffic_participants.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include//next/plugins_utils/SICoordinateTransformer.h
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --install D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --prefix D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62 --config Release --component CONTROL_COMPONENT
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/lib/next_control.lib
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_control.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/CONTROL_COMPONENT/exported-targets.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/CONTROL_COMPONENT/exported-targets-release.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_control.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_udex.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/control/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/control/Release/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/control_config.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/event_types
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/event_types/open_recording_status_event.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/event_types/orchestrator_event_binary.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/event_types/player_command.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/event_types/player_state_event.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/log_collector
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/log_collector/log_collector.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/orchestrator
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/orchestrator/flow_control_config.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/orchestrator/orchestrator_client.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/control/orchestrator/orchestrator_master.h
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --install D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --prefix D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62 --config Release --component UDEX_COMPONENT
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/lib/next_udex.lib
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_udex.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/UDEX_COMPONENT/exported-targets.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/UDEX_COMPONENT/exported-targets-release.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_udex.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtscpp.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtsc.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/udex/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/udex/Release/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/data_types.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/explorer
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/explorer/signal_explorer.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/extractor
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/extractor/data_extractor.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/helper_data_extractor.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/publisher
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/publisher/data_publisher.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/publisher/package_processor.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/struct_extractor
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/struct_extractor/container_extractor.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/struct_extractor/package_tree_extractor.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/struct_extractor/struct_extractor.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/struct_extractor/struct_extractor_array_factory.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/struct_extractor/struct_extractor_basic.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/struct_extractor/struct_extractor_types.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/struct_extractor/struct_info_provider.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/subscriber
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/subscriber/data_subscriber.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/type_casting.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/udex/udex_config.h
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --install D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --prefix D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62 --config Release --component SDK_COMPONENT
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/lib/next_sdk.lib
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/SDK_COMPONENT/exported-targets.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/SDK_COMPONENT/exported-targets-release.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/sdk/sdk/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/sdk/sdk/Release/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/ecal
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/ecal/ecal_singleton.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/cycle_event.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/cycle_information_event.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/lifecycle_state.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/lifecycle_trigger.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/log_event.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/request_config_from_client.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/request_config_from_server.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/request_config_value_from_server.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/send_config_tags_to_server.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/send_config_to_client.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/send_config_to_server.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/send_config_value_to_client.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/session_event.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/status_code_event.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/update_topic_cache.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/events/version_info.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/event_base
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/event_base/base_event.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/event_base/base_event_binary.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/event_base/base_event_binary_blocking.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/event_base/base_event_binary_impl.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/event_base/event_types.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/init_chain
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/init_chain/simple_init_chain.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/lifecycle
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/lifecycle/lifecycle_interface.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/logger
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/logger/logger.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/logger/logger_data_types.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/profiler
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/profiler/profiler.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/profiler/profile_tags.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/sdk.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/sdk_config.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/sdk_macros.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/shutdown_handler
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/shutdown_handler/shutdown_handler.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/string_helper
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/string_helper/strings.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/testing
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/testing/test_using_ecal.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/types
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/types/data_description_types.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/types/package_data_types.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/types/package_hash.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/types/package_memory.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/user_hash
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/user_hash/user_hash.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/utilities
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/utilities/threadsafe_list.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/utilities/threadsafe_queue.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/utilities/threadsafe_set.h
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/version_manager
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/sdk/version_manager/version_manager.hpp
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/lib/next_appsupport.lib
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_appsupport.pdb
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/next_sdk.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core_c.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/ecal_core.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mts_sentinel.dll
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/sdk/appsupport/Release/mtssentinel.exe
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/sdk/appsupport/Release/msdia140.dll
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/appsupport_config.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/cmd_options
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/cmd_options/cmd_options.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_base.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_change_hook_collection.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_client.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_key_generator.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_key_generator_databridge.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_key_generator_logger.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_key_generator_orchestrator.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_key_generator_player.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_server.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_tags.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/config/config_types.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/lifecycle
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/lifecycle/lifecycle_base.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/lifecycle/lifecycle_statemachine_enum.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/log_connector
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/log_connector/log_connector.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/next_status_code
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/next_status_code/next_status_code.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/session_handler
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/session_handler/session_client.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/session_handler/session_server.hpp
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/include/next/appsupport/startup.hpp
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/mtssentinel.exe
+-- Up-to-date: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/bin/msdia140.dll
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --install D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --prefix D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62 --config Release --component __BRICKS_IMPLICIT_DEPENDENCIES
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- [install_script] CMAKE_CURRENT_SOURCE_DIR=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017
+-- [install_script] CMAKE_CURRENT_LIST_DIR=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d
+-- [install_script] CMAKE_FIND_PACKAGE_PREFER_CONFIG=
+'D:/.bbs_conan/85e48f2e4ee1e/1/bin/cmake.exe' '-E' 'env' 'AS=' 'CC=c:/LegacyApp/Microsoft Visual Studio/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe' 'CXX=c:/LegacyApp/Microsoft Visual Studio/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe' 'D:/.bbs_conan/85e48f2e4ee1e/1/bin/cmake.exe' '-DCMAKE_BUILD_TYPE=$<CONFIG>' '-D__BRICKS_ENABLED_LANGUAGES=C;CXX;RC' '-DCIP_BUILD_SYSTEM_VERSION:STRING=4.25.1' '-DPARENT_BINARY_DIR:PATH=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1' '-DPARENT_CMAKE_PREFIX_PATH:PATH=D:/.bbs_conan/06ba7cd/1;D:/.bbs_conan/a4b0521/1;D:/.bbs_conan/2dbadcf/1;D:/.bbs_conan/85e48f2e4ee1e/1;D:/.bbs_conan/0d0c747/1;D:/.bbs_conan/5238187/1;D:/.bbs_conan/2a40d25/1;D:/.bbs_conan/f529bc3/1;D:/.bbs_conan/e0bc3ee2/1;D:/.bbs_conan/7b93f5/1;D:/.bbs_conan/dbe9207ff6ddb/1;D:/.bbs_conan/a9d6a69/1;D:/.bbs_conan/5502851/1;D:/.bbs_conan/1c5bcfd/1;D:/.bbs_conan/4e258c5/1;D:/.bbs_conan/54693d2/1;D:/.bbs_conan/8c7a410/1' '-DPARENT_CMAKE_MODULE_PATH:PATH=D:/.bbs_conan/06ba7cd/1;D:/.bbs_conan/a4b0521/1;D:/.bbs_conan/2dbadcf/1;D:/.bbs_conan/85e48f2e4ee1e/1;D:/.bbs_conan/0d0c747/1;D:/.bbs_conan/5238187/1;D:/.bbs_conan/2a40d25/1;D:/.bbs_conan/f529bc3/1;D:/.bbs_conan/e0bc3ee2/1;D:/.bbs_conan/7b93f5/1;D:/.bbs_conan/dbe9207ff6ddb/1;D:/.bbs_conan/a9d6a69/1;D:/.bbs_conan/5502851/1;D:/.bbs_conan/1c5bcfd/1;D:/.bbs_conan/4e258c5/1;D:/.bbs_conan/54693d2/1;D:/.bbs_conan/8c7a410/1' '-DCMAKE_FIND_PACKAGE_PREFER_CONFIG=' '-DPARENT_INSTALL_PREFIX:PATH=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62' '-DINTERMEDIATE_OUTPUT_FILE:FILEPATH=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d/intermediate.json' '-DCMAKE_MAKE_PROGRAM:FILEPATH=c:/LegacyApp/Microsoft Visual Studio/MSBuild/15.0/Bin/MSBuild.exe' '-DBRICKS_PACKAGES_FOUND=Protobuf;boost_headers;boost_date_time;boost_atomic;boost_filesystem;boost_container;boost_json;boost_program_options;boost_system;boost_chrono;boost_regex;Threads;boost_thread;boost_log;Boost;CMakeFunctions;eCAL;Flatbuffers;jsoncpp;mtsc;mtscpp;mts_opc;mts_sdc;mts_swc;mts_asap2;mts_fibex;mts_arxml;mts_ecu;mts_can;mts_dbc;mts_eth;mts_flexray;mts_gps;mts_nmea;mts_ref_cam;mts_rt_range;mts_rrec;mts_rec;mts_zrec;mts_mdf;mts_sdl_parser;mts_xtypes_parser;mts_csv_exporter;mts_exporter;mts_ecu_data_matcher;mts_ecu_formatter;mts_ecu_sd_formatter;mts_ecu_sd_provider;mts_swc_parser;mts_sdc_parser;mts_can_arxml_parser;mts_can_data_matcher;mts_can_fibex_parser;mts_can_formatter;mts_dbc_parser;mts_ethernet_arxml_parser;mts_ethernet_data_matcher;mts_ethernet_fibex_parser;mts_ethernet_formatter;mts_flexray_formatter;mts_flexray_fibex_parser;mts_flexray_data_matcher;mts_gps_formatter;mts_gps_sdl_parser;mts_gps_data_matcher;mts_ref_cam_formatter;mts_ref_cam_parser;mts_ref_cam_data_matcher;mts_rt_range_probe;mts_rt_range_data_matcher;mts_rt_range_formatter;mts_rt_range_parser;mts_velodyne_probe;mts_signal_storage;mts_udex_extractor;mts_xtypes_data_matcher;mts_rrec_reader;mts_rec_exporter;mts_rec_reader;mts_zrec_reader;mts_pcap_reader;mts_ffmpeg;mts_mfc5xx_processor;mts_svc_processor;mts_amba_processor;mts_core_lib;mts_sentinel;Python;Git;spdlog;VFR_Utilities' '-DCMAKE_SYSTEM_NAME=Windows' '-DCMAKE_C_COMPILER=c:/LegacyApp/Microsoft Visual Studio/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe' '-DCMAKE_C_COMPILER_WORKS:BOOL=TRUE' '-DCMAKE_CXX_COMPILER=c:/LegacyApp/Microsoft Visual Studio/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe' '-DCMAKE_CXX_COMPILER_WORKS:BOOL=TRUE' '-DCMAKE_RC_COMPILER=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/rc.exe' '-DCMAKE_RC_COMPILER_WORKS:BOOL=TRUE' '-DCMAKE_TOOLCHAIN_FILE:FILEPATH=D:/.bbs_conan/6bdf8e/1/__system/cip_build_system_platforms/toolchains/conan/conan_toolchain.cmake' '-G' 'Visual Studio 15 2017 Win64' '-B' 'D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d/dbuild' '-S' 'D:/.bbs_conan/3f54ddd49/1/cmake/post/implicit_dependencies/package_importer'
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows .
+-- The C compiler identification is MSVC 19.16.27031.1
+-- The CXX compiler identification is MSVC 19.16.27031.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: c:/LegacyApp/Microsoft Visual Studio/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: c:/LegacyApp/Microsoft Visual Studio/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) at D:/.bbs_conan/0d0c747/1/cmake/qt/qt_windeployqt.cmake:20 (set):
+  Cannot set "qt_windeployqt_cmake_path": current scope has no parent.
+Call Stack (most recent call first):
+  D:/.bbs_conan/0d0c747/1/cmake/cmake_functions.cmake:33 (include)
+  D:/.bbs_conan/0d0c747/1/cmake/CMakeFunctionsConfig.cmake:28 (include)
+  mocked_functions.cmake:24 (_find_package)
+  CMakeLists.txt:151 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Protobuf: D:/.bbs_conan/a9d6a69/1/lib/libprotobuf.lib (found version "3.11.4") 
+CMake Warning (dev) at D:/.bbs_conan/0d0c747/1/cmake/qt/qt_windeployqt.cmake:20 (set):
+  Cannot set "qt_windeployqt_cmake_path": current scope has no parent.
+Call Stack (most recent call first):
+  D:/.bbs_conan/0d0c747/1/cmake/cmake_functions.cmake:33 (include)
+  D:/.bbs_conan/0d0c747/1/cmake/CMakeFunctionsConfig.cmake:28 (include)
+  mocked_functions.cmake:24 (_find_package)
+  D:/.bbs_conan/0d0c747/1/lib/cmake/eCAL/eCALConfig.cmake:67 (find_package)
+  mocked_functions.cmake:24 (_find_package)
+  CMakeLists.txt:151 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CIP_BUILD_SYSTEM_VERSION
+
+
+-- Build files have been written to: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d/dbuild
+'C:/Users/uib55976/cip_config_dir/bricks/4.25.1/windows/Scripts/python.exe' '-u' 'D:/.bbs_conan/3f54ddd49/1/cmake/post/implicit_dependencies/aggregate.py' '--intermediate-json=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d/intermediate.json' '--aggregated-json=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d/aggregated.json'
+Calculating dependency information for Protobuf
+Calculating dependency information for boost_headers
+Calculating dependency information for boost_date_time
+Calculating dependency information for boost_atomic
+Calculating dependency information for boost_filesystem
+Calculating dependency information for boost_container
+Calculating dependency information for boost_json
+Calculating dependency information for boost_program_options
+Calculating dependency information for boost_system
+Calculating dependency information for boost_chrono
+Calculating dependency information for boost_regex
+Calculating dependency information for Threads
+Calculating dependency information for boost_thread
+Calculating dependency information for boost_log
+Calculating dependency information for Boost
+Calculating dependency information for eCAL
+Calculating dependency information for Flatbuffers
+Calculating dependency information for jsoncpp
+Calculating dependency information for mtsc
+Calculating dependency information for mtscpp
+Calculating dependency information for mts_opc
+Calculating dependency information for mts_sdc
+Calculating dependency information for mts_swc
+Calculating dependency information for mts_asap2
+Calculating dependency information for mts_fibex
+Calculating dependency information for mts_arxml
+Calculating dependency information for mts_ecu
+Calculating dependency information for mts_can
+Calculating dependency information for mts_dbc
+Calculating dependency information for mts_eth
+Calculating dependency information for mts_flexray
+Calculating dependency information for mts_gps
+Calculating dependency information for mts_nmea
+Calculating dependency information for mts_ref_cam
+Calculating dependency information for mts_rt_range
+Calculating dependency information for mts_rrec
+Calculating dependency information for mts_rec
+Calculating dependency information for mts_zrec
+Calculating dependency information for mts_mdf
+Calculating dependency information for mts_sdl_parser
+Calculating dependency information for mts_xtypes_parser
+Calculating dependency information for mts_csv_exporter
+Calculating dependency information for mts_exporter
+Calculating dependency information for mts_ecu_data_matcher
+Calculating dependency information for mts_ecu_formatter
+Calculating dependency information for mts_ecu_sd_formatter
+Calculating dependency information for mts_ecu_sd_provider
+Calculating dependency information for mts_swc_parser
+Calculating dependency information for mts_sdc_parser
+Calculating dependency information for mts_can_arxml_parser
+Calculating dependency information for mts_can_data_matcher
+Calculating dependency information for mts_can_fibex_parser
+Calculating dependency information for mts_can_formatter
+Calculating dependency information for mts_dbc_parser
+Calculating dependency information for mts_ethernet_arxml_parser
+Calculating dependency information for mts_ethernet_data_matcher
+Calculating dependency information for mts_ethernet_fibex_parser
+Calculating dependency information for mts_ethernet_formatter
+Calculating dependency information for mts_flexray_formatter
+Calculating dependency information for mts_flexray_fibex_parser
+Calculating dependency information for mts_flexray_data_matcher
+Calculating dependency information for mts_gps_formatter
+Calculating dependency information for mts_gps_sdl_parser
+Calculating dependency information for mts_gps_data_matcher
+Calculating dependency information for mts_ref_cam_formatter
+Calculating dependency information for mts_ref_cam_parser
+Calculating dependency information for mts_ref_cam_data_matcher
+Calculating dependency information for mts_rt_range_probe
+Calculating dependency information for mts_rt_range_data_matcher
+Calculating dependency information for mts_rt_range_formatter
+Calculating dependency information for mts_rt_range_parser
+Calculating dependency information for mts_velodyne_probe
+Calculating dependency information for mts_signal_storage
+Calculating dependency information for mts_udex_extractor
+Calculating dependency information for mts_xtypes_data_matcher
+Calculating dependency information for mts_rrec_reader
+Calculating dependency information for mts_rec_exporter
+Calculating dependency information for mts_rec_reader
+Calculating dependency information for mts_zrec_reader
+Calculating dependency information for mts_pcap_reader
+Calculating dependency information for mts_ffmpeg
+Calculating dependency information for mts_mfc5xx_processor
+Calculating dependency information for mts_svc_processor
+Calculating dependency information for mts_amba_processor
+Calculating dependency information for Python
+Calculating dependency information for Git
+Calculating dependency information for spdlog
+Calculating dependency information for next
+Calculating dependency information for mts_core_lib
+Calculating dependency information for mts_sentinel
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\aggregated.json
+'C:/Users/uib55976/cip_config_dir/bricks/4.25.1/windows/Scripts/python.exe' '-u' 'D:/.bbs_conan/3f54ddd49/1/cmake/post/implicit_dependencies/generate.py' '--aggregated-json=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d/aggregated.json' '--workdir=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d/workdir' '--install-script=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/d/code_install.cmake'
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\BRIDGES_COMPONENT\required_siblings.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\BRIDGES_COMPONENT\required_packages.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\CONTROL_COMPONENT\required_siblings.cmake
+Up-to-date D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\CONTROL_COMPONENT\required_packages.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\NEXT_COMPONENT\required_siblings.cmake
+Up-to-date D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\NEXT_COMPONENT\required_packages.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\PLAYER_COMPONENT\required_siblings.cmake
+Up-to-date D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\PLAYER_COMPONENT\required_packages.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\SDK_COMPONENT\required_siblings.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\SDK_COMPONENT\required_packages.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\UDEX_COMPONENT\required_siblings.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\workdir\next\UDEX_COMPONENT\required_packages.cmake
+Writing D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\.bricks\d\code_install.cmake
+-- [install_script] Calculation took 16
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/BRIDGES_COMPONENT/required_siblings.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/BRIDGES_COMPONENT/required_packages.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/CONTROL_COMPONENT/required_siblings.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/NEXT_COMPONENT/required_siblings.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/PLAYER_COMPONENT/required_siblings.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/SDK_COMPONENT/required_siblings.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/SDK_COMPONENT/required_packages.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/UDEX_COMPONENT/required_siblings.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/UDEX_COMPONENT/required_packages.cmake
+-- Installing: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/.bricks/aggregated.json
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.delivery.0.0.0-fallback.vs2017\conanbuild.bat" && echo "customevent.duration.v2|1715777528535|end|5879377|"
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+"customevent.duration.v2|1715777528535|end|5879377|"

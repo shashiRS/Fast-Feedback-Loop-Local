@@ -1,0 +1,100 @@
+<SdlFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" ByteAlignment="1" Version="2.0">
+  <View Name="RSP_Cycle" CycleID="113">
+    <Group Name="RSP_ClusterListMeas" Address="6000014" ArrayLen="1" Size="86248">
+      <Signal Name="versionNumber" Offset="0" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+      <SubGroup Name="sigHeader" Offset="4" ArrayLen="1" Size="12">
+        <Signal Name="uiTimeStamp" Offset="0" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="uiMeasurementCounter" Offset="4" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="uiCycleCounter" Offset="6" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="eSigStatus" Offset="8" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        <Signal Name="a_reserve" Offset="9" ArrayLen="3" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+      </SubGroup>
+      <SubGroup Name="ClustListHeadPre" Offset="10" ArrayLen="1" Size="72">
+        <Signal Name="f_AmbFreeDopplerRange" Offset="0" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_RangeGateLength" Offset="4" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_DetThres" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_RxDistAz" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_RxDistElev" Offset="10" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_DopplerBinLength" Offset="14" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_CenterFrequency" Offset="18" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_DopplerShiftPerRangeGate" Offset="1C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_FovAzMin" Offset="20" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_FovAzMax" Offset="24" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_FovElevMin" Offset="28" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_FovElevMax" Offset="2C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_TargetNormSignal" Offset="30" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_TargetNormSNR" Offset="34" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_UpDownChirp" Offset="38" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_DopplerEffect" Offset="3C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="u_NofRangeBins" Offset="40" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="u_NofDopplerBins" Offset="42" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="u_NofBeamBins" Offset="44" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        <Signal Name="u_ScanMode" Offset="45" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        <Signal Name="u_CalSetIdx" Offset="46" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        <Signal Name="u_TempSet" Offset="47" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+      </SubGroup>
+      <SubGroup Name="ClustListHeadPost" Offset="58" ArrayLen="1" Size="2736">
+        <Signal Name="a_RangeSortedIndex" Offset="0" ArrayLen="1056" Type="ushort" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="a_MinLongTermNoiseBeam" Offset="840" ArrayLen="48" Type="short" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="a_MinShortTermNoiseBeam" Offset="8A0" ArrayLen="48" Type="short" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="a_MaxSensorRangePerBeam" Offset="900" ArrayLen="48" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_MinSensorRangePerBeam" Offset="9C0" ArrayLen="48" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_RangeLimit" Offset="A80" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_MaximumSensorRange" Offset="A84" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_CurrentMaximumSensorRange" Offset="A88" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_MinimumSensorRange" Offset="A8C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_RoadReflectivity" Offset="A90" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_RoadSNR" Offset="A94" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="u_IS2_Counter" Offset="A98" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="u_RspErrCode" Offset="A9C" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="u_AhrtDetectionsMissed" Offset="AA0" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="f_RangeVelocityCoVarFactor" Offset="AA4" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="u_NofClusters" Offset="AA8" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="b_ExtraDistInfluencedByLargePeak" Offset="AAA" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        <Signal Name="b_MaxRangeInfluencedByLargePeak" Offset="AAB" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        <Signal Name="u_LowDistDetProb" Offset="AAC" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        <Signal Name="a_byteAlignment3" Offset="AAD" ArrayLen="3" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+      </SubGroup>
+      <SubGroup Name="ClusterListArrays" Offset="B08" ArrayLen="1" Size="83424">
+        <Signal Name="a_VrelRad" Offset="0" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_RangeRad" Offset="1080" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_AzAng" Offset="2100" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_ElevAng" Offset="3180" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_Rcs" Offset="4200" ArrayLen="1056" Type="short" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+        <Signal Name="a_RcsRaw" Offset="4A40" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_AzAngVar" Offset="5AC0" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_ElevAngVar" Offset="6B40" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_VrelRadVar" Offset="7BC0" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_RangeRadVar" Offset="8C40" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_RangeExtrapol" Offset="9CC0" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_Snr" Offset="AD40" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <SubGroup Name="DetectionQuality" Offset="BDC0" ArrayLen="1056" Size="24">
+          <Signal Name="u_AzModelError1" Offset="0" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+          <Signal Name="u_AzModelError2" Offset="2" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+          <Signal Name="u_NacomArtifact" Offset="4" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_DoppSpecArtifact" Offset="5" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_InterferenceArtifact" Offset="6" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_SidelobeArtifact" Offset="7" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_AzModelSelect" Offset="8" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_ElevMonopulseQuality" Offset="9" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_ElevBFModelError" Offset="A" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_DetectionInvalid" Offset="B" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="s_SNRDetectionProbability" Offset="C" ArrayLen="1" Type="char" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_TrackingPriority" Offset="D" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_ElevHRModelError" Offset="E" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_ElevModelSelect" Offset="F" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_ElevAngHRSecHypQuality" Offset="10" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_ElevHRModelErrorHighElev" Offset="11" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_RangeQuality" Offset="12" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_AzimuthQuality" Offset="13" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_multiTargetProbability" Offset="14" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="u_ElevationQuality" Offset="15" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+          <Signal Name="a_byteAlignment1" Offset="16" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        </SubGroup>
+        <Signal Name="a_MeasurementModel" Offset="120C0" ArrayLen="1056" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        <Signal Name="a_ReceivedSignalStrength" Offset="124E0" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+        <Signal Name="a_ReceivedSignalStrengthInRDCell" Offset="13560" ArrayLen="1056" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+      </SubGroup>
+    </Group>
+  </View>
+</SdlFile>

@@ -1,0 +1,6 @@
+attribute "version";
+attribute "json_name";
+
+table SignalList(version: "1.0.0"){
+  test:string (json_name: "SignalList"); // full json output -> no parsing needed
+}

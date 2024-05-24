@@ -1,0 +1,74 @@
+"""
+    Copyright 2022 Continental Corporation
+
+    :file: swt_playing_zrec_recording.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script containing test case(s) for playing a recording over the ControlBridge
+
+    :author:
+        - Rakesh Sadhu (uif27377) <rakesh.sadhu-ext@continental-corporation.com>
+        - Alexandru Buraga (uic928270) <alexandru.2.buraga@continental-corporation.com>
+"""
+
+# PTF or custom import area
+from helper_files.ControlBridge import controlbridge_Variables
+from helper_files.General import global_Variables
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.report import (
+    DETAILS,
+    EXPECTED,
+    PRECONDITION,
+    TESTSTEP,
+    TESTTAG,
+    VERIFIES,
+)
+from ptf.verify_utils import ptf_asserts
+
+
+def SWT_ZREC_PLAYING_EVENT_TEST():
+    DETAILS("Test case to check if the event of playing the recording is correct")
+
+    VERIFIES("The test is verifying, that the event is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("controlbridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    PRECONDITION("Load zrec recording.")
+    # sending the message to load a recording into the player
+    recording_path = global_Variables.recording_dir(is_zrec=True)
+    recv_load_recording = next_api.execute.load_recording(recording_path)
+    ptf_asserts.verify(bool(recv_load_recording), True, "Timeout while loading the recording. Message received: {}".format(recv_load_recording))
+    PRECONDITION("zrec recording is loaded")
+
+    try:
+        TESTSTEP("Start to play the recording")
+        # sending the message to play the recording and receive the response
+        response_play = next_api.execute.play_recording()
+        # if controlbridge_websocket returns False, a timeout has occurred
+        ptf_asserts.verify(bool(response_play), True, "Timeout while playing the recording. Message received: {}".format(response_play))
+        TESTSTEP("Recording is played.")
+
+        TESTSTEP("POSTCONDITION: Stop the recording")
+        EXPECTED("Recording is paused properly")
+        # sending the message to pause a recording
+        response_paused = next_api.execute.pause_recording()
+        # if controlbridge_websocket returns False, a timeout has occurred
+        ptf_asserts.verify(bool(response_paused), True, "Timeout while pausing the recording. Message received: {}".format(response_paused))
+    except Exception as e:
+        ptf_expects.fail(e)
+    finally:
+        TESTSTEP("POSTCONDITION: Close the recording")
+        EXPECTED("event: SimulationStateIsIdle")
+        recv_close_recording = next_api.execute.close_recording()
+        ptf_asserts.verify(bool(recv_close_recording), True, "Timeout while closing the recording. Message received: {}".format(recv_close_recording))
+        TESTSTEP("POSTCONDITION: Recording is closed")

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\ecal_singleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\base_event_binary_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\cycle_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\cycle_information_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\lifecycle_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\lifecycle_trigger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\log_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\request_config_from_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\request_config_from_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\request_config_value_from_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\send_config_to_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\send_config_tags_to_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\send_config_to_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\send_config_value_to_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\status_code_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\session_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\update_topic_cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\version_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\lifecycle_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\log_router.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\profiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\shutdown_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\simple_init_chain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\user_hash\user_hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\version_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_publisher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_subscriber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\log_router.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\sdk.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\sdk_config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\sdk_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\ecal\ecal_singleton.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\base_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\base_event_binary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\base_event_binary_blocking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\base_event_binary_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\event_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\cycle_event.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\cycle_information_event.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\lifecycle_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\lifecycle_trigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\log_event.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\request_config_from_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\request_config_from_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\request_config_value_from_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\send_config_to_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\send_config_tags_to_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\send_config_to_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\send_config_value_to_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\status_code_event.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\session_event.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\update_topic_cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\version_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\init_chain\simple_init_chain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\lifecycle\lifecycle_interface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\logger\logger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\logger\logger_data_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\profiler\profiler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\shutdown_handler\shutdown_handler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\string_helper\strings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\types\package_data_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\user_hash\user_hash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\version_manager\version_manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\bin_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\version_info.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5C012A49-367D-3CF3-8F32-823C93801291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{51FCA844-B143-3928-B5F2-7A5277A977A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

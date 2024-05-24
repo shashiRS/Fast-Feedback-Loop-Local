@@ -1,0 +1,263 @@
+"""
+    Copyright 2022 Continental Corporation
+
+    :file: swt_navigate_through_signals.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script containing test case(s) of the signal update button
+
+    :author:
+        - Fabian Janker (uif41320) <fabian.janker@continental-corporation.com>
+        - Alexandru Buraga (uic928270) <alexandru.2.buraga@continental-corporation.com>
+"""
+
+# standard Python import area
+import json
+import os
+import shutil
+import subprocess
+import time
+
+from bs4 import BeautifulSoup
+
+# PTF or custom import area
+from helper_files.ControlBridge import controlbridge_Variables
+from helper_files.DataBridge import databridge_Variables
+from helper_files.General import global_Variables
+from next_api_path import path_import_extension
+from api_utils import output_watcher
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.report import DETAILS, EXPECTED, PRECONDITION, TESTSTEP, TESTTAG, VERIFIES
+from ptf.verify_utils import ptf_expects, ptf_asserts
+
+
+def SWT_RUN_KPI():
+    DETAILS("Test case tu run kpi script on the generated csv files")
+
+    VERIFIES("The test verifies if the results are consistence")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("databridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    # getting the websocket
+    next_api = get_parameter("next_api")
+    next_api.execute.set_synchronised_mode("false", "true")
+
+    for i in range(2):
+        PRECONDITION("Load recording.")
+        # sending the message to load a recording into the player
+        recording_path = global_Variables.recording_dir()
+        recv_load_recording = next_api.execute.load_recording(recording_path)
+        ptf_asserts.verify(bool(recv_load_recording), True, "Timeout while loading the recording. Message received: {}".format(recv_load_recording))
+        PRECONDITION("Recording is loaded")
+
+        PRECONDITION("Starting exporter for the {} time".format(i + 1))
+        next_api.execute.start_exporter(
+            databridge_Variables.DATABRIDGE_SIGNAL_EXPORT_LIST,
+            databridge_Variables.DATABRIDGE_SIGNAL_EXPORTER_TRIGGER_URL,
+            "bsig",
+            databridge_Variables.DATABRIDGE_SIGNAL_EXPORT_FOLDER_PATH
+        )
+        PRECONDITION("Exporter is started.")
+
+        PRECONDITION("Start to play the recording for the {} time".format(i + 1))
+        # sending the message to play the recording and receive the response
+        response_play = next_api.execute.play_recording()
+        # if controlbridge_websocket returns False, a timeout has occurred
+        ptf_asserts.verify(bool(response_play), True, "Timeout while playing the recording. Message received: {}".format(response_play))
+        PRECONDITION("Recording is played")
+
+        TESTSTEP("Wait until the end of file or timeout raised")
+        response_wait_until_EOF = next_api.execute.wait_until_EOF(timeout=220)
+        recv_event_end_of_file = response_wait_until_EOF["event"]
+        # checking if the expected event is correct
+        TESTSTEP("Check if the recording is played until the end")
+
+        TESTSTEP("Stop Exporter for the {} time".format(i + 1))
+        next_api.execute.stop_exporter()
+        TESTSTEP("PRECONDITION: Exporter is stopped.")
+
+        TESTSTEP("POSTCONDITION: Close the recording")
+        EXPECTED("event: SimulationStateIsIdle")
+        recv_close_recording = next_api.execute.close_recording()
+        ptf_asserts.verify(bool(recv_close_recording), True, "Timeout while closing the recording. Message received: {}".format(recv_close_recording))
+        TESTSTEP("POSTCONDITION: Recording is closed")
+
+        # Move exported file
+        bsig_files = os.listdir(databridge_Variables.DATABRIDGE_SIGNAL_EXPORT_FOLDER_PATH)
+        for file in bsig_files:
+            if file != ".gitkeep":
+                src_path = databridge_Variables.DATABRIDGE_SIGNAL_EXPORT_FOLDER_PATH + "////" + file
+                if i == 0:
+                    dst_path = os.path.join(
+                        databridge_Variables.ecu_sil_compl_dir(),
+                        "src",
+                        "BSIG_Files",
+                        "SIL_SIL_mode",
+                        "fromFirstSIL",
+                        "next_exporter_sil_sil_test.bsig",
+                    ).replace("\\", "\\\\")
+                else:
+                    dst_path = os.path.join(
+                        databridge_Variables.ecu_sil_compl_dir(),
+                        "src",
+                        "BSIG_Files",
+                        "SIL_SIL_mode",
+                        "fromSecondSIL",
+                        "next_exporter_sil_sil_test.bsig",
+                    ).replace("\\", "\\\\")
+                os.replace(src_path, dst_path)
+                os.chmod(dst_path, 0o777)
+
+    # saving the path of the test in current_path
+    current_path = os.getcwd()
+    try:
+        # changing the directory to the folder with the bat script in it
+        os.chdir(os.path.join(databridge_Variables.ecu_sil_compl_dir(), "src").replace("\\", "\\\\"))
+
+        # Executing the ECU_SIL_compliance.bat in the ECU_SIL_compl_3_0 folder
+        TESTSTEP("Compare both bsig files")
+        sil_compliance_proc = subprocess.Popen(
+            "ECU_SIL_compliance.bat",
+            creationflags=subprocess.CREATE_NEW_CONSOLE,
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            shell=False,
+        )
+        sil_compliance_queue = output_watcher.get_output_queue(sil_compliance_proc)
+        if output_watcher.read_output_until(sil_compliance_queue, "End Script execution...", timeout=60):
+            print("End Of SIL SIL Comparison found!")
+            sil_compliance_proc.communicate("\r\n".encode())
+    except subprocess.CalledProcessError as e:
+        ptf_expects.fail("subprocess ecu_SIL_compl_3_0 failed: {}".format(e))
+    except ValueError:
+        pass
+    except IndexError:
+        pass
+    finally:
+        os.chdir(current_path)
+
+    # TESTSTEP("Checking if both bsig files are the same")
+    # EXPECTED("BSIG_Integrity: SUCCESS")
+    try:
+        report_folder_path = os.listdir(
+            os.path.join(databridge_Variables.ecu_sil_compl_dir(), "src", "Reports", "next_exporter_sil_sil_test")
+        )
+        report_folder = ""
+        for file in report_folder_path:
+            report_folder = file
+
+        report_json_file = open(
+            os.path.join(
+                databridge_Variables.ecu_sil_compl_dir(),
+                "src",
+                "Reports",
+                "next_exporter_sil_sil_test",
+                report_folder,
+                "reportsInfo.json",
+            )
+        )
+
+        response_json_report = json.load(report_json_file)
+
+        ptf_expects.expect_eq(
+            response_json_report["next_exporter_sil_sil_test"]["BSIG_Integrity"],
+            "PASSED",
+            "The two bsig files are not identical",
+        )
+
+        report_txt_file = open(
+            os.path.join(
+                databridge_Variables.ecu_sil_compl_dir(),
+                "src",
+                "Reports",
+                "next_exporter_sil_sil_test",
+                report_folder,
+                "summaryFailedReport.txt",
+            )
+        )
+        fail_details = ""
+        if (
+            response_json_report["next_exporter_sil_sil_test"]["Report"]["reportOverView"]["all_passed_tc"]
+            != response_json_report["next_exporter_sil_sil_test"]["Report"]["reportOverView"]["all_total_tc"]
+        ):
+            time.sleep(1)
+            # Opening the html file
+            HTMLFile = open(
+                os.path.join(
+                    databridge_Variables.ecu_sil_compl_dir(),
+                    "src",
+                    "Reports",
+                    "next_exporter_sil_sil_test",
+                    report_folder,
+                    "SIL_SIL_Reports",
+                    "Result",
+                    "Report.html",
+                ),
+                "r",
+            )
+            # Reading the file
+            index = HTMLFile.read()
+
+            soup = BeautifulSoup(index, "html.parser")
+            table = soup.find("table", {"id": "table2"})
+
+            # The first tr contains the field names.
+            headings = [th.get_text().strip() for th in table.find("tr").find_all("th")]
+
+            datasets = []
+            for row in table.find_all("tr")[1:]:
+                dataset = dict(zip(headings, (td.get_text() for td in row.find_all("td"))))
+                datasets.append(dataset)
+            datasets_result = []
+            idx = 0
+            for data in datasets:
+                fail_details += "{" + data["Signal Name"] + " : " + data["Comment"] + "}\n"
+            HTMLFile.close()
+        ptf_expects.expect_eq(
+            response_json_report["next_exporter_sil_sil_test"]["Report"]["reportOverView"]["all_passed_tc"],
+            response_json_report["next_exporter_sil_sil_test"]["Report"]["reportOverView"]["all_total_tc"],
+            "Not all tests passed: {}\nSummery of Failed Tests: \n{}\n Details \n{}".format(
+                response_json_report["next_exporter_sil_sil_test"]["Report"]["reportOverView"],
+                report_txt_file.read(),
+                fail_details,
+            ),
+        )
+
+    except json.JSONDecodeError as e:
+        ptf_expects.fail("json ecu_SIL_compl_3_0 failed: {}".format(e))
+    finally:
+        report_txt_file.close()
+        report_json_file.close()
+        TESTSTEP("POSTCONDITION:Deleting report folder")
+        os.remove(
+            os.path.join(
+                databridge_Variables.ecu_sil_compl_dir(),
+                "src",
+                "BSIG_Files",
+                "SIL_SIL_mode",
+                "fromFirstSIL",
+                "next_exporter_sil_sil_test.bsig",
+            ).replace("\\", "\\\\")
+        )
+        os.remove(
+            os.path.join(
+                databridge_Variables.ecu_sil_compl_dir(),
+                "src",
+                "BSIG_Files",
+                "SIL_SIL_mode",
+                "fromSecondSIL",
+                "next_exporter_sil_sil_test.bsig",
+            ).replace("\\", "\\\\")
+        )
+        shutil.rmtree(
+            os.path.join(
+                databridge_Variables.ecu_sil_compl_dir(), "src", "Reports", "next_exporter_sil_sil_test", report_folder
+            )
+        )

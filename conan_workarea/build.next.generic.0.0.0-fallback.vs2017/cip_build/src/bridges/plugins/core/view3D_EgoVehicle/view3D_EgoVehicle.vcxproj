@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2121E2A4-345E-3FBC-8703-26317B10CA3A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>view3D_EgoVehicle</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\view3D_EgoVehicle\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">view3D_EgoVehicle.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">view3D_EgoVehicle</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons;D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\interface;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\udex\interface;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\.bbs_conan\7b93f5\1\include;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\5238187\1\include;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;BRIDGESDKSHARED;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;ECAL_C_DLL;CMAKE_INTDIR="Release";view3D_EgoVehicle_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;BRIDGESDKSHARED;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;ECAL_C_DLL;CMAKE_INTDIR=\"Release\";view3D_EgoVehicle_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons;D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\interface;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\udex\interface;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\.bbs_conan\7b93f5\1\include;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\5238187\1\include;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons;D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\interface;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\udex\interface;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\.bbs_conan\7b93f5\1\include;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\5238187\1\include;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -E copy_if_different D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/egovehicle.fbs D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/plugins/core/view3D_EgoVehicle
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -E copy_if_different D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/primitive.fbs D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/plugins/core/view3D_EgoVehicle
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -E copy_if_different D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/schema/3d_view/egovehicle.bfbs D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/plugins/core/view3D_EgoVehicle
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -E copy_if_different D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/schema/3d_view/primitive.bfbs D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/plugins/core/view3D_EgoVehicle
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\bridgesdk\Release\next_plugin.lib;D:\.bbs_conan\5238187\1\lib\flatbuffers.lib;D:\.bbs_conan\f529bc3\1\lib\jsoncpp.lib;..\..\..\..\udex\Release\next_udex.lib;..\..\..\..\sdk\appsupport\Release\next_appsupport.lib;..\..\..\..\sdk\sdk\Release\next_sdk.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_core_c.lib;D:\.bbs_conan\dbe9207ff6ddb\1\lib\mts_sentinel.lib;D:\.bbs_conan\4e258c5\1\lib\spdlog.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_core.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_proto.lib;D:\.bbs_conan\a9d6a69\1\lib\libprotobuf.lib;D:\.bbs_conan\7b93f5\1\lib\mtscpp.lib;D:\.bbs_conan\7b93f5\1\lib\mtsc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/.bbs_conan/4e258c5/1/lib;D:/.bbs_conan/4e258c5/1/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_EgoVehicle/Release/view3D_EgoVehicle.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/plugins/core/view3D_EgoVehicle/view3D_EgoVehicle.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_EgoVehicle\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/view3D_EgoVehicle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -SD:/TATA/LATEST_NXT_REPO/next -BD:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa --check-stamp-file D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_EgoVehicle/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\view3D_EgoVehicle\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_EgoVehicle\ego_vehicle.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_EgoVehicle\ego_vehicle.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_EgoVehicle\ego_vehicle.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_EgoVehicle\url_mapper.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\meta_info_generated.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\egovehicle_generated.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\freegeometry_generated.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\groundline_generated.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\pointcloud_generated.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\primitive_generated.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\trafficparticipant_generated.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\view_update_generated.h" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\schema\3d_view\meta_info.bfbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\schema\3d_view\egovehicle.bfbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\schema\3d_view\freegeometry.bfbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\schema\3d_view\groundline.bfbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\schema\3d_view\pointcloud.bfbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\schema\3d_view\primitive.bfbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\schema\3d_view\trafficparticipant.bfbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\schema\3d_view\view_update.bfbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\core\meta_info.fbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\freegeometry.fbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs">
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\view_update.fbs">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\ZERO_CHECK.vcxproj">
+      <Project>{844D7AFA-1068-3A52-A3EB-0E963B318426}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj">
+      <Project>{45F5847F-774F-3978-B551-0F0A8217B382}</Project>
+      <Name>GENERATE_next_flatbuffers_3d_view</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\appsupport\next_appsupport.vcxproj">
+      <Project>{7CFCB062-06EB-35E7-9619-618E9D0C76EC}</Project>
+      <Name>next_appsupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\next_plugin.vcxproj">
+      <Project>{FBCDEDBF-BBA0-3D7A-BD77-3D1C93D461E0}</Project>
+      <Name>next_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\next_sdk.vcxproj">
+      <Project>{02D0AB67-C832-3652-8A26-F0A27AA24ADE}</Project>
+      <Name>next_sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\udex\next_udex.vcxproj">
+      <Project>{67DE6FF2-D287-3924-980C-00BA57416E54}</Project>
+      <Name>next_udex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

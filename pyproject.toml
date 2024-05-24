@@ -1,0 +1,16 @@
+[tool.black]
+line-length = 120
+extend-exclude = '''
+(
+  ^/scripts/cip.py
+)
+'''
+include = '''
+(
+  \.py(i|test)?$
+)
+'''
+
+[tool.isort]
+profile = "black"
+supported_extensions = ['py', 'pyi', 'pytest']

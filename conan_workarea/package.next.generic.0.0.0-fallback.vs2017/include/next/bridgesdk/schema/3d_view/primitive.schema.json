@@ -1,0 +1,325 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "definitions": {
+    "GuiSchema_PrimitiveType" : {
+      "type" : "string",
+      "enum": ["None", "circle", "rectangle", "triangle", "text", "sphere", "line", "cone", "boxOutline", "pyramid", "arc", "ellipse"]
+    },
+    "GuiSchema_XYZ" : {
+      "type" : "object",
+      "properties" : {
+        "x" : {
+                "type" : "number"
+              },
+        "y" : {
+                "type" : "number"
+              },
+        "z" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_PrimitiveBasic" : {
+      "type" : "object",
+      "properties" : {
+        "type" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveType"
+              },
+        "id" : {
+                "type" : "integer", "minimum" : -2147483648, "maximum" : 2147483647
+              },
+        "color" : {
+                "type" : "string"
+              },
+        "opacity" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Sphere" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "scale" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "rotation" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "radius" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Circle" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "scale" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "rotation" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "radius" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Rectangle" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "scale" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "rotation" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "filled" : {
+                "type" : "boolean"
+              },
+        "dashed" : {
+                "type" : "boolean"
+              },
+        "lineWidth" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Triangle" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "scale" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "rotation" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "lineWidth" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Line" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "points" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_XYZ"}
+              },
+        "lineWidth" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Cone" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "scale" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "rotation" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "height" : {
+                "type" : "number"
+              },
+        "radius" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Pyramid" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "scale" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "rotation" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "height" : {
+                "type" : "number"
+              },
+        "radius" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Text" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "text" : {
+                "type" : "string"
+              },
+        "fontSize" : {
+                "type" : "integer", "minimum" : -2147483648, "maximum" : 2147483647
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_BoxOutline" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "scale" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "rotation" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Arc" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "radius" : {
+                "type" : "number"
+              },
+        "startAngle" : {
+                "type" : "number"
+              },
+        "endAngle" : {
+                "type" : "number"
+              },
+        "lineWidth" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_Ellipse" : {
+      "type" : "object",
+      "properties" : {
+        "basicInfo" : {
+                "$ref" : "#/definitions/GuiSchema_PrimitiveBasic"
+              },
+        "centerPoint" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "radiusX" : {
+                "type" : "number"
+              },
+        "radiusY" : {
+                "type" : "number"
+              },
+        "startAngle" : {
+                "type" : "number"
+              },
+        "endAngle" : {
+                "type" : "number"
+              },
+        "rotation" : {
+                "$ref" : "#/definitions/GuiSchema_XYZ"
+              },
+        "lineWidth" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_PrimitiveList" : {
+      "type" : "object",
+      "properties" : {
+        "circles" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Circle"}
+              },
+        "rectangles" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Rectangle"}
+              },
+        "triangles" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Triangle"}
+              },
+        "texts" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Text"}
+              },
+        "spheres" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Sphere"}
+              },
+        "lines" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Line"}
+              },
+        "cones" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Cone"}
+              },
+        "boxOutlines" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_BoxOutline"}
+              },
+        "pyramids" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Pyramid"}
+              },
+        "arcs" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Arc"}
+              },
+        "ellipses" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_Ellipse"}
+              }
+      },
+      "additionalProperties" : false
+    }
+  },
+  "$ref" : "#/definitions/GuiSchema_PrimitiveList"
+}

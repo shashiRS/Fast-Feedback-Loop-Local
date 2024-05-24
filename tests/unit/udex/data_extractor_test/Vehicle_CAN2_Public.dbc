@@ -1,0 +1,1129 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ADB ADC APS CGW CRUFL CRUFR CRURL CRURR EBB ENG EPS EPT1 EPT2 ESB FWRU HUD ICM IMG METER PARKSR RVU SRS TEL VSA
+VAL_TABLE_ AHBADB_AUTOJUDGE 3 "ADB applicable, customization available" 2 "AHB applicable, customized" 0 "AHB/ADB not applied" 1 "AHB applicable, no customization" ;
+VAL_TABLE_ AHBADB_VEHICLE_LIGHT_DETECTION 0 "not detect" 1 "detected" ;
+VAL_TABLE_ CVT_SHFT_IN_D 1 "'D'" ;
+VAL_TABLE_ CVT_SHFT_IN_NEUTRAL 1 "Neutral" ;
+VAL_TABLE_ CVT_SHFT_IN_PARKING 1 "Parking" ;
+VAL_TABLE_ CVT_SHFT_IN_REVERSE 1 "Reverse" ;
+VAL_TABLE_ ENG_IS_PRE_RESTART 1 "Return to idle stop warning" ;
+VAL_TABLE_ ENG_IS_PROGRESS 1 "?Idle stop control started or in progress" ;
+VAL_TABLE_ ENG_PPTRQSTB_STANDBY 1 "Engine in full blast." ;
+VAL_TABLE_ EPS_STR_ANGLE 32767 "Invalid" 9000 "+900.0[deg]" 0 "0.0[deg]" 56536 "-900.0[deg]" ;
+VAL_TABLE_ EPS_STR_CAL 1 "Calibration complete." 0 "Calibration not completed." ;
+VAL_TABLE_ EPS_STR_OK 1 "Sensor normal" 0 "Sensor abnormal" ;
+VAL_TABLE_ EPS_STR_SPEED 32767 "Invalid" 63536 "-2000[deg/s]" 2000 "+2000[deg/s]" 0 "0[deg/s]" ;
+VAL_TABLE_ FCM_HSS_HIBEAM_REQ 1 "Hi-Beam lighting request" ;
+VAL_TABLE_ FCM_INFO_IND_HSS_ON 1 "HSS system activation indicator lights up" ;
+VAL_TABLE_ FCM_INFO_IND_TSR_ADD_L_SIDE 6 "END" 3 "Time" 7 "other additional sign" 2 "Snow" 4 "school zone (US)" 5 "school zone (CANADA)" 0 "no display demand" 1 "Rainy and cloudy" ;
+VAL_TABLE_ FCM_INFO_IND_TSR_ADD_R_SIDE 5 "school zone (CANADA)" 1 "Rainy and cloudy" 0 "no display demand" 4 "school zone (US)" 2 "Snow" 6 "END" 3 "Time" 7 "other additional sign" ;
+VAL_TABLE_ FCM_INFO_IND_TSR_DISP_NUMBER 1 "1 display mode" 0 "Two display mode" ;
+VAL_TABLE_ FCM_INFO_TSR_CLEAR_REASON 4 "Recognize area sign" 2 "Entering runabout" 1 "Right/left turn judgment" 3 "Recognize end sign" 0 "When driving a certain distance" 5 "Recognize end-of-area sign" 6 "(reserved)" 7 "(reserved)" ;
+VAL_TABLE_ FCM_INFO_TSR_DISP_CUSTOM_ENABLE 1 "ON" 0 "OFF" ;
+VAL_TABLE_ FCM_INFO_TSR_DISP_ONOFF 0 "ON" 1 "OFF" ;
+VAL_TABLE_ FCM_INFO_TSR_SIGN_ANIM_L_SIDE 1 "Point of extinction" 3 "reserve" 0 "Usually indicates" 2 "turn back" ;
+VAL_TABLE_ FCM_INFO_TSR_SIGN_ANIM_R_SIDE 0 "Usually indicates" 3 "reserve" 1 "Point of extinction" 2 "turn back" ;
+VAL_TABLE_ FCM_INFO_TSR_SIGN_UNIT 3 "reserve" 2 "mile/h" 0 "unknown" 1 "km/h" ;
+VAL_TABLE_ FCM_INFO_TSR_WARN_KPH 3 "10km/h" 1 "0km/h" 4 "15km/h" 0 "Not equipped" 2 "5km/h" ;
+VAL_TABLE_ FCM_INFO_TSR_WARN_MPH 1 "0mile/h" 4 "10mile/h" 0 "Not equipped" 3 "5mile/h" 2 "3mile/h" ;
+VAL_TABLE_ FCM_INFO_TSR_WARN_STATUS 2 "OFF" 0 "Not equipped" 3 "reserve" 1 "ON" ;
+VAL_TABLE_ FCM_WARN_STATUS_HSS_SYS_FAIL 1 "HSS failure Warning display" ;
+VAL_TABLE_ FWRU_DTC_UPDATE 0 "No DTC" 3 "With DTC" 1 "With DTC" 2 "With DTC" ;
+VAL_TABLE_ FWRU_DUN_START_UP 1 "Else of above condition" 0 "5sec after ?gIG1 input voltage > 10V?h" ;
+VAL_TABLE_ FWRU_FREEZE_UPDATE 1 "With FreezeData" 3 "With FreezeData" 0 "No FreezeData" 2 "With FreezeData" ;
+VAL_TABLE_ IDAS_ISA_BASE_SPEED 245 "Reserve" 0 "isa spped (0)" 244 "isa spped (244)" 254 "FAIL" 255 "isa disactive" 253 "Reserve" ;
+VAL_TABLE_ SRS_CAL_LAT_G_2 1 "Lateral acceleration sensor Calibration complete" ;
+VAL_TABLE_ SRS_CAL_LON_G_2 1 "Longitudinal acceleration sensor Calibration complete" ;
+VAL_TABLE_ SRS_CAL_YAW_2 1 "Yaw rate sensor Calibration complete" ;
+VAL_TABLE_ SRS_DEGC_2 255 "152 [degC]" 0 "-103 [degC]" 128 "25 [degC]" ;
+VAL_TABLE_ SRS_LAT_G_2 4095 "24.4880371[m/s2]" 0 "-24.5[m/s2]" 2048 "0[m/s2]" ;
+VAL_TABLE_ SRS_LON_G_2 4095 "24.4880371[m/s2]" 0 "-24.5[m/s2]" 2048 "0[m/s2]" ;
+VAL_TABLE_ SRS_P_ERR_DEGC_2 1 "Temperature sensor Failure" ;
+VAL_TABLE_ SRS_P_ERR_LAT_G_2 1 "Lateral acceleration sensor Failure" ;
+VAL_TABLE_ SRS_P_ERR_LON_G_2 1 "Longitudinal acceleration sensor Failure" ;
+VAL_TABLE_ SRS_P_ERR_YAW_2 1 "Yaw rate sensor Failure" ;
+VAL_TABLE_ SRS_SENSOR_ERR_MC_2 1 "Microcontroller Failure" ;
+VAL_TABLE_ SRS_SENSOR_START_UP_2 1 "Sensor data is invalid because of Starting up" ;
+VAL_TABLE_ SRS_SENSOR_STATE_IG_2 1 "Sensor data is invalid because of Power supply voltage" ;
+VAL_TABLE_ SRS_T_ERR_DEGC_2 1 "Temperature is not guaranteed" ;
+VAL_TABLE_ SRS_T_ERR_LAT_G_2 1 "Lateral acceleration is not guaranteed" ;
+VAL_TABLE_ SRS_T_ERR_LON_G_2 1 "Longitudinal acceleration is not guaranteed" ;
+VAL_TABLE_ SRS_T_ERR_YAW_2 1 "Yaw rate is not guaranteed" ;
+VAL_TABLE_ SRS_YAW_2 2048 "0[deg/sec]" 4095 "124.938965[deg/sec]" 0 "-125[deg/sec]" ;
+VAL_TABLE_ TM_SHFT_IN_D 1 "'D'" 0 "It's not  'D'" ;
+VAL_TABLE_ TM_SHFT_IN_NEUTRAL 1 "Neutral" ;
+VAL_TABLE_ TM_SHFT_IN_PARKING 1 "Parking" ;
+VAL_TABLE_ TM_SHFT_IN_REVERSE 1 "Reverse" ;
+VAL_TABLE_ VSA_ABS_FAIL_FL_VW_SENSOR 1 "Wheel speed sensor FL wheel abnormal" ;
+VAL_TABLE_ VSA_ABS_FAIL_FR_VW_SENSOR 1 "Wheel speed sensor FR wheel abnormal" ;
+VAL_TABLE_ VSA_ABS_FAIL_RL_VW_SENSOR 1 "Wheel speed sensor RL wheel abnormal" ;
+VAL_TABLE_ VSA_ABS_FAIL_RR_VW_SENSOR 1 "Wheel speed sensor RR wheel abnormal" ;
+VAL_TABLE_ VSA_ABS_INHBIT_VW_SENSOR 1 "Wheel speed sensor normal undetermined" ;
+VAL_TABLE_ VSA_ABS_VW_SENSOR_START_UP 1 "Wheel speed sensor is being activated (when sensor output cannot be guaranteed)" ;
+VAL_TABLE_ VSA_FAIL_MC_PRESSURE_SENSOR 1 "Master pressure sensor abnormal" ;
+VAL_TABLE_ VSA_FL_ROT_DIRECTION 2 "Backward direction" 3 "Other than above" 0 "Not detected" 1 "Forward direction" ;
+VAL_TABLE_ VSA_FR_ROT_DIRECTION 2 "Backward direction" 1 "Forward direction" 3 "Other than above" 0 "Not detected" ;
+VAL_TABLE_ VSA_INHBIT_MC_PRESSURE_SENSOR 1 "Master pressure sensor normal undetermined" ;
+VAL_TABLE_ VSA_MASTER_CYLINDER_PRESSURE 102 "0kPa" 921 "19623.24kPa" ;
+VAL_TABLE_ VSA_RL_ROT_DIRECTION 2 "Backward direction" 3 "Other than above" 1 "Forward direction" 0 "Not detected" ;
+VAL_TABLE_ VSA_RR_ROT_DIRECTION 3 "Other than above" 0 "Not detected" 2 "Backward direction" 1 "Forward direction" ;
+VAL_TABLE_ VSA_VW_PULSE_CAPTURED 1 "Wheel speed pulse available" ;
+
+
+BO_ 134 ESB_086: 6 ESB
+ SG_ BRK_DRV_REQ_TRQ : 7|16@0+ (1,0) [0|65535] "Nm"  APS,ICM,IMG,RVU
+ SG_ BRK_REQ_PRESSURE_STARTUP : 28|1@0+ (1,0) [0|1] "-"  RVU
+ SG_ BRK_CHECKSUM_086 : 43|4@0+ (1,0) [0|15] "-"  APS,ICM,IMG,RVU
+ SG_ BRK_ALIVE_COUNTER_086 : 45|2@0+ (1,0) [0|3] "-"  APS,ICM,IMG,RVU
+
+BO_ 254 APS_0FE: 8 APS
+ SG_ APS_MODE : 50|3@0+ (1,0) [0|7] "-"  ICM,IMG,RVU,VSA
+ SG_ APS_CHECKSUM_0FE : 59|4@0+ (1,0) [0|15] ""  EPS,ICM,IMG,RVU,VSA
+ SG_ APS_ALIVE_COUNTER_0FE : 61|2@0+ (1,0) [0|3] ""  EPS,ICM,IMG,RVU,VSA
+ SG_ APS_FAIL : 62|1@0+ (1,0) [0|1] "-"  RVU
+
+BO_ 479 IDASB_1DF: 8 RVU
+ SG_ IDAS_ENG_TARGET_TORQUE : 7|16@0- (1,0) [-32768|32767] "Nm"  ENG,ICM
+ SG_ IDAS_AEB_OFF_STATUS : 19|1@0+ (1,0) [0|1] ""  SRS
+ SG_ IDAS_CRUISE_ACTIVE : 21|1@0+ (1,0) [0|1] ""  APS
+ SG_ IDAS_ENG_REQ_TORQUE_CTRL : 23|2@0+ (1,0) [0|3] ""  ENG,ICM
+ SG_ IDAS_TARGET_DECELERATION : 31|11@0- (0.01,0) [-10.24|10.23] "m/s^2"  IMG,TEL
+ SG_ IDAS_REQ_PREFILL : 32|1@0+ (1,0) [0|1] ""  IMG
+ SG_ IDAS_REQ_AEB_BRAKE_CTRL : 33|1@0+ (1,0) [0|1] ""  IMG,TEL
+ SG_ IDAS_STATUS_FAIL_ACC : 40|1@0+ (1,0) [0|1] ""  IMG,SRS
+ SG_ IDAS_STATUS_FAIL_AEB : 41|1@0+ (1,0) [0|1] ""  IMG,SRS
+ SG_ IDAS_AEB_TARGET_STATUS : 44|1@0+ (1,0) [0|1] ""  EPT1,EPT2
+ SG_ IDAS_AEB_CTRL_MODE : 47|3@0+ (1,0) [0|7] ""  ADB,EBB,EPT1,EPT2,SRS
+ SG_ ACC_INFO_HUW_ON : 50|3@0+ (1,0) [0|7] ""  HUD,METER
+ SG_ ACC_INFO_IND_WARNING : 52|2@0+ (1,0) [0|3] ""  METER,SRS
+ SG_ ACC_INFO_BUZZER_ON : 55|3@0+ (1,0) [0|7] ""  METER
+ SG_ IDAS_CHECKSUM_1DF : 59|4@0+ (1,0) [0|15] ""  ADB,EBB,EPT1,EPT2,HUD,IMG,SRS,TEL
+ SG_ IDAS_ALIVE_COUNTER_1DF : 61|2@0+ (1,0) [0|3] ""  ADB,EBB,EPT1,EPT2,HUD,IMG,SRS,TEL
+
+BO_ 555 IMG_22B: 8 CGW
+ SG_ IMG_IDS_GRP_A13_MODE : 55|4@0+ (1,0) [0|15] ""  RVU
+ SG_ IMG_CHECKSUM_22B : 59|4@0+ (1,0) [0|15] "-"  RVU
+ SG_ IMG_ALIVE_COUNTER_22B : 61|2@0+ (1,0) [0|3] "-"  RVU
+
+BO_ 556 IMG_22C: 8 ICM
+ SG_ IMG_IDS_GRP_B1_MODE : 7|4@0+ (1,0) [0|15] ""  ADC,RVU
+ SG_ IMG_CHECKSUM_22C : 59|4@0+ (1,0) [0|15] ""  ADC,RVU
+ SG_ IMG_ALIVE_COUNTER_22C : 61|2@0+ (1,0) [0|3] ""  ADC,RVU
+
+BO_ 562 APS_232: 4 APS
+ SG_ FCTW_SW_STATUS_APS : 5|1@0+ (1,0) [0|1] ""  RVU
+ SG_ APS_VSW_FAIL : 6|1@0+ (1,0) [0|1] ""  RVU
+ SG_ CTM_SW_STATUS_APS : 7|1@0+ (1,0) [0|1] ""  RVU
+ SG_ APS_CHECKSUM_232 : 27|4@0+ (1,0) [0|15] ""  RVU
+ SG_ APS_ALIVE_COUNTER_232 : 29|2@0+ (1,0) [0|3] ""  RVU
+
+BO_ 761 METER_2F9: 8 METER
+ SG_ METER_HOD_0X04_GWDATA_ONOFF : 7|16@0+ (1,0) [0|65535] ""  RVU
+ SG_ METER_HOD_0X04_GWDATA_ERROR : 23|8@0+ (1,0) [0|255] ""  RVU
+ SG_ METER_HOD_0X1B_GWDATA_VALUE : 31|24@0+ (1,0) [0|16777215] ""  RVU
+ SG_ METER_HOD_0X04_COMSTATUS : 49|2@0+ (1,0) [0|3] ""  RVU
+ SG_ METER_HOD_0X1B_GWDATA_V_STATUS : 55|6@0+ (1,0) [0|63] ""  RVU
+ SG_ METER_CHECKSUM_2F9 : 59|4@0+ (1,0) [0|15] ""  RVU
+ SG_ METER_ALIVE_COUNTER_2F9 : 61|2@0+ (1,0) [0|3] ""  RVU
+ SG_ METER_HOD_0X1B_COMSTATUS : 63|2@0+ (1,0) [0|3] ""  RVU
+
+BO_ 784 ACC_310: 8 RVU
+ SG_ ACC_INFO_SIF : 9|1@0+ (1,0) [0|1] ""  METER
+ SG_ ACC_SIF_STATUS : 11|2@0+ (1,0) [0|3] ""  METER
+ SG_ ACC_INFO_ACCLSFMSG_OFF : 20|5@0+ (1,0) [0|31] ""  METER
+ SG_ ACC_INFO_LSFMSG_USAGE : 21|1@0+ (1,0) [0|1] ""  METER
+ SG_ IDAS_STARTUP : 22|1@0+ (1,0) [0|1] ""  METER
+ SG_ ACC_INFO_LSFMSG_WARN : 23|1@0+ (1,0) [0|1] ""  METER
+ SG_ ACC_CSA_STATUS : 25|2@0+ (1,0) [0|3] ""  METER
+ SG_ ADAS_GUIDANCE_DISP : 29|4@0+ (1,0) [0|15] ""  METER
+ SG_ ACC_TSR_CTRL_STATUS : 35|4@0+ (1,0) [0|15] ""  METER
+ SG_ ACC_IACC_SETUP_STATUS : 48|1@0+ (1,0) [0|1] ""  METER
+ SG_ ACC_INFO_IACC_CUSTOM_ENABLE : 49|1@0+ (1,0) [0|1] ""  METER
+ SG_ ACC_INFO_ACCOFF_PRE : 52|1@0+ (1,0) [0|1] ""  METER
+ SG_ ADAS_INFO_ACC_ACCEL_TGTSPD : 53|1@0+ (1,0) [0|1] ""  METER
+ SG_ IDAS_SPECIAL_UNAVAIL_MODE : 54|1@0+ (1,0) [0|1] ""  METER
+ SG_ ADAS_INFO_ACC_STATUS_SPD_CTRL : 55|1@0+ (1,0) [0|1] ""  METER
+ SG_ ACC_CHECKSUM_310 : 59|4@0+ (1,0) [0|15] ""  METER
+ SG_ ACC_ALIVE_COUNTER_310 : 61|2@0+ (1,0) [0|3] ""  METER
+ SG_ ACC_INFO_IACC_STATUS : 63|2@0+ (1,0) [0|3] ""  METER
+
+BO_ 848 IDASB_350: 8 RVU
+ SG_ BSI_BUZZER_STATUS : 4|1@0+ (1,0) [0|1] ""  METER
+ SG_ BSI_FAIL_LAMP_ON : 8|1@0+ (1,0) [0|1] ""  METER
+ SG_ BSI_SYSTEM_STATUS : 11|1@0+ (1,0) [0|1] ""  METER
+ SG_ BSI_SYSTEM_FAIL : 12|1@0+ (1,0) [0|1] ""  METER
+ SG_ FCTW_BUZZER_STATUS : 16|1@0+ (1,0) [0|1] ""  METER
+ SG_ FCTW_WARNING : 18|2@0+ (1,0) [0|3] ""  METER
+ SG_ FCTW_MONI_RIGHT : 19|1@0+ (1,0) [0|1] ""  APS
+ SG_ FCTW_MONI_LEFT : 20|1@0+ (1,0) [0|1] ""  APS
+ SG_ FCTW_ATTENTION : 22|2@0+ (1,0) [0|3] ""  HUD
+ SG_ FCTW_MONI_AUTOJUDGE : 23|1@0+ (1,0) [0|1] ""  HUD
+ SG_ FCTW_SYSTEM_UNAVAILABLE : 24|1@0+ (1,0) [0|1] ""  APS,METER
+ SG_ FCTW_SYSTEM_FAIL : 25|1@0+ (1,0) [0|1] ""  APS,METER
+ SG_ FCTW_SYSTEM_STATUS : 26|1@0+ (1,0) [0|1] ""  METER
+ SG_ FCTW_MONI_STATUS : 28|2@0+ (1,0) [0|3] ""  APS
+ SG_ FCTW_ATT_TYPE : 30|2@0+ (1,0) [0|3] ""  METER
+ SG_ FCTW_AUTOJUDGE : 31|1@0+ (1,0) [0|1] ""  METER
+ SG_ BSI_CTM_ALERT_RIGHT : 32|1@0+ (1,0) [0|1] ""  APS
+ SG_ BSI_CTM_ALERT_LEFT : 33|1@0+ (1,0) [0|1] ""  APS
+ SG_ BSI_CTM_BUZZER_STATUS : 34|1@0+ (1,0) [0|1] ""  METER
+ SG_ BSI_CTM_SYSTEM_UNAVAILABLE : 40|1@0+ (1,0) [0|1] ""  APS
+ SG_ BSI_CTM_SYSTEM_FAIL : 41|1@0+ (1,0) [0|1] ""  APS
+ SG_ BSI_CTM_SYSTEM_STATUS : 42|1@0+ (1,0) [0|1] ""  METER
+ SG_ SCM_SUPPRESSED_BY_TOW_MODE : 49|1@0+ (1,0) [0|1] "-"  METER
+ SG_ SCM_CONTROL_DIREC : 50|1@0+ (1,0) [0|1] ""  METER
+ SG_ SCM_CONTROL : 51|1@0+ (1,0) [0|1] ""  METER
+ SG_ SCM_BUZZER_STATUS : 52|1@0+ (1,0) [0|1] ""  METER
+ SG_ SCM_ANSWER_BACK_STATUS : 53|1@0+ (1,0) [0|1] ""  METER
+ SG_ BSI_SCM_CUST_RESULT : 55|2@0+ (1,0) [0|3] ""  METER
+ SG_ RVU_CHECKSUM_350 : 59|4@0+ (1,0) [0|15] ""  APS,METER
+ SG_ RVU_ALIVE_COUNTER_350 : 61|2@0+ (1,0) [0|3] ""  APS,METER
+ SG_ SCM_AUTOJUDGE : 62|1@0+ (1,0) [0|1] ""  METER
+ SG_ BSI_AUTOJUDGE : 63|1@0+ (1,0) [0|1] ""  METER
+
+BO_ 884 METER_374: 8 METER
+ SG_ METER_WARN_STATUS_LKAS : 23|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_AUTOWIP_STATUS : 50|3@0+ (1,0) [0|7] ""  ADC,RVU
+ SG_ METER_BCAN_FAILCODE_WIPER_SW : 51|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_WIPER_STATUS : 53|2@0+ (1,0) [0|3] ""  ADC,RVU
+ SG_ METER_CHECKSUM_374 : 59|4@0+ (1,0) [0|15] ""  ADC,RVU
+ SG_ METER_ALIVE_COUNTER_374 : 61|2@0+ (1,0) [0|3] ""  ADC,RVU
+
+BO_ 929 METER_3A1: 8 METER
+ SG_ METER_LKAS_BUZZER_SETUP : 6|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_RDM_STATUS : 9|2@0+ (1,0) [0|3] ""  ADC,RVU
+ SG_ METER_ACC_BUZZER_SETUP : 20|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_SIF_STATUS : 23|2@0+ (1,0) [0|3] ""  ADC,RVU
+ SG_ METER_IACC_SETUP_STATUS : 29|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_SAFETY_SW_STATUS_LSAEB : 32|1@0+ (1,0) [0|1] ""  RVU
+ SG_ METER_SAFETY_SW_STATUS_BSI : 35|1@0+ (1,0) [0|1] ""  RVU
+ SG_ METER_SAFETY_SW_STATUS_RDM : 37|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_SAFETY_SW_STATUS_FCTW : 41|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_BSI_SCM_CUST_RESULT : 43|2@0+ (1,0) [0|3] ""  ADC,RVU
+ SG_ METER_ALC_CUST_ONOFF : 45|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_ACC_CSA_STATUS : 53|2@0+ (1,0) [0|3] ""  RVU
+ SG_ METER_CHECKSUM_3A1 : 59|4@0+ (1,0) [0|15] ""  ADC,RVU
+ SG_ METER_ALIVE_COUNTER_3A1 : 61|2@0+ (1,0) [0|3] ""  ADC,RVU
+ SG_ METER_CUSTOM_DEFAULT : 62|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_CUSTOM_STATUS : 63|1@0+ (1,0) [0|1] ""  ADC,RVU
+
+BO_ 1302 METER_516: 8 METER
+ SG_ METER_ODO_DATA : 7|24@0+ (1,0) [0|16777215] "km"  ADC,CRUFL,CRUFR,CRURL,CRURR,FWRU,RVU
+ SG_ METER_DATAFAIL_FOR_ACCIND : 28|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_ASL_CAN_ERROR : 29|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_BCAN_FAILCODE_MCU_UNIT : 35|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_BCAN_FAILCODE_COMB_UNIT : 38|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_BCAN_FAILCODE_BCAN : 39|1@0+ (1,0) [0|1] ""  ADC,RVU
+ SG_ METER_CHECKSUM_516 : 59|4@0+ (1,0) [0|15] ""  ADC,CRUFL,CRUFR,CRURL,CRURR,FWRU,RVU
+ SG_ METER_ALIVE_COUNTER_516 : 61|2@0+ (1,0) [0|3] ""  ADC,CRUFL,CRUFR,CRURL,CRURR,FWRU,RVU
+
+BO_ 2261603669 PARKSR_06CD5555: 8 PARKSR
+ SG_ PARKSR_REQ_BRAKE_CTRL : 8|1@0+ (1,0) [0|1] ""  APS,IMG,RVU
+ SG_ PARKSR_REQ_CMTC_CTRL : 33|2@0+ (1,0) [0|3] "-"  IMG,RVU
+ SG_ PARKSR_CHECKSUM_06CD5555 : 59|4@0+ (1,0) [0|15] "-"  APS,IMG,RVU
+ SG_ PARKSR_ALIVE_COUNTER_06CD5555 : 61|2@0+ (1,0) [0|3] ""  APS,IMG,RVU
+
+BO_ 2588256850 HUD_1A45AA52: 8 HUD
+ SG_ HUD_CHECKSUM_1A45AA52 : 59|4@0+ (1,0) [0|15] ""  RVU
+ SG_ HUD_ALIVE_COUNTER_1A45AA52 : 61|2@0+ (1,0) [0|3] ""  RVU
+
+BO_TX_BU_ 556 : ICM,IMG;
+
+
+CM_ BU_ RVU "Variant 3A0A : 2,3,4,5,7,8,9
+Variant 30AA : 22,23
+Variant TYBW : ";
+BA_DEF_ BO_  "Variant" STRING ;
+BA_DEF_ SG_  "ValueTableE" STRING ;
+BA_DEF_ SG_  "CommentRxE" STRING ;
+BA_DEF_ SG_  "CommentRxJ" STRING ;
+BA_DEF_ SG_  "CommentTxE" STRING ;
+BA_DEF_ SG_  "CommentTxJ" STRING ;
+BA_DEF_ SG_  "DescriptionE" STRING ;
+BA_DEF_ SG_  "DescriptionJ" STRING ;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","Event","Req/Res","Combined","MULTI","COM/ACK";
+BA_DEF_ SG_  "GenSigStartValue" INT 0 3000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 3000;
+BA_DEF_ BO_  "PS" ENUM  "+B","ACC","IG1","IG2","*","vector_leerstring";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","Req/Res","Combined","MULTI","COM/ACK";
+BA_DEF_ BO_  "PF" HEX 0 65535;
+BA_DEF_ BO_  "PRI" INT 0 7;
+BA_DEF_ BO_  "FrameType" INT 0 2;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 100000;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "Variant" "2,3,4,5,7,8,9,22,23,31,32,33,34";
+BA_DEF_DEF_  "ValueTableE" "";
+BA_DEF_DEF_  "CommentRxE" "";
+BA_DEF_DEF_  "CommentRxJ" "";
+BA_DEF_DEF_  "CommentTxE" "";
+BA_DEF_DEF_  "CommentTxJ" "";
+BA_DEF_DEF_  "DescriptionE" "";
+BA_DEF_DEF_  "DescriptionJ" "";
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "PS" "";
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "PF" 0;
+BA_DEF_DEF_  "PRI" 0;
+BA_DEF_DEF_  "FrameType" 2;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_ "DBName" "Honda";
+BA_ "GenMsgCycleTime" BO_ 134 10;
+BA_ "GenMsgSendType" BO_ 134 0;
+BA_ "PS" BO_ 134 5;
+BA_ "Variant" BO_ 134 "3,4,5,7,8,9,23,31,32,33,34";
+BA_ "GenMsgCycleTime" BO_ 254 10;
+BA_ "GenMsgSendType" BO_ 254 0;
+BA_ "PS" BO_ 254 5;
+BA_ "Variant" BO_ 254 "7,8,9,23";
+BA_ "GenMsgCycleTime" BO_ 479 20;
+BA_ "GenMsgSendType" BO_ 479 0;
+BA_ "PS" BO_ 479 5;
+BA_ "GenMsgCycleTime" BO_ 555 40;
+BA_ "GenMsgSendType" BO_ 555 0;
+BA_ "PS" BO_ 555 5;
+BA_ "Variant" BO_ 555 "22,23,31,32,33,34";
+BA_ "GenMsgCycleTime" BO_ 556 40;
+BA_ "GenMsgSendType" BO_ 556 0;
+BA_ "PS" BO_ 556 5;
+BA_ "GenMsgCycleTime" BO_ 562 40;
+BA_ "GenMsgSendType" BO_ 562 0;
+BA_ "PS" BO_ 562 5;
+BA_ "Variant" BO_ 562 "2,4,5,7,8,9,22,23,31,33,34";
+BA_ "GenMsgCycleTime" BO_ 761 100;
+BA_ "GenMsgSendType" BO_ 761 0;
+BA_ "PS" BO_ 761 5;
+BA_ "GenMsgCycleTime" BO_ 784 100;
+BA_ "GenMsgSendType" BO_ 784 0;
+BA_ "PS" BO_ 784 5;
+BA_ "GenMsgCycleTime" BO_ 848 100;
+BA_ "GenMsgSendType" BO_ 848 0;
+BA_ "PS" BO_ 848 5;
+BA_ "GenMsgCycleTime" BO_ 884 100;
+BA_ "GenMsgSendType" BO_ 884 0;
+BA_ "PS" BO_ 884 5;
+BA_ "GenMsgCycleTime" BO_ 929 200;
+BA_ "GenMsgSendType" BO_ 929 0;
+BA_ "PS" BO_ 929 5;
+BA_ "GenMsgCycleTime" BO_ 1302 500;
+BA_ "GenMsgSendType" BO_ 1302 0;
+BA_ "PS" BO_ 1302 5;
+BA_ "GenMsgCycleTime" BO_ 2261603669 20;
+BA_ "GenMsgSendType" BO_ 2261603669 0;
+BA_ "PS" BO_ 2261603669 5;
+BA_ "Variant" BO_ 2261603669 "3,4,7,8,9,23,31,32,33";
+BA_ "GenMsgCycleTime" BO_ 2588256850 1000;
+BA_ "GenMsgSendType" BO_ 2588256850 0;
+BA_ "PS" BO_ 2588256850 5;
+BA_ "Variant" BO_ 2588256850 "2,4,5,8,9,22,23,31,32";
+BA_ "DescriptionE" SG_ 134 BRK_DRV_REQ_TRQ "Brake braking force (driver input)";
+BA_ "GenSigStartValue" SG_ 134 BRK_DRV_REQ_TRQ 0;
+BA_ "GenSigStartValue" SG_ 134 BRK_REQ_PRESSURE_STARTUP 0;
+BA_ "ValueTableE" SG_ 134 BRK_REQ_PRESSURE_STARTUP "1: Brake pressure initial check in progress";
+BA_ "DescriptionE" SG_ 134 BRK_CHECKSUM_086 "checksum";
+BA_ "GenSigStartValue" SG_ 134 BRK_CHECKSUM_086 0;
+BA_ "DescriptionE" SG_ 134 BRK_ALIVE_COUNTER_086 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 134 BRK_ALIVE_COUNTER_086 0;
+BA_ "GenSigStartValue" SG_ 254 APS_MODE 0;
+BA_ "ValueTableE" SG_ 254 APS_MODE "0: OFF
+
+1: ACTIVE
+
+2: Reserve
+
+3: Reserve
+
+4: Reserve
+
+5: Reserve
+
+6: Reserve
+
+7: Reserve";
+BA_ "DescriptionE" SG_ 254 APS_CHECKSUM_0FE "checksum";
+BA_ "GenSigStartValue" SG_ 254 APS_CHECKSUM_0FE 0;
+BA_ "DescriptionE" SG_ 254 APS_ALIVE_COUNTER_0FE "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 254 APS_ALIVE_COUNTER_0FE 0;
+BA_ "DescriptionE" SG_ 254 APS_FAIL "APS failure";
+BA_ "GenSigStartValue" SG_ 254 APS_FAIL 0;
+BA_ "ValueTableE" SG_ 254 APS_FAIL "0: Normal
+
+1: Failure";
+BA_ "DescriptionE" SG_ 479 IDAS_ENG_TARGET_TORQUE "Torque suppression target value
+Engine torque demand: -30000 to 30000";
+BA_ "GenSigStartValue" SG_ 479 IDAS_ENG_TARGET_TORQUE 0;
+BA_ "GenSigStartValue" SG_ 479 IDAS_AEB_OFF_STATUS 0;
+BA_ "ValueTableE" SG_ 479 IDAS_AEB_OFF_STATUS "1: AEB OFF";
+BA_ "GenSigStartValue" SG_ 479 IDAS_CRUISE_ACTIVE 0;
+BA_ "ValueTableE" SG_ 479 IDAS_CRUISE_ACTIVE "1: ACC active";
+BA_ "GenSigStartValue" SG_ 479 IDAS_ENG_REQ_TORQUE_CTRL 0;
+BA_ "ValueTableE" SG_ 479 IDAS_ENG_REQ_TORQUE_CTRL "0: Torque control off
+
+1: Lo select torque control
+
+2: Hi select torque control";
+BA_ "DescriptionE" SG_ 479 IDAS_TARGET_DECELERATION "deceleration request";
+BA_ "GenSigStartValue" SG_ 479 IDAS_TARGET_DECELERATION 1023;
+BA_ "DescriptionE" SG_ 479 IDAS_REQ_PREFILL "Pre fill brake request";
+BA_ "GenSigStartValue" SG_ 479 IDAS_REQ_PREFILL 0;
+BA_ "ValueTableE" SG_ 479 IDAS_REQ_PREFILL "1: Request Prefill brake";
+BA_ "DescriptionE" SG_ 479 IDAS_REQ_AEB_BRAKE_CTRL "AEB control request";
+BA_ "GenSigStartValue" SG_ 479 IDAS_REQ_AEB_BRAKE_CTRL 0;
+BA_ "ValueTableE" SG_ 479 IDAS_REQ_AEB_BRAKE_CTRL "1: Request AEB Brake";
+BA_ "DescriptionE" SG_ 479 IDAS_STATUS_FAIL_ACC "ACC failure information";
+BA_ "GenSigStartValue" SG_ 479 IDAS_STATUS_FAIL_ACC 0;
+BA_ "ValueTableE" SG_ 479 IDAS_STATUS_FAIL_ACC "1: ACC Failure";
+BA_ "DescriptionE" SG_ 479 IDAS_STATUS_FAIL_AEB "AEB failure information";
+BA_ "GenSigStartValue" SG_ 479 IDAS_STATUS_FAIL_AEB 0;
+BA_ "ValueTableE" SG_ 479 IDAS_STATUS_FAIL_AEB "1: AEB Failure";
+BA_ "DescriptionE" SG_ 479 IDAS_AEB_TARGET_STATUS "AEB brake control target type
+";
+BA_ "GenSigStartValue" SG_ 479 IDAS_AEB_TARGET_STATUS 0;
+BA_ "ValueTableE" SG_ 479 IDAS_AEB_TARGET_STATUS "1: Moving Target
+
+0: Standing still target";
+BA_ "DescriptionE" SG_ 479 IDAS_AEB_CTRL_MODE "AEB control state";
+BA_ "GenSigStartValue" SG_ 479 IDAS_AEB_CTRL_MODE 0;
+BA_ "ValueTableE" SG_ 479 IDAS_AEB_CTRL_MODE "0: Control standby
+
+1: Control active (A)
+
+2: Control active (B)
+
+3: Control active (C)
+
+4: Control active (D)
+
+5: (Reserved)
+
+6: (Reserved)
+
+7: (Reserved)";
+BA_ "DescriptionE" SG_ 479 ACC_INFO_HUW_ON "HUW request";
+BA_ "GenSigStartValue" SG_ 479 ACC_INFO_HUW_ON 0;
+BA_ "ValueTableE" SG_ 479 ACC_INFO_HUW_ON "0: OFF
+
+1: Flag2
+
+2: Flag1
+
+3: Flag0";
+BA_ "DescriptionE" SG_ 479 ACC_INFO_IND_WARNING "Warning display";
+BA_ "GenSigStartValue" SG_ 479 ACC_INFO_IND_WARNING 0;
+BA_ "ValueTableE" SG_ 479 ACC_INFO_IND_WARNING "0: No display
+
+1: 'BRAKE' is lit
+
+2: ?'UPSHIFT' is lit
+
+3: 'DOWNSHIFT' is lit";
+BA_ "DescriptionE" SG_ 479 ACC_INFO_BUZZER_ON "Display, buzzer enabling";
+BA_ "GenSigStartValue" SG_ 479 ACC_INFO_BUZZER_ON 0;
+BA_ "ValueTableE" SG_ 479 ACC_INFO_BUZZER_ON "0: Buzzer OFF
+
+1: Buzzer ON (beep, beep, beep, ...)
+
+2: Buzzer ON (beep)?1
+
+3: Buzzer ON (beep)
+
+4: Buzzer ON (beep, beep)
+
+5: Buzzer ON (beep)?2";
+BA_ "DescriptionE" SG_ 479 IDAS_CHECKSUM_1DF "checksum";
+BA_ "GenSigStartValue" SG_ 479 IDAS_CHECKSUM_1DF 0;
+BA_ "DescriptionE" SG_ 479 IDAS_ALIVE_COUNTER_1DF "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 479 IDAS_ALIVE_COUNTER_1DF 0;
+BA_ "DescriptionE" SG_ 555 IMG_IDS_GRP_A13_MODE "IDS MODE for ACC";
+BA_ "GenSigStartValue" SG_ 555 IMG_IDS_GRP_A13_MODE 0;
+BA_ "ValueTableE" SG_ 555 IMG_IDS_GRP_A13_MODE "0: NORMAL
+
+1: COMFORT
+
+2: SPORT
+
+3: SPORT+
+
+4: -(Reserved)
+
+5: ECON
+
+6: SNOW
+
+7: LIFT
+
+8: TOW
+
+9: SAND
+
+10: TRAIL
+
+11: Mode 11
+
+12: Mode 12
+
+13: Mode 13
+
+14: Mode 14
+
+15: INDIVIDUAL";
+BA_ "DescriptionE" SG_ 555 IMG_CHECKSUM_22B "checksum";
+BA_ "GenSigStartValue" SG_ 555 IMG_CHECKSUM_22B 0;
+BA_ "DescriptionE" SG_ 555 IMG_ALIVE_COUNTER_22B "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 555 IMG_ALIVE_COUNTER_22B 0;
+BA_ "DescriptionE" SG_ 556 IMG_IDS_GRP_B1_MODE "for Meter (IDS master mode)";
+BA_ "GenSigStartValue" SG_ 556 IMG_IDS_GRP_B1_MODE 0;
+BA_ "ValueTableE" SG_ 556 IMG_IDS_GRP_B1_MODE "0: Normal
+
+1: Comfort
+
+2: Sport
+
+3: Sport+
+
+4: -(Reserved)
+
+5: ECON
+
+6: Snow
+
+7: Lift
+
+8: Tow
+
+9: Sand
+
+10: Trail
+
+11: Mode 11
+
+12: Mode 12
+
+13: Mode 13
+
+14: Mode 14
+
+15: Individual";
+BA_ "DescriptionE" SG_ 556 IMG_CHECKSUM_22C "checksum";
+BA_ "GenSigStartValue" SG_ 556 IMG_CHECKSUM_22C 0;
+BA_ "DescriptionE" SG_ 556 IMG_ALIVE_COUNTER_22C "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 556 IMG_ALIVE_COUNTER_22C 0;
+BA_ "CommentRxE" SG_ 562 FCTW_SW_STATUS_APS "FCTW";
+BA_ "DescriptionE" SG_ 562 FCTW_SW_STATUS_APS "FCTW SW push information";
+BA_ "GenSigStartValue" SG_ 562 FCTW_SW_STATUS_APS 0;
+BA_ "ValueTableE" SG_ 562 FCTW_SW_STATUS_APS "0: FCTW SW operation
+
+1: FCTW SW pressed";
+BA_ "CommentRxE" SG_ 562 APS_VSW_FAIL "CTM";
+BA_ "DescriptionE" SG_ 562 APS_VSW_FAIL "APS_VSW failure";
+BA_ "GenSigStartValue" SG_ 562 APS_VSW_FAIL 0;
+BA_ "ValueTableE" SG_ 562 APS_VSW_FAIL "0: Normal
+
+1: Failure";
+BA_ "CommentRxE" SG_ 562 CTM_SW_STATUS_APS "CTM";
+BA_ "DescriptionE" SG_ 562 CTM_SW_STATUS_APS "CTM SW push information";
+BA_ "GenSigStartValue" SG_ 562 CTM_SW_STATUS_APS 0;
+BA_ "ValueTableE" SG_ 562 CTM_SW_STATUS_APS "0: No CTM SW operation
+
+1: CTM SW pressed";
+BA_ "CommentRxE" SG_ 562 APS_CHECKSUM_232 "FCTW,CTM";
+BA_ "DescriptionE" SG_ 562 APS_CHECKSUM_232 "checksum";
+BA_ "GenSigStartValue" SG_ 562 APS_CHECKSUM_232 0;
+BA_ "CommentRxE" SG_ 562 APS_ALIVE_COUNTER_232 "FCTW,CTM";
+BA_ "DescriptionE" SG_ 562 APS_ALIVE_COUNTER_232 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 562 APS_ALIVE_COUNTER_232 0;
+BA_ "DescriptionE" SG_ 761 METER_HOD_0X04_GWDATA_ONOFF "LIN bus data (Hands ON/OFF) to meter ID:0x04
+
+Multiple data (Hands ON/OFF) are included";
+BA_ "GenSigStartValue" SG_ 761 METER_HOD_0X04_GWDATA_ONOFF 0;
+BA_ "DescriptionE" SG_ 761 METER_HOD_0X04_GWDATA_ERROR "LIN bus data (Error information) to meter ID:0x04
+
+Multiple data (Error information) are included";
+BA_ "GenSigStartValue" SG_ 761 METER_HOD_0X04_GWDATA_ERROR 0;
+BA_ "DescriptionE" SG_ 761 METER_HOD_0X1B_GWDATA_VALUE "LIN bus data (Measured value) to meter ID:0x1B
+
+Multiple data (Measured value) are included";
+BA_ "GenSigStartValue" SG_ 761 METER_HOD_0X1B_GWDATA_VALUE 0;
+BA_ "DescriptionE" SG_ 761 METER_HOD_0X04_COMSTATUS "LIN bus communication status of ID:0x04";
+BA_ "GenSigStartValue" SG_ 761 METER_HOD_0X04_COMSTATUS 0;
+BA_ "ValueTableE" SG_ 761 METER_HOD_0X04_COMSTATUS "0: LIN ID;0x04 communication going
+
+1: LIN ID;0x04 data not received
+
+2: LIN ID;0x04 communication failure
+
+3: (not used) ";
+BA_ "DescriptionE" SG_ 761 METER_HOD_0X1B_GWDATA_V_STATUS "LIN bus data (Value Status Information) to meter ID:0x1B
+
+Multiple data (Value Status Information) are included";
+BA_ "GenSigStartValue" SG_ 761 METER_HOD_0X1B_GWDATA_V_STATUS 0;
+BA_ "DescriptionE" SG_ 761 METER_CHECKSUM_2F9 "checksum";
+BA_ "GenSigStartValue" SG_ 761 METER_CHECKSUM_2F9 0;
+BA_ "DescriptionE" SG_ 761 METER_ALIVE_COUNTER_2F9 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 761 METER_ALIVE_COUNTER_2F9 0;
+BA_ "DescriptionE" SG_ 761 METER_HOD_0X1B_COMSTATUS "LIN bus communication status of ID:0x1B";
+BA_ "GenSigStartValue" SG_ 761 METER_HOD_0X1B_COMSTATUS 0;
+BA_ "ValueTableE" SG_ 761 METER_HOD_0X1B_COMSTATUS "0: LIN ID;0x1B communication going
+
+1: LIN ID;0x1B data not received
+
+2: LIN ID;0x1B communication failure
+
+3: (not used)";
+BA_ "DescriptionE" SG_ 784 ACC_INFO_SIF "Request for notification of the departure of the vehicle ahead";
+BA_ "GenSigStartValue" SG_ 784 ACC_INFO_SIF 0;
+BA_ "ValueTableE" SG_ 784 ACC_INFO_SIF "1: 'SIF(Start Information)";
+BA_ "DescriptionE" SG_ 784 ACC_SIF_STATUS "Customize bit(Send setting status)
+";
+BA_ "GenSigStartValue" SG_ 784 ACC_SIF_STATUS 0;
+BA_ "ValueTableE" SG_ 784 ACC_SIF_STATUS "0: Normal
+
+1: Early
+
+2: OFF";
+BA_ "CommentRxE" SG_ 784 ACC_INFO_ACCLSFMSG_OFF "ACC";
+BA_ "CommentRxJ" SG_ 784 ACC_INFO_ACCLSFMSG_OFF "0A: Brake Pedal is Applied
+
+0B: Clutch pedal is Applied
+
+0C: Switch Driving mode
+
+0D: Tire Skidding is detected
+0E: Brake temperature is high";
+BA_ "CommentTxE" SG_ 784 ACC_INFO_ACCLSFMSG_OFF "0: No Disp
+
+1: No Vehicle Detected Ahead
+
+2: Too Close To Vehicle Ahead
+
+3: Slope Too Steep(Up)
+
+4: Slope Too Steep(Down)
+
+5: Fasten Seatbelt
+
+6: Shift To Drive
+
+7: Parking Brake is Applied
+
+8: Speed Too High
+
+9: Speed Too Low
+";
+BA_ "DescriptionE" SG_ 784 ACC_INFO_ACCLSFMSG_OFF "ACCLSF Control OFF reason message
+0x0X means control start disabled
+0x1X indicates automatic control OFF
+However, 0x1A, 0x1C, and 0x0D are not displayed.";
+BA_ "GenSigStartValue" SG_ 784 ACC_INFO_ACCLSFMSG_OFF 0;
+BA_ "ValueTableE" SG_ 784 ACC_INFO_ACCLSFMSG_OFF "00: Because of  byte number limit, 'Value' is written in the 'Comment' cells separately";
+BA_ "CommentRxE" SG_ 784 ACC_INFO_LSFMSG_USAGE "ACC";
+BA_ "DescriptionE" SG_ 784 ACC_INFO_LSFMSG_USAGE "Usage message";
+BA_ "GenSigStartValue" SG_ 784 ACC_INFO_LSFMSG_USAGE 0;
+BA_ "ValueTableE" SG_ 784 ACC_INFO_LSFMSG_USAGE "0: No indication
+
+1: 'You can start the car with the  Accelerator or RES switch.'";
+BA_ "GenSigStartValue" SG_ 784 IDAS_STARTUP 0;
+BA_ "ValueTableE" SG_ 784 IDAS_STARTUP "1: During Initialization";
+BA_ "CommentRxE" SG_ 784 ACC_INFO_LSFMSG_WARN "ACC";
+BA_ "DescriptionE" SG_ 784 ACC_INFO_LSFMSG_WARN "Brake prompt message";
+BA_ "GenSigStartValue" SG_ 784 ACC_INFO_LSFMSG_WARN 0;
+BA_ "ValueTableE" SG_ 784 ACC_INFO_LSFMSG_WARN "0: No indication
+
+1: 'Step on the brake, please.'";
+BA_ "GenSigStartValue" SG_ 784 ACC_CSA_STATUS 0;
+BA_ "ValueTableE" SG_ 784 ACC_CSA_STATUS "0: Normal
+
+1: Slow
+
+2: Fast
+
+3: No Deceleration";
+BA_ "DescriptionE" SG_ 784 ADAS_GUIDANCE_DISP "ADAS OPERATION-GUIDANCE message";
+BA_ "GenSigStartValue" SG_ 784 ADAS_GUIDANCE_DISP 0;
+BA_ "ValueTableE" SG_ 784 ADAS_GUIDANCE_DISP "0: DO-NOT-ANYTHING
+
+1: URGING-MAIN-ON
+
+2: URGING-LIM-TO-ACC
+
+3: URGING-DISTANCE-TO-ACC
+
+4: URGING-SET-INSTEAD-RES
+
+5: (Reserved)
+
+E: (Reserved)
+
+F: TURN-OFF ";
+BA_ "GenSigStartValue" SG_ 784 ACC_TSR_CTRL_STATUS 0;
+BA_ "DescriptionE" SG_ 784 ACC_IACC_SETUP_STATUS "i-ACC function ON/OFF customization";
+BA_ "GenSigStartValue" SG_ 784 ACC_IACC_SETUP_STATUS 0;
+BA_ "ValueTableE" SG_ 784 ACC_IACC_SETUP_STATUS "0: ON
+
+1: OFF";
+BA_ "DescriptionE" SG_ 784 ACC_INFO_IACC_CUSTOM_ENABLE "i-ACC function ON/OFF with/without customization";
+BA_ "GenSigStartValue" SG_ 784 ACC_INFO_IACC_CUSTOM_ENABLE 0;
+BA_ "ValueTableE" SG_ 784 ACC_INFO_IACC_CUSTOM_ENABLE "0: No customization of i-ACC function ON/OFF
+
+1: With i-ACC function ON/OFF customization";
+BA_ "GenSigStartValue" SG_ 784 ACC_INFO_ACCOFF_PRE 0;
+BA_ "ValueTableE" SG_ 784 ACC_INFO_ACCOFF_PRE "0: Non display
+
+1: ACC Cruise cancel pre-notice display";
+BA_ "DescriptionE" SG_ 784 ADAS_INFO_ACC_ACCEL_TGTSPD "ACC is accelerating toward the set vehicle speed.";
+BA_ "GenSigStartValue" SG_ 784 ADAS_INFO_ACC_ACCEL_TGTSPD 0;
+BA_ "ValueTableE" SG_ 784 ADAS_INFO_ACC_ACCEL_TGTSPD "0: Not in acceleration
+
+1: ACC acceleration in progress (set vehicle speed target)";
+BA_ "CommentRxE" SG_ 784 IDAS_SPECIAL_UNAVAIL_MODE "TLI";
+BA_ "GenSigStartValue" SG_ 784 IDAS_SPECIAL_UNAVAIL_MODE 0;
+BA_ "ValueTableE" SG_ 784 IDAS_SPECIAL_UNAVAIL_MODE "1: In special mode";
+BA_ "DescriptionE" SG_ 784 ADAS_INFO_ACC_STATUS_SPD_CTRL "ACC is controlling the set vehicle speed or the vehicle ahead.";
+BA_ "GenSigStartValue" SG_ 784 ADAS_INFO_ACC_STATUS_SPD_CTRL 0;
+BA_ "ValueTableE" SG_ 784 ADAS_INFO_ACC_STATUS_SPD_CTRL "0: Not under ACC speed control
+
+1: ACC speed control in progress";
+BA_ "CommentRxE" SG_ 784 ACC_CHECKSUM_310 "ACC,TLI";
+BA_ "DescriptionE" SG_ 784 ACC_CHECKSUM_310 "checksum";
+BA_ "GenSigStartValue" SG_ 784 ACC_CHECKSUM_310 0;
+BA_ "CommentRxE" SG_ 784 ACC_ALIVE_COUNTER_310 "ACC,TLI";
+BA_ "DescriptionE" SG_ 784 ACC_ALIVE_COUNTER_310 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 784 ACC_ALIVE_COUNTER_310 0;
+BA_ "DescriptionE" SG_ 784 ACC_INFO_IACC_STATUS "i-ACC function Display interrupt request";
+BA_ "GenSigStartValue" SG_ 784 ACC_INFO_IACC_STATUS 0;
+BA_ "ValueTableE" SG_ 784 ACC_INFO_IACC_STATUS "0: Display OFF
+
+1: Right interrupt display
+
+2: Left interrupt display";
+BA_ "CommentRxE" SG_ 848 BSI_BUZZER_STATUS "SCM";
+BA_ "DescriptionE" SG_ 848 BSI_BUZZER_STATUS "BSI buzzer request";
+BA_ "GenSigStartValue" SG_ 848 BSI_BUZZER_STATUS 0;
+BA_ "ValueTableE" SG_ 848 BSI_BUZZER_STATUS "0: BUZZER OFF
+
+1: BUZZER ON";
+BA_ "CommentRxE" SG_ 848 BSI_FAIL_LAMP_ON "SCM";
+BA_ "GenSigStartValue" SG_ 848 BSI_FAIL_LAMP_ON 0;
+BA_ "ValueTableE" SG_ 848 BSI_FAIL_LAMP_ON "0: FAIL LAMP OFF
+
+1: FAIL LAMP ON";
+BA_ "CommentRxE" SG_ 848 BSI_SYSTEM_STATUS "SCM";
+BA_ "GenSigStartValue" SG_ 848 BSI_SYSTEM_STATUS 0;
+BA_ "ValueTableE" SG_ 848 BSI_SYSTEM_STATUS "0: SYSTEM OFF
+
+1: SYSTEM ON";
+BA_ "CommentRxE" SG_ 848 BSI_SYSTEM_FAIL "SCM";
+BA_ "GenSigStartValue" SG_ 848 BSI_SYSTEM_FAIL 0;
+BA_ "ValueTableE" SG_ 848 BSI_SYSTEM_FAIL "0: NORMAL
+
+1: FAILURE";
+BA_ "CommentRxE" SG_ 848 FCTW_BUZZER_STATUS "FCTW";
+BA_ "DescriptionE" SG_ 848 FCTW_BUZZER_STATUS "FCTW Buzzer request flag";
+BA_ "GenSigStartValue" SG_ 848 FCTW_BUZZER_STATUS 0;
+BA_ "ValueTableE" SG_ 848 FCTW_BUZZER_STATUS "0: FCTW BUZZER OFF
+
+1: FCTW BUZZER ON";
+BA_ "DescriptionE" SG_ 848 FCTW_WARNING "FCTW Warinig Indication Requirements";
+BA_ "GenSigStartValue" SG_ 848 FCTW_WARNING 0;
+BA_ "ValueTableE" SG_ 848 FCTW_WARNING "0: NONE
+
+1: FCTW WARNING LEFT
+
+2: FCTW WARNING RIGHT
+
+3: FCTW WARNING BOTH";
+BA_ "CommentRxE" SG_ 848 FCTW_MONI_RIGHT "FCTW";
+BA_ "DescriptionE" SG_ 848 FCTW_MONI_RIGHT "FCTW Right Monitor request";
+BA_ "GenSigStartValue" SG_ 848 FCTW_MONI_RIGHT 0;
+BA_ "ValueTableE" SG_ 848 FCTW_MONI_RIGHT "0: FCTW RIGHT UNDETECTED
+
+1: FCTW RIGHT  DETECTED";
+BA_ "CommentRxE" SG_ 848 FCTW_MONI_LEFT "FCTW";
+BA_ "DescriptionE" SG_ 848 FCTW_MONI_LEFT "FCTW Lest Monitor request";
+BA_ "GenSigStartValue" SG_ 848 FCTW_MONI_LEFT 0;
+BA_ "ValueTableE" SG_ 848 FCTW_MONI_LEFT "0: FCTW LEFT UNDETECTED
+
+1: FCTW LEFT  DETECTED";
+BA_ "DescriptionE" SG_ 848 FCTW_ATTENTION "FCTW for HUD Attention display request";
+BA_ "GenSigStartValue" SG_ 848 FCTW_ATTENTION 0;
+BA_ "ValueTableE" SG_ 848 FCTW_ATTENTION "0: NONE
+
+1: FCTW ATTENTION LEFT
+
+2: FCTW ATTENTION RIGHT
+
+3: FCTW ATTENTION BOTH";
+BA_ "DescriptionE" SG_ 848 FCTW_MONI_AUTOJUDGE "FCTW for MVC display equipment information";
+BA_ "GenSigStartValue" SG_ 848 FCTW_MONI_AUTOJUDGE 0;
+BA_ "ValueTableE" SG_ 848 FCTW_MONI_AUTOJUDGE "0: No FCTW on MVC equipped
+
+1: FCTW on MVC equipped";
+BA_ "CommentRxE" SG_ 848 FCTW_SYSTEM_UNAVAILABLE "BSI-CTM";
+BA_ "GenSigStartValue" SG_ 848 FCTW_SYSTEM_UNAVAILABLE 0;
+BA_ "ValueTableE" SG_ 848 FCTW_SYSTEM_UNAVAILABLE "0: FCTW NORMAL
+
+1: FCTW UNAVAILABLE";
+BA_ "CommentRxE" SG_ 848 FCTW_SYSTEM_FAIL "BSI-CTM";
+BA_ "GenSigStartValue" SG_ 848 FCTW_SYSTEM_FAIL 0;
+BA_ "ValueTableE" SG_ 848 FCTW_SYSTEM_FAIL "0: FCTW NORMAL
+
+1: FCTW FAILURE";
+BA_ "CommentRxE" SG_ 848 FCTW_SYSTEM_STATUS "BSI-CTM";
+BA_ "DescriptionE" SG_ 848 FCTW_SYSTEM_STATUS "FCTW Warning User setting on / off";
+BA_ "GenSigStartValue" SG_ 848 FCTW_SYSTEM_STATUS 0;
+BA_ "ValueTableE" SG_ 848 FCTW_SYSTEM_STATUS "0: FCTW WARNING OFF
+
+1: FCTW WARNING ON";
+BA_ "CommentRxE" SG_ 848 FCTW_MONI_STATUS "BSI-CTM";
+BA_ "DescriptionE" SG_ 848 FCTW_MONI_STATUS "FCTW Monitor User setting";
+BA_ "GenSigStartValue" SG_ 848 FCTW_MONI_STATUS 0;
+BA_ "ValueTableE" SG_ 848 FCTW_MONI_STATUS "0: FCTW ATTENSION ON
+
+1: FCTW ATTENSION OFF";
+BA_ "DescriptionE" SG_ 848 FCTW_ATT_TYPE "User customized display type for FCTW HUD display";
+BA_ "GenSigStartValue" SG_ 848 FCTW_ATT_TYPE 0;
+BA_ "ValueTableE" SG_ 848 FCTW_ATT_TYPE "0: FCTW HUD ATT NOT EQUIPPED
+
+1: FCTW HUD ATT ON
+
+2: FCTW HUD ATT OFF
+
+3: Reserve";
+BA_ "CommentRxE" SG_ 848 FCTW_AUTOJUDGE "FCTW";
+BA_ "DescriptionE" SG_ 848 FCTW_AUTOJUDGE "FCTW equiped information";
+BA_ "GenSigStartValue" SG_ 848 FCTW_AUTOJUDGE 0;
+BA_ "ValueTableE" SG_ 848 FCTW_AUTOJUDGE "0: No FCTW equiped
+
+1: FCTW equiped";
+BA_ "CommentRxE" SG_ 848 BSI_CTM_ALERT_RIGHT "SCM";
+BA_ "GenSigStartValue" SG_ 848 BSI_CTM_ALERT_RIGHT 0;
+BA_ "ValueTableE" SG_ 848 BSI_CTM_ALERT_RIGHT "0: CTM RIGHT UNDETECTED
+
+1: CTM RIGHT DETECTED";
+BA_ "CommentRxE" SG_ 848 BSI_CTM_ALERT_LEFT "SCM";
+BA_ "GenSigStartValue" SG_ 848 BSI_CTM_ALERT_LEFT 0;
+BA_ "ValueTableE" SG_ 848 BSI_CTM_ALERT_LEFT "0: CTM LEFT UNDETECTED
+
+1: CTM LEFT DETECTED";
+BA_ "CommentRxE" SG_ 848 BSI_CTM_BUZZER_STATUS "BSI-CTM";
+BA_ "GenSigStartValue" SG_ 848 BSI_CTM_BUZZER_STATUS 0;
+BA_ "ValueTableE" SG_ 848 BSI_CTM_BUZZER_STATUS "0: CTM BUZZER OFF
+
+1: CTM BUZZER ON";
+BA_ "CommentRxE" SG_ 848 BSI_CTM_SYSTEM_UNAVAILABLE "SCM";
+BA_ "GenSigStartValue" SG_ 848 BSI_CTM_SYSTEM_UNAVAILABLE 0;
+BA_ "ValueTableE" SG_ 848 BSI_CTM_SYSTEM_UNAVAILABLE "0: CTM NORMAL
+
+1: CTM UNAVAILABLE";
+BA_ "CommentRxE" SG_ 848 BSI_CTM_SYSTEM_FAIL "SCM";
+BA_ "GenSigStartValue" SG_ 848 BSI_CTM_SYSTEM_FAIL 0;
+BA_ "ValueTableE" SG_ 848 BSI_CTM_SYSTEM_FAIL "0: CTM NORMAL
+
+1: CTM FAILURE";
+BA_ "CommentRxE" SG_ 848 BSI_CTM_SYSTEM_STATUS "SCM";
+BA_ "GenSigStartValue" SG_ 848 BSI_CTM_SYSTEM_STATUS 0;
+BA_ "ValueTableE" SG_ 848 BSI_CTM_SYSTEM_STATUS "0: CTM OFF
+
+1: CTM ON";
+BA_ "DescriptionE" SG_ 848 SCM_SUPPRESSED_BY_TOW_MODE "Display request flag of LCCM suppression by TOW mode";
+BA_ "GenSigStartValue" SG_ 848 SCM_SUPPRESSED_BY_TOW_MODE 0;
+BA_ "ValueTableE" SG_ 848 SCM_SUPPRESSED_BY_TOW_MODE "0: No request
+
+1: request LCCM suppression display ";
+BA_ "DescriptionE" SG_ 848 SCM_CONTROL_DIREC "SCM control Left-right display";
+BA_ "GenSigStartValue" SG_ 848 SCM_CONTROL_DIREC 0;
+BA_ "ValueTableE" SG_ 848 SCM_CONTROL_DIREC "0: Display during SCM control (right side)
+
+1: Display during SCM control (left side)";
+BA_ "CommentRxE" SG_ 848 SCM_CONTROL "SCM,FCTW";
+BA_ "DescriptionE" SG_ 848 SCM_CONTROL "SCM control in progress (steer intervention display)";
+BA_ "GenSigStartValue" SG_ 848 SCM_CONTROL 0;
+BA_ "ValueTableE" SG_ 848 SCM_CONTROL "0: SCM intervention display OFF
+
+1: SCM intervention display ON";
+BA_ "CommentRxE" SG_ 848 SCM_BUZZER_STATUS "SCM,FCTW";
+BA_ "DescriptionE" SG_ 848 SCM_BUZZER_STATUS "SCM buzzer request";
+BA_ "GenSigStartValue" SG_ 848 SCM_BUZZER_STATUS 0;
+BA_ "ValueTableE" SG_ 848 SCM_BUZZER_STATUS "0: SCM buzzer OFF
+
+1: SCM buzzer ON";
+BA_ "CommentRxE" SG_ 848 SCM_ANSWER_BACK_STATUS "SCM";
+BA_ "DescriptionE" SG_ 848 SCM_ANSWER_BACK_STATUS "SCM WarningOnly Answerback display";
+BA_ "GenSigStartValue" SG_ 848 SCM_ANSWER_BACK_STATUS 0;
+BA_ "ValueTableE" SG_ 848 SCM_ANSWER_BACK_STATUS "0: No display request
+
+1: SCMWarningOnly display request";
+BA_ "CommentRxE" SG_ 848 BSI_SCM_CUST_RESULT "SCM";
+BA_ "DescriptionE" SG_ 848 BSI_SCM_CUST_RESULT "BSI/SCM customization results";
+BA_ "GenSigStartValue" SG_ 848 BSI_SCM_CUST_RESULT 0;
+BA_ "ValueTableE" SG_ 848 BSI_SCM_CUST_RESULT "0: Steering Assist+Buzzer+indicaator
+
+1: Buzzer+indicaator
+
+2: indicaator
+
+3: Reserve";
+BA_ "DescriptionE" SG_ 848 RVU_CHECKSUM_350 "checksum";
+BA_ "GenSigStartValue" SG_ 848 RVU_CHECKSUM_350 0;
+BA_ "DescriptionE" SG_ 848 RVU_ALIVE_COUNTER_350 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 848 RVU_ALIVE_COUNTER_350 0;
+BA_ "DescriptionE" SG_ 848 SCM_AUTOJUDGE "SCM equipment information";
+BA_ "GenSigStartValue" SG_ 848 SCM_AUTOJUDGE 0;
+BA_ "ValueTableE" SG_ 848 SCM_AUTOJUDGE "0: SCM Not equipped
+
+1: SCM equipped";
+BA_ "DescriptionE" SG_ 848 BSI_AUTOJUDGE "BSI equipment information";
+BA_ "GenSigStartValue" SG_ 848 BSI_AUTOJUDGE 0;
+BA_ "ValueTableE" SG_ 848 BSI_AUTOJUDGE "0: BSI Not equipped
+
+1: BSI equipped";
+BA_ "DescriptionE" SG_ 884 METER_WARN_STATUS_LKAS "ON condition:?Requested via CAN, communication failure, data not yet received";
+BA_ "GenSigStartValue" SG_ 884 METER_WARN_STATUS_LKAS 1;
+BA_ "ValueTableE" SG_ 884 METER_WARN_STATUS_LKAS "0: LKAS amber putting out lights (LKAS light OFF)
+
+1: LKAS amber lighting (LKAS light ON)";
+BA_ "DescriptionE" SG_ 884 METER_AUTOWIP_STATUS "Auto wiper operation mode
+C_ALREQ: Low-speed operation
+C_AHREQ: High-speed operation
+C_ASREQ: Intermittent operation
+Information from B-CAN (Pay attention to the refresh cycle)
+Gateway from B-CAN 'C_ALREQ' or 'C_AHREQ' or 'C_ASREQ'";
+BA_ "GenSigStartValue" SG_ 884 METER_AUTOWIP_STATUS 0;
+BA_ "CommentRxE" SG_ 884 METER_BCAN_FAILCODE_WIPER_SW "LKAS,TJA,ALC,RDM,SCM";
+BA_ "DescriptionE" SG_ 884 METER_BCAN_FAILCODE_WIPER_SW "Information from B-CAN (Pay attention to the refresh cycle)
+The value to be sent is determined from the failure code accompanying the SW information.
+Gateway from B-CAN 'C_FRINT' or 'C_FRWIPLO' or 'C_FRWIPHI'";
+BA_ "GenSigStartValue" SG_ 884 METER_BCAN_FAILCODE_WIPER_SW 0;
+BA_ "ValueTableE" SG_ 884 METER_BCAN_FAILCODE_WIPER_SW "1: Wiper SW failure";
+BA_ "CommentRxE" SG_ 884 METER_WIPER_STATUS "LKAS,TJA,ALC";
+BA_ "DescriptionE" SG_ 884 METER_WIPER_STATUS "Information from B-CAN
+(Pay attention to the refresh cycle)
+Gateway from B-CAN 'C_FRINT' or 'C_FRWIPLO' or 'C_FRWIPHI' or'C_FRMIST'";
+BA_ "GenSigStartValue" SG_ 884 METER_WIPER_STATUS 0;
+BA_ "ValueTableE" SG_ 884 METER_WIPER_STATUS "0: OFF
+
+1: Intermittent
+
+2: Low
+
+3: High (MIST included)";
+BA_ "DescriptionE" SG_ 884 METER_CHECKSUM_374 "checksum";
+BA_ "GenSigStartValue" SG_ 884 METER_CHECKSUM_374 0;
+BA_ "DescriptionE" SG_ 884 METER_ALIVE_COUNTER_374 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 884 METER_ALIVE_COUNTER_374 0;
+BA_ "DescriptionE" SG_ 929 METER_LKAS_BUZZER_SETUP "Setting bits for customizing LKAS buzzer sound";
+BA_ "GenSigStartValue" SG_ 929 METER_LKAS_BUZZER_SETUP 0;
+BA_ "ValueTableE" SG_ 929 METER_LKAS_BUZZER_SETUP "0: Available
+
+1: Not available";
+BA_ "DescriptionE" SG_ 929 METER_RDM_STATUS "RDM mode customize data";
+BA_ "GenSigStartValue" SG_ 929 METER_RDM_STATUS 0;
+BA_ "ValueTableE" SG_ 929 METER_RDM_STATUS "0: 'RDM NORMAL'
+
+1: 'RDM LATER'
+
+2: 'WARNING ONLY'";
+BA_ "DescriptionE" SG_ 929 METER_ACC_BUZZER_SETUP "Setting bits for customizing the ACC advance warning sound";
+BA_ "GenSigStartValue" SG_ 929 METER_ACC_BUZZER_SETUP 0;
+BA_ "ValueTableE" SG_ 929 METER_ACC_BUZZER_SETUP "0: Available
+
+1: Not available";
+BA_ "DescriptionE" SG_ 929 METER_SIF_STATUS "SIF ON/OFF customize data";
+BA_ "GenSigStartValue" SG_ 929 METER_SIF_STATUS 0;
+BA_ "ValueTableE" SG_ 929 METER_SIF_STATUS "0: 'SIF NORMAL'
+
+1: 'SIF EARLY'
+
+2: 'SIF OFF'";
+BA_ "DescriptionE" SG_ 929 METER_IACC_SETUP_STATUS "Data for customizing i-ACC function ON/OFF";
+BA_ "GenSigStartValue" SG_ 929 METER_IACC_SETUP_STATUS 0;
+BA_ "ValueTableE" SG_ 929 METER_IACC_SETUP_STATUS "0: ON
+
+1: OFF";
+BA_ "CommentRxE" SG_ 929 METER_SAFETY_SW_STATUS_LSAEB "TLI";
+BA_ "DescriptionE" SG_ 929 METER_SAFETY_SW_STATUS_LSAEB "LSAEB ON/OFF requirement ";
+BA_ "GenSigStartValue" SG_ 929 METER_SAFETY_SW_STATUS_LSAEB 0;
+BA_ "ValueTableE" SG_ 929 METER_SAFETY_SW_STATUS_LSAEB "0: OFF
+
+1: ON";
+BA_ "DescriptionE" SG_ 929 METER_SAFETY_SW_STATUS_BSI "BSI ON/OFF requirement ";
+BA_ "GenSigStartValue" SG_ 929 METER_SAFETY_SW_STATUS_BSI 0;
+BA_ "ValueTableE" SG_ 929 METER_SAFETY_SW_STATUS_BSI "0: OFF
+
+1: ON";
+BA_ "CommentRxE" SG_ 929 METER_SAFETY_SW_STATUS_RDM "SCM";
+BA_ "DescriptionE" SG_ 929 METER_SAFETY_SW_STATUS_RDM "RDM ON/OFF requirement ";
+BA_ "GenSigStartValue" SG_ 929 METER_SAFETY_SW_STATUS_RDM 0;
+BA_ "ValueTableE" SG_ 929 METER_SAFETY_SW_STATUS_RDM "0: OFF
+
+1: ON";
+BA_ "CommentRxE" SG_ 929 METER_SAFETY_SW_STATUS_FCTW "ACC,RDM,SCM,CMBS,FCTW,LKAS,ALCA,TLI";
+BA_ "DescriptionE" SG_ 929 METER_SAFETY_SW_STATUS_FCTW "FCTW ON/OFF requirement ";
+BA_ "GenSigStartValue" SG_ 929 METER_SAFETY_SW_STATUS_FCTW 0;
+BA_ "ValueTableE" SG_ 929 METER_SAFETY_SW_STATUS_FCTW "0: OFF
+
+1: ON";
+BA_ "CommentRxE" SG_ 929 METER_BSI_SCM_CUST_RESULT "RDM,SCM,CMBS,FCTW,LKAS,ALCA,TLI,ACC";
+BA_ "DescriptionE" SG_ 929 METER_BSI_SCM_CUST_RESULT "SCM setting";
+BA_ "GenSigStartValue" SG_ 929 METER_BSI_SCM_CUST_RESULT 0;
+BA_ "ValueTableE" SG_ 929 METER_BSI_SCM_CUST_RESULT "0: Steering Assist and Audible and Visual
+
+1: Audible and Visual
+
+2: Visual only
+
+3: Not use";
+BA_ "DescriptionE" SG_ 929 METER_ALC_CUST_ONOFF "ALCA ONOFF setting feedback from METER";
+BA_ "GenSigStartValue" SG_ 929 METER_ALC_CUST_ONOFF 0;
+BA_ "ValueTableE" SG_ 929 METER_ALC_CUST_ONOFF "0: ON
+
+1: OFF";
+BA_ "GenSigStartValue" SG_ 929 METER_ACC_CSA_STATUS 0;
+BA_ "ValueTableE" SG_ 929 METER_ACC_CSA_STATUS "0: Normal
+
+1: Slow
+
+2: Fast
+
+3: No Deceleration";
+BA_ "CommentRxE" SG_ 929 METER_CHECKSUM_3A1 "(ALCA)
+For Surroundings Detection Monitor";
+BA_ "DescriptionE" SG_ 929 METER_CHECKSUM_3A1 "checksum";
+BA_ "GenSigStartValue" SG_ 929 METER_CHECKSUM_3A1 0;
+BA_ "CommentRxE" SG_ 929 METER_ALIVE_COUNTER_3A1 "(ALCA)
+For Surroundings Detection Monitor";
+BA_ "DescriptionE" SG_ 929 METER_ALIVE_COUNTER_3A1 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 929 METER_ALIVE_COUNTER_3A1 0;
+BA_ "CommentRxE" SG_ 929 METER_CUSTOM_DEFAULT "(ALCA)
+For Surroundings Detection Monitor";
+BA_ "DescriptionE" SG_ 929 METER_CUSTOM_DEFAULT "Request of factory default
+When meter request to be factory default value, transmit '1' for 3sec.";
+BA_ "GenSigStartValue" SG_ 929 METER_CUSTOM_DEFAULT 0;
+BA_ "ValueTableE" SG_ 929 METER_CUSTOM_DEFAULT "0: Do not request
+
+1: Request";
+BA_ "CommentRxE" SG_ 929 METER_CUSTOM_STATUS "(ALCA)
+For Surroundings Detection Monitor";
+BA_ "DescriptionE" SG_ 929 METER_CUSTOM_STATUS "Customized setting status";
+BA_ "GenSigStartValue" SG_ 929 METER_CUSTOM_STATUS 0;
+BA_ "ValueTableE" SG_ 929 METER_CUSTOM_STATUS "0: OFF
+
+1: Customizing";
+BA_ "CommentRxE" SG_ 1302 METER_ODO_DATA "CMBS";
+BA_ "DescriptionE" SG_ 1302 METER_ODO_DATA "Odometry";
+BA_ "GenSigStartValue" SG_ 1302 METER_ODO_DATA 0;
+BA_ "CommentRxE" SG_ 1302 METER_DATAFAIL_FOR_ACCIND "ALCA";
+BA_ "DescriptionE" SG_ 1302 METER_DATAFAIL_FOR_ACCIND "ACC DataFail Status (METER's detection)";
+BA_ "GenSigStartValue" SG_ 1302 METER_DATAFAIL_FOR_ACCIND 0;
+BA_ "ValueTableE" SG_ 1302 METER_DATAFAIL_FOR_ACCIND "0: Normal
+
+1: Abnormal";
+BA_ "DescriptionE" SG_ 1302 METER_ASL_CAN_ERROR "ASL CANID Receive Status";
+BA_ "GenSigStartValue" SG_ 1302 METER_ASL_CAN_ERROR 0;
+BA_ "ValueTableE" SG_ 1302 METER_ASL_CAN_ERROR "0: No Error
+
+1: CAN error confirmed";
+BA_ "DescriptionE" SG_ 1302 METER_BCAN_FAILCODE_MCU_UNIT "MICU Communication failure flag";
+BA_ "GenSigStartValue" SG_ 1302 METER_BCAN_FAILCODE_MCU_UNIT 0;
+BA_ "ValueTableE" SG_ 1302 METER_BCAN_FAILCODE_MCU_UNIT "1: MICU communication failure
+
+0: no failure";
+BA_ "DescriptionE" SG_ 1302 METER_BCAN_FAILCODE_COMB_UNIT "BCAN Communication Error Flag";
+BA_ "GenSigStartValue" SG_ 1302 METER_BCAN_FAILCODE_COMB_UNIT 0;
+BA_ "ValueTableE" SG_ 1302 METER_BCAN_FAILCODE_COMB_UNIT "1: COMB unit failure
+
+0: no failure";
+BA_ "DescriptionE" SG_ 1302 METER_BCAN_FAILCODE_BCAN "BCAN  Failure(Bus-OFF) Flag";
+BA_ "GenSigStartValue" SG_ 1302 METER_BCAN_FAILCODE_BCAN 0;
+BA_ "ValueTableE" SG_ 1302 METER_BCAN_FAILCODE_BCAN "1: B_CAN failure
+
+0: no failure";
+BA_ "DescriptionE" SG_ 1302 METER_CHECKSUM_516 "checksum";
+BA_ "GenSigStartValue" SG_ 1302 METER_CHECKSUM_516 0;
+BA_ "DescriptionE" SG_ 1302 METER_ALIVE_COUNTER_516 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 1302 METER_ALIVE_COUNTER_516 0;
+BA_ "DescriptionE" SG_ 2261603669 PARKSR_REQ_BRAKE_CTRL "Brake control request flag of PKSwB";
+BA_ "GenSigStartValue" SG_ 2261603669 PARKSR_REQ_BRAKE_CTRL 0;
+BA_ "ValueTableE" SG_ 2261603669 PARKSR_REQ_BRAKE_CTRL "1: PKS collision damage mitigation brake control requirements
+
+0: PKS collision damage mitigation brake control is not required.";
+BA_ "DescriptionE" SG_ 2261603669 PARKSR_REQ_CMTC_CTRL "CMTC Control Request Flag
+";
+BA_ "GenSigStartValue" SG_ 2261603669 PARKSR_REQ_CMTC_CTRL 0;
+BA_ "ValueTableE" SG_ 2261603669 PARKSR_REQ_CMTC_CTRL "0: CMTC Control Requirements
+
+1: CMTC Defense Requirements
+
+2: In the CMTC release request";
+BA_ "DescriptionE" SG_ 2261603669 PARKSR_CHECKSUM_06CD5555 "checksum";
+BA_ "GenSigStartValue" SG_ 2261603669 PARKSR_CHECKSUM_06CD5555 0;
+BA_ "DescriptionE" SG_ 2261603669 PARKSR_ALIVE_COUNTER_06CD5555 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 2261603669 PARKSR_ALIVE_COUNTER_06CD5555 0;
+BA_ "DescriptionE" SG_ 2588256850 HUD_CHECKSUM_1A45AA52 "checksum";
+BA_ "GenSigStartValue" SG_ 2588256850 HUD_CHECKSUM_1A45AA52 0;
+BA_ "DescriptionE" SG_ 2588256850 HUD_ALIVE_COUNTER_1A45AA52 "Incremented by 1 every time a packet is refreshed.
+(0 to 3 ring counters)";
+BA_ "GenSigStartValue" SG_ 2588256850 HUD_ALIVE_COUNTER_1A45AA52 0;

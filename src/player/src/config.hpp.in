@@ -1,0 +1,15 @@
+#pragma once
+
+#include <mts/platform/filesystem.hpp>
+
+static std::filesystem::path get_test_data_directory()
+{
+	std::filesystem::path path = "@TEST_DATA_DIR@";
+	return path;
+}
+
+static std::string get_test_data_filname()
+{
+	std::string file = "@TEST_DATA_FILE@";
+	return file;
+}

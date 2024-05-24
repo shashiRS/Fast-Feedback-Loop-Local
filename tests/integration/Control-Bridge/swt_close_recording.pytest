@@ -1,0 +1,56 @@
+"""
+    Copyright 2022 Continental Corporation
+
+    :file: swt_close_recording.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script containing test case(s) for closing a recording over the controllbridge
+
+    :author:
+        - Fabian Janker (uif41320) <fabian.janker@continental-corporation.com>
+        - Alexandru Buraga (uic928270) <alexandru.2.buraga@continental-corporation.com>
+"""
+
+from helper_files.General import global_Variables
+from helper_files.ControlBridge import controlbridge_Variables
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.report import (
+    DETAILS,
+    EXPECTED,
+    PRECONDITION,
+    TESTSTEP,
+    TESTTAG,
+    VERIFIES,
+)
+from ptf.verify_utils import ptf_asserts, ptf_expects
+
+
+def SWT_REC_CLOSING_TEST():
+    DETAILS("Test case to check if the event of closing the recording is correctly")
+
+    VERIFIES("The test is verifying, that the event is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("controlbridge")
+
+    PRECONDITION("ControlBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge")
+
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    TESTSTEP("Load recording.")
+    # sending the message to load a recording into the player
+    recording_path = global_Variables.recording_dir()
+    recv_load_recording = next_api.execute.load_recording(recording_path)
+    ptf_asserts.verify(bool(recv_load_recording["event"]), True, "Timeout while loading the recording. Message received: {}".format(recv_load_recording))
+    TESTSTEP("Recording is loaded")
+
+    TESTSTEP("Close recording.")
+    EXPECTED("event: SimulationStateIsIdle")
+    recv_close_recording = next_api.execute.close_recording()
+    ptf_asserts.verify(bool(recv_close_recording), True, "Timeout while closing the recording. Message received: {}".format(recv_close_recording))
+    TESTSTEP("Recording is closed")

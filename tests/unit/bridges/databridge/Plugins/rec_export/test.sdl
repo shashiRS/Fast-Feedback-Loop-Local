@@ -1,0 +1,13 @@
+<SdlFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsd:noNamespaceSchemaLocation="sdl2-after-compiler.xsd" ByteAlignment="4" Version="2.0">
+	<View Name="ALGO_01" CycleID="3">
+		<Group Name="SMyStruct_t" Address="24000000" ArrayLen="1" Size="32">
+			<Signal Name="version" Offset="0" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+			<Signal Name="counter" Offset="4" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+			<Signal Name="a" Offset="8" ArrayLen="1" Type="double" Bitmask="ffffffffffffffff" ByteOrder="little-endian" Size="8"/>
+			<Signal Name="b" Offset="10" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+			<Signal Name="c" Offset="14" ArrayLen="1" Type="long" Bitmask="ffffffff" ByteOrder="little-endian" Size="4"/>
+			<Signal Name="d" Offset="18" ArrayLen="1" Type="short" Bitmask="ffff" ByteOrder="little-endian" Size="2"/>
+			<Signal Name="e" Offset="1A" ArrayLen="1" Type="char" Bitmask="ff" ByteOrder="little-endian" Size="1"/>
+		</Group>
+	</View>
+</SdlFile>

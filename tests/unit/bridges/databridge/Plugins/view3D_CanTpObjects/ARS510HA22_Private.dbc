@@ -1,0 +1,145 @@
+VERSION ""
+
+BS_:
+
+BU_: ARS510HA10_Private ADCU
+
+
+
+BO_ 710 ARS_OBJ_00_01: 64 ARS510HA10_Private
+ SG_ E2E_CRC16_OBJ_00_01 : 7|16@0+ (1,0) [0|65535] ""  ADCU
+ SG_ E2E_SeqCounter_OBJ_00_01 : 23|8@0+ (1,0) [0|255] ""  ADCU
+ SG_ uiMsgCounter_OBJ_00_01 : 35|4@0+ (1,0) [0|15] ""  ADCU
+ SG_ uiID_OBJ_00 : 47|6@0+ (1,0) [0|62] ""  ADCU
+ SG_ uiSplitID_OBJ_00 : 41|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ eMaintenanceState_OBJ_00 : 55|3@0+ (1,0) [0|7] ""  ADCU
+ SG_ fArelYStd_OBJ_00 : 52|5@0+ (0.35,0) [0|10.85] "m/s^2"  ADCU
+ SG_ fArelY_OBJ_00 : 63|10@0+ (0.125,-44.5) [-44.5|44.5] "m/s^2"  ADCU
+ SG_ fArelXStd_OBJ_00 : 69|5@0+ (0.35,0) [0|10.85] "m/s^2"  ADCU
+ SG_ fArelX_OBJ_00 : 64|10@0+ (0.125,-44.5) [-44.5|44.5] "m/s^2"  ADCU
+ SG_ fVrelYStd_OBJ_00 : 86|6@0+ (0.2,0) [0|12.6] "m/s"  ADCU
+ SG_ fVrelY_OBJ_00 : 80|11@0+ (0.125,-128) [-128|127.875] "m/s"  ADCU
+ SG_ fVrelXStd_OBJ_00 : 101|6@0+ (0.2,0) [0|12.6] "m/s"  ADCU
+ SG_ fVrelX_OBJ_00 : 111|11@0+ (0.125,-128) [-128|127.875] "m/s"  ADCU
+ SG_ fDistYStd_OBJ_00 : 116|8@0+ (0.1,0) [0|25.5] "m"  ADCU
+ SG_ fDistY_OBJ_00 : 124|13@0+ (0.0625,-255.9375) [-255.9375|255.9375] "m"  ADCU
+ SG_ fDistXStd_OBJ_00 : 143|8@0+ (0.05,0) [0|12.75] "m"  ADCU
+ SG_ fDistX_OBJ_00 : 151|13@0+ (0.0625,-255.9375) [-255.9375|255.9375] "m"  ADCU
+ SG_ fOrientation_OBJ_00 : 154|10@0+ (0.01,-3.15) [-3.15|3.15] "rad"  ADCU
+ SG_ fWidth_OBJ_00 : 160|7@0+ (0.2,0) [0|15] "m"  ADCU
+ SG_ eFOVOverlapFar_OBJ_00 : 179|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ uiDynConfidence_OBJ_00 : 190|3@0+ (1,0) [0|7] "%"  ADCU
+ SG_  uiObstacleProbability_OBJ_00 : 187|3@0+(1.0,0.0) [0.0|7.0] "" ADCU
+ SG_ fRCS_OBJ_00 : 184|11@0+ (0.1,-100) [-100|100] "dBm"  ADCU
+ SG_ fSNR_OBJ_00 : 205|11@0+ (0.1,-100) [-100|100] "dBm"  ADCU
+ SG_ bPedMicroDoppler_OBJ_00 : 210|1@0+ (1,0) [0|1] ""  ADCU
+ SG_ eClassification_OBJ_00 : 209|4@0+ (1,0) [0|15] ""  ADCU
+ SG_ uiClassConfidence_OBJ_00 : 221|3@0+ (1,0) [0|7] "%"  ADCU
+ SG_ uiProbabilityOfExistence_OBJ_00 : 218|7@0+ (1,0) [0|100] "%"  ADCU
+ SG_ fOrientationStd_OBJ_00 : 238|4@0+ (0.1,0) [0.1|1.5] ""  ADCU
+ SG_ flength_OBJ_00 : 234|8@0+ (0.2,0) [0|30] "m"  ADCU
+ SG_ eRefPointPos_OBJ_00 : 240|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ eBoxCutStatus_OBJ_00 : 254|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ uiLifeCycles_OBJ_00 : 252|7@0+ (1,0) [0|127] ""  ADCU
+ SG_ eDynamicProperty_OBJ_00 : 268|4@0+ (1,0) [0|15] ""  ADCU
+ SG_ uiID_OBJ_01 : 279|6@0+ (1,0) [0|62] ""  ADCU
+ SG_ uiSplitID_OBJ_01 : 273|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ eMaintenanceState_OBJ_01 : 287|3@0+ (1,0) [0|7] ""  ADCU
+ SG_ fArelYStd_OBJ_01 : 284|5@0+ (0.35,0) [0|10.85] "m/s^2"  ADCU
+ SG_ fArelY_OBJ_01 : 295|10@0+ (0.125,-44.5) [-44.5|44.5] "m/s^2"  ADCU
+ SG_ fArelXStd_OBJ_01 : 301|5@0+ (0.35,0) [0|10.85] "m/s^2"  ADCU
+ SG_ fArelX_OBJ_01 : 296|10@0+ (0.125,-44.5) [-44.5|44.5] "m/s^2"  ADCU
+ SG_ fVrelYStd_OBJ_01 : 318|6@0+ (0.2,0) [0|12.6] "m/s"  ADCU
+ SG_ fVrelY_OBJ_01 : 312|11@0+ (0.125,-128) [-128|127.875] "m/s"  ADCU
+ SG_ fVrelXStd_OBJ_01 : 333|6@0+ (0.2,0) [0|12.6] "m/s"  ADCU
+ SG_ fVrelX_OBJ_01 : 343|11@0+ (0.125,-128) [-128|127.875] "m/s"  ADCU
+ SG_ fDistYStd_OBJ_01 : 348|8@0+ (0.1,0) [0|25.5] "m"  ADCU
+ SG_ fDistY_OBJ_01 : 356|13@0+ (0.0625,-255.9375) [-255.9375|255.9375] "m"  ADCU
+ SG_ fDistXStd_OBJ_01 : 375|8@0+ (0.05,0) [0|12.75] "m"  ADCU
+ SG_ fDistX_OBJ_01 : 383|13@0+ (0.0625,-255.9375) [-255.9375|255.9375] "m"  ADCU
+ SG_ fOrientation_OBJ_01 : 386|10@0+ (0.01,-3.15) [-3.15|3.15] "rad"  ADCU
+ SG_ fWidth_OBJ_01 : 392|7@0+ (0.2,0) [0|15] "m"  ADCU
+ SG_ eFOVOverlapFar_OBJ_01 : 411|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ uiDynConfidence_OBJ_01 : 422|3@0+ (1,0) [0|7] "%"  ADCU
+ SG_  uiObstacleProbability_OBJ_01 : 419|3@0+(1.0,0.0) [0.0|7.0] "" ADCU
+ SG_ fRCS_OBJ_01 : 416|11@0+ (0.1,-100) [-100|100] "dBm"  ADCU
+ SG_ fSNR_OBJ_01 : 437|11@0+ (0.1,-100) [-100|100] "dBm"  ADCU
+ SG_ bPedMicroDoppler_OBJ_01 : 442|1@0+ (1,0) [0|1] ""  ADCU
+ SG_ eClassification_OBJ_01 : 441|4@0+ (1,0) [0|15] ""  ADCU
+ SG_ uiClassConfidence_OBJ_01 : 453|3@0+ (1,0) [0|7] "%"  ADCU
+ SG_ uiProbabilityOfExistence_OBJ_01 : 450|7@0+ (1,0) [0|100] "%"  ADCU
+ SG_ fOrientationStd_OBJ_01 : 470|4@0+ (0.1,0) [0.1|1.5] ""  ADCU
+ SG_ flength_OBJ_01 : 466|8@0+ (0.2,0) [0|30] "m"  ADCU
+ SG_ eRefPointPos_OBJ_01 : 472|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ eBoxCutStatus_OBJ_01 : 486|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ uiLifeCycles_OBJ_01 : 484|7@0+ (1,0) [0|127] ""  ADCU
+ SG_ eDynamicProperty_OBJ_01 : 500|4@0+ (1,0) [0|15] ""  ADCU
+
+BO_ 711 ARS_OBJ_02_03: 64 ARS510HA10_Private
+ SG_ E2E_CRC16_OBJ_02_03 : 7|16@0+ (1,0) [0|65535] ""  ADCU
+ SG_ E2E_SeqCounter_OBJ_02_03 : 23|8@0+ (1,0) [0|255] ""  ADCU
+ SG_ uiMsgCounter_OBJ_02_03 : 35|4@0+ (1,0) [0|15] ""  ADCU
+ SG_ uiID_OBJ_02 : 47|6@0+ (1,0) [0|62] ""  ADCU
+ SG_ uiSplitID_OBJ_02 : 41|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ eMaintenanceState_OBJ_02 : 55|3@0+ (1,0) [0|7] ""  ADCU
+ SG_ fArelYStd_OBJ_02 : 52|5@0+ (0.35,0) [0|10.85] "m/s^2"  ADCU
+ SG_ fArelY_OBJ_02 : 63|10@0+ (0.125,-44.5) [-44.5|44.5] "m/s^2"  ADCU
+ SG_ fArelXStd_OBJ_02 : 69|5@0+ (0.35,0) [0|10.85] "m/s^2"  ADCU
+ SG_ fArelX_OBJ_02 : 64|10@0+ (0.125,-44.5) [-44.5|44.5] "m/s^2"  ADCU
+ SG_ fVrelYStd_OBJ_02 : 86|6@0+ (0.2,0) [0|12.6] "m/s"  ADCU
+ SG_ fVrelY_OBJ_02 : 80|11@0+ (0.125,-128) [-128|127.875] "m/s"  ADCU
+ SG_ fVrelXStd_OBJ_02 : 101|6@0+ (0.2,0) [0|12.6] "m/s"  ADCU
+ SG_ fVrelX_OBJ_02 : 111|11@0+ (0.125,-128) [-128|127.875] "m/s"  ADCU
+ SG_ fDistYStd_OBJ_02 : 116|8@0+ (0.1,0) [0|25.5] "m"  ADCU
+ SG_ fDistY_OBJ_02 : 124|13@0+ (0.0625,-255.9375) [-255.9375|255.9375] "m"  ADCU
+ SG_ fDistXStd_OBJ_02 : 143|8@0+ (0.05,0) [0|12.75] "m"  ADCU
+ SG_ fDistX_OBJ_02 : 151|13@0+ (0.0625,-255.9375) [-255.9375|255.9375] "m"  ADCU
+ SG_ fOrientation_OBJ_02 : 154|10@0+ (0.01,-3.15) [-3.15|3.15] "rad"  ADCU
+ SG_ fWidth_OBJ_02 : 160|7@0+ (0.2,0) [0|15] "m"  ADCU
+ SG_ eFOVOverlapFar_OBJ_02 : 179|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ uiDynConfidence_OBJ_02 : 190|3@0+ (1,0) [0|7] "%"  ADCU
+ SG_  uiObstacleProbability_OBJ_02 : 187|3@0+(1.0,0.0) [0.0|7.0] "" ADCU
+ SG_ fRCS_OBJ_02 : 184|11@0+ (0.1,-100) [-100|100] "dBm"  ADCU
+ SG_ fSNR_OBJ_02 : 205|11@0+ (0.1,-100) [-100|100] "dBm"  ADCU
+ SG_ bPedMicroDoppler_OBJ_02 : 210|1@0+ (1,0) [0|1] ""  ADCU
+ SG_ eClassification_OBJ_02 : 209|4@0+ (1,0) [0|15] ""  ADCU
+ SG_ uiClassConfidence_OBJ_02 : 221|3@0+ (1,0) [0|7] "%"  ADCU
+ SG_ uiProbabilityOfExistence_OBJ_02 : 218|7@0+ (1,0) [0|100] "%"  ADCU
+ SG_ fOrientationStd_OBJ_02 : 238|4@0+ (0.1,0) [0.1|1.5] ""  ADCU
+ SG_ flength_OBJ_02 : 234|8@0+ (0.2,0) [0|30] "m"  ADCU
+ SG_ eRefPointPos_OBJ_02 : 240|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ eBoxCutStatus_OBJ_02 : 254|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ uiLifeCycles_OBJ_02 : 252|7@0+ (1,0) [0|127] ""  ADCU
+ SG_ eDynamicProperty_OBJ_02 : 268|4@0+ (1,0) [0|15] ""  ADCU
+ SG_ uiID_OBJ_03 : 279|6@0+ (1,0) [0|62] ""  ADCU
+ SG_ uiSplitID_OBJ_03 : 273|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ eMaintenanceState_OBJ_03 : 287|3@0+ (1,0) [0|7] ""  ADCU
+ SG_ fArelYStd_OBJ_03 : 284|5@0+ (0.35,0) [0|10.85] "m/s^2"  ADCU
+ SG_ fArelY_OBJ_03 : 295|10@0+ (0.125,-44.5) [-44.5|44.5] "m/s^2"  ADCU
+ SG_ fArelXStd_OBJ_03 : 301|5@0+ (0.35,0) [0|10.85] "m/s^2"  ADCU
+ SG_ fArelX_OBJ_03 : 296|10@0+ (0.125,-44.5) [-44.5|44.5] "m/s^2"  ADCU
+ SG_ fVrelYStd_OBJ_03 : 318|6@0+ (0.2,0) [0|12.6] "m/s"  ADCU
+ SG_ fVrelY_OBJ_03 : 312|11@0+ (0.125,-128) [-128|127.875] "m/s"  ADCU
+ SG_ fVrelXStd_OBJ_03 : 333|6@0+ (0.2,0) [0|12.6] "m/s"  ADCU
+ SG_ fVrelX_OBJ_03 : 343|11@0+ (0.125,-128) [-128|127.875] "m/s"  ADCU
+ SG_ fDistYStd_OBJ_03 : 348|8@0+ (0.1,0) [0|25.5] "m"  ADCU
+ SG_ fDistY_OBJ_03 : 356|13@0+ (0.0625,-255.9375) [-255.9375|255.9375] "m"  ADCU
+ SG_ fDistXStd_OBJ_03 : 375|8@0+ (0.05,0) [0|12.75] "m"  ADCU
+ SG_ fDistX_OBJ_03 : 383|13@0+ (0.0625,-255.9375) [-255.9375|255.9375] "m"  ADCU
+ SG_ fOrientation_OBJ_03 : 386|10@0+ (0.01,-3.15) [-3.15|3.15] "rad"  ADCU
+ SG_ fWidth_OBJ_03 : 392|7@0+ (0.2,0) [0|15] "m"  ADCU
+ SG_ eFOVOverlapFar_OBJ_03 : 411|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ uiDynConfidence_OBJ_03 : 422|3@0+ (1,0) [0|7] "%"  ADCU
+ SG_  uiObstacleProbability_OBJ_03 : 419|3@0+(1.0,0.0) [0.0|7.0] "" ADCU
+ SG_ fRCS_OBJ_03 : 416|11@0+ (0.1,-100) [-100|100] "dBm"  ADCU
+ SG_ fSNR_OBJ_03 : 437|11@0+ (0.1,-100) [-100|100] "dBm"  ADCU
+ SG_ bPedMicroDoppler_OBJ_03 : 442|1@0+ (1,0) [0|1] ""  ADCU
+ SG_ eClassification_OBJ_03 : 441|4@0+ (1,0) [0|15] ""  ADCU
+ SG_ uiClassConfidence_OBJ_03 : 453|3@0+ (1,0) [0|7] "%"  ADCU
+ SG_ uiProbabilityOfExistence_OBJ_03 : 450|7@0+ (1,0) [0|100] "%"  ADCU
+ SG_ fOrientationStd_OBJ_03 : 470|4@0+ (0.1,0) [0.1|1.5] ""  ADCU
+ SG_ flength_OBJ_03 : 466|8@0+ (0.2,0) [0|30] "m"  ADCU
+ SG_ eRefPointPos_OBJ_03 : 472|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ eBoxCutStatus_OBJ_03 : 486|2@0+ (1,0) [0|3] ""  ADCU
+ SG_ uiLifeCycles_OBJ_03 : 484|7@0+ (1,0) [0|127] ""  ADCU
+ SG_ eDynamicProperty_OBJ_03 : 500|4@0+ (1,0) [0|15] ""  ADCU

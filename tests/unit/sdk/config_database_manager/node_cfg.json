@@ -1,0 +1,84 @@
+{
+  "list_check_test": {
+    "normal_variable": "val1",
+    "array_value": [ "val1", "val2" ],
+    "object_array": [
+      {
+        "dummy": "val",
+        "dummy1": "val"
+      },
+      {
+        "dummy": "val",
+        "dummy1": "val"
+      }
+    ]
+  },
+  "local": {
+    "active_state": "init",
+    "active_name": "CEM200_COH"
+  },
+  "CEM200_COH": {
+    "version": "0.0.1",
+    "m_pEmlInputIf": [
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+          "CEM200_FCU.ARSSepTuple3_Fcu"
+        ],
+    "in_port": {
+      "my_special_port": {
+        "port_version": "0.0.1",
+        "port_vaddr": "0x5000",
+        "data_type_size[a]": 30,
+        "data_type_name": "debug_port_1"
+      },
+      "m_pSefInputIf": {
+        "port_version": "0.0.1",
+        "port_vaddr": "0x9000",
+        "data_type_size": 1234,
+        "data_type_name": "m_pSefInputIf",
+        "gia_dll": "coh_gia.dll",
+        "sync": {
+          "sync_timestamp": 35,
+          "sync_id": 1,
+          "sync_type": "timestamp"
+        }
+      },
+      "m_pEmlInputIf": {
+        "port_version": "0.0.1",
+        "port_vaddr": "0x9100",
+        "data_size": 1234,
+        "data_name": "m_pEmlInputIf",
+        "gia_dll": "coh_gia.dll",
+        "sync": {
+          "sync_timestamp": 35,
+          "sync_id": 1,
+          "sync_type": "timestamp"
+        }
+      }
+    },
+    "out_port": {
+      "m_dcrInterface": {
+        "port_name": "m_dcrInterface",
+        "port_version": "0.0.1",
+        "port_vaddr": "0x9000",
+        "data_descriptionfile": "coh.sdl",
+        "data_size": 1234
+      }
+    },
+    "composition": {
+      "active": {
+        "m_pEmlInputIf": "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+        "m_pSefInputIf": "CEM200_TPF2.m_tpObjectList"
+      },
+      "alternates": {
+        "m_pEmlInputIf": [
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+          "CEM200_FCU.ARSSepTuple3_Fcu"
+        ],
+        "m_pSefInputIf": [
+          "CEM200_TPF2.m_tpObjectList",
+          "MFC5xx Device.TPF2.m_tpObjectList"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "next_player": {
+    "orchestrator": {
+      "flowCycleStart": {
+        "meta": {
+          "delay": 0,
+          "sync": 1
+        },
+        "type": "cycle_start",
+        "value": "123",
+        "clients": {
+          "some_component": {
+            "runSequencer_response": {},
+            "runSequencer_response2": {
+            }
+          }
+        }
+      },
+      "flowCycleEnd": {
+        "meta": {
+          "delay": 10,
+          "sync": 1
+        },
+        "type": "cycle_ed",
+        "value": "123",
+        "clients": {
+          "some_component": {
+            "runSequencer_response": {},
+            "runSequencer_response2": {
+            }
+          }
+        }
+      }
+    }
+  }
+}

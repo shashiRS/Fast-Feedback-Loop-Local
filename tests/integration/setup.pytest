@@ -1,0 +1,159 @@
+"""
+    Copyright 2022 Continental Corporation
+
+    This file contains up to four methods that will be called by the test framework:
+        - global_setup(): Will be called before ALL test-cases
+        - setup(): Will be called before EACH test-case
+        - teardown(): Will be called after EACH test-case. Will also be called if test-case fails.
+        - global_teardown(): Will be called after ALL test-cases.
+                             Will be called if any execution before fails.
+
+    :file: setup.pytest
+
+    :author:
+        - Fabian Janker (uif41320) <fabian.janker@continental-corporation.com>
+"""
+import os
+import shutil
+
+from helper_files.ControlBridge import controlbridge_Variables
+from helper_files.General import global_Variables
+# Disabling linting as we only need path extension for Contest
+from next_api_path import path_import_extension  # noqa:F401
+from ptf.ptf_utils.global_params import get_parameter, set_global_parameter, clear_global_params
+from ptf.tools_utils import common
+from ptf.verify_utils import ptf_asserts
+
+needed_packages = [("websocket-client", "1.3.1"), ("jsonschema", "4.0.0")]
+for package in needed_packages:
+    common.install_pip_pkg(package[0], package[1])
+
+# Disabling linting as we need to import ptf common before we can install packages and need to install packages
+# before we can import the python api. might get fixed with wheel package
+import next_api as next_  # noqa: E402
+from api_variables import global_vars
+
+
+def global_setup():
+    """
+    This method will be called before ALL test-cases are executed.
+
+    You can set global variables with :func:`set_global_parameter`.
+    Will skip execution of tests if this method fails.
+    """
+    # deleting the folder signal_storage for a defined and clean start
+    if os.path.isdir(os.path.join(os.path.expanduser("~"), "mts")):
+        if os.path.isdir(os.path.join(os.path.expanduser("~"), "mts", "signal_storage")):
+            shutil.rmtree(os.path.join(os.path.expanduser("~"), "mts", "signal_storage"))
+
+    # saving the path of the test in current_path
+    setup_path = os.path.dirname(os.path.realpath(__file__))
+    backend_config = global_vars.BackendConfig()
+    backend_config.backend_directory = global_Variables.EXE_DIR
+    # add ECAL_DATA environment variable
+    # TODO: Should be configurable via NextAPI that as source for the ECAL_DATA environment variable "backend_config.backend_directory" is used and that it's set inside NextAPI
+    # (additionally to config file)
+    os.environ["PREV_ECAL_DATA"] = ""
+    if os.getenv("ECAL_DATA"):
+        os.environ["PREV_ECAL_DATA"] = os.getenv("ECAL_DATA")
+    os.environ["ECAL_DATA"] = backend_config.backend_directory
+    next_api = next_.NextAPI(backend_config=backend_config)
+    try:
+        next_api_start_succesfully = next_api.start_backend(timeout=60)
+    except SystemExit as exc:
+        next_api_start_succesfully = False
+    ptf_asserts.verify(next_api_start_succesfully, True, "Issue while starting Backend Nodes")
+
+    # set up the global variable for the player
+    set_global_parameter("next_api", next_api)
+
+    # changing the directory from the executable folder to the test folder back
+    os.chdir(setup_path)
+
+    # Checking if the executables are running
+    if next_api.process_handler.backend_nodes["next_controlbridge"].proc_instance.poll() is None:
+        print("ControlBridge is running...")
+    else:
+        print("ControlBridge has stopped!")
+
+    if next_api.process_handler.backend_nodes["next_databridge"].proc_instance.poll() is None:
+        print("DataBridge is running...")
+    else:
+        print("DataBridge has stopped!")
+
+    if next_api.process_handler.backend_nodes["next_player"].proc_instance.poll() is None:
+        print("Player is running...")
+    else:
+        print("Player has stopped!")
+
+
+def global_teardown():
+    """
+    This method will be called after ALL test-cases are executed.
+
+    You can access global variables with :func:`get_parameter`.
+    Guaranteed to be called, even if any test or global setup fails.
+    """
+    try:
+        next_api = get_parameter("next_api")
+        next_api.stop_backend()
+    except Exception as excep:
+        print(f"EXCEPTION: Could not stop the backend. Exception:{excep}")
+
+    if os.getenv("PREV_ECAL_DATA"):
+        if os.getenv("PREV_ECAL_DATA") == "":
+            del os.environ["ECAL_DATA"]
+        else:
+            os.environ["ECAL_DATA"] = os.getenv("PREV_ECAL_DATA")
+            del os.environ["PREV_ECAL_DATA"]
+
+    clear_global_params()
+
+
+
+def setup():
+    """
+    This method will be called before EACH test-case is executed.
+
+    You can set local variables just available for the next test-case
+    using :func:`set_local_parameter`.
+
+    You can access global variables with :func:`get_parameter`.
+
+    Will skip execution of test if this method fails.
+    Skipped if global setup fails.
+    """
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    # Checking if the executables are running
+    if next_api.process_handler.backend_nodes["next_controlbridge"].proc_instance.poll() is None:
+        print("ControlBridge is running...")
+    else:
+        print("ControlBridge has stopped!")
+
+    if next_api.process_handler.backend_nodes["next_databridge"].proc_instance.poll() is None:
+        print("DataBridge is running...")
+    else:
+        print("DataBridge has stopped!")
+
+    if next_api.process_handler.backend_nodes["next_player"].proc_instance.poll() is None:
+        print("Player is running...")
+    else:
+        print("Player has stopped!")
+
+
+def teardown():
+    """
+    This method will be called after EACH testcase is executed.
+
+    You can access global variables with :func:`get_parameter`.
+
+    Guaranteed to be called, even if the test or setup fails.
+    Skipped if global setup fails.
+    """
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    next_api.websocket.controlbridge.dump_cache(controlbridge_Variables.RECEIVE_CHANNEL_PLAYER)
+    next_api.websocket.databridge.dump_cache()

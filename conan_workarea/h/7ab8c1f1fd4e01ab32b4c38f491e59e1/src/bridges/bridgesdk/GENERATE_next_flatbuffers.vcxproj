@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2114F61-C608-3040-8FDA-B7DA14783707}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GENERATE_next_flatbuffers</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\9e2dee86253c656c7298bb5afef9398d\fov.bfbs.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../databridge/schema/fov.bfbs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\.bbs_conan\5238187\1\bin\flatc.exe -b --schema -o D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/databridge/schema D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/fov.fbs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\5238187\1\bin\flatc.exe;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\fov.fbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\fov.bfbs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\9e2dee86253c656c7298bb5afef9398d\path.bfbs.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../databridge/schema/path.bfbs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\.bbs_conan\5238187\1\bin\flatc.exe -b --schema -o D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/databridge/schema D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/path.fbs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\5238187\1\bin\flatc.exe;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\path.fbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\path.bfbs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\9e2dee86253c656c7298bb5afef9398d\roadsign.bfbs.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../databridge/schema/roadsign.bfbs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\.bbs_conan\5238187\1\bin\flatc.exe -b --schema -o D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/databridge/schema D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/roadsign.fbs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\5238187\1\bin\flatc.exe;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\roadsign.fbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\roadsign.bfbs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\9e2dee86253c656c7298bb5afef9398d\tunnel.bfbs.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../databridge/schema/tunnel.bfbs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\.bbs_conan\5238187\1\bin\flatc.exe -b --schema -o D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/databridge/schema D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/tunnel.fbs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\5238187\1\bin\flatc.exe;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\tunnel.fbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\tunnel.bfbs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\09b0c1e7130e659cd1afd51c67d9a598\fov_generated.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/fov.fbs flatbuffers...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\.bbs_conan\5238187\1\bin\flatc.exe -o D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/bridgesdk/next_flatbuffers/next/bridgesdk/schema/ -c D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/fov.fbs --scoped-enums --gen-object-api --include-prefix next/bridgesdk/schema/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\5238187\1\bin\flatc.exe;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\fov.fbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers\next\bridgesdk\schema\fov_generated.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\09b0c1e7130e659cd1afd51c67d9a598\path_generated.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/path.fbs flatbuffers...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\.bbs_conan\5238187\1\bin\flatc.exe -o D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/bridgesdk/next_flatbuffers/next/bridgesdk/schema/ -c D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/path.fbs --scoped-enums --gen-object-api --include-prefix next/bridgesdk/schema/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\5238187\1\bin\flatc.exe;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\path.fbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers\next\bridgesdk\schema\path_generated.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\09b0c1e7130e659cd1afd51c67d9a598\roadsign_generated.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/roadsign.fbs flatbuffers...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\.bbs_conan\5238187\1\bin\flatc.exe -o D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/bridgesdk/next_flatbuffers/next/bridgesdk/schema/ -c D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/roadsign.fbs --scoped-enums --gen-object-api --include-prefix next/bridgesdk/schema/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\5238187\1\bin\flatc.exe;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\roadsign.fbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers\next\bridgesdk\schema\roadsign_generated.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\09b0c1e7130e659cd1afd51c67d9a598\tunnel_generated.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/tunnel.fbs flatbuffers...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\.bbs_conan\5238187\1\bin\flatc.exe -o D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/bridgesdk/next_flatbuffers/next/bridgesdk/schema/ -c D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/tunnel.fbs --scoped-enums --gen-object-api --include-prefix next/bridgesdk/schema/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\5238187\1\bin\flatc.exe;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\tunnel.fbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers\next\bridgesdk\schema\tunnel_generated.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\5a38af170f6a1d99ae66b6ff7a5660df\GENERATE_next_flatbuffers.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating flatbuffer target next_flatbuffers</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers\next\bridgesdk\schema\fov_generated.h;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\fov.bfbs;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers\next\bridgesdk\schema\path_generated.h;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\path.bfbs;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers\next\bridgesdk\schema\roadsign_generated.h;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\roadsign.bfbs;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers\next\bridgesdk\schema\tunnel_generated.h;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\tunnel.bfbs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\CMakeFiles\GENERATE_next_flatbuffers</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -SD:/TATA/LATEST_NXT_REPO/next -BD:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --check-stamp-file D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/bridgesdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\cmake.verify_globs;D:\TATA\LATEST_NXT_REPO\next\src\cmake\version_info\version.h.in;D:\TATA\LATEST_NXT_REPO\next\src\cmake\version_info\version_info.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\CMakeFiles\GENERATE_next_flatbuffers">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\ZERO_CHECK.vcxproj">
+      <Project>{31315C89-0C78-3648-850D-699C75683780}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

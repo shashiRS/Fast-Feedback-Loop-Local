@@ -1,0 +1,4 @@
+add_subdirectory(event_tests)
+add_subdirectory(log_collector)
+add_subdirectory(orchestator_tests)
+

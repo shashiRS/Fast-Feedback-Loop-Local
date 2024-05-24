@@ -1,0 +1,109 @@
+<SdlFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" ByteAlignment="1" Version="2.0">
+    <View Name="AlgoVehCycle" CycleID="207">
+        <Group Name="VehDyn" Address="20350000" ArrayLen="1" Size="160">
+            <Signal Name="uiVersionNumber" Offset="0" ArrayLen="1" Type="ulong" Bitmask="ffffffff"
+                    ByteOrder="big-endian" Size="4"/>
+            <SubGroup Name="sSigHeader" Offset="4" ArrayLen="1" Size="12">
+                <Signal Name="uiTimeStamp" Offset="0" ArrayLen="1" Type="ulong" Bitmask="ffffffff"
+                        ByteOrder="big-endian" Size="4"/>
+                <Signal Name="uiMeasurementCounter" Offset="4" ArrayLen="1" Type="ushort" Bitmask="ffff"
+                        ByteOrder="big-endian" Size="2"/>
+                <Signal Name="uiCycleCounter" Offset="6" ArrayLen="1" Type="ushort" Bitmask="ffff"
+                        ByteOrder="big-endian" Size="2"/>
+                <Signal Name="eSigStatus" Offset="8" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+                        Size="1"/>
+                <Signal Name="a_reserve" Offset="9" ArrayLen="3" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+                        Size="1"/>
+            </SubGroup>
+            <SubGroup Name="Longitudinal" Offset="10" ArrayLen="1" Size="36">
+                <Signal Name="Velocity" Offset="0" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian"
+                        Size="4"/>
+                <Signal Name="VelocityTimestamp" Offset="4" ArrayLen="1" Type="ulong" Bitmask="ffffffff"
+                        ByteOrder="big-endian" Size="4"/>
+                <Signal Name="VelocityRaw" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                        ByteOrder="big-endian" Size="4"/>
+                <Signal Name="Accel" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian"
+                        Size="4"/>
+                <Signal Name="AccelTimestamp" Offset="10" ArrayLen="1" Type="ulong" Bitmask="ffffffff"
+                        ByteOrder="big-endian" Size="4"/>
+                <Signal Name="varVelocity" Offset="14" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                        ByteOrder="big-endian" Size="4"/>
+                <Signal Name="varAccel" Offset="18" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian"
+                        Size="4"/>
+                <Signal Name="VelCorrFact" Offset="1C" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                        ByteOrder="big-endian" Size="4"/>
+                <Signal Name="VelocityCorrectionQuality" Offset="20" ArrayLen="1" Type="uchar" Bitmask="ff"
+                        ByteOrder="big-endian" Size="1"/>
+            </SubGroup>
+            <SubGroup Name="Lateral" Offset="34" ArrayLen="1" Size="92">
+                <SubGroup Name="YawRate" Offset="0" ArrayLen="1" Size="20">
+                    <Signal Name="YawRate" Offset="0" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="YawRateTimestamp" Offset="4" ArrayLen="1" Type="ulong" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="YawRateRaw" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="YawAngle" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="Variance" Offset="10" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                </SubGroup>
+                <SubGroup Name="Curve" Offset="14" ArrayLen="1" Size="20">
+                    <Signal Name="Curve" Offset="0" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian"
+                            Size="4"/>
+                    <Signal Name="CurveTimestamp" Offset="4" ArrayLen="1" Type="ulong" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="VarCurve" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="CrvError" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="CrvConf" Offset="10" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+                            Size="1"/>
+                </SubGroup>
+                <SubGroup Name="DrvIntCurve" Offset="28" ArrayLen="1" Size="16">
+                    <Signal Name="Curve" Offset="0" ArrayLen="1" Type="float" Bitmask="ffffffff" ByteOrder="big-endian"
+                            Size="4"/>
+                    <Signal Name="CurveTimestamp" Offset="4" ArrayLen="1" Type="ulong" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="Variance" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="Gradient" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                </SubGroup>
+                <SubGroup Name="Accel" Offset="38" ArrayLen="1" Size="12">
+                    <Signal Name="LatAccel" Offset="0" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="LatAccelTimestamp" Offset="4" ArrayLen="1" Type="ulong" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="Variance" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                </SubGroup>
+                <SubGroup Name="SlipAngle" Offset="44" ArrayLen="1" Size="8">
+                    <Signal Name="SideSlipAngle" Offset="0" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="Variance" Offset="4" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                </SubGroup>
+                <SubGroup Name="SelfSteering" Offset="4C" ArrayLen="1" Size="16">
+                    <Signal Name="RoadBankAngle" Offset="0" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="QuRoadBankAngle" Offset="4" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="SelfSteerGradEst" Offset="8" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                    <Signal Name="QuSelfSteerGradEst" Offset="C" ArrayLen="1" Type="float" Bitmask="ffffffff"
+                            ByteOrder="big-endian" Size="4"/>
+                </SubGroup>
+            </SubGroup>
+            <SubGroup Name="MotionState" Offset="90" ArrayLen="1" Size="3">
+                <Signal Name="MotState" Offset="0" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+                        Size="1"/>
+                <Signal Name="Confidence" Offset="1" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+                        Size="1"/>
+                <Signal Name="bRollerTestBench" Offset="2" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+                        Size="1"/>
+            </SubGroup>
+            <Signal Name="State" Offset="93" ArrayLen="12" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+        </Group>
+    </View>
+</SdlFile>

@@ -1,0 +1,12 @@
+file_identifier "SU01";
+attribute "version";
+
+namespace Core;
+
+table MetaInformation (version: "0.0.1") {
+    time:ulong;
+    reference_frame:string;
+    cache_name:string;
+    life_time:ulong;
+    widget_stream:string;
+}

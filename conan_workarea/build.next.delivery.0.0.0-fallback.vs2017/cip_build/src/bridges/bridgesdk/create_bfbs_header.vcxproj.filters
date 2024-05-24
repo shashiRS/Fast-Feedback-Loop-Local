@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_view_update\next\bridgesdk\schema\3d_view\view_update_generated.h">
+      <Filter>Flatbuffers\Generated\Headers Files\next\bridgesdk\schema\3d_view</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\199080014fe61f51724c3f8d9c0eb6b1\view_update_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\5f0cf6eaa97017ba0e3561441fa6bdec\view_update.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\view_update.bfbs">
+      <Filter>Flatbuffers\Generated\Binary Schemas</Filter>
+    </None>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\view_update.fbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5E953CFE-CC45-3BF2-8B28-F2D70AA9C114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flatbuffers">
+      <UniqueIdentifier>{5279B679-D67F-3B49-91A0-807F91B82B03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flatbuffers\Generated">
+      <UniqueIdentifier>{4E2FCCC0-0E91-3211-89B9-A386B96A5972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flatbuffers\Generated\Binary Schemas">
+      <UniqueIdentifier>{EF193561-348A-3949-A9F9-CD5FC87D0CB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flatbuffers\Generated\Headers Files">
+      <UniqueIdentifier>{7D3479D3-57FD-319C-93B5-8F86CB58B825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flatbuffers\Generated\Headers Files\next">
+      <UniqueIdentifier>{DE9CF0EF-3AC4-3E8F-AC5C-5E017CA89ECB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flatbuffers\Generated\Headers Files\next\bridgesdk">
+      <UniqueIdentifier>{7B89334A-CBDC-3471-A5FE-F805F784C256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flatbuffers\Generated\Headers Files\next\bridgesdk\schema">
+      <UniqueIdentifier>{FC87B097-962C-3A37-A487-28C4729CB499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flatbuffers\Generated\Headers Files\next\bridgesdk\schema\3d_view">
+      <UniqueIdentifier>{FA5BAD32-1E1A-3E11-8B64-9CB1F30710EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{53B7468F-1CF3-3A19-89AD-A014CD7DCDED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

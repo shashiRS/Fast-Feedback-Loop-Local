@@ -1,0 +1,94 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"flatbuffers_generate_headers"
+		],
+		"files" : 
+		[
+			"src/cmake/build_flatbuffers.cmake",
+			"src/bridges/bridgesdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "GENERATE_next_flatbuffers_view_update::@8abc7c48d23ada670e3b",
+	"name" : "GENERATE_next_flatbuffers_view_update",
+	"paths" : 
+	{
+		"build" : "src/bridges/bridgesdk",
+		"source" : "src/bridges/bridgesdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/CMakeFiles/GENERATE_next_flatbuffers_view_update",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/9e02bbccbdd9a33e25230cfdcd19eb95/GENERATE_next_flatbuffers_view_update.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/916a1ae8612a94527c4f6b59ee36feea/view_update_generated.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/a0cae38addb7555dfea4872a560fb0a4/view_update.bfbs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

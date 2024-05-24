@@ -1,0 +1,80 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"__bricks_install_add_dependencies_with_components",
+			"install",
+			"install_runtime",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"D:/.bbs_conan/3f54ddd49/1/cmake/pre/decorators/install_add_dependencies.cmake",
+			"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/.bricks/decorated_install.cmake",
+			"src/cmake/install_lib.cmake",
+			"src/control/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 168,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "next_control::@55c7869fca2c028a7ab9"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bricks"
+	},
+	"id" : "CONTROL_COMPONENT::@55c7869fca2c028a7ab9",
+	"name" : "CONTROL_COMPONENT",
+	"paths" : 
+	{
+		"build" : "src/control",
+		"source" : "src/control"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

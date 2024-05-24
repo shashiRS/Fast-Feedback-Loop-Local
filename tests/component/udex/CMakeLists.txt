@@ -1,0 +1,4 @@
+add_subdirectory(data_extractor)
+add_subdirectory(data_publisher)
+add_subdirectory(data_subscriber)
+add_subdirectory(signal_explorer)

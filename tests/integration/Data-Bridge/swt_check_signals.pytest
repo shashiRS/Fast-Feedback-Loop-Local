@@ -1,0 +1,80 @@
+"""
+    Copyright 2023 Continental Corporation
+
+    :file: swt_check_signals.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script containing test case(s) for check signals
+
+    :author:
+        - Vinersar Dan-Ioan (uie65184) <dan.ioan.vinersar@continental-corporation.com>
+        - Alexandru Buraga (uic928270) <alexandru.2.buraga@continental-corporation.com>
+"""
+
+from helper_files.General import global_Variables
+from helper_files.ControlBridge import controlbridge_Variables
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.report import (
+    DETAILS,
+    EXPECTED,
+    PRECONDITION,
+    TESTSTEP,
+    TESTTAG,
+    VERIFIES,
+)
+from ptf.verify_utils import ptf_asserts, ptf_expects
+
+
+def SWT_CHECK_SIGNALS():
+    DETAILS("Test case to check if check signals is correct")
+
+    VERIFIES("The test is verifying the check signals functionality")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("controlbridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    next_api = get_parameter("next_api")
+
+    PRECONDITION("Load recording.")
+    # sending the message to load a recording into the player
+    recording_path = global_Variables.recording_dir(is_zrec=True)
+    recv_load_recording = next_api.execute.load_recording(recording_path)
+    ptf_asserts.verify(bool(recv_load_recording), True, "Timeout while loading the recording. Message received: {}".format(recv_load_recording))
+    PRECONDITION("Recording is loaded")
+
+    try:
+        TESTSTEP("Check available signals.")
+        available_signals = [
+            "ADC5xx_Device.EM_DATA.EmApParkingBoxPort.sSigHeader.uiCycleCounter",
+            "ADC5xx_Device.EM_DATA.EmApParkingBoxPort.sSigHeader.uiTimeStamp",
+            "ADC5xx_Device.EM_DATA.EmApParkingBoxPort.sSigHeader.uiMeasurementCounter",
+            "ADC5xx_Device.EM_DATA.EmApParkingBoxPort.sSigHeader.eSigStatus",
+        ]
+        ptf_expects.expect_eq(
+            next_api.execute.check_signals(available_signals),
+            True,
+            "Signal from signal list is not identified in recording",
+        )
+        TESTSTEP("Check available signals.")
+
+        TESTSTEP("Check nonavailable signals.")
+        nonavailable_signals = ["pizza"]
+        ptf_expects.expect_eq(
+            next_api.execute.check_signals(nonavailable_signals),
+            False,
+            "Signal from signal list is identified in recording",
+        )
+    except Exception as e:
+        ptf_expects.fail(e)
+    finally:
+        TESTSTEP("POSTCONDITION: Close the recording")
+        EXPECTED("event: SimulationStateIsIdle")
+        recv_close_recording = next_api.execute.close_recording()
+        ptf_asserts.verify(bool(recv_close_recording), True, "Timeout while closing the recording. Message received: {}".format(recv_close_recording))
+        TESTSTEP("POSTCONDITION: Recording is closed")

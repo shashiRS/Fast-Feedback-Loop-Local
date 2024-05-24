@@ -1,0 +1,9 @@
+{
+  "Signals": [
+                "Signal.DummyFile.one.first",
+                "Signal.DummyFile.one.second",
+                "Signal.DummyFile.one.third",
+                "Signal.DummyFile.one.fourth"
+             ],
+  "Trigger": "Trigger.DummyFile.one"
+}

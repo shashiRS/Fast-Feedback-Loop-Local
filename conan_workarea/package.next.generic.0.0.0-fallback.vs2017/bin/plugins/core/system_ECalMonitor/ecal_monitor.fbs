@@ -1,0 +1,8 @@
+attribute "version";
+attribute "json_name";
+
+table CpuProfiler (version: "0.0.1"){
+  signal_list:string (json_name: "CpuProfiler"); // full json output -> no parsing needed
+}
+
+root_type CpuProfiler;

@@ -1,0 +1,231 @@
+type: component
+name: next
+description: Next integration for the SIMone project
+license: ADC GmbH; all rights reserved
+major_version: 0
+schema_version: 2
+cmake_use_system_packages: true
+cmake_use_bricks_core: true
+cmake_use_platforms: true
+options:
+    BUILDDOCUMENTATION:
+        type: boolean
+        description: documentation build
+        default: false
+    OPTIMIZEDDEBUG:
+        type: boolean
+        description: performance optimized debug build
+        default: false
+    DELIVERY_RELEASE:
+        type: boolean
+        description: release build for external deliveries
+        default: false
+reporting:
+    version: 1.0
+    project_id: next
+    project_name: next
+    project_root_path: .
+    output_path_file: reports/
+    crawler:
+        environment_report:
+        traceability_report:
+            path_to_files:
+            -   ./src/
+            -   ./tests/
+            -   ./doc/
+            -   ./conf/
+        doxygen_report:
+            path_to_files:
+            -   ./conan_workarea/
+
+        contest_result_report:
+tools:
+    specs:
+    -   tool_spec: reporting/reporting/pre_reporting.yml
+    -   tool_spec: reporting/reporting/post_reporting.yml
+    -   tool_spec: contest/contest_next_320_py_38_ubuntu_20_04_lts.yml
+variants:
+    generic:
+        production:
+            platforms:
+            -   build: vs2017
+                ctc: false
+            -   build: vs2017_debug
+                ctc: false
+            -   build: linux64_x86_gcc_7-v2
+                ctc: false
+            -   build: linux64_x86_gcc_7-v2-release
+                ctc: false
+            -   build: ubuntu_20_04_x86_64
+                ctc: false
+            -   build: ubuntu_20_04_x86_64-release
+                ctc: false
+            components: &alias_components
+            -   NEXT_COMPONENT
+            -   PLAYER_COMPONENT
+            -   BRIDGES_COMPONENT
+            -   CONTROL_COMPONENT
+            -   UDEX_COMPONENT
+            -   SDK_COMPONENT
+            options:
+                OPTIMIZEDDEBUG: true
+            uses: &alias_uses
+                ecal:
+                    release: "5.13.0-rc6-c72f8b7"
+                    variant: measurement
+                    platforms:
+                    -   vs2017
+                    -   vs2017_debug
+                    -   ubuntu_20_04_x86_64-release
+                    -   ubuntu_20_04_x86_64
+                    -   linux64_x86_gcc_7-v2-release
+                    -   linux64_x86_gcc_7-v2
+                mts-core-lib: &alias_mts_core_lib
+                    release: "0.9.10"
+                    variant: external
+                    conan: &alias_conan_3rdparty
+                        user: 3rdparty
+                        channel: releases
+                mts-sentinel: &alias_mts_sentinel
+                    release: "0.2.2"
+                    variant: external
+                    conan: *alias_conan_3rdparty
+                tracy:
+                    release: "0.9.0-tb4"
+                    variant: external
+                    conan: *alias_conan_3rdparty
+                spdlog: &alias_spdlog
+                    release: "1.12.0"
+                    variant: generic
+            build_uses: &alias_build_uses
+                cip_adaption_boost:
+                    release: "1.80.0-release3"
+                    variant: generic
+                flatbuffers:
+                    release: "2.0.6-tb2"
+                    variant: external
+                    conan: *alias_conan_3rdparty
+                jsoncpp:
+                    release: "1.9.5-1"
+                    variant: generic
+                opencv:
+                    release: "4.5.5-4"
+                    variant: generic
+                # eCAL requires protobuf on Linux (also shipping .so files)
+                protobuf:
+                    release: "3.11.4-tb8"
+                    variant: external
+                    conan: *alias_conan_3rdparty
+                VFR_Utilities:
+                    release: "1.2.0"
+                    variant: generic
+                    conan:
+                        user: cip
+                        channel: releases
+        testing:
+            GENERIC:
+                platforms:
+                -   build: vs2017
+                    ctc: false
+                -   build: ubuntu_20_04_x86_64-release
+                    ctc: false
+                components: *alias_components
+                uses: *alias_uses
+                build_uses:
+                    <<: *alias_build_uses
+                    gia:
+                        release: &alias_gia_version "2.0.117"
+                        variant: next_test
+                        platforms:
+                        -   vs2017
+                        -   ubuntu_20_04_x86_64-release
+        documentation:
+            platforms:
+            -   build: vs2017
+                ctc: false
+            # note: creating the documentation does not require any packages
+            options:
+                BUILDDOCUMENTATION: true
+    normal_debug:
+        production:
+            platforms:
+            -   build: vs2017_debug
+                ctc: false
+            -   build: linux64_x86_gcc_7-v2
+                ctc: false
+            -   build: ubuntu_20_04_x86_64
+                ctc: false
+            components: *alias_components
+            uses: *alias_uses
+            build_uses: *alias_build_uses
+        testing:
+            GENERIC:
+                platforms:
+                -   build: vs2017_debug
+                    ctc: false
+                -   build: ubuntu_20_04_x86_64
+                    ctc: false
+                components: *alias_components
+                uses: *alias_uses
+                build_uses:
+                    <<: *alias_build_uses
+                    gia:
+                        release: *alias_gia_version
+                        variant: next_test
+                        platforms:
+                        -   vs2017_debug
+                        -   ubuntu_20_04_x86_64
+
+    delivery:
+        production:
+            platforms:
+            -   build: vs2017
+                ctc: false
+            -   build: linux64_x86_gcc_7-v2-release
+                ctc: false
+            -   build: ubuntu_20_04_x86_64-release
+                ctc: false
+            components: *alias_components
+            options:
+                DELIVERY_RELEASE: true
+            uses:
+                ecal:
+                    release: "5.13.0-rc6-c72f8b7"
+                    variant: measurement
+                    platforms:
+                    -   vs2017
+                    -   ubuntu_20_04_x86_64-release
+                    -   linux64_x86_gcc_7-v2-release
+                mts-core-lib: *alias_mts_core_lib
+                mts-sentinel: *alias_mts_sentinel
+                spdlog: *alias_spdlog
+            build_uses: 
+                cip_adaption_boost:
+                    release: "1.80.0-release3"
+                    variant: generic
+                flatbuffers:
+                    release: "2.0.6-tb2"
+                    variant: external
+                    conan: *alias_conan_3rdparty
+                jsoncpp:
+                    release: "1.9.5-1"
+                    variant: generic
+                # eCAL requires protobuf on Linux (also shipping .so files)
+                protobuf:
+                    release: "3.11.4-tb8"
+                    variant: external
+                    conan: *alias_conan_3rdparty
+                VFR_Utilities:
+                    release: "1.2.0"
+                    variant: generic
+                    conan:
+                        user: cip
+                        channel: releases
+        documentation:
+            platforms:
+            -   build: vs2017
+                ctc: false
+            # note: creating the documentation does not require any packages
+            options:
+                BUILDDOCUMENTATION: true
+                DELIVERY_RELEASE: true

@@ -1,0 +1,14 @@
+{
+  "dummy0": "this is dummy string",
+  "command": "OPEN",
+  "file_path": [ "abc/cdef/ghi" ],
+  "id": "11",
+  "dummy1": "112233",
+  "play_forward": "1",
+  "requested_steps": "2333",
+  "play_until_timestamp":"0",
+  "requested_timestamp": "446436",
+  "sil": "0.000000",
+  "dummy2": "1235.00",
+  "timestamp_type": "hour"
+}

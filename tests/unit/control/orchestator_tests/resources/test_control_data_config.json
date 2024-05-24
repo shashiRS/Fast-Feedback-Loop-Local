@@ -1,0 +1,45 @@
+{
+  "next_player": {
+    "orchestrator": {
+      "flow1": {
+        "meta": {
+          "delay": 0,
+          "sync": 1,
+          "control_data_generation": {
+            "sdl_file": "sig_header.sdl",
+            "member_data": {
+              "SigHeader.uiTimeStamp": "SIM VFB.AlgoVehCycle.VehDyn.sSigHeader.uiTimeStamp",
+              "SigHeader.uiMeasurementCounter": "SIM VFB.AlgoVehCycle.VehDyn.sSigHeader.uiMeasurementCounter",
+              "SigHeader.uiCycleCounter": [
+                1,
+                2,
+                3
+              ]
+            }
+          }
+        },
+        "type": "signal_name",
+        "value": "ADC4xx.EMF.EmfGlobalTimestamp",
+        "clients": {
+          "some_component1": {
+            "runSequencer_response": {
+            },
+            "runSequencer_response2": {
+              "member_data": {
+                "SigHeader.uiTimeStamp": "SIM VFB.AlgoVehCycle.VehDyn.sSigHeader.uiCycleCounter",
+                "SigHeader.uiCycleCounter": "SIM VFB.AlgoVehCycle.VehDyn.sSigHeader.uiTimeStamp"
+              }
+            }
+          },
+          "some_component2": {
+            "runSequencer_response": {
+              "member_data": {
+                "SigHeader.uiCycleCounter": "SIM VFB.AlgoVehCycle.VehDyn.sSigHeader.uiCycleCounter"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

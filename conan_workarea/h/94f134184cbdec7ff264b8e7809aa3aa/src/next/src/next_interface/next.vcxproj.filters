@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\next.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\next_callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\next_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\next_inport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\next_outport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\sync_manager\sync_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\sync_manager\syncref_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\sync_manager\sync_value_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\next_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\sync_manager\sync_manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\sync_manager\syncref_handler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\sync_manager\sync_value_handler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\sync_manager\sync_config_reader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\interface\next\data_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\interface\next\next.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\interface\next\next_callbacks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\next\interface\next\next_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\next\src\next_interface\bin_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\next\src\next_interface\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\next\src\next_interface\version_info.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5C012A49-367D-3CF3-8F32-823C93801291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{51FCA844-B143-3928-B5F2-7A5277A977A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

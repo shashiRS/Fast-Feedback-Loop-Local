@@ -1,0 +1,21 @@
+@startuml demo
+Init    : Initchain: setup frameworks and components
+Reset   : delete/set config back 
+Config  : establish configuration like Ports etc
+Ready   : can receive new events to triger Execute
+Execute : start new thread with node/application code 
+Shutdown: exit the node/application
+Error   : any Error ends here
+
+[*] --> Init
+Init --> Reset  
+Reset --> Config 
+Config --> Ready 
+Ready --> Shutdown : EVENT_SHUTDOWN
+Ready --> Reset : EVENT_RESET
+Ready --> Execute : START_EXECUTION
+Execute --> Ready : EXIT_EXECUTION
+Error --> Shutdown
+Shutdown --> [*] 
+
+@enduml

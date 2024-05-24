@@ -1,0 +1,101 @@
+{
+  "requests": {
+    "CEM200_COH": {
+      "composition": {
+        "m_pSefInputIf": [
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu"
+        ],
+        "m_pEmlInputIf": [
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+          {
+            "alternatives": [
+              "CEM200_TPF2.m_tpObjectList",
+              "MFC5xx Device.TPF2.m_tpObjectList"
+            ]
+          },
+          {
+            "alternatives1": [
+              "CEM200_TPF2.m_tpObjectList1",
+              "MFC5xx Device.TPF2.m_tpObjectList1"
+            ]
+          }
+        ],
+        "m_pEmlInputIffail": [
+          {
+            "alternatives": {
+              "asdf": "1"
+            }
+          }, 
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu"
+        ],
+        "m_intArray": [
+          "1",
+          "2",
+          "3"
+        ],
+        "m_floatArray": [
+          "1.5",
+          "2.5",
+          "3.5"
+        ],
+        "m_intArrayFail": [
+          "a",
+          "2",
+          "3"
+        ],
+        "m_floatArrayFail": [
+          "a",
+          "2.5",
+          "3.5"
+        ],
+        "m_intFail": "a"
+      }
+    }
+  },
+  "pos_int": 21,
+  "neg_int": -21,
+  "pos_float": 6.6743,
+  "neg_float": -273.15,
+  "float_string": "2.718",
+  "int_string": "42",
+  "short_string": "eureka",
+  "long_string": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+  "object": {
+    "array": [
+      1,
+      2,
+      3,
+      { "string in array": "Lorem ipsum" }
+    ],
+    "nested_array": [
+      [ 1, 2, 3 ],
+      [ "Lorem ipsum" ],
+      [
+        {
+          "object_in_array": {
+            "string": "Lorem ipsum",
+            "int": 42,
+            "nested_array": [
+              [ 4, 5, 6 ],
+              [ "hello", "world", "!" ],
+              {
+                "object": { "string": "hello world!" }
+              }
+            ]
+          }
+        }
+      ]
+    ]
+  },
+  "nested_array": [
+    [ 1, 2.3 ],
+    [ "hello world" ],
+    [
+      {
+        "int": 4,
+        "float": 5.67,
+        "string": "EOF"
+      }
+    ]
+  ]
+}

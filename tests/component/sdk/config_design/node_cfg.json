@@ -1,0 +1,82 @@
+{
+  "local": {
+    "active_state": "init",
+    "active_name": "CEM200_COH"
+  },
+  "CEM200_COH": {
+    "version": "0.0.1",
+    "in_port": {
+      "my_special_port": {
+        "port_version": "0.0.1",
+        "port_vaddr": "0x5000",
+        "data_type_size": 30,
+        "data_type_name": "debug_port_1"
+      },
+      "m_pSefInputIf": {
+        "port_version": "0.0.1",
+        "port_vaddr": "0x9000",
+        "data_type_size": 1234,
+        "data_type_name": "m_pSefInputIf",
+        "gia_dll": "coh_gia.dll",
+        "sync": {
+          "sync_timestamp": 35,
+          "sync_id": 1,
+          "sync_type": "timestamp"
+        }
+      },
+      "m_pEmlInputIf": {
+        "port_version": "0.0.1",
+        "port_vaddr": "0x9100",
+        "data_size": 1234,
+        "data_name": "m_pEmlInputIf",
+        "gia_dll": "coh_gia.dll",
+        "sync": {
+          "sync_timestamp": 35,
+          "sync_id": 1,
+          "sync_type": "timestamp"
+        }
+      }
+    },
+    "out_port": {
+      "m_dcrInterface": {
+        "port_name": "m_dcrInterface",
+        "port_version": "0.0.1",
+        "port_vaddr": "0x9000",
+        "data_descriptionfile": "coh.sdl",
+        "data_size": 1234
+      }
+    },
+    "composition": {
+      "m_pSefInputIf": [
+        "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+        {
+          "alternatives": [
+            "CEM200_TPF2.m_tpObjectList",
+            "MFC5xx Device.TPF2.m_tpObjectList"
+          ]
+        },
+        {
+          "alternatives1": [
+            "CEM200_TPF2.m_tpObjectList1",
+            "MFC5xx Device.TPF2.m_tpObjectList1"
+          ]
+        }
+      ],
+      "m_pEmlInputIf": [
+        "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+        {
+          "alternatives": [
+            "CEM200_TPF2.m_tpObjectList",
+            "MFC5xx Device.TPF2.m_tpObjectList"
+          ]
+        },
+        {
+          "alternatives1": [
+            "CEM200_TPF2.m_tpObjectList1",
+            "MFC5xx Device.TPF2.m_tpObjectList1"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "Next Python API Config Schema",
+  "description": "Schema to verify that a config is compatible with the Next API",
+  "type": "object",
+  "properties": {
+    "SimulationInput": {
+      "description": "Defines all possible input configurations.",
+      "type": "object",
+      "patternProperties": {
+        "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)": {
+          "description": "Unique name of the SimulationInput config.\nSyntax: lower_snake_case\nMandatory Fields: Either 'RecordingLocation' or 'SimulationInputFile'",
+          "type": "object",
+          "properties": {
+            "RecordingLocation": {
+              "description": "Provide the location of your recording(s).\nSupported Values::\n- A single filename (with path)\n- A list of filenames (with paths)\n- A path to a folder\n- A list of paths to folders\n Any combination of the mentioned.\nSupports environment variables by using the keyword $ENV()$ and putting the variable name in the brackets",
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "RecordingType": {
+              "description": "When provided, only files of this type will be loaded from the given path in 'RecordingLocation'.\nSupported Values: a single file extension or a list of extensions.\nNeeds to start with '.' (dot)",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "(^\\.(\\w|\\d)+)|(\\$ENV\\(.+\\)\\$)"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "(^\\.(\\w|\\d)+)|(\\$ENV\\(.+\\)\\$)"
+                  }
+                }
+              ]
+            },
+            "TimeInterval": {
+              "description": "Time interval that should be replayed for all provided recordings in 'RecordingLocation'.\nSupported Values: A single interval or a list of Intervals.",
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "StartTimeUs": {
+                      "oneOf": [
+                        {
+                          "description": "Start Time in microseconds. Per default interpreted as absolute timestamp.",
+                          "type": "integer"
+                        },
+                        {
+                          "description": "Start Time as environment variable $ENV(START_TIME)$",
+                          "type": "string",
+                          "oneOf": [
+                            {
+                              "pattern": "(\\\"|\\')\\d+(\\\"|\\')"
+                            },
+                            {
+                              "pattern": "\\$ENV\\(.+\\)\\$"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "EndTimeUs": {
+                      "oneOf": [
+                        {
+                          "description": "End Time in microseconds. Per default interpreted as absolute timestamp.",
+                          "type": "integer"
+                        },
+                        {
+                          "description": "End Time as environment variable $ENV(END_TIME)$",
+                          "type": "string",
+                          "oneOf": [
+                            {
+                              "pattern": "(\\\"|\\')\\d+(\\\"|\\')"
+                            },
+                            {
+                              "pattern": "\\$ENV\\(.+\\)\\$"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "Relative": {
+                      "oneOf": [
+                        {
+                          "description": "When True, timestamps will be handled relative to beginning of the recording.\nDefault: False",
+                          "type": "boolean"
+                        },
+                        {
+                          "description": "use env variable: When True, timestamps will be handled relative to beginning of the recording.\n",
+                          "type": "string",
+                          "pattern": "\\$ENV\\(.+\\)\\$"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "StartTimeUs": {
+                        "oneOf": [
+                          {
+                            "description": "Start Time in microseconds. Per default interpreted as absolute timestamp.",
+                            "type": "integer"
+                          },
+                          {
+                            "description": "Start Time as environment variable $ENV(START_TIME)$",
+                            "type": "string",
+                            "oneOf": [
+                              {
+                                "pattern": "(\\\"|\\')\\d+(\\\"|\\')"
+                              },
+                              {
+                                "pattern": "\\$ENV\\(.+\\)\\$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "EndTimeUs": {
+                        "oneOf": [
+                          {
+                            "description": "End Time in microseconds. Per default interpreted as absolute timestamp.",
+                            "type": "integer"
+                          },
+                          {
+                            "description": "End Time as environment variable $ENV(END_TIME)$",
+                            "type": "string",
+                            "oneOf": [
+                              {
+                                "pattern": "(\\\"|\\')\\d+(\\\"|\\')"
+                              },
+                              {
+                                "pattern": "\\$ENV\\(.+\\)\\$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "Relative": {
+                        "oneOf": [
+                          {
+                            "description": "When True, timestamps will be handled relative to beginning of the recording.\nDefault: False",
+                            "type": "boolean"
+                          },
+                          {
+                            "description": "use env variable: When True, timestamps will be handled relative to beginning of the recording.\n",
+                            "type": "string",
+                            "pattern": "\\$ENV\\(.+\\)\\$"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "Split": {
+              "description": "Needs to be set when provided files in 'RecordingLocation' or 'SimulationInputFile' should be executed sequentially.\nOptions:\nFile: Loads all files given or available in the folders sequentially\nFolder: Loads all files in one folder parallel, but all Folders sequentially",
+              "type": "string",
+              "oneOf": [
+                {
+                  "pattern": "\\b(Folder|File)\\b"
+                },
+                {
+                  "pattern": "\\$ENV\\(.+\\)\\$"
+                }
+              ]
+            },
+            "SimulationInputFile": {
+              "description": "A json file containing the needed input files. Needs to contain a key 'RecordingLocation'\nAlso possible to provide a list of multiple files.\nSupports environment variables by using the keyword $ENV()$ and putting the variable name in the brackets",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "(.+\\.json$)|(\\$ENV\\(.+\\)\\$)"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "(.+\\.json$)|(\\$ENV\\(.+\\)\\$)"
+                  }
+                }
+              ]
+            }
+          },
+          "oneOf": [
+            {
+              "required": [
+                "RecordingLocation"
+              ]
+            },
+            {
+              "required": [
+                "SimulationInputFile"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "SimulationExport": {
+      "description": "Defines all possible export configurations.",
+      "type": "object",
+      "patternProperties": {
+        "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)": {
+          "description": "Unique name of the SimulationExport config.\nSyntax: lower_snake_case\nMandatory Fields: 'ExportSignals' and 'Output'",
+          "type": "object",
+          "properties": {
+            "ExportSignals": {
+              "description": "Defines the Options that will be provided to the Next Exporter.\nOptions can be provided as single object, or as a list of objects.\nMandatory Fields: Either ('Signals', 'Trigger' and 'ExportType') or ('SimulationExportFile' and 'ExportType')",
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "Signals": {
+                      "description": "List of signals that the Next Exporter shall subscribe to and export.",
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "Trigger": {
+                      "description": "Single signal that the Next Exporter shall use to trigger the exporting.\nNeeds to be from the 'Signals' list",
+                      "type": "string"
+                    },
+                    "ExportType": {
+                      "description": "The filetype that the Exporter shall produce.\nCan be only one type or a list of types.\nCurrently supported types: .bsig, .csv, .rec\nNeeds to start with '.' (dot)",
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^(\\.bsig|\\.csv|\\.rec)$|(\\$ENV\\(.+\\)\\$)"
+                        },
+                        {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "pattern": "^(\\.bsig|\\.csv|\\.rec)$|(\\$ENV\\(.+\\)\\$)"
+                          }
+                        }
+                      ]
+                    },
+                    "ExplicitName": {
+                      "description": "Name that will be used to create the file for the respective 'ExportSignal' configurations.\nUsefully when providing multiple 'ExportSignal' configurations in one 'SimulationExport'",
+                      "type": "string"
+                    },
+                    "SimulationExportFile": {
+                      "description": "A json file containing the needed signals and trigger. Needs to contain the keys 'Signals' and 'Trigger'\nAlso possible to provide a list of multiple files.",
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "(.+\\.json$)|(\\$ENV\\(.+\\)\\$)"
+                        },
+                        {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "pattern": "(.+\\.json$)|(\\$ENV\\(.+\\)\\$)"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "oneOf": [
+                    {
+                      "required": [
+                        "Signals",
+                        "Trigger",
+                        "ExportType"
+                      ]
+                    },
+                    {
+                      "required": [
+                        "SimulationExportFile",
+                        "ExportType"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "Signals": {
+                        "description": "List of signals that the Next Exporter shall subscribe to and export.",
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "Trigger": {
+                        "description": "Single signal that the Next Exporter shall use to trigger the exporting.\n Needs to be from the 'Signals' list",
+                        "type": "string"
+                      },
+                      "ExportType": {
+                        "description": "The filetype that the Exporter shall produce.\nCan be only one type or a list of types.\nCurrently supported types: .bsig, .csv, .rec\nNeeds to start with '.' (dot)",
+                        "oneOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^(\\.bsig|\\.csv|\\.rec)$|(\\$ENV\\(.+\\)\\$)"
+                          },
+                          {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "pattern": "(^\\.bsig|\\.csv|\\.rec)$|(\\$ENV\\(.+\\)\\$)"
+                            }
+                          }
+                        ]
+                      },
+                      "ExplicitName": {
+                        "description": "Name that will be used to create the file for the respective 'ExportSignal' configurations.\nUsefully when providing multiple 'ExportSignal' configurations in one 'SimulationExport'",
+                        "type": "string"
+                      },
+                      "SimulationExportFile": {
+                        "description": "A json file containing the needed signals and trigger. Needs to contain the keys 'Signals' and 'Trigger'\nAlso possible to provide a list of multiple files.",
+                        "oneOf": [
+                          {
+                            "type": "string",
+                            "pattern": "(.+\\.json$)|(\\$ENV\\(.+\\)\\$)"
+                          },
+                          {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "pattern": "(.+\\.json$)|(\\$ENV\\(.+\\)\\$)"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "oneOf": [
+                      {
+                        "required": [
+                          "Signals",
+                          "Trigger",
+                          "ExportType"
+                        ]
+                      },
+                      {
+                        "required": [
+                          "SimulationExportFile",
+                          "ExportType"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "Output": {
+              "description": "Defines the output location of the export.\nMandatory Fields: OutputPath",
+              "type": "object",
+              "properties": {
+                "OutputPath": {
+                  "description": "Full path to the location where the export output shall be stored.\nSupports environment variables by using the keyword $ENV()$ and putting the variable name in the brackets",
+                  "type": "string"
+                },
+                "OutputName": {
+                  "description": "Name that shall be given to the export files. When slashes are provided, additional folder will be created.",
+                  "type": "string"
+                },
+                "Overwrite": {
+                  "description": "Defines, if an existing file with the same name shall be overwritten.\nIf set to False, the original file will be unchanged and the new file will get an upwards counting extension. (file, file_1)",
+                  "oneOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "(\\$ENV\\(.+\\)\\$)"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "OutputPath"
+              ]
+            }
+          },
+          "required": [
+            "ExportSignals",
+            "Output"
+          ]
+        }
+      }
+    },
+    "SimulationNodes": {
+      "description": "Defines all possible simulation node configurations",
+      "type": "object",
+      "patternProperties": {
+        "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)": {
+          "description": "Unique name of the SimulationNodes config.\nSyntax: lower_snake_case\nMandatory Fields: 'Nodes'",
+          "properties": {
+            "Nodes": {
+              "description": "Defines which components shall be started, the directory of the component and command line arguments that the component should take.",
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "Executable": {
+                      "description": "Name of the executable that shall be started.\nOn windows needs to end with .exe",
+                      "type": "string"
+                    },
+                    "ExecutablePath": {
+                      "description": "Directory that contains the executable.\nSupports environment variables by using the keyword $ENV()$ and putting the variable name in the brackets",
+                      "type": "string"
+                    },
+                    "Arguments": {
+                      "description": "Command line arguments that shall be passed to the component.\nAll arguments as one continuous string ('-n -cfg config file --verbosity_level 5')",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Executable",
+                    "ExecutablePath"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "Executable": {
+                        "description": "Name of the executable that shall be started.\nOn windows needs to end with .exe",
+                        "type": "string"
+                      },
+                      "ExecutablePath": {
+                        "description": "Directory that contains the executable.\nSupports environment variables by using the keyword $ENV()$ and putting the variable name in the brackets",
+                        "type": "string"
+                      },
+                      "Arguments": {
+                        "description": "Command line arguments that shall be passed to the component.\nAll arguments as one continuous string ('-n -cfg config file --verbosity_level 5')",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "Executable",
+                      "ExecutablePath"
+                    ]
+                  }
+                }
+              ]
+            },
+            "NodeConfig": {
+              "description": "A json file containing the needed simulation node configurations.\nSupports environment variables by using the keyword $ENV()$ and putting the variable name in the brackets",
+              "type": "string",
+              "pattern": "(.+\\.json$)|(\\$ENV\\(.+\\)\\$)"
+            }
+          },
+          "required": [
+            "Nodes"
+          ]
+        }
+      }
+    },
+    "SimulationRun": {
+      "description": "Defines all possible execution configurations.",
+      "type": "object",
+      "patternProperties": {
+        "^[a-z0-9_]+$": {
+          "description": "Unique name of the SimulationRun config.\nSyntax: lower_snake_case",
+          "type": "object",
+          "properties": {
+            "Setup": {
+              "description": "All execution steps that shall be executed once in the beginning of a run.",
+              "type": "object",
+              "patternProperties": {
+                "^[a-z0-9_]+$": {
+                  "description": "Key value pair of execution step name and arguments.\nSyntax: 'execution_step': 'args'"
+                }
+              }
+            },
+            "Run": {
+              "description": "All execution steps that shall be executed during each iteration of a run.",
+              "type": "object",
+              "patternProperties": {
+                "^[a-z0-9_]+$": {
+                  "description": "Key value pair of execution step name and arguments.\nSyntax: 'execution_step': 'args'"
+                }
+              }
+            },
+            "Teardown": {
+              "description": "All execution steps that shall be executed once at the end of a run.",
+              "type": "object",
+              "patternProperties": {
+                "^[a-z0-9_]+$": {
+                  "description": "Key value pair of execution step name and arguments.\nSyntax: 'execution_step': 'args'"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "SimulationFlows": {
+      "description": "Defines all Flow Combinations of the configuration.",
+      "type": "object",
+      "patternProperties": {
+        "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)": {
+          "description": "Unique name of the Flow configuration.\nSyntax: lower_snake_case\nMandatory Fields: 'SimulationInput', 'SimulationExport', 'SimulationRun",
+          "type": "object",
+          "properties": {
+            "SimulationInput": {
+              "description": "Select the configured run input. Needs to be the same name as used in the category 'SimulationInput'.\nEither a single string or list of strings.",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)"
+                  }
+                }
+              ]
+            },
+            "SimulationExport": {
+              "description": "Select the configured run export. Needs to be the same name as used in the category 'SimulationExport'.\nEither a single string or list of strings.",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)"
+                  }
+                }
+              ]
+            },
+            "SimulationNodes": {
+              "description": "Select the configured simulation nodes. Needs to be the same name as used in the category 'SimulationNodes'.\nEither a single string or list of strings.",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)"
+                  }
+                }
+              ]
+            },
+            "SimulationRun": {
+              "description": "Select the configured SimulationRun. Needs to be the same name as used in the category 'SimulationRun'.\nEither a single string or list of strings.",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "(^[a-z0-9_]+$)|(\\$ENV\\(.+\\)\\$)"
+                  }
+                }
+              ]
+            },
+            "BackendSettings": {
+              "description": "Defines settings for the Next Backend",
+              "type": "object",
+              "properties": {
+                "Ports": {
+                  "description": "Defines the websocket ports for the different components that are used to communicate with the backend",
+                  "type": "object",
+                  "properties": {
+                    "Controlbridge": {
+                      "description": "Controlbridge Port. Default: 8200",
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "string",
+                          "pattern": "\\$ENV\\(.+\\)\\$"
+                        }
+                      ]
+                    },
+                    "Databridge": {
+                      "description": "Databridge Port. Default: 8080",
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "string",
+                          "pattern": "\\$ENV\\(.+\\)\\$"
+                        }
+                      ]
+                    },
+                    "DatabridgeBroadcast": {
+                      "description": "Databridge Broadcast Port. Default: 8082",
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "string",
+                          "pattern": "\\$ENV\\(.+\\)\\$"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "EcalNetwork": {
+                  "description": "Used to set the name of the ecal network. Needed when multiple instances of Next shall simulate in parallel.\nDefault: monitoring+current_timestamp",
+                  "type": "string"
+                },
+                "BackendDirectory": {
+                  "description": "Directory that contains the backend executable (next_controlbridge, next_databridge, next_player).\nSupports environment variables by using the keyword $ENV()$ and putting the variable name in the brackets",
+                  "type": "string"
+                },
+                "BackendConfiguration": {
+                  "description": "A json file containing the needed backend configurations.\nSupports environment variables by using the keyword $ENV()$ and putting the variable name in the brackets",
+                  "type": "string",
+                  "pattern": "(.+\\.json$)|(\\$ENV\\(.+\\)\\$)"
+                }
+              }
+            }
+          },
+          "required": [
+            "SimulationInput",
+            "SimulationExport",
+            "SimulationRun"
+          ]
+        }
+      }
+    }
+  },
+  "required": [
+    "SimulationInput",
+    "SimulationExport",
+    "SimulationRun",
+    "SimulationFlows"
+  ]
+}

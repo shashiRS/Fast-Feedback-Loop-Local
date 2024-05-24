@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/.bricks/decorated_install.cmake",
+			"examples/simulation_node_example/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "NEXT_COMPONENT",
+			"destination" : "examples/next_example_node",
+			"paths" : 
+			[
+				"examples/simulation_node_example/Release/next_example_node.exe"
+			],
+			"targetId" : "next_example_node::@d3fe6910583af1fa8efc",
+			"targetIndex" : 27,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "NEXT_COMPONENT",
+			"destination" : "examples/next_example_node",
+			"paths" : 
+			[
+				"examples/simulation_node_example/test_signal.sdl"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/simulation_node_example",
+		"source" : "examples/simulation_node_example"
+	}
+}

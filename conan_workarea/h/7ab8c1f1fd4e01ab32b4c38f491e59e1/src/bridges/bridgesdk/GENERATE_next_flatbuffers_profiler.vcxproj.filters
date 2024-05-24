@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\43e369f4928415a9e519c97e0f78f855\basic_info.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\43e369f4928415a9e519c97e0f78f855\cpu_profiler.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\43e369f4928415a9e519c97e0f78f855\ecal_monitor.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\43e369f4928415a9e519c97e0f78f855\network_graph.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\a122874553fbd54f60255144ec01ad39\basic_info_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\a122874553fbd54f60255144ec01ad39\cpu_profiler_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\a122874553fbd54f60255144ec01ad39\ecal_monitor_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\a122874553fbd54f60255144ec01ad39\network_graph_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\5a38af170f6a1d99ae66b6ff7a5660df\GENERATE_next_flatbuffers_profiler.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\CMakeFiles\GENERATE_next_flatbuffers_profiler" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5E953CFE-CC45-3BF2-8B28-F2D70AA9C114}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

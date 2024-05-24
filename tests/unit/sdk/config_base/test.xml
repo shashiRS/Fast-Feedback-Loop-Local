@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CEM200_COH>
+  <Settings>
+    <ID>1</ID>
+    <LogLevel>debug</LogLevel>
+    <Position>
+      <X>2.5</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Position>
+    <Banlist>
+      <IP>127.0.0.1</IP>
+      <IP>192.168.1.0</IP>
+    </Banlist>
+  </Settings>
+</CEM200_COH>

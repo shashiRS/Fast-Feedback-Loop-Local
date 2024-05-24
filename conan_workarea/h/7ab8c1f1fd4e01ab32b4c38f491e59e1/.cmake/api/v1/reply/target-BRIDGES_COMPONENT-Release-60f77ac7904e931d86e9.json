@@ -1,0 +1,562 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"__bricks_install_add_dependencies_with_components",
+			"install",
+			"install_runtime",
+			"add_dependencies",
+			"next_create_plugin"
+		],
+		"files" : 
+		[
+			"D:/.bbs_conan/3f54ddd49/1/cmake/pre/decorators/install_add_dependencies.cmake",
+			"conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/decorated_install.cmake",
+			"src/cmake/install_lib.cmake",
+			"src/bridges/bridgesdk/CMakeLists.txt",
+			"src/cmake/pluginhelper.cmake",
+			"src/bridges/plugins/core/view3D_Road/CMakeLists.txt",
+			"src/bridges/plugins/core/view3D_StructTpObjects/CMakeLists.txt",
+			"src/bridges/plugins/core/view3D_PointCloud/CMakeLists.txt",
+			"src/bridges/plugins/core/view3D_EgoVehicle/CMakeLists.txt",
+			"src/bridges/plugins/core/system_SignalExporter/CMakeLists.txt",
+			"src/bridges/plugins/core/system_SignalRawData/CMakeLists.txt",
+			"src/bridges/plugins/core/system_EcalMonitor/CMakeLists.txt",
+			"src/bridges/plugins/core/view3D_ArrayTpObjects/CMakeLists.txt",
+			"src/bridges/plugins/core/system_SignalProvider/CMakeLists.txt",
+			"src/bridges/plugins/core/system_ReferenceCamera/CMakeLists.txt",
+			"src/bridges/plugins/core/system_RecExporter/CMakeLists.txt",
+			"src/bridges/plugins/core/view3D_CanTpObjects/CMakeLists.txt",
+			"src/bridges/databridge/CMakeLists.txt",
+			"src/bridges/controlbridge/CMakeLists.txt",
+			"src/bridges/plugins/core/system_SignalList/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 168,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 3,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 19
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 3,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 24
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 17,
+				"parent" : 26
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 28
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 29
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 3,
+				"parent" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 33
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 34
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 11,
+				"line" : 3,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 38
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 39
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 12,
+				"line" : 3,
+				"parent" : 41
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 42
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 43
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 44
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 13,
+				"line" : 3,
+				"parent" : 46
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 48
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 49
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 14,
+				"line" : 3,
+				"parent" : 51
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 52
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 53
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 54
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 15,
+				"line" : 3,
+				"parent" : 56
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 58
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 59
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 16,
+				"line" : 3,
+				"parent" : 61
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 62
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 63
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 64
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 17,
+				"line" : 133,
+				"parent" : 66
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 168,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 68
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 69
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 18,
+				"line" : 135,
+				"parent" : 71
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 168,
+				"parent" : 72
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 73
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 74
+			},
+			{
+				"file" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 19,
+				"line" : 3,
+				"parent" : 76
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 114,
+				"parent" : 77
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 78
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 79
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "next_plugin::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "view3D_Road::@b5d73ab195cada9065bf"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "view3D_StructTpObjects::@c3ef8984c7de46d7b925"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "view3D_PointCloud::@fa55524bd12404108687"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "view3D_EgoVehicle::@b9dd8977096b7a47d256"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "system_SignalExporter::@e9c025a81deeacbb0b9d"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "system_SignalRawData::@22e42e4ebaef673ba5ae"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "system_ECalMonitor::@bb53a5b0b35e6cc305a8"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "view3D_ArrayTpObjects::@98298d5547827a08860d"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "system_SignalProvider::@0765b1f158643f2a94da"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "system_ReferenceCamera::@49529f32e3688985eeac"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "system_RecExporter::@e8c44badc7a8b5e036ec"
+		},
+		{
+			"backtrace" : 65,
+			"id" : "view3D_CanTpObjects::@7086ff83c0678f896257"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "next_databridge::@a5998d0aea8dac04538d"
+		},
+		{
+			"backtrace" : 75,
+			"id" : "next_controlbridge::@d77ed9da38454457a00f"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "system_SignalList::@a2a07e81f1305a17aefd"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bricks"
+	},
+	"id" : "BRIDGES_COMPONENT::@8abc7c48d23ada670e3b",
+	"name" : "BRIDGES_COMPONENT",
+	"paths" : 
+	{
+		"build" : "src/bridges/bridgesdk",
+		"source" : "src/bridges/bridgesdk"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

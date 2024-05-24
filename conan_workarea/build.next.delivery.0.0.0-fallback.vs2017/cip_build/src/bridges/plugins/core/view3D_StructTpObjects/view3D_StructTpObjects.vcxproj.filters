@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_StructTpObjects\structTpObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_StructTpObjects\structTpObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_StructTpObjects\url_mapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\meta_info_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\egovehicle_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\freegeometry_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\groundline_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\pointcloud_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\primitive_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\trafficparticipant_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\view_update_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\plugins\core\view3D_StructTpObjects\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\3d_view\meta_info.bfbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\3d_view\egovehicle.bfbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\3d_view\freegeometry.bfbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\3d_view\groundline.bfbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\3d_view\pointcloud.bfbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\3d_view\primitive.bfbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\3d_view\trafficparticipant.bfbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\databridge\schema\3d_view\view_update.bfbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\core\meta_info.fbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\freegeometry.fbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs" />
+    <None Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\view_update.fbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F99CD6DB-037D-36A9-8EC4-63E81832D0A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{53B7468F-1CF3-3A19-89AD-A014CD7DCDED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

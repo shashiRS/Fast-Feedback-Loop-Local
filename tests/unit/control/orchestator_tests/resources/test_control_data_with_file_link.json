@@ -1,0 +1,8 @@
+{
+  "next_player": {
+    "orchestrator": {
+      "config_file": "flow_config_file.json"
+    }
+  }
+}
+

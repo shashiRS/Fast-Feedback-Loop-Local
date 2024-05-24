@@ -1,0 +1,6 @@
+add_subdirectory(matchbox_interfaces_app)
+add_subdirectory(package_processor)
+add_subdirectory(rec_generator)
+add_subdirectory(simulation_node_example)
+add_subdirectory(test_component)
+add_subdirectory(subscriber_app)

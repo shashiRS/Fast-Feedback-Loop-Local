@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/.bricks/decorated_install.cmake",
+			"examples/rec_generator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "NEXT_COMPONENT",
+			"destination" : "examples/rec_generator",
+			"paths" : 
+			[
+				"examples/rec_generator/Release/rec_generator.exe"
+			],
+			"targetId" : "rec_generator::@7747fc303bbfc2268b34",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "NEXT_COMPONENT",
+			"destination" : "examples/rec_generator",
+			"paths" : 
+			[
+				"examples/rec_generator/generated_rec.sdl",
+				"examples/rec_generator/packages.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/rec_generator",
+		"source" : "examples/rec_generator"
+	}
+}

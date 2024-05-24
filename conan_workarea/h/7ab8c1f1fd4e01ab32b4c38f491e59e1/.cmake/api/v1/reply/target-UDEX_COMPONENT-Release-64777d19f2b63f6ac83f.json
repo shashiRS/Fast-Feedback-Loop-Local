@@ -1,0 +1,80 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"__bricks_install_add_dependencies_with_components",
+			"install",
+			"install_runtime",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"D:/.bbs_conan/3f54ddd49/1/cmake/pre/decorators/install_add_dependencies.cmake",
+			"conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/.bricks/decorated_install.cmake",
+			"src/cmake/install_lib.cmake",
+			"src/udex/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 168,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "next_udex::@cfd9f172500fc71560ef"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bricks"
+	},
+	"id" : "UDEX_COMPONENT::@cfd9f172500fc71560ef",
+	"name" : "UDEX_COMPONENT",
+	"paths" : 
+	{
+		"build" : "src/udex",
+		"source" : "src/udex"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,20 @@
+namespace test;
+
+table ExtraInfo {
+  someData:int;
+  someOtherData: int;
+}
+
+table PointCloud {
+    points:[float];
+    pointColors:[float];
+    color:string;
+    sensorUid:int;
+    pointsExtraInfo:[ExtraInfo];
+}
+
+table PointCloudWrapper {
+  pointClouds: [PointCloud];
+}
+
+root_type PointCloudWrapper;

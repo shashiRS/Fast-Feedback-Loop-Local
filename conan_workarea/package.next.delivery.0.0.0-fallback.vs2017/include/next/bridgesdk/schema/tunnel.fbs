@@ -1,0 +1,21 @@
+file_identifier "TU01";
+attribute "version";
+
+namespace road;
+
+table PathData (version: "0.0.1") {                   // xy coordinates of the path of the tunnel
+      x:[float];
+      y:[float];
+}
+
+table Tunnel (version: "0.0.1") {
+      id:int;                        // Required - Unique ID for this primitive
+      sensorUid:int;                 // Required - Sensor associated to this primitive
+      pathData: PathData;            // xy coordinates of the path of the tunnel
+
+      width:float;                   // Required
+      height:float;                  // Required
+      color:string;                  // Optional - color of the tunnel, senson color by default
+}
+
+root_type Tunnel;

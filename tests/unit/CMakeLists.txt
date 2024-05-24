@@ -1,0 +1,8 @@
+add_subdirectory(bridges)
+add_subdirectory(control)
+add_subdirectory(dummy)
+add_subdirectory(next)
+add_subdirectory(player)
+add_subdirectory(sdk)
+add_subdirectory(simple_ifc)
+add_subdirectory(udex)

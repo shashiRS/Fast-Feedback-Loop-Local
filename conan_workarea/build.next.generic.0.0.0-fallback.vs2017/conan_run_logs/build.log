@@ -1,0 +1,1031 @@
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && echo "customevent.duration.v2|1715777551518|start|9284451|bricks_conanfile|configure|next.generic[vs2017]|"
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+"customevent.duration.v2|1715777551518|start|9284451|bricks_conanfile|configure|next.generic[vs2017]|"
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && cd D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake -G "Visual Studio 15 2017 Win64" -DCONAN_LINK_RUNTIME="/MD" -DCONAN_IN_LOCAL_CACHE="OFF" -DCONAN_COMPILER="Visual Studio" -DCONAN_COMPILER_VERSION="15" -DCONAN_CXX_FLAGS="/MP8" -DCONAN_C_FLAGS="/MP8" -DCMAKE_INSTALL_PREFIX="D:/TATA/LATEST_NXT_REPO/next/conan_workarea/package.next.generic.0.0.0-fallback.vs2017" -DCMAKE_INSTALL_BINDIR="bin" -DCMAKE_INSTALL_SBINDIR="bin" -DCMAKE_INSTALL_LIBEXECDIR="bin" -DCMAKE_INSTALL_LIBDIR="lib" -DCMAKE_INSTALL_INCLUDEDIR="include" -DCMAKE_INSTALL_OLDINCLUDEDIR="include" -DCMAKE_INSTALL_DATAROOTDIR="share" -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY="ON" -DCONAN_EXPORTED="1" -DCMAKE_VERBOSE_MAKEFILE="OFF" -Wno-dev --log-level=VERBOSE --log-context -DCIP_BUILD_SYSTEM_VERSION=4.25.1 -DBRICKS_VARIANT=generic -DCMAKE_LIBRARY_PATH_TERMINATOR=\"\" -D__BRICKS_PYTHON_EXECUTABLE:FILEPATH=C:\Users\uib55976\cip_config_dir\bricks\4.25.1\windows\Scripts\python.exe -C D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\initial_cache.cmake -DCMAKE_PROJECT_INCLUDE:FILEPATH=D:/.bbs_conan/da1d67082205e/1\cmake\bricks_project_include.cmake -DCMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=D:/.bbs_conan/da1d67082205e/1\cmake\bricks_project_include_before.cmake -DBRICKS_PLATFORM_NAME:STRING=vs2017 -DBRICKS_BUILD_PLATFORM_NAME:STRING=vs2017 -DBRICKS_LABEL_DEFINITION_FILE:FILEPATH=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017/__internal_only_bricks_tagged_paths.cmake -DBRICKS_TAGGED_PATHS_JSON:FILEPATH=D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017/__internal_only_short_tagged_paths.json --toolchain D:/.bbs_conan/6bdf8e/1\__system\cip_build_system_platforms\toolchains\conan/conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CONFIGURATION_TYPES=Release D:/TATA/LATEST_NXT_REPO/next
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+loading initial cache file D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\initial_cache.cmake
+-- Initializing Bricks CMake integration
+--   Loading Bricks paths by label
+--     == CMAKE_MODULE_PATH = D:/.bbs_conan/06ba7cd/1;D:/.bbs_conan/a4b0521/1;D:/.bbs_conan/2dbadcf/1;D:/.bbs_conan/85e48f2e4ee1e/1;D:/.bbs_conan/0d0c747/1;D:/.bbs_conan/5238187/1;D:/.bbs_conan/2a40d25/1;D:/.bbs_conan/f529bc3/1;D:/.bbs_conan/e0bc3ee2/1;D:/.bbs_conan/7b93f5/1;D:/.bbs_conan/dbe9207ff6ddb/1;D:/.bbs_conan/86183a9/1;D:/.bbs_conan/a9d6a69/1;D:/.bbs_conan/5502851/1;D:/.bbs_conan/1c5bcfd/1;D:/.bbs_conan/4e258c5/1;D:/.bbs_conan/54693d2/1;D:/.bbs_conan/8c7a410/1;D:/.bbs_conan/0f0c763c7b9/1
+--     == CMAKE_PREFIX_PATH = D:/.bbs_conan/06ba7cd/1;D:/.bbs_conan/a4b0521/1;D:/.bbs_conan/2dbadcf/1;D:/.bbs_conan/85e48f2e4ee1e/1;D:/.bbs_conan/0d0c747/1;D:/.bbs_conan/5238187/1;D:/.bbs_conan/2a40d25/1;D:/.bbs_conan/f529bc3/1;D:/.bbs_conan/e0bc3ee2/1;D:/.bbs_conan/7b93f5/1;D:/.bbs_conan/dbe9207ff6ddb/1;D:/.bbs_conan/86183a9/1;D:/.bbs_conan/a9d6a69/1;D:/.bbs_conan/5502851/1;D:/.bbs_conan/1c5bcfd/1;D:/.bbs_conan/4e258c5/1;D:/.bbs_conan/54693d2/1;D:/.bbs_conan/8c7a410/1;D:/.bbs_conan/0f0c763c7b9/1
+--   Loading Bricks paths by label - done
+--   Bricks system module pre-project hooks
+--   Bricks system module pre-project hooks - done
+-- Initializing Bricks CMake integration - done
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+-- The C compiler identification is MSVC 19.16.27031.1
+-- The CXX compiler identification is MSVC 19.16.27031.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: c:/LegacyApp/Microsoft Visual Studio/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: c:/LegacyApp/Microsoft Visual Studio/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Bricks system module post-project hooks for next
+--   Initing project next
+--   next.BRICKS_PROJECT_CONFIG_TARGET_DIR = next/share/cmake/next
+--   Writing vs_sln.bat
+--   compile_commands.json for project next
+-- Bricks system module post-project hooks for next - done
+Running CMake without conanbuildinfo.cmake.
+-- Found Protobuf: D:/.bbs_conan/a9d6a69/1/lib/libprotobuf.lib (found version "3.11.4") 
+-- Found Boost: D:/.bbs_conan/2dbadcf/1/lib/cmake/Boost-1.80.0/BoostConfig.cmake (found version "1.80.0") found components: date_time filesystem json program_options system log 
+-- Found Threads: TRUE  
+-- Found Python: D:/TATA/LATEST_NXT_REPO/next/venv/Scripts/python.exe (found version "3.9.6") found components: Interpreter 
+###################################
+mts_core_lib ...        
+###################################
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.43.0.windows.1") 
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+No RC file given. Using default
+No version file given. Using default
+======= checking lib spdlog::spdlog
+include dir: D:/.bbs_conan/4e258c5/1/include
+link libs: Threads::Threads
+location: D:/.bbs_conan/4e258c5/1/lib/spdlog.lib
+location dir: D:/.bbs_conan/4e258c5/1/lib
+additional inc dirs: D:/.bbs_conan/4e258c5/1/include
+additional link dirs: D:/.bbs_conan/4e258c5/1/lib
+additional libs: $<LINK_ONLY:Threads::Threads>;Threads::Threads
+======= end checking lib spdlog::spdlog
+-- Group SDK_COMPONENT includes target next_sdk
+-- next has export next-SDK_COMPONENT
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_sdk>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+No RC file given. Using default
+No version file given. Using default
+-- Group SDK_COMPONENT includes target next_appsupport
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_appsupport>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+-- Group CONTROL_COMPONENT includes target next_control
+-- next has export next-CONTROL_COMPONENT
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_control>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+-- Group UDEX_COMPONENT includes target next_udex
+-- next has export next-UDEX_COMPONENT
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_udex>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+No RC file given. Using default
+No version file given. Using default
+-- Group BRIDGES_COMPONENT includes target next_plugin
+-- next has export next-BRIDGES_COMPONENT
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_plugin>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+-- Group BRIDGES_COMPONENT includes target next_controlbridge
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_controlbridge>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+-- Group BRIDGES_COMPONENT includes target next_databridge
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_databridge>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+Default output directory for plugins (if not specified differently): D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/plugins
+adding plugin shared library system_ECalMonitor
+-- Group BRIDGES_COMPONENT includes target system_ECalMonitor
+adding plugin shared library system_SignalExporter
+-- Group BRIDGES_COMPONENT includes target system_SignalExporter
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: vc15
+-- OpenCV STATIC: TRUE
+-- Found OpenCV: D:/.bbs_conan/86183a9/1 (found version "4.5.5") found components: core imgproc imgcodecs 
+-- Found OpenCV 4.5.5 in D:/.bbs_conan/86183a9/1/x64/vc15/staticlib
+adding plugin shared library system_RawFrameView
+-- Group BRIDGES_COMPONENT includes target system_RawFrameView
+adding plugin shared library system_RecExporter
+-- Group BRIDGES_COMPONENT includes target system_RecExporter
+adding plugin shared library system_ReferenceCamera
+-- Group BRIDGES_COMPONENT includes target system_ReferenceCamera
+adding plugin shared library system_SignalList
+-- Group BRIDGES_COMPONENT includes target system_SignalList
+adding plugin shared library system_SignalProvider
+-- Group BRIDGES_COMPONENT includes target system_SignalProvider
+adding plugin shared library system_SignalRawData
+-- Group BRIDGES_COMPONENT includes target system_SignalRawData
+adding plugin shared library view3D_ArrayTpObjects
+-- Group BRIDGES_COMPONENT includes target view3D_ArrayTpObjects
+adding plugin shared library view3D_CanTpObjects
+-- Group BRIDGES_COMPONENT includes target view3D_CanTpObjects
+adding plugin shared library view3D_EgoVehicle
+-- Group BRIDGES_COMPONENT includes target view3D_EgoVehicle
+adding plugin shared library view3D_Road
+-- Group BRIDGES_COMPONENT includes target view3D_Road
+adding plugin shared library view3D_PointCloud
+-- Group BRIDGES_COMPONENT includes target view3D_PointCloud
+adding plugin shared library view3D_StructTpObjects
+-- Group BRIDGES_COMPONENT includes target view3D_StructTpObjects
+adding plugin shared library system_PerformanceViewer
+-- Group BRIDGES_COMPONENT includes target system_PerformanceViewer
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+-- Group PLAYER_COMPONENT includes target next_player
+-- next has export next-PLAYER_COMPONENT
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_player>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+No RC file given. Using default
+No version file given. Using default
+-- Group NEXT_COMPONENT includes target next
+-- next has export next-NEXT_COMPONENT
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+-- Git revision e41d31bd
+-- Git branch main
+-- Git commit hash e41d31bde0d0831a6b12b8c104a41dd6e67f4714
+-- Git tag v0.14.100-rc1
+No RC file given. Using default
+No version file given. Using default
+-- Group NEXT_COMPONENT includes target next_container
+====================================================================
+Installing binaries for mts_sentinel to $<TARGET_FILE_DIR:next_container>/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+====================================================================
+Installing binaries for mts_sentinel to bin/
+====================================================================
+====================================================================
+Installing Python API to bin
+====================================================================
+========= NXTINST_TARGET =========
+matchbox_example_app
+-- Group NEXT_COMPONENT includes target matchbox_example_app
+-- Group NEXT_COMPONENT includes target rec_generator
+========= NXTINST_TARGET =========
+next_example_node
+-- Group NEXT_COMPONENT includes target next_example_node
+========= NXTINST_TARGET =========
+test_component_node
+-- Group NEXT_COMPONENT includes target test_component_node
+========= NXTINST_TARGET =========
+lib_test_component_node
+-- Group NEXT_COMPONENT includes target lib_test_component_node
+========= NXTINST_TARGET =========
+next_subscriber_app
+-- Group NEXT_COMPONENT includes target next_subscriber_app
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BRICKS_BUILD_PLATFORM_NAME
+    BRICKS_PLATFORM_NAME
+    BRICKS_VARIANT
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CONAN_COMPILER
+    CONAN_COMPILER_VERSION
+    CONAN_CXX_FLAGS
+    CONAN_C_FLAGS
+    CONAN_EXPORTED
+    CONAN_IN_LOCAL_CACHE
+    CONAN_LINK_RUNTIME
+
+
+-- Build files have been written to: D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && echo "customevent.duration.v2|1715777583801|end|9284451|"
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+"customevent.duration.v2|1715777583801|end|9284451|"
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && echo "customevent.duration.v2|1715777587080|start|9284452|bricks_conanfile|build|next.generic[vs2017]|"
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+"customevent.duration.v2|1715777587080|start|9284452|bricks_conanfile|build|next.generic[vs2017]|"
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --build D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa -j 8 --config Release --target PACKAGE_INFO -- /nodeReuse:false
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking File Globs
+  Checking Build System
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/CMakeLists.txt
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --build D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa -j 8 --config Release --target NEXT_COMPONENT -- /nodeReuse:false
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking File Globs
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/sdk/sdk/CMakeLists.txt
+  Generating ../../../databridge/schema/3d_view/egovehicle.bfbs
+  ecal_singleton.cpp
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/thirdparty/base64/CMakeLists.txt
+  Generating ../../../databridge/schema/core/meta_info.bfbs
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs(20, 9) : warning : field names should be lowercase snake_case, got: yawRate [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs(22, 13) : warning : field names should be lowercase snake_case, got: shapePoints [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs(27, 13) : warning : field names should be lowercase snake_case, got: egoVehicles [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Generating ../../../databridge/schema/3d_view/freegeometry.bfbs
+  Generating ../../../databridge/schema/core/signal.bfbs
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\freegeometry.fbs(14, 13) : warning : field names should be lowercase snake_case, got: sensorUid [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\freegeometry.fbs(22, 16) : warning : field names should be lowercase snake_case, got: freeGeometry [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Generating ../../../databridge/schema/3d_view/groundline.bfbs
+  Generating ../../../databridge/schema/core/signal_update.bfbs
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs(8, 9) : warning : field names should be lowercase snake_case, got: pointsX [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs(9, 9) : warning : field names should be lowercase snake_case, got: pointsY [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs(12, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs(16, 13) : warning : field names should be lowercase snake_case, got: groundLines [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Generating ../../../databridge/schema/3d_view/meta_info.bfbs
+  Generating ../../../databridge/schema/core/types.bfbs
+  Generating ../../../databridge/schema/3d_view/pointcloud.bfbs
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/core/meta_info.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs(9, 15) : warning : field names should be lowercase snake_case, got: pointColors [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs(22, 13) : warning : field names should be lowercase snake_case, got: pointSize [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs(35, 13) : warning : field names should be lowercase snake_case, got: pointClouds [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Generating ../../../databridge/schema/3d_view/primitive.bfbs
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/core/signal.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(24, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(25, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(32, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(33, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(41, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(42, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(47, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(51, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(52, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(55, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(59, 12) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(61, 12) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(65, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(66, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(74, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(75, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(83, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(84, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(86, 10) : warning : field names should be lowercase snake_case, got: fontSize [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(90, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(91, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(97, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(98, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(100, 12) : warning : field names should be lowercase snake_case, got: startAngle [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(101, 10) : warning : field names should be lowercase snake_case, got: endAngle [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(102, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(107, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(108, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(109, 9) : warning : field names should be lowercase snake_case, got: radiusX [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(110, 9) : warning : field names should be lowercase snake_case, got: radiusY [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(111, 12) : warning : field names should be lowercase snake_case, got: startAngle [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(112, 10) : warning : field names should be lowercase snake_case, got: endAngle [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(114, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(125, 13) : warning : field names should be lowercase snake_case, got: boxOutlines [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Generating ../../../databridge/schema/3d_view/trafficparticipant.bfbs
+  base64.cpp
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/core/signal_update.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(17, 4) : warning : field names should be lowercase snake_case, got: pX [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(18, 4) : warning : field names should be lowercase snake_case, got: pY [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(21, 12) : warning : field names should be lowercase snake_case, got: unifiedYaw [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(25, 4) : warning : field names should be lowercase snake_case, got: vX [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(26, 4) : warning : field names should be lowercase snake_case, got: vY [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(28, 10) : warning : field names should be lowercase snake_case, got: uniqueId [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(29, 17) : warning : field names should be lowercase snake_case, got: unifiedRefPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(31, 16) : warning : field names should be lowercase snake_case, got: unifiedClassIf [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(32, 16) : warning : field names should be lowercase snake_case, got: unifiedDynProp [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(41, 16) : warning : field names should be lowercase snake_case, got: indicatingLeft [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  Generating ../../../databridge/schema/3d_view/view_update.bfbs
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(42, 17) : warning : field names should be lowercase snake_case, got: indicatingRight [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(43, 17) : warning : field names should be lowercase snake_case, got: showExclamation [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(44, 8) : warning : field names should be lowercase snake_case, got: pColor [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(48, 21) : warning : field names should be lowercase snake_case, got: trafficParticipants [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/core/types.fbs flatbuffers...
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/egovehicle.fbs flatbuffers...
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs(20, 9) : warning : field names should be lowercase snake_case, got: yawRate [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs(22, 13) : warning : field names should be lowercase snake_case, got: shapePoints [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs(27, 13) : warning : field names should be lowercase snake_case, got: egoVehicles [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/freegeometry.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\freegeometry.fbs(14, 13) : warning : field names should be lowercase snake_case, got: sensorUid [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\freegeometry.fbs(22, 16) : warning : field names should be lowercase snake_case, got: freeGeometry [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/groundline.fbs flatbuffers...
+  Generating flatbuffer target next_flatbuffers_core
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs(8, 9) : warning : field names should be lowercase snake_case, got: pointsX [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs(9, 9) : warning : field names should be lowercase snake_case, got: pointsY [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs(12, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs(16, 13) : warning : field names should be lowercase snake_case, got: groundLines [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/core/meta_info.fbs flatbuffers...
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/pointcloud.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs(9, 15) : warning : field names should be lowercase snake_case, got: pointColors [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs(22, 13) : warning : field names should be lowercase snake_case, got: pointSize [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs(35, 13) : warning : field names should be lowercase snake_case, got: pointClouds [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/primitive.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(24, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(25, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(32, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(33, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(41, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(42, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(47, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(51, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(52, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(55, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(59, 12) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(61, 12) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(65, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(66, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(74, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(75, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(83, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(84, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(86, 10) : warning : field names should be lowercase snake_case, got: fontSize [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(90, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(91, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(97, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(98, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(100, 12) : warning : field names should be lowercase snake_case, got: startAngle [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(101, 10) : warning : field names should be lowercase snake_case, got: endAngle [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(102, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(107, 11) : warning : field names should be lowercase snake_case, got: basicInfo [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(108, 13) : warning : field names should be lowercase snake_case, got: centerPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(109, 9) : warning : field names should be lowercase snake_case, got: radiusX [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(110, 9) : warning : field names should be lowercase snake_case, got: radiusY [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(111, 12) : warning : field names should be lowercase snake_case, got: startAngle [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(112, 10) : warning : field names should be lowercase snake_case, got: endAngle [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(114, 11) : warning : field names should be lowercase snake_case, got: lineWidth [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs(125, 13) : warning : field names should be lowercase snake_case, got: boxOutlines [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/trafficparticipant.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(17, 4) : warning : field names should be lowercase snake_case, got: pX [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(18, 4) : warning : field names should be lowercase snake_case, got: pY [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(21, 12) : warning : field names should be lowercase snake_case, got: unifiedYaw [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(25, 4) : warning : field names should be lowercase snake_case, got: vX [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(26, 4) : warning : field names should be lowercase snake_case, got: vY [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(28, 10) : warning : field names should be lowercase snake_case, got: uniqueId [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(29, 17) : warning : field names should be lowercase snake_case, got: unifiedRefPoint [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(31, 16) : warning : field names should be lowercase snake_case, got: unifiedClassIf [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(32, 16) : warning : field names should be lowercase snake_case, got: unifiedDynProp [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(41, 16) : warning : field names should be lowercase snake_case, got: indicatingLeft [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(42, 17) : warning : field names should be lowercase snake_case, got: indicatingRight [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(43, 17) : warning : field names should be lowercase snake_case, got: showExclamation [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(44, 8) : warning : field names should be lowercase snake_case, got: pColor [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs(48, 21) : warning : field names should be lowercase snake_case, got: trafficParticipants [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/view_update.fbs flatbuffers...
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt
+  Generating flatbuffer target next_flatbuffers_3d_view
+  base64.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\thirdparty\base64\base64.dir\Release\base64.lib
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/view_update.fbs flatbuffers...
+  base_event_binary_impl.cpp
+  Generating view_update.bfbs
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt
+  dummy.cpp
+  create_bfbs_header.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\Release\create_bfbs_header.lib
+  event_client.cpp
+  event_manager.cpp
+  event_publisher.cpp
+  event_server.cpp
+  event_subscriber.cpp
+  cycle_event.cpp
+  cycle_information_event.cpp
+  lifecycle_state.cpp
+  lifecycle_trigger.cpp
+  log_event.cpp
+  request_config_from_client.cpp
+  request_config_from_server.cpp
+  request_config_value_from_server.cpp
+  send_config_to_client.cpp
+  send_config_tags_to_server.cpp
+  send_config_to_server.cpp
+  send_config_value_to_client.cpp
+  status_code_event.cpp
+  Generating Code...
+  Compiling...
+  session_event.cpp
+  update_topic_cache.cpp
+  version_info.cpp
+  lifecycle_interface.cpp
+  logger.cpp
+  log_router.cpp
+  profiler.cpp
+  shutdown_handler.cpp
+  simple_init_chain.cpp
+  user_hash.cpp
+  version_manager.cpp
+  Generating Code...
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/sdk/sdk/Release/next_sdk.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/sdk/sdk/Release/next_sdk.exp
+  next_sdk.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\Release\next_sdk.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/sdk/appsupport/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt
+  config_base.cpp
+  tcp_session.cpp
+  config_client.cpp
+  config_base_impl.cpp
+  config_change_hook_handler.cpp
+  web_server_impl.cpp
+  config_comp_data.cpp
+  config_comp_data_impl.cpp
+  Generating Code...
+  config_database_IO.cpp
+  config_database_IO_impl.cpp
+  config_database_manager.cpp
+  config_database_manager_impl.cpp
+  web_server.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\Release\web_server.lib
+  config_server.cpp
+  cmd_options.cpp
+  cmd_options_impl.cpp
+  license_checker.cpp
+  lifecycle_base.cpp
+  log_connector.cpp
+  next_status_code.cpp
+  config_change_hook_collection.cpp
+  session_server.cpp
+  session_server_impl.cpp
+  Generating Code...
+  Compiling...
+  session_client.cpp
+  session_client_impl.cpp
+  startup.cpp
+  Generating Code...
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/sdk/appsupport/Release/next_appsupport.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/sdk/appsupport/Release/next_appsupport.exp
+  next_appsupport.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\appsupport\Release\next_appsupport.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/next/src/container/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/udex/CMakeLists.txt
+  signal_explorer.cpp
+  container_main.cpp
+  next_container.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\next\src\container\Release\next_container.exe
+  signal_explorer_impl.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  data_extractor.cpp
+  data_extractor_impl.cpp
+  struct_extractor_array_factory.cpp
+  struct_extractor_basic.cpp
+  package_tree_extractor.cpp
+  sync_algo.cpp
+  sync_algo_loader.cpp
+  udex_queue.cpp
+  gia_dll_handler.cpp
+  data_publisher.cpp
+  data_publisher_impl.cpp
+  core_lib_wrap_data_converter.cpp
+  core_lib_wrap_data_descriptor_parser.cpp
+  signal_description_handler.cpp
+  signal_tree_module.cpp
+  signal_watcher.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  udex_dynamic_publisher.cpp
+  udex_dynamic_subscriber.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  Generating Code...
+  Compiling...
+  data_subscriber.cpp
+  data_subscriber_impl.cpp
+  udex_manager.cpp
+  Generating Code...
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/udex/Release/next_udex.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/udex/Release/next_udex.exp
+  next_udex.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\udex\Release\next_udex.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/control/CMakeLists.txt
+  lib_version.cpp
+  plugin.cpp
+  control_data_generator.cpp
+  plugin_private.cpp
+  orchestrator_client_impl.cpp
+  plugin_datapublisher.cpp
+  orchestrator_master_impl.cpp
+  plugin_datapublisher_impl.cpp
+  plugin_datasubscriber.cpp
+  plugin_datasubscriber_impl.cpp
+  orchestrator_client.cpp
+  plugin_3D_view.cpp
+  orchestrator_master.cpp
+  plugin_3D_view_impl.cpp
+  log_collector.cpp
+  plugin_signal_explorer.cpp
+  log_collector_impl.cpp
+  plugin_signal_explorer_impl.cpp
+  rotating_file_sink_log_event_data.cpp
+  plugin_signal_extractor.cpp
+  open_recording_status_event.cpp
+  plugin_signal_extractor_impl.cpp
+  orchestrator_event_binary.cpp
+  plugin_regex_searcher.cpp
+  player_state_event.cpp
+  player_command.cpp
+  Generating Code...
+  Generating Code...
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/control/Release/next_control.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/control/Release/next_control.exp
+  next_control.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\control\Release\next_control.dll
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/Release/next_plugin.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/Release/next_plugin.exp
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/next/src/next_interface/CMakeLists.txt
+  next.cpp
+  next_plugin.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\Release\next_plugin.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/databridge/CMakeLists.txt
+  data_manager_impl.cpp
+  next_callbacks.cpp
+  data_broadcaster_impl.cpp
+  next_impl.cpp
+  data_class_manager.cpp
+  data_request_server.cpp
+  next_inport.cpp
+  event_handler_helper.cpp
+  json_to_plugin_config.cpp
+  next_outport.cpp
+  next_ui_config_request_handler.cpp
+  next_ui_update_request_handler.cpp
+  next_ui_backend_request_handler.cpp
+  sync_manager.cpp
+  output_schema_checker.cpp
+  syncref_handler.cpp
+  version.cpp
+  plugin_manager.cpp
+  sync_value_handler.cpp
+  Generating Code...
+  plugin_config_handler.cpp
+  process_manager.cpp
+  flatbuffers_to_json.cpp
+  plugin_description_to_json.cpp
+  simulation_environment_cache.cpp
+  plugin_data_class_parser.cpp
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/next/src/next_interface/Release/next.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/next/src/next_interface/Release/next.exp
+  next.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\next\src\next_interface\Release\next.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/examples/subscriber_app/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/examples/test_component/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/examples/matchbox_interfaces_app/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/examples/simulation_node_example/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/examples/test_component/CMakeLists.txt
+  main.cpp
+  main.cpp
+  main.cpp
+  main.cpp
+  main.cpp
+  Generating Code...
+  matchbox_example_app.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\examples\matchbox_interfaces_app\Release\matchbox_example_app.exe
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/examples/test_component/Release/lib_test_component_node.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/examples/test_component/Release/lib_test_component_node.exp
+  next_example_node.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\examples\simulation_node_example\Release\next_example_node.exe
+  next_subscriber_app.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\examples\subscriber_app\Release\next_subscriber_app.exe
+  lib_test_component_node.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\examples\test_component\Release\lib_test_component_node.dll
+  test_component_node.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\examples\test_component\Release\test_component_node.exe
+  databridge_lib.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\databridge\Release\databridge_lib.lib
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/examples/rec_generator/CMakeLists.txt
+  main.cpp
+  rec_generator.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\examples\rec_generator\Release\rec_generator.exe
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/next/src/next_interface/CMakeLists.txt
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --build D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa -j 8 --config Release --target PLAYER_COMPONENT -- /nodeReuse:false
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking File Globs
+  next_sdk.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\Release\next_sdk.dll
+  next_appsupport.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\appsupport\Release\next_appsupport.dll
+  next_udex.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\udex\Release\next_udex.dll
+  next_control.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\control\Release\next_control.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/player/CMakeLists.txt
+  play_manager.cpp
+  main.cpp
+  player_state_machine.cpp
+  state_opening.cpp
+  state_play.cpp
+  cycle_manager.cpp
+  resource_manager.cpp
+  udex_service.cpp
+  file_reader.cpp
+  reader_manager.cpp
+  reader_synchronizer.cpp
+  publisher_manager.cpp
+  speed_factor.cpp
+  trigger_mapper.cpp
+  core_lib_reader.cpp
+  Generating Code...
+  next_player.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\player\Release\next_player.exe
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/player/CMakeLists.txt
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --build D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa -j 8 --config Release --target BRIDGES_COMPONENT -- /nodeReuse:false
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking File Globs
+  next_sdk.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\Release\next_sdk.dll
+  base64.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\thirdparty\base64\base64.dir\Release\base64.lib
+  Generating ../../../databridge/schema/profiler/basic_info.bfbs
+  Generating flatbuffer target next_flatbuffers_core
+  Generating flatbuffer target next_flatbuffers_3d_view
+  Generating ../../../databridge/schema/profiler/cpu_profiler.bfbs
+  create_bfbs_header.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\Release\create_bfbs_header.lib
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\cpu_profiler.fbs(25, 17) : warning : field names should be lowercase snake_case, got: threadCount [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+  
+  Generating ../../../databridge/schema/profiler/ecal_monitor.bfbs
+  Generating ../../../databridge/schema/profiler/network_graph.bfbs
+  next_appsupport.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\appsupport\Release\next_appsupport.dll
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(8, 14) : warning : field names should be lowercase snake_case, got: dataSize [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(9, 14) : warning : field names should be lowercase snake_case, got: isActive [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(14, 16) : warning : field names should be lowercase snake_case, got: inputPorts [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(15, 17) : warning : field names should be lowercase snake_case, got: outputPorts [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(19, 19) : warning : field names should be lowercase snake_case, got: componentName [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(20, 19) : warning : field names should be lowercase snake_case, got: componentPort [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(26, 18) : warning : field names should be lowercase snake_case, got: DataTransfer [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(30, 13) : warning : field names should be lowercase snake_case, got: groupId [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(33, 16) : warning : field names should be lowercase snake_case, got: linkStatus [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(34, 14) : warning : field names should be lowercase snake_case, got: dataSize [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/basic_info.fbs flatbuffers...
+  web_server.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\Release\web_server.lib
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/cpu_profiler.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\cpu_profiler.fbs(25, 17) : warning : field names should be lowercase snake_case, got: threadCount [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+  
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/ecal_monitor.fbs flatbuffers...
+  Building D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/network_graph.fbs flatbuffers...
+  
+CUSTOMBUILD : warning :  [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(8, 14) : warning : field names should be lowercase snake_case, got: dataSize [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(9, 14) : warning : field names should be lowercase snake_case, got: isActive [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(14, 16) : warning : field names should be lowercase snake_case, got: inputPorts [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(15, 17) : warning : field names should be lowercase snake_case, got: outputPorts [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(19, 19) : warning : field names should be lowercase snake_case, got: componentName [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(20, 19) : warning : field names should be lowercase snake_case, got: componentPort [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(26, 18) : warning : field names should be lowercase snake_case, got: DataTransfer [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(30, 13) : warning : field names should be lowercase snake_case, got: groupId [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(33, 16) : warning : field names should be lowercase snake_case, got: linkStatus [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs(34, 14) : warning : field names should be lowercase snake_case, got: dataSize [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\GENERATE_next_flatbuffers_profiler.vcxproj]
+  
+  Generating flatbuffer target next_flatbuffers_profiler
+  next_udex.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\udex\Release\next_udex.dll
+  next_control.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\control\Release\next_control.dll
+  plugin_private.cpp
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/controlbridge/CMakeLists.txt
+  player_control_manager.cpp
+  gui_command_parser.cpp
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/Release/next_plugin.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/Release/next_plugin.exp
+  next_plugin.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\Release\next_plugin.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_RecExporter/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/view3D_EgoVehicle/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_EcalMonitor/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_RawFrameView/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_SignalExporter/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/view3D_ArrayTpObjects/CMakeLists.txt
+  ego_vehicle.cpp
+  raw_frame_view.cpp
+  rec_exporter.cpp
+  ecal_monitor.cpp
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/view3D_StructTpObjects/CMakeLists.txt
+  signal_exporter.cpp
+  array_tp_objects.cpp
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/view3D_Road/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/view3D_PointCloud/CMakeLists.txt
+  player_event_distributor.cpp
+  structTpObjects.cpp
+  roadmodel.cpp
+  point_cloud.cpp
+  version_info_event_distributor.cpp
+  roadmodel_flatbuffer_converter.cpp
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_SignalList/CMakeLists.txt
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/view3D_CanTpObjects/CMakeLists.txt
+  lifecycle_orchestrator.cpp
+  canTpObjects.cpp
+  signal_list.cpp
+  log_distributor.cpp
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_SignalRawData/CMakeLists.txt
+  Generating Code...
+  http_post.cpp
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_SignalProvider/CMakeLists.txt
+  signal_rawdata_provider.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_ReferenceCamera/CMakeLists.txt
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_EgoVehicle/Release/view3D_EgoVehicle.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_EgoVehicle/Release/view3D_EgoVehicle.exp
+  canTpObjects_struct.cpp
+  signal_provider.cpp
+  reference_camera.cpp
+  view3D_EgoVehicle.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\view3D_EgoVehicle\view3D_EgoVehicle.dll
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_EcalMonitor/Release/system_ECalMonitor.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_EcalMonitor/Release/system_ECalMonitor.exp
+  Generating Code...
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_SignalList/Release/system_SignalList.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_SignalList/Release/system_SignalList.exp
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_PointCloud/Release/view3D_PointCloud.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_PointCloud/Release/view3D_PointCloud.exp
+  websocket_client_async.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  system_SignalList.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalList\system_SignalList.dll
+  system_ECalMonitor.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_ECalMonitor\system_ECalMonitor.dll
+  view3D_PointCloud.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\view3D_PointCloud\view3D_PointCloud.dll
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_RawFrameView/Release/system_RawFrameView.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_RawFrameView/Release/system_RawFrameView.exp
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_ArrayTpObjects/Release/view3D_ArrayTpObjects.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_ArrayTpObjects/Release/view3D_ArrayTpObjects.exp
+  generic_writer.lib(ctk_gex.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_SignalExporter/Release/system_SignalExporter.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_SignalExporter/Release/system_SignalExporter.exp
+  Generating code
+  Finished generating code
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_StructTpObjects/Release/view3D_StructTpObjects.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_StructTpObjects/Release/view3D_StructTpObjects.exp
+generic_writer.lib(ctk_gex.obj) : warning LNK4099: PDB 'generic_writer.pdb' was not found with 'generic_writer.lib(ctk_gex.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\generic_writer.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+generic_writer.lib(ctk_gex_bsig2.obj) : warning LNK4099: PDB 'generic_writer.pdb' was not found with 'generic_writer.lib(ctk_gex_bsig2.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\generic_writer.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+  view3D_ArrayTpObjects.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\view3D_ArrayTpObjects\view3D_ArrayTpObjects.dll
+generic_writer.lib(ctk_gex_csv.obj) : warning LNK4099: PDB 'generic_writer.pdb' was not found with 'generic_writer.lib(ctk_gex_csv.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\generic_writer.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+generic_writer.lib(ctk_gex_bsig3.obj) : warning LNK4099: PDB 'generic_writer.pdb' was not found with 'generic_writer.lib(ctk_gex_bsig3.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\generic_writer.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+generic_writer.lib(ctk_gex_bin_buffer.obj) : warning LNK4099: PDB 'generic_writer.pdb' was not found with 'generic_writer.lib(ctk_gex_bin_buffer.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\generic_writer.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+zlib.lib(adler32.obj) : warning LNK4099: PDB 'zlibstatic.pdb' was not found with 'zlib.lib(adler32.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\zlibstatic.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+zlib.lib(compress.obj) : warning LNK4099: PDB 'zlibstatic.pdb' was not found with 'zlib.lib(compress.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\zlibstatic.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+zlib.lib(crc32.obj) : warning LNK4099: PDB 'zlibstatic.pdb' was not found with 'zlib.lib(crc32.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\zlibstatic.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+zlib.lib(deflate.obj) : warning LNK4099: PDB 'zlibstatic.pdb' was not found with 'zlib.lib(deflate.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\zlibstatic.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+zlib.lib(trees.obj) : warning LNK4099: PDB 'zlibstatic.pdb' was not found with 'zlib.lib(trees.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\zlibstatic.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+zlib.lib(zutil.obj) : warning LNK4099: PDB 'zlibstatic.pdb' was not found with 'zlib.lib(zutil.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\zlibstatic.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj]
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_Road/Release/view3D_Road.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_Road/Release/view3D_Road.exp
+  system_SignalExporter.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalExporter\system_SignalExporter.dll
+  view3D_StructTpObjects.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\view3D_StructTpObjects\view3D_StructTpObjects.dll
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_SignalProvider/Release/system_SignalProvider.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_SignalProvider/Release/system_SignalProvider.exp
+  system_RawFrameView.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_RawFrameView\system_RawFrameView.dll
+  view3D_Road.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\view3D_Road\view3D_Road.dll
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_RecExporter/Release/system_RecExporter.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_RecExporter/Release/system_RecExporter.exp
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_ReferenceCamera/Release/system_ReferenceCamera.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_ReferenceCamera/Release/system_ReferenceCamera.exp
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_SignalRawData/Release/system_SignalRawData.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_SignalRawData/Release/system_SignalRawData.exp
+  system_SignalProvider.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalProvider\system_SignalProvider.dll
+  system_ReferenceCamera.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_ReferenceCamera\system_ReferenceCamera.dll
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_CanTpObjects/Release/view3D_CanTpObjects.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/view3D_CanTpObjects/Release/view3D_CanTpObjects.exp
+  system_SignalRawData.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_SignalRawData\system_SignalRawData.dll
+  system_RecExporter.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_RecExporter\system_RecExporter.dll
+  view3D_CanTpObjects.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\view3D_CanTpObjects\view3D_CanTpObjects.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/core/system_PerformanceViewer/CMakeLists.txt
+  performance_viewer.cpp
+  databridge_lib.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\databridge\Release\databridge_lib.lib
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/databridge/CMakeLists.txt
+  main.cpp
+  close_handler.cpp
+  next_cpu_profiler.cpp
+  Generating Code...
+  fastforward_handler.cpp
+     Creating library D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_PerformanceViewer/Release/system_PerformanceViewer.lib and object D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/plugins/core/system_PerformanceViewer/Release/system_PerformanceViewer.exp
+  system_PerformanceViewer.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\plugins\core\system_PerformanceViewer\system_PerformanceViewer.dll
+flatbuffers.lib(idl_parser.obj) : warning LNK4099: PDB 'flatbuffers.pdb' was not found with 'flatbuffers.lib(idl_parser.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\flatbuffers.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\databridge\next_databridge.vcxproj]
+flatbuffers.lib(idl_gen_text.obj) : warning LNK4099: PDB 'flatbuffers.pdb' was not found with 'flatbuffers.lib(idl_gen_text.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\flatbuffers.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\databridge\next_databridge.vcxproj]
+flatbuffers.lib(util.obj) : warning LNK4099: PDB 'flatbuffers.pdb' was not found with 'flatbuffers.lib(util.obj)' or at 'D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\flatbuffers.pdb'; linking object as if no debug info [D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\databridge\next_databridge.vcxproj]
+  jump_handler.cpp
+  next_databridge.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\databridge\next_databridge.exe
+  jump_to_end_handler.cpp
+  open_binary_handler.cpp
+  open_file_handler.cpp
+  open_project_directory_handler.cpp
+  pause_handler.cpp
+  play_handler.cpp
+  rewind_handler.cpp
+  step_handler.cpp
+  update_sil_factor_handler.cpp
+  Generating Code...
+  Compiling...
+  config_manager.cpp
+  status_code_manager.cpp
+  condition.cpp
+  condition_handler.cpp
+  status_queue_manager.cpp
+  telemetry_handler.cpp
+  Generating Code...
+  controlbridge_lib.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\controlbridge\Release\controlbridge_lib.lib
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/controlbridge/CMakeLists.txt
+  main.cpp
+  close_handler.cpp
+  fastforward_handler.cpp
+  jump_handler.cpp
+  jump_to_end_handler.cpp
+  open_binary_handler.cpp
+  open_file_handler.cpp
+  open_project_directory_handler.cpp
+  pause_handler.cpp
+  play_handler.cpp
+  rewind_handler.cpp
+  step_handler.cpp
+  update_sil_factor_handler.cpp
+  config_manager.cpp
+  status_code_manager.cpp
+  condition.cpp
+  condition_handler.cpp
+  status_queue_manager.cpp
+  telemetry_handler.cpp
+  Generating Code...
+  next_controlbridge.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\controlbridge\Release\next_controlbridge.exe
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --build D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa -j 8 --config Release --target CONTROL_COMPONENT -- /nodeReuse:false
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking File Globs
+  next_sdk.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\Release\next_sdk.dll
+  next_appsupport.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\appsupport\Release\next_appsupport.dll
+  next_udex.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\udex\Release\next_udex.dll
+  next_control.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\control\Release\next_control.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/control/CMakeLists.txt
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --build D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa -j 8 --config Release --target UDEX_COMPONENT -- /nodeReuse:false
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking File Globs
+  next_sdk.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\Release\next_sdk.dll
+  next_appsupport.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\appsupport\Release\next_appsupport.dll
+  next_udex.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\udex\Release\next_udex.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/udex/CMakeLists.txt
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && D:/.bbs_conan/85e48f2e4ee1e/1\bin\cmake --build D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa -j 8 --config Release --target SDK_COMPONENT -- /nodeReuse:false
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking File Globs
+  next_sdk.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\Release\next_sdk.dll
+  next_appsupport.vcxproj -> D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\appsupport\Release\next_appsupport.dll
+  Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/sdk/sdk/CMakeLists.txt
+
+----Running------
+> "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/build.next.generic.0.0.0-fallback.vs2017\conanbuild.bat" && echo "customevent.duration.v2|1715778738444|end|9284452|"
+-----------------
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+"customevent.duration.v2|1715778738444|end|9284452|"

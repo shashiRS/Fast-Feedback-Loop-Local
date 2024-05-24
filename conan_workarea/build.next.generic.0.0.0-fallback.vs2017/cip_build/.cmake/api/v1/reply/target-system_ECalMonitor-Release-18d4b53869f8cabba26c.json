@@ -1,0 +1,705 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "databridge/plugins/core/system_ECalMonitor/system_ECalMonitor.dll"
+		},
+		{
+			"path" : "src/bridges/plugins/core/system_EcalMonitor/Release/system_ECalMonitor.lib"
+		},
+		{
+			"path" : "databridge/plugins/core/system_ECalMonitor/system_ECalMonitor.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"next_create_plugin",
+			"_install",
+			"install",
+			"add_link_options",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"_find_package",
+			"find_package",
+			"next_create_library",
+			"find_dependency",
+			"add_dependencies",
+			"add_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/cmake/pluginhelper.cmake",
+			"src/bridges/plugins/core/system_EcalMonitor/CMakeLists.txt",
+			"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/.bricks/decorated_install.cmake",
+			"CMakeLists.txt",
+			"D:/.bbs_conan/0d0c747/1/lib/cmake/eCAL/eCALTargets.cmake",
+			"D:/.bbs_conan/0d0c747/1/lib/cmake/eCAL/eCALConfig.cmake",
+			"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/.bricks/decorated_find_package.cmake",
+			"src/cmake/build_function_for_library.cmake",
+			"src/bridges/bridgesdk/CMakeLists.txt",
+			"D:/.bbs_conan/7b93f5/1/lib/cmake/mtscpp/mtscppTargets.cmake",
+			"D:/.bbs_conan/7b93f5/1/lib/cmake/mtscpp/mtscppConfig.cmake",
+			"D:/.bbs_conan/85e48f2e4ee1e/1/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake",
+			"D:/.bbs_conan/7b93f5/1/lib/cmake/mts_core_lib/mts_core_lib-libraries-config.cmake",
+			"D:/.bbs_conan/7b93f5/1/lib/cmake/mts_core_lib/mts_core_lib-config.cmake",
+			"src/sdk/sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 58,
+				"parent" : 3
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 85,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 115,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 62,
+				"parent" : 8
+			},
+			{
+				"file" : 5,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 58,
+				"parent" : 10
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 70,
+				"parent" : 12
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 161,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 38,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 118,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 62,
+				"parent" : 17
+			},
+			{
+				"file" : 13,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 3,
+				"parent" : 19
+			},
+			{
+				"file" : 12,
+				"parent" : 20
+			},
+			{
+				"command" : 11,
+				"file" : 12,
+				"line" : 34,
+				"parent" : 21
+			},
+			{
+				"command" : 9,
+				"file" : 11,
+				"line" : 47,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 62,
+				"parent" : 23
+			},
+			{
+				"file" : 10,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 32,
+				"parent" : 25
+			},
+			{
+				"file" : 9,
+				"parent" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 56,
+				"parent" : 27
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 14,
+				"line" : 96,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 38,
+				"parent" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 105,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 14,
+				"line" : 168,
+				"parent" : 29
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 3,
+				"line" : 58,
+				"parent" : 5
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD"
+				},
+				{
+					"backtrace" : 36,
+					"fragment" : "-DNOMINMAX"
+				},
+				{
+					"backtrace" : 36,
+					"fragment" : "/EHs"
+				},
+				{
+					"backtrace" : 36,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 36,
+					"fragment" : "/WX"
+				},
+				{
+					"backtrace" : 36,
+					"fragment" : "/Zi"
+				},
+				{
+					"backtrace" : 36,
+					"fragment" : "/Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/FC"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/bigobj"
+				},
+				{
+					"fragment" : "-std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "ASIO_DISABLE_VISIBILITY"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ASIO_STANDALONE"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "BRIDGESDKSHARED"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ECAL_C_DLL"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING"
+				},
+				{
+					"define" : "system_ECalMonitor_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 38,
+					"path" : "D:/TATA/LATEST_NXT_REPO/next/src/bridges/plugins/interface"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/interface"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/TATA/LATEST_NXT_REPO/next/src/sdk/sdk/interface"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/TATA/LATEST_NXT_REPO/next/src/udex/interface"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/next_flatbuffers_profiler"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/.bbs_conan/0d0c747/1/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/.bbs_conan/a9d6a69/1/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/.bbs_conan/5238187/1/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/.bbs_conan/f529bc3/1/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/.bbs_conan/7b93f5/1/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/.bbs_conan/4e258c5/1/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/.bbs_conan/dbe9207ff6ddb/1/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "next_sdk::@48e9f1697bc1a73bde0c"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "next_udex::@cfd9f172500fc71560ef"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "GENERATE_next_flatbuffers_profiler::@8abc7c48d23ada670e3b"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "next_plugin::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Bridges/Databridge/Plugins"
+	},
+	"id" : "system_ECalMonitor::@bb53a5b0b35e6cc305a8",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "bin/plugins/core/system_ECalMonitor"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/package.next.generic.0.0.0-fallback.vs2017"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/DEBUG:FULL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-LIBPATH:D:\\.bbs_conan\\4e258c5\\1\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "D:\\.bbs_conan\\0d0c747\\1\\lib\\ecal_pb.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "D:\\.bbs_conan\\5238187\\1\\lib\\flatbuffers.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "D:\\.bbs_conan\\f529bc3\\1\\lib\\jsoncpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\..\\bridgesdk\\Release\\next_plugin.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "D:\\.bbs_conan\\0d0c747\\1\\lib\\ecal_core_pb.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "..\\..\\..\\..\\udex\\Release\\next_udex.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "D:\\.bbs_conan\\7b93f5\\1\\lib\\mtscpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "D:\\.bbs_conan\\7b93f5\\1\\lib\\mtsc.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "..\\..\\..\\..\\sdk\\sdk\\Release\\next_sdk.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "D:\\.bbs_conan\\0d0c747\\1\\lib\\ecal_core_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "D:\\.bbs_conan\\0d0c747\\1\\lib\\ecal_core.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "D:\\.bbs_conan\\0d0c747\\1\\lib\\ecal_proto.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "D:\\.bbs_conan\\a9d6a69\\1\\lib\\libprotobuf.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "D:\\.bbs_conan\\dbe9207ff6ddb\\1\\lib\\mts_sentinel.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "D:\\.bbs_conan\\4e258c5\\1\\lib\\spdlog.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "system_ECalMonitor",
+	"nameOnDisk" : "system_ECalMonitor.dll",
+	"paths" : 
+	{
+		"build" : "src/bridges/plugins/core/system_EcalMonitor",
+		"source" : "src/bridges/plugins/core/system_EcalMonitor"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/bridges/plugins/core/system_EcalMonitor/ecal_monitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/next_flatbuffers_profiler/next/bridgesdk/schema/profiler/basic_info_generated.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/next_flatbuffers_profiler/next/bridgesdk/schema/profiler/cpu_profiler_generated.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/next_flatbuffers_profiler/next/bridgesdk/schema/profiler/ecal_monitor_generated.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/next_flatbuffers_profiler/next/bridgesdk/schema/profiler/network_graph_generated.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/schema/profiler/basic_info.bfbs",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/schema/profiler/cpu_profiler.bfbs",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/schema/profiler/ecal_monitor.bfbs",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/schema/profiler/network_graph.bfbs",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 7,
+			"path" : "src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/basic_info.fbs",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 7,
+			"path" : "src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/cpu_profiler.fbs",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 7,
+			"path" : "src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/ecal_monitor.fbs",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 7,
+			"path" : "src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/network_graph.fbs",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

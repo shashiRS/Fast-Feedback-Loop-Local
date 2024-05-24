@@ -1,0 +1,152 @@
+"""
+    Copyright 2022 Continental Corporation
+
+    :file: swt_end_of_file.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script containing test case(s) for reaching the end of the file
+
+    :author:
+        - Fabian Janker (uif41320) <fabian.janker@continental-corporation.com>
+        - Alexandru Buraga (uic928270) <alexandru.2.buraga@continental-corporation.com>
+"""
+
+# standard Python import area
+import json
+
+from helper_files.ControlBridge import controlbridge_Variables
+from helper_files.General import global_Variables
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.report import (
+    DETAILS,
+    EXPECTED,
+    PRECONDITION,
+    TESTSTEP,
+    TESTTAG,
+    VERIFIES,
+)
+from ptf.verify_utils import ptf_asserts, ptf_expects
+
+
+def SWT_END_OF_FILE_EVENT_TEST():
+    DETAILS("Test case to check if the event after reaching the end of file is correct")
+
+    VERIFIES("The test is verifying, that the event is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("controlbridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    PRECONDITION("Load recording.")
+    # sending the message to load a recording into the player
+    recording_path = global_Variables.recording_dir(is_zrec=True)
+    recv_load_recording = next_api.execute.load_recording(recording_path)
+    ptf_asserts.verify(bool(recv_load_recording), True, "Timeout while loading the recording. Message received: {}".format(recv_load_recording))
+    PRECONDITION("Recording is loaded")
+
+    try:
+        PRECONDITION("Start to play the recording")
+        # sending the message to play the recording and receive the response
+        response_play = next_api.execute.play_recording()
+        # if controlbridge_websocket returns False, a timeout has occurred
+        ptf_asserts.verify(bool(response_play), True, "Timeout while playing the recording. Message received: {}".format(response_play))
+        PRECONDITION("Recording is played")
+
+        TESTSTEP("Wait until the end of file or timeout raised")
+        response_wait_until_EOF = next_api.execute.wait_until_EOF(timeout=120)
+        recv_event_end_of_file = response_wait_until_EOF["event"]
+        # checking if the expected event is correct
+        TESTSTEP("Check if the recording is played until the end")
+        ptf_asserts.verify(
+            recv_event_end_of_file,
+            controlbridge_Variables.EXPECTED_EVENT_END_OF_FILE,
+            "The {0} event is not received! Message received: {1}".format(controlbridge_Variables.EXPECTED_EVENT_END_OF_FILE, response_wait_until_EOF),
+        )
+    except Exception as e:
+        ptf_expects.fail(e)
+    finally:
+        TESTSTEP("POSTCONDITION: Close the recording")
+        EXPECTED("event: SimulationStateIsIdle")
+        recv_close_recording = next_api.execute.close_recording()
+        ptf_asserts.verify(bool(recv_close_recording), True, "Timeout while closing the recording. Message received: {}".format(recv_close_recording))
+        TESTSTEP("POSTCONDITION: Recording is closed")
+
+
+def SWT_END_OF_FILE_PAYLOAD_TEST():
+    DETAILS("Test case to check if the payload after reaching the end of file is correct")
+
+    VERIFIES("The test is verifying, that the payload is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("controlbridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    PRECONDITION("Load recording.")
+    # sending the message to load a recording into the player
+    recording_path = global_Variables.recording_dir(is_zrec=True)
+    recv_load_recording = next_api.execute.load_recording(recording_path)
+    ptf_asserts.verify(bool(recv_load_recording), True, "Timeout while loading the recording. Message received: {}".format(recv_load_recording))
+    PRECONDITION("Recording is loaded")
+
+    try:
+        PRECONDITION("Start to play the recording")
+        # sending the message to play the recording and receive the response
+        response_play = next_api.execute.play_recording()
+        response_play_event = response_play["event"]
+        # if controlbridge_websocket returns False, a timeout has occurred
+        ptf_asserts.verify(response_play_event, controlbridge_Variables.EXPECTED_EVENT_PLAYBACK_PLAYING, "Timeout while playing the recording. Message received: {}".format(recv_load_recording))
+        PRECONDITION("Recording is played")
+
+        recv_end_timestamp = response_play["payload"]["endTimeStamp"]
+        recv_event_end_of_file = response_play["event"]
+        # checking if the recording is paused
+        while recv_event_end_of_file == controlbridge_Variables.EXPECTED_EVENT_PLAYBACK_PLAYING:
+            response_end_of_file = next_api.websocket.controlbridge.recv(
+                receive_channel=controlbridge_Variables.RECEIVE_CHANNEL_PLAYER
+            )
+            # if controlbridge_websocket returns False, a timeout has occurred
+            ptf_asserts.verify(
+                bool(response_end_of_file), True, "Timeout raised while trying to receive message on Player Channel."
+            )
+
+            response_json_end_of_file = json.loads(response_end_of_file)
+            recv_event_end_of_file = response_json_end_of_file["event"]
+        recv_current_timestamp = response_json_end_of_file["payload"]["currentTimestamp"]
+
+        TESTSTEP("Checking if the payload after reaching the end of file is correct ")
+        EXPECTED(
+            "payload: currentTimestamp >= endTimestamp-{0} "
+            "AND currentTimestamp <= endTimestamp+{0}".format(controlbridge_Variables.TOLERANCE_PAYLOAD_END_OF_FILE)
+        )
+        ptf_expects.expect_in_range(
+            recv_end_timestamp - controlbridge_Variables.TOLERANCE_PAYLOAD_END_OF_FILE,
+            recv_end_timestamp + controlbridge_Variables.TOLERANCE_PAYLOAD_END_OF_FILE,
+            recv_current_timestamp,
+            "The currentTimeStamp is not in the tolerated range of " "endTimeStamp",
+        )
+
+    except Exception as e:
+        ptf_expects.fail(e)
+
+    finally:
+        TESTSTEP("POSTCONDITION: Close the recording")
+        EXPECTED("event: SimulationStateIsIdle")
+        recv_close_recording = next_api.execute.close_recording()
+        ptf_asserts.verify(bool(recv_close_recording), True, "Timeout while closing the recording. Message received: {}".format(recv_close_recording))
+        TESTSTEP("POSTCONDITION: Recording is closed")

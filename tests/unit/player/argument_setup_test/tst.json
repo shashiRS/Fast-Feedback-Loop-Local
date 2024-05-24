@@ -1,0 +1,21 @@
+{
+  "next_player": {
+    "orchestrator": {
+      "config_file": "trigger_config.json"
+    },
+    "trigger": {
+      "EmfNodeTriggering": {
+        "function ": "runSequencer_response",
+        "triggervalue": "ADC4xx.FDP_21P.FDP_ObjectData"
+      },
+      "GlobalOrchestratorTriggering": {
+        "function ": "runSequencer_response",
+        "triggervalue": "ADC4xx.FDP_21P.FDP_ObjectData"
+      }
+    },
+    "stepping": {
+      "time_step": "40000"
+    },
+    "realtime_factor": "10"
+  }
+}

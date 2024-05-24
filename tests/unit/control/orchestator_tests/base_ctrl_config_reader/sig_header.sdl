@@ -1,0 +1,14 @@
+<SdlFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" ByteAlignment="1" Version="2.0">
+  <View Name="?ViewName?" CycleID="207">
+    <Group Name="SigHeader" Address="20350000" ArrayLen="1" Size="12">
+      <Signal Name="uiTimeStamp" Offset="0" ArrayLen="1" Type="ulong" Bitmask="ffffffff" ByteOrder="big-endian"
+              Size="4"/>
+      <Signal Name="uiMeasurementCounter" Offset="4" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="big-endian"
+              Size="2"/>
+      <Signal Name="uiCycleCounter" Offset="6" ArrayLen="1" Type="ushort" Bitmask="ffff" ByteOrder="big-endian"
+              Size="2"/>
+      <Signal Name="eSigStatus" Offset="8" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+      <Signal Name="a_reserve" Offset="9" ArrayLen="3" Type="uchar" Bitmask="ff" ByteOrder="big-endian" Size="1"/>
+    </Group>
+  </View>
+</SdlFile>

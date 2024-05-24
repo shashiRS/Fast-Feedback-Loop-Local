@@ -1,0 +1,21 @@
+next_create_test(
+  NAME plugin_config_handler_test
+  SRCS
+    plugin_config_handler_test.cpp
+    ${PLUGIN_MANAGER_SRC_DIR}/plugin_config_handler.cpp
+    ${PLUGIN_MANAGER_SRC_DIR}/process_manager.cpp
+  PRIVATEINCLUDEDIRS
+    ${PLUGIN_MANAGER_SRC_DIR}
+    ${PLUGINS_INTERFACE_DIR}
+    ${UNIT_TEST_COMMON_DIR}
+    ${DATABRIDGE_INTERFACE_DIR}
+  PRIVATELINKLIBS
+    jsoncpp_static
+    next_udex::next_udex
+    next_sdk::next_appsupport
+    next_plugin
+  USESDB
+  INSTALLTARGETS
+    mts_sentinel::client
+    mts_core_lib::modules
+)

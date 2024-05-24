@@ -1,0 +1,8 @@
+add_subdirectory(core_lib_reader_test)
+add_subdirectory(ethernet_package_test)
+add_subdirectory(can_package_test)
+add_subdirectory(mta_hw_packages_test)
+add_subdirectory(mta_sw_packages_test)
+add_subdirectory(refcam_package_test)
+add_subdirectory(gps_generic_package_test)
+add_subdirectory(rtrange_package_test)

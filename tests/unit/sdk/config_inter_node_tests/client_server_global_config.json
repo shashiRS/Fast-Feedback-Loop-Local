@@ -1,0 +1,26 @@
+{
+  "unused_component": {
+    "stepping": {
+      "time_step": "40000"
+    },
+    "realtime_factor": "10"
+  },
+  "component_test": {
+    "ip": "1.1.1.1",
+    "port": "80",
+    "url": "myurl.com",
+    "is_ssl_enabled": "1"
+  },
+  "load_configuration_sequence": {
+    "dummy_str": "from_server_normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "1"
+      }
+    }
+  }
+}

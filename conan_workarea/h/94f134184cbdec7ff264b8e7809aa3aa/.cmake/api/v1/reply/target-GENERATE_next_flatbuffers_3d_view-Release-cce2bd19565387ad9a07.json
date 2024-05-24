@@ -1,0 +1,192 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"flatbuffers_generate_headers"
+		],
+		"files" : 
+		[
+			"src/cmake/build_flatbuffers.cmake",
+			"src/bridges/bridgesdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "GENERATE_next_flatbuffers_3d_view::@8abc7c48d23ada670e3b",
+	"name" : "GENERATE_next_flatbuffers_3d_view",
+	"paths" : 
+	{
+		"build" : "src/bridges/bridgesdk",
+		"source" : "src/bridges/bridgesdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/bridgesdk/CMakeFiles/GENERATE_next_flatbuffers_3d_view",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/9e02bbccbdd9a33e25230cfdcd19eb95/GENERATE_next_flatbuffers_3d_view.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/6c74d511d5b812c5d08ea9990218d73d/egovehicle.bfbs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/6c74d511d5b812c5d08ea9990218d73d/freegeometry.bfbs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/6c74d511d5b812c5d08ea9990218d73d/groundline.bfbs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/6c74d511d5b812c5d08ea9990218d73d/meta_info.bfbs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/6c74d511d5b812c5d08ea9990218d73d/pointcloud.bfbs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/6c74d511d5b812c5d08ea9990218d73d/primitive.bfbs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/6c74d511d5b812c5d08ea9990218d73d/trafficparticipant.bfbs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/6c74d511d5b812c5d08ea9990218d73d/view_update.bfbs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/583c07df09a9fbe560898e9871ab352a/egovehicle_generated.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/583c07df09a9fbe560898e9871ab352a/freegeometry_generated.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/583c07df09a9fbe560898e9871ab352a/groundline_generated.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/583c07df09a9fbe560898e9871ab352a/meta_info_generated.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/583c07df09a9fbe560898e9871ab352a/pointcloud_generated.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/583c07df09a9fbe560898e9871ab352a/primitive_generated.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/583c07df09a9fbe560898e9871ab352a/trafficparticipant_generated.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/583c07df09a9fbe560898e9871ab352a/view_update_generated.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

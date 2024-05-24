@@ -1,0 +1,41 @@
+{
+  "next_player": {
+    "orchestrator": {
+      "flow1": {
+        "meta": {
+          "delay": 0,
+          "sync": 1,
+          "control_data_generation": {
+            "sdl_file": "sig_header.sdl",
+            "member_data": {
+              "SigHeader.uiTimeStamp": "ADC4xx.EMF.EmfGlobalTimestamp.SigHeader.uiTimeStamp",
+              "SigHeader.uiMeasurementCounter": "ADC4xx.EMF.EmfGlobalTimestamp.SigHeader.uiMeasurementCounter",
+              "SigHeader.sSigState": [
+                "ADC4xx.EMF.EmfGlobalTimestamp.SigHeader.uiTimeStamp",
+                0,
+                1.5,
+                2,
+                3,
+                4,
+                4,
+                6,
+                1,
+                7
+              ],
+              "SigHeader.sSigState2": [ "ADC4xx.EMF.EmfGlobalTimestamp.SigHeader.uiTimeStamp" ],
+              "SigHeader.sSigState3": [],
+              "SigHeader.sSigState4": [1]
+            }
+          }
+        },
+        "type": "signal_name",
+        "value": "ADC4xx.EMF.EmfGlobalTimestamp",
+        "clients": {
+          "some_component": {
+            "runSequencer_response": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+#! /usr/bin/env python3
+"""
+Script for starting an application which is using the Next libraries.
+
+Do not change this file, it is generated during a CMake run.
+
+The script is starting the @STARTUPAPPLICATION@ out of the current directory. The conan cache directory is set as
+LD_LIBRARY_PATH on Linux. So the libraries do not have to be installed.
+"""
+
+import os
+import subprocess
+import sys
+
+startup_application = "@STARTUPAPPLICATION@"
+next_conan_cache_dir = "@NEXTCONANCACHEDIR@"
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+if sys.platform.startswith("linux"):
+    next_conan_cache_dir = os.path.join(next_conan_cache_dir, "lib")
+else:
+    sys.exit("Not supported platform, Linux is supported")
+
+try:
+    my_env = os.environ.copy()
+    my_env["LD_LIBRARY_PATH"] = next_conan_cache_dir
+    proc = subprocess.Popen("gnome-terminal -- " + os.path.join(dir_path, startup_application), env=my_env, shell=True)
+except Exception as e:
+    print("Failed to start:", e)

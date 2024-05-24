@@ -1,0 +1,59 @@
+{
+  "local": {
+    "name": "Next_Player"
+  },
+  "next_player": {
+    "trigger": {
+      "EmfNodeTriggering": {
+        "function ": "runSequencer_response",
+        "triggervalue": "ADC4xx.FDP_21P.FDP_ObjectData"
+      }
+    },
+    "stepping": {
+      "time_step": "40000"
+    },
+    "realtime_factor": "10",
+    "filters": {
+      "url": "",
+      "expression": ""
+    },
+    "orchestrator": {
+      "flow1": {
+        "type": "time_stamp",
+        "value": "2000",
+        "synch_timestamp_url": "ADC4xx.FDP_21P.FDP_ObjectData",
+        "synch_id_url": "ADC4xx.FDP_21P.FDP_ObjectData",
+        "meta": {
+          "delay": 1.1000,
+          "sync": true
+        },
+        "clients": [
+          {
+            "name": "client1",
+            "port": "portname1"
+          },
+          {
+            "name": "client2",
+            "port": "portname2"
+          }
+        ]
+      }
+    }
+  },
+  "component_test": {
+    "ip": "1.1.1.1",
+    "port": "80",
+    "url": "myurl.com",
+    "is_ssl_enabled": "1"
+  },
+  "test": {
+    "dummy_str": "1.1.1.1",
+    "dummy1_int": "80",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8"
+      }
+    }
+  }
+}

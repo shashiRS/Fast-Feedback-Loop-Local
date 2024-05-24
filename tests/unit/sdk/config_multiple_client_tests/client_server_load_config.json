@@ -1,0 +1,164 @@
+{
+  "test1": {
+    "singleValue": "from_CFG",
+    "singleValueEmpty": "from_CFG"
+  },
+  "test2": {
+    "singleValue_t2": "from_CFG",
+    "singleValueEmpty": "from_CFG"
+  },
+  "test3": {
+    "singleValue_t3": "from_CFG",
+    "singleValueEmpty": "from_CFG"
+  },
+  "unused_component": {
+    "stepping": {
+      "time_step": "40000"
+    },
+    "realtime_factor": "10",
+    "floatValue": "1.10",
+    "boolValue": "true",
+    "strValue": "string"
+  },
+  "component_test": {
+    "ip": "1.1.1.1",
+    "port": "80",
+    "url": "myurl.com",
+    "is_ssl_enabled": "1"
+  },
+  "test_PrivateInsertFromServerFiltering_Success": {
+    "ip": "1.1.1.1",
+    "port": "80",
+    "url": "myurl.com",
+    "is_ssl_enabled": "1"
+  },
+  "request_config_from_server_at_init": {
+    "dummy_str": "normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "0"
+      }
+    }
+  },
+  "request_config_from_server_at_init_instance2": {
+    "dummy_str": "normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "0"
+      }
+    }
+  },
+  "server_update_after_init": {
+    "dummy_str": "normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "0"
+      }
+    }
+  },
+  "client_request_key_from_different_component": {
+    "dummy_str": "normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "0"
+      }
+    }
+  },
+  "load_configuration_sequence": {
+    "dummy_str": "normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "0"
+      }
+    }
+  },
+  "load_configuration_sequence_instance2": {
+    "dummy_str": "normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "0"
+      }
+    }
+  },
+  "load_filtered_config_command_Line": {
+    "dummy_str": "normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "0"
+      }
+    }
+  },
+  "test": {
+    "dummy_str": "normal_config",
+    "dummy_int": "80",
+    "dummy_float": "8.5",
+    "debug_level": "4",
+    "lower_level": {
+      "lower_level2": {
+        "dummy2": "8",
+        "update_by_server": "0"
+      }
+    }
+  },
+  "differentComponentStrList": {
+    "orchestrator": {
+      "flow1": {
+        "meta": {
+          "delay": 0,
+          "sync": true
+        },
+        "type": "signal_name",
+        "value": "ADC4xx.EMF.EmfGlobalTimestamp",
+        "clients": [
+            "EmfNodeTriggering",
+            "runSequencer_response"
+        ],
+        "clientsMixedValues": [
+          "EmfNodeTriggering",
+          100
+        ],
+        "emptyArray": []
+      },
+      "flow2": {
+        "meta": {
+          "delay": 0,
+          "sync": true
+        },
+        "type": "signal_name",
+        "value": "ADC4xx.EMF.EmfGlobalTimestamp",
+        "clients": [
+            "EmfNodeTriggering",
+            "runSequencer_response"
+        ]
+      }
+    }
+  }
+}

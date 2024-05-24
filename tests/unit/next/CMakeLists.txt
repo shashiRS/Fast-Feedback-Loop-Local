@@ -1,0 +1,8 @@
+add_subdirectory(container)
+add_subdirectory(next_inport_test)
+add_subdirectory(next_outport_test)
+add_subdirectory(next_system_service_test)
+add_subdirectory(next_test_component)
+add_subdirectory(sync_manager_test)
+add_subdirectory(syncref_handler_test)
+add_subdirectory(sync_config_reader_test)

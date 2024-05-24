@@ -1,0 +1,6 @@
+add_subdirectory(base_ctrl_config_reader)
+add_subdirectory(base_ctrl_data_tests)
+add_subdirectory(base_ctrl_data_pool_test)
+add_subdirectory(enhanced_orchestrator_tests)
+add_subdirectory(orchestrator_master_tests)
+add_subdirectory(tree_extractor_publisher_test)

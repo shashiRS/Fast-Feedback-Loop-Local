@@ -1,0 +1,39 @@
+@startuml
+state Init: Config Client started 
+state ConfigEMF: read and write configuration
+
+[*] -> Init 
+Init -> ConfigEMF
+ConfigEMF -> setupPorts
+setupPorts --> ReconfigEMF
+ReconfigEMF -> setupPorts
+state ConfigEMF { 
+state readConfigFile: put all requests into _config
+state retreiveGlobal: put into _config but do not overwrite 
+state writeDefaults: put all hardcoded values in _config
+
+[*] -> writeDefaults 
+writeDefaults --> readConfigFile
+readConfigFile --> retreiveGlobal
+retreiveGlobal -> [*] 
+}
+
+state setupPorts: creates actual UDex subscriber, Extractor etc based on _config add all active information into life ports
+
+state setupPorts {
+state decideConfig: decide, if config information is different from active
+state changeConfig: set the vlaues, do the change and set into active config
+state writeActive: set all active values (of changed entity
+[*] -> decideConfig
+decideConfig --> changeConfig
+changeConfig -> writeActive
+writeActive -> decideConfig: for each _config entry 
+writeActive -> [*] : all done
+}
+
+state ReconfigEMF {
+state getReconfig: put into _config overwrite
+[*] -> getReconfig
+getReconfig -> [*] 
+}
+@enduml

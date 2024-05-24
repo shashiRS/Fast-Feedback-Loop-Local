@@ -1,0 +1,294 @@
+"""
+    Copyright 2022 Continental Corporation
+
+    :file: swt_update_signals.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script containing test case(s) of the signal update button
+
+    :author:
+        - Fabian Janker (uif41320) <fabian.janker@continental-corporation.com>
+"""
+
+# standard Python import area
+import json
+
+from helper_files.ControlBridge import controlbridge_Variables
+from helper_files.DataBridge import databridge_Variables, sdl_generator
+from helper_files.General import eCal_handler, precondition
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.report import (
+    DETAILS,
+    EXPECTED,
+    PRECONDITION,
+    TESTSTEP,
+    TESTTAG,
+    VERIFIES,
+)
+from ptf.verify_utils import ptf_asserts, ptf_expects
+
+
+def SWT_EVENT_UPDATE_BUTTON_WITH_RECORDING():
+    DETAILS("Test case to check if the event of updating the signals is correct")
+
+    VERIFIES("The test is verifying, that the event is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("databridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    precondition.precondition_databridge_with_recording(rec_type="zrec")
+
+    TESTSTEP("Checking if the event of updating the signals is correct")
+    EXPECTED("event: DataStreamFormatUpdate")
+    # sending the message to update the signals
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_UPDATE_SIGNALS, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    response_update_signal = next_api.websocket.databridge_broadcast.recv()
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(bool(response_update_signal), True, "Timeout raised while sending or receiving")
+
+    response_json_update_signal = json.loads(response_update_signal)
+    recv_event_update_signal = response_json_update_signal["event"]
+    ptf_expects.expect_eq(
+        recv_event_update_signal,
+        databridge_Variables.EXPECTED_EVENT_UPDATING_SIGNALS,
+        "the event is not the expected string!",
+    )
+
+    TESTSTEP("POSTCONDITION: Close the signal")
+    EXPECTED("Signal is closed properly")
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_CLOSE_SIGNAL, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    TESTSTEP("POSTCONDITION: Close the recording")
+    EXPECTED("Recording is closed properly")
+    # if controlbridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        next_api.websocket.controlbridge.send(controlbridge_Variables.CONTROLBRIDGE_CLOSE_RECORDING),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+
+def SWT_EVENT_UPDATE_BUTTON_WITHOUT_RECORDING():
+    DETAILS("Test case to check if the event of updating the signals is correct")
+
+    VERIFIES("The test is verifying, that the event is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("databridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    sdl_file_name = "update_signal_event"
+
+    precondition.precondition_databridge_without_recording()
+
+    PRECONDITION("generating the sdl file which is needed for the test")
+    sdl_event_file = sdl_generator.Handler(sdl_file_name)
+
+    PRECONDITION("setup dummy Signal")
+    try:
+        mock_component = eCal_handler.Handler(sdl_file_name)
+    except FileNotFoundError as e:
+        sdl_event_file.deleteSdlFile()
+        ptf_asserts.fail("File does not exist: {}".format(e))
+
+    TESTSTEP("Checking if the event of updating the signals is correct")
+    EXPECTED("event: DataStreamFormatUpdate")
+    # sending the message to update the signals
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_UPDATE_SIGNALS, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    response_update_signal = next_api.websocket.databridge_broadcast.recv()
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(bool(response_update_signal), True, "Timeout raised while sending or receiving")
+
+    response_json_update_signal = json.loads(response_update_signal)
+    recv_event_update_signal = response_json_update_signal["event"]
+    ptf_expects.expect_eq(
+        recv_event_update_signal,
+        databridge_Variables.EXPECTED_EVENT_UPDATING_SIGNALS,
+        "the event is not the expected string!",
+    )
+
+    TESTSTEP("POSTCONDITION: Close the signal")
+    EXPECTED("Signal is closed properly")
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_CLOSE_SIGNAL, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    TESTSTEP("POSTCONDITION: Close the publisher and dummyComponent.exe")
+    EXPECTED("Publisher and dummyComponent.exe is closed properly")
+    mock_component.closeSignal()
+
+    TESTSTEP("POSTCONDITION: delete the sdl file for this test")
+    EXPECTED("sdl file is deleted properly")
+    sdl_event_file.deleteSdlFile()
+
+
+def SWT_PAYLOAD_UPDATE_BUTTON_WITH_RECORDING():
+    DETAILS("Test case to check if the payload of updating the signals is correct")
+
+    VERIFIES("The test is verifying, that the payload is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("databridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    precondition.precondition_databridge_with_recording()
+
+    TESTSTEP("Checking if the payload of updating the signals is correct")
+    EXPECTED("payload: {}".format(databridge_Variables.EXPECTED_SIGNAL_ROOT_DIRECTORY))
+    # sending the message to update the signals
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_UPDATE_SIGNALS, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    response_update_signal = next_api.websocket.databridge_broadcast.recv()
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(bool(response_update_signal), True, "Timeout raised while sending or receiving")
+
+    response_json_update_signal = json.loads(response_update_signal)
+    recv_payload_update_signal = []
+    len_payload_update_signal = len(response_json_update_signal["payload"]["dataStreamSchema"])
+    ptf_expects.expect_eq(
+        len_payload_update_signal,
+        len(databridge_Variables.EXPECTED_SIGNAL_ROOT_DIRECTORY),
+        "the length of the lists is wrong",
+    )
+
+    for i in range(len_payload_update_signal):
+        recv_payload_update_signal.append(response_json_update_signal["payload"]["dataStreamSchema"][i]["id"])
+    ptf_expects.expect_eq(
+        set(recv_payload_update_signal),
+        set(databridge_Variables.EXPECTED_SIGNAL_ROOT_DIRECTORY),
+        "The List is not equal to the expected list",
+    )
+
+    TESTSTEP("POSTCONDITION: Close the signal")
+    EXPECTED("Signal is closed properly")
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_CLOSE_SIGNAL, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    TESTSTEP("POSTCONDITION: Close the recording")
+    EXPECTED("Recording is closed properly")
+    # if controlbridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        next_api.websocket.controlbridge.send(controlbridge_Variables.CONTROLBRIDGE_CLOSE_RECORDING),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+
+def SWT_PAYLOAD_UPDATE_BUTTON_WITHOUT_RECORDING():
+    DETAILS("Test case to check if the payload of updating the signals is correct")
+
+    VERIFIES("The test is verifying, that the payload is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("databridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    sdl_file_name = "update_signal_payload"
+
+    precondition.precondition_databridge_without_recording()
+
+    PRECONDITION("generating the sdl file which is needed for the test")
+    sdl_event_file = sdl_generator.Handler(sdl_file_name)
+
+    PRECONDITION("setup dummy Signal")
+    try:
+        mock_component = eCal_handler.Handler(sdl_file_name)
+    except FileNotFoundError as e:
+        sdl_event_file.deleteSdlFile()
+        ptf_asserts.fail("File does not exist: {}".format(e))
+
+    TESTSTEP("Checking if the payload of updating the signals is correct")
+    EXPECTED("payload: {}".format(sdl_file_name))
+    # sending the message to update the signals
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_UPDATE_SIGNALS, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    response_update_signal = next_api.websocket.databridge_broadcast.recv()
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(bool(response_update_signal), True, "Timeout raised while sending or receiving")
+
+    response_json_update_signal = json.loads(response_update_signal)
+    recv_payload_update_signal = []
+    len_payload_update_signal = len(response_json_update_signal["payload"]["dataStreamSchema"])
+    ptf_expects.expect_eq(len_payload_update_signal, 1, "the length of the lists is wrong")
+
+    for i in range(len_payload_update_signal):
+        recv_payload_update_signal.append(response_json_update_signal["payload"]["dataStreamSchema"][i]["id"])
+    ptf_expects.expect_eq(
+        set(recv_payload_update_signal), set(["update_signal_payload"]), "The List is not equal to the expected list"
+    )
+
+    TESTSTEP("POSTCONDITION: Close the signal")
+    EXPECTED("Signal is closed properly")
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_CLOSE_SIGNAL, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    TESTSTEP("POSTCONDITION: Close the publisher and dummyComponent.exe")
+    EXPECTED("Publisher and dummyComponent.exe is closed properly")
+    mock_component.closeSignal()
+
+    TESTSTEP("POSTCONDITION: delete the sdl file for this test")
+    EXPECTED("sdl file is deleted properly")
+    sdl_event_file.deleteSdlFile()

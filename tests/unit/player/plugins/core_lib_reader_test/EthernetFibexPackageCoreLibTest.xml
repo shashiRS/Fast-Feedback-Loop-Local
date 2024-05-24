@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 rel. 3 sp2 (http://www.altova.com) by Patrick Sauter (BMW AG) -->
+<fx:FIBEX xmlns:fx="http://www.asam.net/xml/fbx" xmlns:ho="http://www.asam.net/xml" xmlns:ethernet="http://www.asam.net/xml/fbx/ethernet" xmlns:it="http://www.asam.net/xml/fbx/it" xmlns:bmw="http://www.bmwgroup.com/xml/fbx" xmlns:service="http://www.asam.net/xml/fbx/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="                        http://www.asam.net/xml/fbx ..\..\xml_schema\fibex.xsd
+                        http://www.asam.net/xml/fbx/ethernet ..\..\xml_schema\fibex4ethernet.xsd
+                        http://www.asam.net/xml/fbx/it ..\..\xml_schema\fibex4it.xsd
+                        http://www.asam.net/xml/fbx/services ..\..\xml_schema\fibex4services.xsd
+                                                " VERSION="4.1.0">
+    <fx:PROJECT ho:OID="project_000" ID="project_000">
+        <ho:SHORT-NAME>fibex4services</ho:SHORT-NAME>
+        <ho:LONG-NAME xml:lang="de">fibex4services</ho:LONG-NAME>
+        <ho:DESC xml:lang="de">Template file for the description of service interfaces within FIBEX.</ho:DESC>
+    </fx:PROJECT>
+    <fx:ELEMENTS>
+        <fx:CLUSTERS>
+            <fx:CLUSTER ID="cluster_subnet" xsi:type="ethernet:CLUSTER-TYPE">
+                <ho:SHORT-NAME>subnet</ho:SHORT-NAME>
+                <fx:SPEED>100000000</fx:SPEED>
+                <fx:IS-HIGH-LOW-BIT-ORDER>false</fx:IS-HIGH-LOW-BIT-ORDER>
+                <fx:BIT-COUNTING-POLICY>SAWTOOTH</fx:BIT-COUNTING-POLICY>
+                <fx:PROTOCOL>ETHERNET</fx:PROTOCOL>
+                <fx:CHANNEL-REFS>
+                    <fx:CHANNEL-REF ID-REF="channel_vlan_1"/>
+                    <fx:CHANNEL-REF ID-REF="channel_vlan_2"/>
+                </fx:CHANNEL-REFS>
+                <ethernet:MAC-MULTICAST-GROUPS>
+                    <ethernet:MAC-MULTICAST-GROUP ID="multicastgroup_1">
+                        <ho:SHORT-NAME>multicastgroup1</ho:SHORT-NAME>
+                        <ethernet:MAC-MULTICAST-ADDRESS>01:00:5E:00:00:01</ethernet:MAC-MULTICAST-ADDRESS>
+                    </ethernet:MAC-MULTICAST-GROUP>
+                </ethernet:MAC-MULTICAST-GROUPS>
+            </fx:CLUSTER>
+        </fx:CLUSTERS>
+        <fx:CHANNELS>
+            <fx:CHANNEL ID="channel_vlan_1" xsi:type="ethernet:CHANNEL-TYPE">
+                <ho:SHORT-NAME>channel_vlan1</ho:SHORT-NAME>
+                <fx:PDU-TRIGGERINGS>
+                    <fx:PDU-TRIGGERING ID="pdutrig_simple">
+                        <fx:PDU-REF ID-REF="pdu_simple"/>
+                    </fx:PDU-TRIGGERING>
+                </fx:PDU-TRIGGERINGS>
+                <fx:FRAME-TRIGGERINGS>
+                    <fx:FRAME-TRIGGERING ID="frametrig_1">
+                        <fx:IDENTIFIER>
+                            <fx:IDENTIFIER-VALUE>4711</fx:IDENTIFIER-VALUE>
+                        </fx:IDENTIFIER>
+                        <fx:FRAME-REF ID-REF="frame_simple"/>
+                    </fx:FRAME-TRIGGERING>
+                </fx:FRAME-TRIGGERINGS>
+                <ethernet:VIRTUAL-LAN ID="vlan_1">
+                    <ho:SHORT-NAME>vlan1</ho:SHORT-NAME>
+                    <ethernet:VLAN-IDENTIFIER>1</ethernet:VLAN-IDENTIFIER>
+                </ethernet:VIRTUAL-LAN>
+            </fx:CHANNEL>
+            <fx:CHANNEL ID="channel_vlan_2" xsi:type="ethernet:CHANNEL-TYPE">
+                <ho:SHORT-NAME>channel_vlan2</ho:SHORT-NAME>
+                <ethernet:VIRTUAL-LAN ID="vlan_2">
+                    <ho:SHORT-NAME>vlan2</ho:SHORT-NAME>
+                    <ethernet:VLAN-IDENTIFIER>2</ethernet:VLAN-IDENTIFIER>
+                </ethernet:VIRTUAL-LAN>
+            </fx:CHANNEL>
+        </fx:CHANNELS>
+        <fx:COUPLING-ELEMENTS>
+            <fx:COUPLING-ELEMENT ID="coupling_switch_1" xsi:type="ethernet:COUPLING-ELEMENT-TYPE">
+                <ho:SHORT-NAME>switch1</ho:SHORT-NAME>
+                <fx:CLUSTER-REF ID-REF="cluster_subnet"/>
+                <fx:ECU-REF ID-REF="ecu_service_3"/>
+                <fx:COUPLING-PORTS>
+                    <fx:COUPLING-PORT ID="cp_1" xsi:type="ethernet:COUPLING-PORT-TYPE">
+                        <fx:CONTROLLER-REF ID-REF="contr_eth_ecu_pdu_1"/>
+                        <ethernet:VLAN-MEMBERSHIPS>
+                            <ethernet:VLAN-MEMBERSHIP>
+                                <fx:CHANNEL-REF ID-REF="channel_vlan_1"/>
+                                <ethernet:DEFAULT-PRIORITY>
+                                    <fx:PRIORITY>2</fx:PRIORITY>
+                                </ethernet:DEFAULT-PRIORITY>
+                            </ethernet:VLAN-MEMBERSHIP>
+                        </ethernet:VLAN-MEMBERSHIPS>
+                    </fx:COUPLING-PORT>
+                    <fx:COUPLING-PORT ID="cp_2" xsi:type="ethernet:COUPLING-PORT-TYPE">
+                        <fx:CONTROLLER-REF ID-REF="contr_eth_ecu_pdu_2"/>
+                        <ethernet:VLAN-MEMBERSHIPS>
+                            <ethernet:VLAN-MEMBERSHIP>
+                                <fx:CHANNEL-REF ID-REF="channel_vlan_1"/>
+                                <ethernet:DEFAULT-PRIORITY>
+                                    <fx:PRIORITY>2</fx:PRIORITY>
+                                </ethernet:DEFAULT-PRIORITY>
+                            </ethernet:VLAN-MEMBERSHIP>
+                        </ethernet:VLAN-MEMBERSHIPS>
+                    </fx:COUPLING-PORT>
+                    <fx:COUPLING-PORT ID="cp_3" xsi:type="ethernet:COUPLING-PORT-TYPE">
+                        <fx:CONTROLLER-REF ID-REF="contr_eth_ecu_service_1"/>
+                        <ethernet:VLAN-MEMBERSHIPS>
+                            <ethernet:VLAN-MEMBERSHIP>
+                                <fx:CHANNEL-REF ID-REF="channel_vlan_2"/>
+                                <ethernet:DEFAULT-PRIORITY>
+                                    <fx:PRIORITY>3</fx:PRIORITY>
+                                </ethernet:DEFAULT-PRIORITY>
+                            </ethernet:VLAN-MEMBERSHIP>
+                        </ethernet:VLAN-MEMBERSHIPS>
+                    </fx:COUPLING-PORT>
+                    <fx:COUPLING-PORT ID="cp_4" xsi:type="ethernet:COUPLING-PORT-TYPE">
+                        <fx:CONTROLLER-REF ID-REF="contr_eth_ecu_service_2"/>
+                        <ethernet:VLAN-MEMBERSHIPS>
+                            <ethernet:VLAN-MEMBERSHIP>
+                                <fx:CHANNEL-REF ID-REF="channel_vlan_2"/>
+                                <ethernet:DEFAULT-PRIORITY>
+                                    <fx:PRIORITY>3</fx:PRIORITY>
+                                </ethernet:DEFAULT-PRIORITY>
+                            </ethernet:VLAN-MEMBERSHIP>
+                        </ethernet:VLAN-MEMBERSHIPS>
+                    </fx:COUPLING-PORT>
+                    <fx:COUPLING-PORT ID="cp_5" xsi:type="ethernet:COUPLING-PORT-TYPE">
+                        <fx:CONTROLLER-REF ID-REF="contr_eth_ecu_service_3"/>
+                        <ethernet:VLAN-MEMBERSHIPS>
+                            <ethernet:VLAN-MEMBERSHIP>
+                                <fx:CHANNEL-REF ID-REF="channel_vlan_2"/>
+                                <ethernet:DEFAULT-PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </ethernet:DEFAULT-PRIORITY>
+                            </ethernet:VLAN-MEMBERSHIP>
+                        </ethernet:VLAN-MEMBERSHIPS>
+                    </fx:COUPLING-PORT>
+                </fx:COUPLING-PORTS>
+                <ethernet:COUPLING-ELEMENT-TYPE>SWITCH</ethernet:COUPLING-ELEMENT-TYPE>
+            </fx:COUPLING-ELEMENT>
+        </fx:COUPLING-ELEMENTS>
+        <fx:ECUS>
+            <fx:ECU ID="ecu_pdu_1">
+                <ho:SHORT-NAME>ecu_pdu1</ho:SHORT-NAME>
+                <fx:CONTROLLERS>
+                    <fx:CONTROLLER ID="contr_eth_ecu_pdu_1" xsi:type="ethernet:CONTROLLER-TYPE">
+                        <ho:SHORT-NAME>contr_eth_ecu_pdu1</ho:SHORT-NAME>
+                    </fx:CONTROLLER>
+                </fx:CONTROLLERS>
+                <fx:CONNECTORS>
+                    <fx:CONNECTOR ID="con_ecu_pdu_1" xsi:type="it:CONNECTOR-TYPE">
+                        <fx:CHANNEL-REF ID-REF="channel_vlan_1"/>
+                        <fx:INPUTS>
+                            <fx:INPUT-PORT ID="in_1">
+                                <fx:FRAME-TRIGGERING-REF ID-REF="frametrig_1"/>
+                                <fx:INCLUDED-PDUS>
+                                    <fx:INCLUDED-PDU ID="con_ecu_pdu_1_in_includedPDU_0">
+                                        <fx:PDU-TRIGGERING-REF ID-REF="pdutrig_simple"/>
+                                        <fx:INCLUDED-SIGNALS>
+                                            <fx:INCLUDED-SIGNAL ID="con_ecu_pdu_1_in_includedSignal_0">
+                                                <fx:SIGNAL-INSTANCE-REF ID-REF="sig_inst_1"/>
+                                            </fx:INCLUDED-SIGNAL>
+                                        </fx:INCLUDED-SIGNALS>
+                                    </fx:INCLUDED-PDU>
+                                </fx:INCLUDED-PDUS>
+                            </fx:INPUT-PORT>
+                        </fx:INPUTS>
+                        <it:NETWORK-ENDPOINTS>
+                            <it:NETWORK-ENDPOINT ID="NWEP_ecu_pdu_1">
+                                <it:NETWORK-ENDPOINT-ADDRESSES>
+                                    <it:NETWORK-ENDPOINT-ADDRESS>
+                                        <it:IPV4>
+                                            <it:IP-ADDRESS>192.168.0.2</it:IP-ADDRESS>
+                                            <it:IPV4-ADDRESS-SOURCE>FIXED</it:IPV4-ADDRESS-SOURCE>
+                                            <it:NETWORKMASK>255.255.255.0</it:NETWORKMASK>
+                                        </it:IPV4>
+                                    </it:NETWORK-ENDPOINT-ADDRESS>
+                                </it:NETWORK-ENDPOINT-ADDRESSES>
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                            </it:NETWORK-ENDPOINT>
+                        </it:NETWORK-ENDPOINTS>
+                        <it:APPLICATION-ENDPOINTS>
+                            <it:APPLICATION-ENDPOINT ID="APPEP_ecu_pdu_1">
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                                <it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                    <it:UDP-TP>
+                                        <it:UDP-PORT>
+                                            <it:PORT-NUMBER>50000</it:PORT-NUMBER>
+                                        </it:UDP-PORT>
+                                    </it:UDP-TP>
+                                </it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                <it:NETWORK-ENDPOINT-REF ID-REF="NWEP_ecu_pdu_1"/>
+                                <it:ECU-INPUT-PORT-REFS>
+                                    <fx:ECU-PORT-REF ID-REF="in_1"/>
+                                </it:ECU-INPUT-PORT-REFS>
+                            </it:APPLICATION-ENDPOINT>
+                        </it:APPLICATION-ENDPOINTS>
+                    </fx:CONNECTOR>
+                </fx:CONNECTORS>
+            </fx:ECU>
+            <fx:ECU ID="ecu_pdu_2">
+                <ho:SHORT-NAME>ecu_pdu2</ho:SHORT-NAME>
+                <fx:CONTROLLERS>
+                    <fx:CONTROLLER ID="contr_eth_ecu_pdu_2" xsi:type="ethernet:CONTROLLER-TYPE">
+                        <ho:SHORT-NAME>contr_eth_ecu_pdu2</ho:SHORT-NAME>
+                    </fx:CONTROLLER>
+                </fx:CONTROLLERS>
+                <fx:CONNECTORS>
+                    <fx:CONNECTOR ID="con_ecu_pdu_2" xsi:type="it:CONNECTOR-TYPE">
+                        <fx:CHANNEL-REF ID-REF="channel_vlan_1"/>
+                        <fx:OUTPUTS>
+                            <fx:OUTPUT-PORT ID="out_1">
+                                <fx:FRAME-TRIGGERING-REF ID-REF="frametrig_1"/>
+                                <fx:INCLUDED-PDUS>
+                                    <fx:INCLUDED-PDU ID="con_ecu_pdu_1_out_includedPDU_0">
+                                        <fx:PDU-TRIGGERING-REF ID-REF="pdutrig_simple"/>
+                                        <fx:INCLUDED-SIGNALS>
+                                            <fx:INCLUDED-SIGNAL ID="con_ecu_pdu_1_out_includedSignal_0">
+                                                <fx:SIGNAL-INSTANCE-REF ID-REF="sig_inst_1"/>
+                                            </fx:INCLUDED-SIGNAL>
+                                        </fx:INCLUDED-SIGNALS>
+                                    </fx:INCLUDED-PDU>
+                                </fx:INCLUDED-PDUS>
+                            </fx:OUTPUT-PORT>
+                        </fx:OUTPUTS>
+                        <it:NETWORK-ENDPOINTS>
+                            <it:NETWORK-ENDPOINT ID="NWEP_ecu_pdu_2">
+                                <it:NETWORK-ENDPOINT-ADDRESSES>
+                                    <it:NETWORK-ENDPOINT-ADDRESS>
+                                        <it:IPV4>
+                                            <it:IP-ADDRESS>192.168.0.3</it:IP-ADDRESS>
+                                            <it:IPV4-ADDRESS-SOURCE>FIXED</it:IPV4-ADDRESS-SOURCE>
+                                            <it:NETWORKMASK>255.255.255.0</it:NETWORKMASK>
+                                        </it:IPV4>
+                                    </it:NETWORK-ENDPOINT-ADDRESS>
+                                </it:NETWORK-ENDPOINT-ADDRESSES>
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                            </it:NETWORK-ENDPOINT>
+                        </it:NETWORK-ENDPOINTS>
+                        <it:APPLICATION-ENDPOINTS>
+                            <it:APPLICATION-ENDPOINT ID="APPEP_ecu_pdu_2">
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                                <it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                    <it:UDP-TP>
+                                        <it:UDP-PORT>
+                                            <it:DYNAMICALLY-ASSIGNED>true</it:DYNAMICALLY-ASSIGNED>
+                                        </it:UDP-PORT>
+                                    </it:UDP-TP>
+                                </it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                <it:NETWORK-ENDPOINT-REF ID-REF="NWEP_ecu_pdu_2"/>
+                                <it:ECU-OUTPUT-PORT-REFS>
+                                    <fx:ECU-PORT-REF ID-REF="out_1"/>
+                                </it:ECU-OUTPUT-PORT-REFS>
+                            </it:APPLICATION-ENDPOINT>
+                        </it:APPLICATION-ENDPOINTS>
+                    </fx:CONNECTOR>
+                </fx:CONNECTORS>
+            </fx:ECU>
+            <fx:ECU ID="ecu_service_1">
+                <ho:SHORT-NAME>ecu_service1</ho:SHORT-NAME>
+                <fx:CONTROLLERS>
+                    <fx:CONTROLLER ID="contr_eth_ecu_service_1" xsi:type="ethernet:CONTROLLER-TYPE">
+                        <ho:SHORT-NAME>contr_eth_ecu_service1</ho:SHORT-NAME>
+                    </fx:CONTROLLER>
+                </fx:CONTROLLERS>
+                <fx:CONNECTORS>
+                    <fx:CONNECTOR ID="con_ecu_service_1" xsi:type="it:CONNECTOR-TYPE">
+                        <fx:CHANNEL-REF ID-REF="channel_vlan_2"/>
+                        <it:NETWORK-ENDPOINTS>
+                            <it:NETWORK-ENDPOINT ID="NWEP_ecu_service_1">
+                                <it:NETWORK-ENDPOINT-ADDRESSES>
+                                    <it:NETWORK-ENDPOINT-ADDRESS>
+                    <it:IPV4>
+                      <it:IPV4-ADDRESS-SOURCE>DHCPV4</it:IPV4-ADDRESS-SOURCE>
+                    </it:IPV4>
+                                    </it:NETWORK-ENDPOINT-ADDRESS>
+                                </it:NETWORK-ENDPOINT-ADDRESSES>
+                                <it:INFRA-STRUCTURE-SERVICES>
+                                    <it:TIME-SYNCHRONIZATION>
+                                        <it:TIME-SYNC-CLIENT>
+                                            <it:TIME-SYNC-TECHNOLOGY>AVB_IEEE802_1AS</it:TIME-SYNC-TECHNOLOGY>
+                                        </it:TIME-SYNC-CLIENT>
+                                    </it:TIME-SYNCHRONIZATION>
+                                    <it:DOIP-ENTITY>
+                                        <it:DOIP-ENTITY-ROLE>NODE</it:DOIP-ENTITY-ROLE>
+                                    </it:DOIP-ENTITY>
+                                </it:INFRA-STRUCTURE-SERVICES>
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                            </it:NETWORK-ENDPOINT>
+                        </it:NETWORK-ENDPOINTS>
+                        <it:APPLICATION-ENDPOINTS>
+                            <it:APPLICATION-ENDPOINT ID="APPEP_ecu_service_1_1">
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                                <it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                    <it:UDP-TP>
+                                        <it:UDP-PORT>
+                                              <it:PORT-NUMBER>50000</it:PORT-NUMBER>
+                                        </it:UDP-PORT>
+                                        <it:DYNAMICALLY-ASSIGNED>false</it:DYNAMICALLY-ASSIGNED>
+                                    </it:UDP-TP>
+                                </it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                <it:NETWORK-ENDPOINT-REF ID-REF="NWEP_ecu_service_1"/>
+                                <it:DISCOVERY-TECHNOLOGY>
+                                    <it:DISCOVERY-TECHNOLOGY-NAME>BONJOUR</it:DISCOVERY-TECHNOLOGY-NAME>
+                                </it:DISCOVERY-TECHNOLOGY>
+                                <it:SERIALIZATION-TECHNOLOGY>
+                                    <it:SERIALIZATION-TECHNOLOGY-NAME>AUTOSAR</it:SERIALIZATION-TECHNOLOGY-NAME>
+                                </it:SERIALIZATION-TECHNOLOGY>
+                                <it:REMOTING-TECHNOLOGY>
+                                    <it:REMOTING-TECHNOLOGY-NAME>AR_CLIENT_SERVER</it:REMOTING-TECHNOLOGY-NAME>
+                                </it:REMOTING-TECHNOLOGY>
+                                <it:PROVIDED-SERVICE-INSTANCES>
+                                    <it:PROVIDED-SERVICE-INSTANCE ID="service_instance_1">
+                                        <it:INSTANCE-IDENTIFIER>1</it:INSTANCE-IDENTIFIER>
+                                        <service:SERVICE-INTERFACE-REF ID-REF="serv_interface_EXTENDED_1"/>
+                                        <it:PRIORITY>
+                                            <fx:PRIORITY>1</fx:PRIORITY>
+                                        </it:PRIORITY>
+                                        <it:EVENT-HANDLERS>
+                                            <it:EVENT-HANDLER>
+                                                <it:APPLICATION-ENDPOINT-REF ID-REF="APPEP_ecu_service_1_2"/>
+                                            </it:EVENT-HANDLER>
+                                            <it:EVENT-HANDLER>
+                                                <it:APPLICATION-ENDPOINT-REF ID-REF="service_instance_1_CEG_1_event_grp_1"/>
+                                            </it:EVENT-HANDLER>
+                                        </it:EVENT-HANDLERS>
+                                    </it:PROVIDED-SERVICE-INSTANCE>
+                                </it:PROVIDED-SERVICE-INSTANCES>
+                            </it:APPLICATION-ENDPOINT>
+                            <it:APPLICATION-ENDPOINT ID="APPEP_ecu_service_1_2">
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                                <it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                    <it:TCP-TP>
+                                        <it:TCP-PORT>
+                                          <it:PORT-NUMBER>6801</it:PORT-NUMBER>
+                                          <it:DYNAMICALLY-ASSIGNED>false</it:DYNAMICALLY-ASSIGNED>
+                                        </it:TCP-PORT>
+                                        <it:NAGLES-ALGORITHM>false</it:NAGLES-ALGORITHM>
+                                     </it:TCP-TP>
+                                </it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                <it:NETWORK-ENDPOINT-REF ID-REF="NWEP_ecu_service_1"/>
+                                <it:SERIALIZATION-TECHNOLOGY>
+                                    <it:SERIALIZATION-TECHNOLOGY-NAME>OTHER</it:SERIALIZATION-TECHNOLOGY-NAME>
+                                </it:SERIALIZATION-TECHNOLOGY>
+                                <it:REMOTING-TECHNOLOGY>
+                                    <it:REMOTING-TECHNOLOGY-NAME>AR_CLIENT_SERVER</it:REMOTING-TECHNOLOGY-NAME>
+                                </it:REMOTING-TECHNOLOGY>
+                                <it:PROVIDED-SERVICE-INSTANCES>
+                                    <it:PROVIDED-SERVICE-INSTANCE ID="service_instance_1">
+                                        <it:INSTANCE-IDENTIFIER>1</it:INSTANCE-IDENTIFIER>
+                                        <service:SERVICE-INTERFACE-REF ID-REF="serv_interface_BASE"/>
+                                        <it:PRIORITY>
+                                            <fx:PRIORITY>1</fx:PRIORITY>
+                                        </it:PRIORITY>
+                                        <it:EVENT-HANDLERS>
+                                            <it:EVENT-HANDLER>
+                                                <it:APPLICATION-ENDPOINT-REF ID-REF="APPEP_ecu_service_1_2"/>
+                                            </it:EVENT-HANDLER>
+                                            <it:EVENT-HANDLER>
+                                                <it:APPLICATION-ENDPOINT-REF ID-REF="service_instance_1_CEG_1_event_grp_1"/>
+                                            </it:EVENT-HANDLER>
+                                        </it:EVENT-HANDLERS>
+                                    </it:PROVIDED-SERVICE-INSTANCE>
+                                    <it:PROVIDED-SERVICE-INSTANCE ID="service_instance_2">
+                                        <it:INSTANCE-IDENTIFIER>2</it:INSTANCE-IDENTIFIER>
+                                        <service:SERVICE-INTERFACE-REF ID-REF="serv_interface_foo"/>
+                                        <it:PRIORITY>
+                                            <fx:PRIORITY>1</fx:PRIORITY>
+                                        </it:PRIORITY>
+                                        <it:EVENT-HANDLERS>
+                                            <it:EVENT-HANDLER>
+                                                <it:APPLICATION-ENDPOINT-REF ID-REF="APPEP_ecu_service_1_2"/>
+                                            </it:EVENT-HANDLER>
+                                            <it:EVENT-HANDLER>
+                                                <it:APPLICATION-ENDPOINT-REF ID-REF="service_instance_1_CEG_1_event_grp_1"/>
+                                            </it:EVENT-HANDLER>
+                                        </it:EVENT-HANDLERS>
+                                    </it:PROVIDED-SERVICE-INSTANCE>
+                                </it:PROVIDED-SERVICE-INSTANCES>
+                            </it:APPLICATION-ENDPOINT>
+                            <it:APPLICATION-ENDPOINT ID="APPEP_ecu_service_1_3">
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                                <it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                    <it:TCP-TP>
+                                        <it:TCP-PORT>
+                                          <it:DYNAMICALLY-ASSIGNED>true</it:DYNAMICALLY-ASSIGNED>
+                                        </it:TCP-PORT>
+                                        <it:NAGLES-ALGORITHM>true</it:NAGLES-ALGORITHM>
+                                        <it:KEEP-ALIVES>true</it:KEEP-ALIVES>
+                                     </it:TCP-TP>
+                                </it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                            </it:APPLICATION-ENDPOINT>
+                            <it:APPLICATION-ENDPOINT ID="APPEP_ecu_service_1_4">
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                                <it:NETWORK-ENDPOINT-REF ID-REF="NWEP_ecu_service_1"/>                                
+                            </it:APPLICATION-ENDPOINT>
+                        </it:APPLICATION-ENDPOINTS>
+                    </fx:CONNECTOR>
+                </fx:CONNECTORS>
+            </fx:ECU>
+            <fx:ECU ID="ecu_service_2">
+                <ho:SHORT-NAME>ecu_service2</ho:SHORT-NAME>
+                <fx:CONTROLLERS>
+                    <fx:CONTROLLER ID="contr_eth_ecu_service_2" xsi:type="ethernet:CONTROLLER-TYPE">
+                        <ho:SHORT-NAME>contr_eth_ecu_service2</ho:SHORT-NAME>
+                    </fx:CONTROLLER>
+                </fx:CONTROLLERS>
+                <fx:CONNECTORS>
+                    <fx:CONNECTOR ID="con_ecu_service_2" xsi:type="it:CONNECTOR-TYPE">
+                        <fx:CHANNEL-REF ID-REF="channel_vlan_2"/>
+                        <it:NETWORK-ENDPOINTS>
+                            <it:NETWORK-ENDPOINT ID="NWEP_ecu_service_2">
+                                <it:NETWORK-ENDPOINT-ADDRESSES>
+                                    <it:NETWORK-ENDPOINT-ADDRESS>
+                                        <it:IPV4>
+                                            <it:IPV4-ADDRESS-SOURCE>DHCPV4</it:IPV4-ADDRESS-SOURCE>
+                                        </it:IPV4>
+                                    </it:NETWORK-ENDPOINT-ADDRESS>
+                                </it:NETWORK-ENDPOINT-ADDRESSES>
+                                <it:INFRA-STRUCTURE-SERVICES>
+                                    <it:TIME-SYNCHRONIZATION>
+                                        <it:TIME-SYNC-CLIENT>
+                                            <it:TIME-SYNC-TECHNOLOGY>AVB_IEEE802_1AS</it:TIME-SYNC-TECHNOLOGY>
+                                        </it:TIME-SYNC-CLIENT>
+                                    </it:TIME-SYNCHRONIZATION>
+                                    <it:DOIP-ENTITY>
+                                        <it:DOIP-ENTITY-ROLE>NODE</it:DOIP-ENTITY-ROLE>
+                                    </it:DOIP-ENTITY>
+                                </it:INFRA-STRUCTURE-SERVICES>
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                            </it:NETWORK-ENDPOINT>
+                        </it:NETWORK-ENDPOINTS>
+                        <it:APPLICATION-ENDPOINTS>
+                            <it:APPLICATION-ENDPOINT ID="APPEP_ecu_service_2_1">
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                                <it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                    <it:UDP-TP>
+                                        <it:UDP-PORT>
+                                            <it:DYNAMICALLY-ASSIGNED>true</it:DYNAMICALLY-ASSIGNED>
+                                        </it:UDP-PORT>
+                                    </it:UDP-TP>
+                                </it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                <it:NETWORK-ENDPOINT-REF ID-REF="NWEP_ecu_service_2"/>
+                                <it:DISCOVERY-TECHNOLOGY>
+                                    <it:DISCOVERY-TECHNOLOGY-NAME>BONJOUR</it:DISCOVERY-TECHNOLOGY-NAME>
+                                </it:DISCOVERY-TECHNOLOGY>
+                                <it:SERIALIZATION-TECHNOLOGY>
+                                    <it:SERIALIZATION-TECHNOLOGY-NAME>AUTOSAR</it:SERIALIZATION-TECHNOLOGY-NAME>
+                                </it:SERIALIZATION-TECHNOLOGY>
+                                <it:REMOTING-TECHNOLOGY>
+                                    <it:REMOTING-TECHNOLOGY-NAME>AR_CLIENT_SERVER</it:REMOTING-TECHNOLOGY-NAME>
+                                </it:REMOTING-TECHNOLOGY>
+                                <it:CONSUMED-SERVICE-INSTANCES>
+                                    <it:CONSUMED-SERVICE-INSTANCE ID="service_instance_1_consumer_1">
+                                        <it:PROVIDED-SERVICE-INSTANCE-REF ID-REF="service_instance_1"/>
+                                        <it:CONSUMED-EVENT-GROUPS>
+                                            <it:CONSUMED-EVENT-GROUP ID="service_instance_1_CEG_1_event_grp_1">
+                                                <service:EVENT-GROUP-REF ID-REF="event_grp_1"/>
+                                                <it:INSTANCE-IDENTIFIER>2</it:INSTANCE-IDENTIFIER>
+                                                <it:APPLICATION-ENDPOINT-REF ID-REF="APPEP_ecu_service_2_2"/>
+                                            </it:CONSUMED-EVENT-GROUP>
+                                        </it:CONSUMED-EVENT-GROUPS>
+                                    </it:CONSUMED-SERVICE-INSTANCE>
+                                </it:CONSUMED-SERVICE-INSTANCES>
+                            </it:APPLICATION-ENDPOINT>
+                            <it:APPLICATION-ENDPOINT ID="APPEP_ecu_service_2_2">
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                                <it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                    <it:UDP-TP>
+                                        <it:UDP-PORT>
+                                            <it:PORT-NUMBER>50000</it:PORT-NUMBER>
+                                        </it:UDP-PORT>
+                                    </it:UDP-TP>
+                                </it:IT-TRANSPORT-PROTOCOL-CONFIGURATION>
+                                <it:NETWORK-ENDPOINT-REF ID-REF="NWEP_ecu_service_2"/>
+                            </it:APPLICATION-ENDPOINT>
+                        </it:APPLICATION-ENDPOINTS>
+                    </fx:CONNECTOR>
+                </fx:CONNECTORS>
+            </fx:ECU>
+            <fx:ECU ID="ecu_service_3">
+                <ho:SHORT-NAME>ecu_service3</ho:SHORT-NAME>
+                <fx:CONTROLLERS>
+                    <fx:CONTROLLER ID="contr_eth_ecu_service_3" xsi:type="ethernet:CONTROLLER-TYPE">
+                        <ho:SHORT-NAME>contr_eth_ecu_service3</ho:SHORT-NAME>
+                    </fx:CONTROLLER>
+                </fx:CONTROLLERS>
+                <fx:CONNECTORS>
+                    <fx:CONNECTOR ID="con_ecu_service_3" xsi:type="it:CONNECTOR-TYPE">
+                        <fx:CHANNEL-REF ID-REF="channel_vlan_2"/>
+                        <it:NETWORK-ENDPOINTS>
+                            <it:NETWORK-ENDPOINT ID="NWEP_ecu_service_3">
+                                <it:NETWORK-ENDPOINT-ADDRESSES>
+                                    <it:NETWORK-ENDPOINT-ADDRESS>
+                                        <it:IPV4>
+                                            <it:IP-ADDRESS>192.168.0.1</it:IP-ADDRESS>
+                                            <it:IPV4-ADDRESS-SOURCE>FIXED</it:IPV4-ADDRESS-SOURCE>
+                                            <it:NETWORKMASK>255.255.255.0</it:NETWORKMASK>
+                                            <it:DEFAULT-GATEWAY>192.168.0.1</it:DEFAULT-GATEWAY>
+                                            <it:DNS-SERVERS>
+                                                <it:DNS-SERVER>192.168.0.1</it:DNS-SERVER>
+                                            </it:DNS-SERVERS>
+                                        </it:IPV4>
+                                    </it:NETWORK-ENDPOINT-ADDRESS>
+                                </it:NETWORK-ENDPOINT-ADDRESSES>
+                                <it:INFRA-STRUCTURE-SERVICES>
+                                    <it:DHCP-SERVER>
+                                        <it:IPV4-DHCP-SERVER-CONFIGURATION>
+                                            <it:NETWORK-MASK>255.255.255.0</it:NETWORK-MASK>
+                                            <it:ADDRESS-RANGE-LOWER-BOUND>192.168.0.1</it:ADDRESS-RANGE-LOWER-BOUND>
+                                            <it:ADDRESS-RANGE-UPPER-BOUND>192.168.0.254</it:ADDRESS-RANGE-UPPER-BOUND>
+                                            <it:DEFAULT-GATEWAY>192.168.0.1</it:DEFAULT-GATEWAY>
+                                            <it:DNS-SERVERS>
+                                                <it:DNS-SERVER-ADDRESS>192.168.0.1</it:DNS-SERVER-ADDRESS>
+                                            </it:DNS-SERVERS>
+                                            <it:DEFAULT-LEASE-TIME>PT24H60M60S</it:DEFAULT-LEASE-TIME>
+                                        </it:IPV4-DHCP-SERVER-CONFIGURATION>
+                                    </it:DHCP-SERVER>
+                                    <it:TIME-SYNCHRONIZATION>
+                                        <it:TIME-SYNC-SERVER ID="NWEP_ecu_service_3_TSSID_1">
+                                            <it:TIME-SYNC-TECHNOLOGY>AVB_IEEE802_1AS</it:TIME-SYNC-TECHNOLOGY>
+                                            <it:SYNC-INTERVAL>PT30M</it:SYNC-INTERVAL>
+                                        </it:TIME-SYNC-SERVER>
+                                    </it:TIME-SYNCHRONIZATION>
+                                    <it:DOIP-ENTITY>
+                                        <it:DOIP-ENTITY-ROLE>GATEWAY</it:DOIP-ENTITY-ROLE>
+                                        <it:DOIP-ENTITY-ROLE>EDGE_NODE</it:DOIP-ENTITY-ROLE>
+                                    </it:DOIP-ENTITY>
+                                </it:INFRA-STRUCTURE-SERVICES>
+                                <it:PRIORITY>
+                                    <fx:PRIORITY>1</fx:PRIORITY>
+                                </it:PRIORITY>
+                            </it:NETWORK-ENDPOINT>
+                        </it:NETWORK-ENDPOINTS>
+                    </fx:CONNECTOR>
+                </fx:CONNECTORS>
+            </fx:ECU>
+        </fx:ECUS>
+        <fx:PDUS>
+            <fx:PDU ID="pdu_simple">
+                <ho:SHORT-NAME>simple</ho:SHORT-NAME>
+                <fx:BYTE-LENGTH>4</fx:BYTE-LENGTH>
+                <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
+                <fx:SIGNAL-INSTANCES>
+                    <fx:SIGNAL-INSTANCE ID="sig_inst_1">
+                        <fx:BIT-POSITION>0</fx:BIT-POSITION>
+                        <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
+                        <fx:SIGNAL-REF ID-REF="signal_sig1"/>
+                    </fx:SIGNAL-INSTANCE>
+                </fx:SIGNAL-INSTANCES>
+            </fx:PDU>
+        </fx:PDUS>
+        <fx:FRAMES>
+            <fx:FRAME ID="frame_simple">
+                <ho:SHORT-NAME>simpleFrame</ho:SHORT-NAME>
+                <fx:BYTE-LENGTH>4</fx:BYTE-LENGTH>
+                <fx:PDU-INSTANCES>
+                    <fx:PDU-INSTANCE ID="pduinst_simple">
+                        <fx:PDU-REF ID-REF="pdu_simple"/>
+                        <fx:BIT-POSITION>0</fx:BIT-POSITION>
+                        <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
+                    </fx:PDU-INSTANCE>
+                </fx:PDU-INSTANCES>
+            </fx:FRAME>
+        </fx:FRAMES>
+        <fx:PACKAGES>
+            <fx:PACKAGE ho:OID="package_root" ID="package_root">
+                <ho:SHORT-NAME>root</ho:SHORT-NAME>
+                <ho:LONG-NAME xml:lang="en">root</ho:LONG-NAME>
+                <ho:DESC xml:lang="en">Root package.</ho:DESC>
+            </fx:PACKAGE>
+            <fx:PACKAGE ho:OID="package_root_subpackage_1" ID="package_root_subpackage_1">
+                <ho:SHORT-NAME>subpackage1</ho:SHORT-NAME>
+                <ho:LONG-NAME xml:lang="en">root.subpackage1</ho:LONG-NAME>
+                <ho:DESC xml:lang="en">Subpackage. Fully qualified package name is root.subpackage</ho:DESC>
+                <fx:PACKAGE-REF ID-REF="package_root"/>
+            </fx:PACKAGE>
+            <fx:PACKAGE ho:OID="package_root_subpackage_2" ID="package_root_subpackage_2">
+                <ho:SHORT-NAME>subpackage2</ho:SHORT-NAME>
+                <ho:LONG-NAME xml:lang="en">root.subpackage2</ho:LONG-NAME>
+                <ho:DESC xml:lang="en">Subpackage. Fully qualified package name is root.subpackage</ho:DESC>
+                <fx:PACKAGE-REF ID-REF="package_root"/>
+            </fx:PACKAGE>
+        </fx:PACKAGES>
+        <fx:SERVICE-INTERFACES>
+            <fx:SERVICE-INTERFACE xsi:type="service:SERVICE-INTERFACE-TYPE" ho:OID="serv_interface_BASE" ID="serv_interface_BASE">
+                <ho:SHORT-NAME>BASEInterface</ho:SHORT-NAME>
+                <ho:LONG-NAME xml:lang="en">BASE-Service-Interface</ho:LONG-NAME>
+                <ho:DESC xml:lang="en">BASE Service Interface. Use this as template.</ho:DESC>
+                <fx:SERVICE-IDENTIFIER>0001</fx:SERVICE-IDENTIFIER>
+                <fx:PACKAGE-REF ID-REF="package_root"/>
+                <service:METHODS>
+                    <service:METHOD ID="method_doaction_0">
+                        <ho:SHORT-NAME>method_doaction</ho:SHORT-NAME>
+                        <service:METHOD-IDENTIFIER>1</service:METHOD-IDENTIFIER>
+                        <service:CALL-SEMANTIC>SYNCHRONOUS</service:CALL-SEMANTIC>
+                        <service:INPUT-PARAMETERS>
+                            <service:INPUT-PARAMETER ID="PAR_IN_doaction_a0">
+                                <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:INPUT-PARAMETER>
+                        </service:INPUT-PARAMETERS>
+                        <service:RETURN-PARAMETERS>
+                            <service:RETURN-PARAMETER ID="PAR_OUT_doaction_a0">
+                                <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:RETURN-PARAMETER>
+                        </service:RETURN-PARAMETERS>
+                        <service:MODIFIERS>
+                            <service:MODIFIER>PROTECTED</service:MODIFIER>
+                        </service:MODIFIERS>
+                    </service:METHOD>
+                </service:METHODS>
+                <service:EVENTS>
+                    <service:EVENT ID="on_event_1">
+                        <ho:SHORT-NAME>on_event1</ho:SHORT-NAME>
+                        <service:METHOD-IDENTIFIER>10</service:METHOD-IDENTIFIER>
+                        <service:CALL-SEMANTIC>ASYNCHRONOUS</service:CALL-SEMANTIC>
+                        <service:PRIORITY>
+                            <fx:PRIORITY>1</fx:PRIORITY>
+                        </service:PRIORITY>
+                        <service:INPUT-PARAMETERS>
+                            <service:INPUT-PARAMETER ID="PAR_IN_event_1_a1">
+                                <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:INPUT-PARAMETER>
+                        </service:INPUT-PARAMETERS>
+                        <service:RETURN-PARAMETERS>
+                            <service:RETURN-PARAMETER ID="PAR_OUT_event_1_void">
+                                <ho:SHORT-NAME>b</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:RETURN-PARAMETER>
+                        </service:RETURN-PARAMETERS>
+                        <service:MODIFIERS>
+                            <service:MODIFIER>PUBLIC</service:MODIFIER>
+                        </service:MODIFIERS>
+                    </service:EVENT>
+                </service:EVENTS>
+                <service:MODIFIERS>
+                    <service:MODIFIER>PUBLIC</service:MODIFIER>
+                </service:MODIFIERS>
+            </fx:SERVICE-INTERFACE>
+            <fx:SERVICE-INTERFACE xsi:type="service:SERVICE-INTERFACE-TYPE" ho:OID="serv_interface_EXTENDED_1" ID="serv_interface_EXTENDED_1">
+                <ho:SHORT-NAME>EXTENDEDInterface1</ho:SHORT-NAME>
+                <ho:LONG-NAME xml:lang="en">EXTENDED-Service-Interface</ho:LONG-NAME>
+                <ho:DESC xml:lang="en">EXTENDED Service Interface. Use this as template.</ho:DESC>
+                <fx:SERVICE-IDENTIFIER>0002</fx:SERVICE-IDENTIFIER>
+                <service:API-VERSION>
+                  <service:MAJOR>1</service:MAJOR>
+                  <service:MINOR>2</service:MINOR>
+                </service:API-VERSION>
+                <fx:PACKAGE-REF ID-REF="package_root_subpackage_1"/>
+                <service:SERVICE-INTERFACE-REF ID-REF="serv_interface_BASE"/>
+                <service:METHODS>
+                    <service:METHOD ID="method_doaction_1">
+                        <ho:SHORT-NAME>method_doaction</ho:SHORT-NAME>
+                        <service:METHOD-IDENTIFIER>2</service:METHOD-IDENTIFIER>
+                        <service:METHOD-REF ID-REF="method_doaction_0"/>
+                        <service:CALL-SEMANTIC>SYNCHRONOUS</service:CALL-SEMANTIC>
+                        <service:INPUT-PARAMETERS>
+                            <service:INPUT-PARAMETER ID="PAR_IN_doaction_a1">
+                                <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:INPUT-PARAMETER>
+                            <service:INPUT-PARAMETER ID="PAR_IN_doaction_b1">
+                                <ho:SHORT-NAME>b</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>1</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:INPUT-PARAMETER>
+                        </service:INPUT-PARAMETERS>
+                        <service:RETURN-PARAMETERS>
+                            <service:RETURN-PARAMETER ID="PAR_OUT_doaction_a1">
+                                <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:RETURN-PARAMETER>
+                        </service:RETURN-PARAMETERS>
+                        <service:EXCEPTIONS>
+                            <service:EXCEPTION ID="exception_1">
+                                <ho:SHORT-NAME>exception1</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CMPLXDT_Exception_Extended"/>
+                            </service:EXCEPTION>
+                        </service:EXCEPTIONS>
+                        <service:MODIFIERS>
+                            <service:MODIFIER>PUBLIC</service:MODIFIER>
+                        </service:MODIFIERS>
+                    </service:METHOD>
+                </service:METHODS>
+                <service:EVENTS>
+                    <service:EVENT ID="on_event_1">
+                        <ho:SHORT-NAME>on_event1</ho:SHORT-NAME>
+                        <service:METHOD-IDENTIFIER>10</service:METHOD-IDENTIFIER>
+                        <service:CALL-SEMANTIC>ASYNCHRONOUS</service:CALL-SEMANTIC>
+                        <service:PRIORITY>
+                            <fx:PRIORITY>1</fx:PRIORITY>
+                        </service:PRIORITY>
+                        <service:INPUT-PARAMETERS>
+                            <service:INPUT-PARAMETER ID="PAR_IN_event_1_a1">
+                                <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:INPUT-PARAMETER>
+                            <service:INPUT-PARAMETER ID="PAR_IN_event_1_a2">
+                                <ho:SHORT-NAME>a2</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>1</service:POSITION>
+                                <service:MANDATORY>false</service:MANDATORY>
+                                <fx:ARRAY-DECLARATION>
+                                  <fx:ARRAY-DIMENSION>
+                                    <fx:DIMENSION>1</fx:DIMENSION>
+                                    <fx:MINIMUM-SIZE>5</fx:MINIMUM-SIZE>
+                                    <fx:MAXIMUM-SIZE>5</fx:MAXIMUM-SIZE>
+                                  </fx:ARRAY-DIMENSION>
+                                  <fx:ARRAY-DIMENSION>
+                                    <fx:BIT-ALIGNMENT>32</fx:BIT-ALIGNMENT>
+                                  </fx:ARRAY-DIMENSION>
+                                </fx:ARRAY-DECLARATION>
+                                <fx:UTILIZATION>                                
+                                  <fx:MIN-BIT-LENGTH>32</fx:MIN-BIT-LENGTH>
+                                  <fx:MAX-BIT-LENGTH>320</fx:MAX-BIT-LENGTH>                                  
+                                  <fx:CODING-REF ID-REF="coding_int32"/>
+                                  <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
+                                </fx:UTILIZATION>
+                            </service:INPUT-PARAMETER>
+                        </service:INPUT-PARAMETERS>
+                        <service:RETURN-PARAMETERS>
+                            <service:RETURN-PARAMETER ID="PAR_OUT_event_1_void">
+                                <ho:SHORT-NAME>b</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:RETURN-PARAMETER>
+                        </service:RETURN-PARAMETERS>
+                        <service:MODIFIERS>
+                            <service:MODIFIER>PUBLIC</service:MODIFIER>
+                        </service:MODIFIERS>
+                    </service:EVENT>
+                    <service:EVENT ID="on_event_2">
+                        <ho:SHORT-NAME>on_event2</ho:SHORT-NAME>
+                        <service:METHOD-IDENTIFIER>11</service:METHOD-IDENTIFIER>
+                        <service:PRIORITY>
+                            <fx:PRIORITY>1</fx:PRIORITY>
+                        </service:PRIORITY>
+                        <service:INPUT-PARAMETERS>
+                            <service:INPUT-PARAMETER ID="PAR_IN_event_2_b1">
+                                <ho:SHORT-NAME>b</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_simple"/>
+                                <service:POSITION>0</service:POSITION>
+                                <fx:UTILIZATION>
+                                    <fx:BIT-LENGTH>32</fx:BIT-LENGTH>
+                                    <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+                                    <fx:CODING-REF ID-REF="coding_simple"/>
+                                </fx:UTILIZATION>
+                            </service:INPUT-PARAMETER>
+                            <service:INPUT-PARAMETER ID="PAR_IN_event_2_b2">
+                                <ho:SHORT-NAME>b2</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <fx:UTILIZATION>                                
+                                    <fx:BIT-LENGTH>32</fx:BIT-LENGTH>
+                                </fx:UTILIZATION>
+                            </service:INPUT-PARAMETER>                            
+                        </service:INPUT-PARAMETERS>
+                        <service:MODIFIERS>
+                            <service:MODIFIER>PUBLIC</service:MODIFIER>
+                        </service:MODIFIERS>
+                    </service:EVENT>
+                    <service:EVENT ID="on_event_3">
+                        <ho:SHORT-NAME>on_event3</ho:SHORT-NAME>
+                        <service:METHOD-IDENTIFIER>12</service:METHOD-IDENTIFIER>
+                        <service:PRIORITY>
+                            <fx:PRIORITY>1</fx:PRIORITY>
+                        </service:PRIORITY>
+                        <service:INPUT-PARAMETERS>
+                            <service:INPUT-PARAMETER ID="PAR_IN_event_2_b3">
+                                <ho:SHORT-NAME>c3</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CMPLXDT_dummyStruct"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:INPUT-PARAMETER>
+                            <service:INPUT-PARAMETER ID="PAR_IN_event_2_b1">
+                                <ho:SHORT-NAME>b</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>1</service:POSITION>
+                                <fx:UTILIZATION>
+                                    <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+                                </fx:UTILIZATION>
+                            </service:INPUT-PARAMETER>
+                            <service:INPUT-PARAMETER ID="PAR_IN_event_2_b2">
+                                <ho:SHORT-NAME>c2</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>2</service:POSITION>
+                                <fx:UTILIZATION>                                
+                                    <fx:BIT-LENGTH>32</fx:BIT-LENGTH>
+                                </fx:UTILIZATION>
+                            </service:INPUT-PARAMETER>                            
+                        </service:INPUT-PARAMETERS>
+                        <service:MODIFIERS>
+                            <service:MODIFIER>PUBLIC</service:MODIFIER>
+                        </service:MODIFIERS>
+                    </service:EVENT>
+                </service:EVENTS>
+                <service:FIELDS>
+                    <service:FIELD ID="fieldID_2">
+                        <ho:SHORT-NAME>fieldID2</ho:SHORT-NAME>
+                        <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                        <service:ACCESS-PERMISSION>NOTIFY_READ_WRITE</service:ACCESS-PERMISSION>
+                    </service:FIELD>
+                    <service:FIELD ID="fieldID_1">
+                        <ho:SHORT-NAME>fieldID1</ho:SHORT-NAME>
+                        <fx:DATATYPE-REF ID-REF="CDT_dummy"/>
+                        <fx:UTILIZATION>
+                          <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
+                        </fx:UTILIZATION>
+                        <service:ACCESS-PERMISSION>NOTIFY_READ_WRITE</service:ACCESS-PERMISSION>
+                        <service:SETTER>
+                          <service:METHOD-IDENTIFIER>2</service:METHOD-IDENTIFIER>
+                          <service:RETURN-CODE>
+                            <fx:DATATYPE-REF ID-REF="_146309"/>
+                          </service:RETURN-CODE>
+                          <service:MANUFACTURER-EXTENSION xsi:type="bmw:MANUFACTURER-GETTER-SETTER-EXTENSION">
+                            <bmw:SERVICE-TIMINGS>
+                              <bmw:TIMINGS>
+                                <bmw:METHOD-TIMING>
+                                  <bmw:REQUEST-DEBOUNCE-TIME-RANGE>
+                                    <fx:VALUE>P0Y0M0DT0H0M0.200S</fx:VALUE>
+                                  </bmw:REQUEST-DEBOUNCE-TIME-RANGE>
+                                  <bmw:MAXIMUM-REQUEST-BUFFER-RETENTION-TIME>
+                                    <fx:VALUE>P0Y0M0DT0H0M0.005S</fx:VALUE>
+                                  </bmw:MAXIMUM-REQUEST-BUFFER-RETENTION-TIME>
+                                </bmw:METHOD-TIMING>
+                              </bmw:TIMINGS>
+                            </bmw:SERVICE-TIMINGS>
+                          </service:MANUFACTURER-EXTENSION>
+                        </service:SETTER>
+                        <service:GETTER>
+                          <service:METHOD-IDENTIFIER>3</service:METHOD-IDENTIFIER>
+                          <service:RELIABLE>true</service:RELIABLE>
+                          <service:MANUFACTURER-EXTENSION xsi:type="bmw:MANUFACTURER-GETTER-SETTER-EXTENSION">
+                            <bmw:SERVICE-TIMINGS>
+                              <bmw:TIMINGS>
+                                <bmw:METHOD-TIMING>
+                                  <bmw:REQUEST-DEBOUNCE-TIME-RANGE>
+                                    <fx:VALUE>P0Y0M0DT0H0M0.100S</fx:VALUE>
+                                  </bmw:REQUEST-DEBOUNCE-TIME-RANGE>
+                                </bmw:METHOD-TIMING>
+                              </bmw:TIMINGS>
+                            </bmw:SERVICE-TIMINGS>
+                          </service:MANUFACTURER-EXTENSION>
+                        </service:GETTER>
+                        <service:NOTIFIER>
+                          <service:NOTIFICATION-IDENTIFIER>32771</service:NOTIFICATION-IDENTIFIER>
+                          <service:RELIABLE>true</service:RELIABLE>
+                          <service:MANUFACTURER-EXTENSION xsi:type="bmw:MANUFACTURER-NOTIFIER-EXTENSION">
+                            <bmw:SERVICE-TIMINGS>
+                              <bmw:TIMINGS>
+                                <bmw:EVENT-TIMING>
+                                  <bmw:DEBOUNCE-TIME-RANGE>
+                                    <fx:VALUE>P0Y0M0DT0H0M0.100S</fx:VALUE>
+                                  </bmw:DEBOUNCE-TIME-RANGE>
+                                </bmw:EVENT-TIMING>
+                              </bmw:TIMINGS>
+                            </bmw:SERVICE-TIMINGS>
+                          </service:MANUFACTURER-EXTENSION>
+                        </service:NOTIFIER>
+                    </service:FIELD>
+                </service:FIELDS>
+                <service:EVENT-GROUPS>
+                    <service:EVENT-GROUP ID="event_grp_1">
+                        <ho:SHORT-NAME>event_grp1</ho:SHORT-NAME>
+                        <fx:SERVICE-IDENTIFIER>0101</fx:SERVICE-IDENTIFIER>
+                        <fx:PACKAGE-REF ID-REF="package_root_subpackage_1"/>
+                        <service:EVENT-REFS>
+                            <service:EVENT-REF ID-REF="on_event_1"/>
+                        </service:EVENT-REFS>
+                        <service:FIELD-REFS>
+                            <service:FIELD-REF ID-REF="fieldID_1"/>
+                        </service:FIELD-REFS>
+                    </service:EVENT-GROUP>
+                </service:EVENT-GROUPS>
+                <service:MODIFIERS>
+                    <service:MODIFIER>PUBLIC</service:MODIFIER>
+                </service:MODIFIERS>
+            </fx:SERVICE-INTERFACE>
+            <fx:SERVICE-INTERFACE xsi:type="service:SERVICE-INTERFACE-TYPE" ho:OID="serv_interface_foo" ID="serv_interface_foo">
+                <ho:SHORT-NAME>Foo_Interface</ho:SHORT-NAME>
+                <ho:LONG-NAME xml:lang="en">Foo-Service-Interface</ho:LONG-NAME>
+                <ho:DESC xml:lang="en">Foo Service Interface. Use this as template.</ho:DESC>
+                <fx:SERVICE-IDENTIFIER>0003</fx:SERVICE-IDENTIFIER>
+                <fx:PACKAGE-REF ID-REF="package_root_subpackage_2"/>
+                <service:METHODS>
+                    <service:METHOD ID="method_foo_2">
+                        <ho:SHORT-NAME>method_foo</ho:SHORT-NAME>
+                        <service:METHOD-IDENTIFIER>3</service:METHOD-IDENTIFIER>
+                        <service:CALL-SEMANTIC>SYNCHRONOUS</service:CALL-SEMANTIC>
+                        <service:INPUT-PARAMETERS>
+                            <service:INPUT-PARAMETER ID="PAR_IN_foo_a2">
+                                <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:INPUT-PARAMETER>
+                            <service:INPUT-PARAMETER ID="PAR_IN_foo_b2">
+                                <ho:SHORT-NAME>b</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>1</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:INPUT-PARAMETER>
+                        </service:INPUT-PARAMETERS>
+                        <service:RETURN-PARAMETERS>
+                            <service:RETURN-PARAMETER ID="PAR_OUT_foo_a2">
+                                <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                                <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                                <service:POSITION>0</service:POSITION>
+                                <service:MANDATORY>true</service:MANDATORY>
+                            </service:RETURN-PARAMETER>
+                        </service:RETURN-PARAMETERS>
+                    </service:METHOD>
+                </service:METHODS>
+                <service:FIELDS>
+                  <service:FIELD ho:OID="_191097842EDC4B6A946690C02D729684" ID="_507445657">
+                    <ho:SHORT-NAME>fesModeAvailabilities</ho:SHORT-NAME>
+                    <fx:DATATYPE-REF ID-REF="_507445673"/>
+                    <fx:UTILIZATION>
+                      <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
+                    </fx:UTILIZATION>
+                    <service:ACCESS-PERMISSION>NOTIFY_READ_ONLY</service:ACCESS-PERMISSION>
+                    <service:GETTER>
+                      <service:METHOD-IDENTIFIER>1</service:METHOD-IDENTIFIER>
+                      <service:MANUFACTURER-EXTENSION xsi:type="bmw:MANUFACTURER-GETTER-SETTER-EXTENSION">
+                        <bmw:SERVICE-TIMINGS>
+                          <bmw:TIMINGS>
+                            <bmw:METHOD-TIMING>
+                              <bmw:REQUEST-DEBOUNCE-TIME-RANGE>
+                                <fx:VALUE>P0Y0M0DT0H0M0.100S</fx:VALUE>
+                              </bmw:REQUEST-DEBOUNCE-TIME-RANGE>
+                            </bmw:METHOD-TIMING>
+                          </bmw:TIMINGS>
+                        </bmw:SERVICE-TIMINGS>
+                      </service:MANUFACTURER-EXTENSION>
+                    </service:GETTER>
+                    <service:NOTIFIER>
+                      <service:NOTIFICATION-IDENTIFIER>32769</service:NOTIFICATION-IDENTIFIER>
+                      <service:MANUFACTURER-EXTENSION xsi:type="bmw:MANUFACTURER-NOTIFIER-EXTENSION">
+                        <bmw:SERVICE-TIMINGS>
+                          <bmw:TIMINGS>
+                            <bmw:EVENT-TIMING>
+                              <bmw:DEBOUNCE-TIME-RANGE>
+                                <fx:VALUE>P0Y0M0DT0H0M0.100S</fx:VALUE>
+                              </bmw:DEBOUNCE-TIME-RANGE>
+                              <bmw:MAXIMUM-BUFFER-RETENTION-TIME>
+                                <fx:VALUE>P0Y0M0DT0H0M0.005S</fx:VALUE>
+                              </bmw:MAXIMUM-BUFFER-RETENTION-TIME>
+                            </bmw:EVENT-TIMING>
+                          </bmw:TIMINGS>
+                        </bmw:SERVICE-TIMINGS>
+                      </service:MANUFACTURER-EXTENSION>
+                    </service:NOTIFIER>
+                  </service:FIELD>
+                </service:FIELDS>
+        
+            </fx:SERVICE-INTERFACE>
+        </fx:SERVICE-INTERFACES>
+        <fx:DATATYPES>
+            <fx:DATATYPE xsi:type="fx:COMMON-DATATYPE-TYPE" ID="CDT_int32">
+                <ho:SHORT-NAME>int32</ho:SHORT-NAME>
+                <fx:PACKAGE-REF ID-REF="package_root"/>
+                <fx:CODING-REF ID-REF="coding_int32"/>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMMON-DATATYPE-TYPE" ID="CDT_simple">
+                <ho:SHORT-NAME>simple</ho:SHORT-NAME>
+                <fx:PACKAGE-REF ID-REF="package_root"/>
+                <fx:CODING-REF ID-REF="coding_simple"/>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMMON-DATATYPE-TYPE" ID="CDT_dummy">
+                <ho:SHORT-NAME>dummy</ho:SHORT-NAME>
+                <fx:PACKAGE-REF ID-REF="package_root"/>
+                <fx:CODING-REF ID-REF="CODING-dummy"/>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMMON-DATATYPE-TYPE" ID="CDT_uint8" ho:OID="CDT_uint8" >
+                <ho:SHORT-NAME>UINT8</ho:SHORT-NAME>
+                <fx:ELEMENT-REVISIONS>
+                    <fx:ELEMENT-REVISION>
+                        <ho:REVISION-LABEL>1</ho:REVISION-LABEL>
+                        <ho:STATE>CLOSED</ho:STATE>
+                    </fx:ELEMENT-REVISION>
+                </fx:ELEMENT-REVISIONS>
+                <fx:CODING-REF ID-REF="coding_uint8"/>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMPLEX-DATATYPE-TYPE" ID="CMPLXDT_dummyStruct">
+                <ho:SHORT-NAME>dummyStruct</ho:SHORT-NAME>
+                <fx:PACKAGE-REF ID-REF="package_root_subpackage_1"/>                
+                <fx:COMPLEX-DATATYPE-CLASS>STRUCTURE</fx:COMPLEX-DATATYPE-CLASS>
+                <fx:MEMBERS>
+                    <fx:MEMBER ID="CMPLX_M_a">
+                        <ho:SHORT-NAME>a</ho:SHORT-NAME>
+                        <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                        <fx:POSITION>2</fx:POSITION>
+                        <fx:UTILIZATION>
+                            <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
+                        </fx:UTILIZATION>
+                    </fx:MEMBER>
+                    <fx:MEMBER ID="CMPLX_M_b">
+                        <ho:SHORT-NAME>b</ho:SHORT-NAME>
+                        <fx:DATATYPE-REF ID-REF="CDT_int32"/>
+                        <fx:POSITION>1</fx:POSITION>
+                        <fx:UTILIZATION>
+                            <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
+                        </fx:UTILIZATION>
+                        <fx:MANDATORY>false</fx:MANDATORY>
+                    </fx:MEMBER>
+                    <fx:MEMBER ID="CMPLX_M c">
+                        <ho:SHORT-NAME>E2E_Profile_6</ho:SHORT-NAME>
+                        <ho:DESC TYPE="Standard" xml:lang="en"/>
+                        <fx:DATATYPE-REF ID-REF="CDT_uint8"/>
+                        <fx:ARRAY-DECLARATION>
+                            <fx:ARRAY-DIMENSION>
+                                <fx:DIMENSION>1</fx:DIMENSION>
+                                <fx:MINIMUM-SIZE>5</fx:MINIMUM-SIZE>
+                                <fx:MAXIMUM-SIZE>5</fx:MAXIMUM-SIZE>
+                            </fx:ARRAY-DIMENSION>
+                        </fx:ARRAY-DECLARATION>
+                        <fx:UTILIZATION>
+                            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+                        </fx:UTILIZATION>
+                        <fx:POSITION>0</fx:POSITION>
+                        <fx:MANDATORY>true</fx:MANDATORY>
+                    </fx:MEMBER>
+                    <fx:MEMBER ID="CMPLX_M d">
+                        <ho:SHORT-NAME>LRR_AziAlignAnglDev_Act_ST3</ho:SHORT-NAME>
+                        <ho:DESC TYPE="Standard" xml:lang="en">DE (degraded) EN (degraded) </ho:DESC>
+                        <fx:DATATYPE-REF ID-REF="CMPLXDT_dummyTypedef"/>
+                        <fx:UTILIZATION>
+                            <!-- <fx:CODING-REF ID-REF="_c2110"/> -->
+                            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+                        </fx:UTILIZATION>
+                        <fx:POSITION>3</fx:POSITION>
+                        <fx:MANDATORY>true</fx:MANDATORY>
+                    </fx:MEMBER>
+                </fx:MEMBERS>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMPLEX-DATATYPE-TYPE" ID="CMPLXDT_dummyTypedef">
+                <ho:SHORT-NAME>dummyTypedef</ho:SHORT-NAME>
+                <fx:ELEMENT-REVISIONS>
+                  <fx:ELEMENT-REVISION>
+                    <ho:REVISION-LABEL>4</ho:REVISION-LABEL>
+                    <ho:STATE>CLOSED</ho:STATE>
+                  </fx:ELEMENT-REVISION>
+                </fx:ELEMENT-REVISIONS>
+                <fx:COMPLEX-DATATYPE-CLASS>TYPEDEF</fx:COMPLEX-DATATYPE-CLASS>
+                <fx:MEMBERS>
+                  <fx:MEMBER ID="_215641954">
+                    <ho:SHORT-NAME>dummyTypedef</ho:SHORT-NAME>
+                    <fx:DATATYPE-REF ID-REF="CDT_uint8"/>
+                    <fx:UTILIZATION>
+                      <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+                    </fx:UTILIZATION>
+                    <fx:POSITION>3</fx:POSITION>
+                    <fx:MANDATORY>true</fx:MANDATORY>
+                  </fx:MEMBER>
+                </fx:MEMBERS>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMPLEX-DATATYPE-TYPE" ID="CMPLXDT_Exception_Basic">
+                <ho:SHORT-NAME>Exception_Basic</ho:SHORT-NAME>
+                <fx:MEMBERS>
+                    <fx:MEMBER ID="error_message">
+                        <ho:SHORT-NAME>error_message</ho:SHORT-NAME>
+                        <fx:DATATYPE-REF ID-REF="CDT_string"/>
+                        <fx:POSITION>0</fx:POSITION>
+                    </fx:MEMBER>
+                </fx:MEMBERS>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMPLEX-DATATYPE-TYPE" ID="CMPLXDT_Exception_Extended">
+                <ho:SHORT-NAME>Exception_Extended</ho:SHORT-NAME>
+                <fx:DATATYPE-REF ID-REF="CMPLXDT_Exception_Basic"/>
+                <fx:MEMBERS>
+                    <fx:MEMBER ID="errorID">
+                        <ho:SHORT-NAME>errorID</ho:SHORT-NAME>
+                        <fx:DATATYPE-REF ID-REF="ENUM_error_id"/>
+                        <fx:POSITION>0</fx:POSITION>
+                    </fx:MEMBER>
+                    <fx:MEMBER ID="kontext">
+                        <ho:SHORT-NAME>kontext</ho:SHORT-NAME>
+                        <fx:DATATYPE-REF ID-REF="CDT_string"/>
+                        <fx:ARRAY-DECLARATION>
+                            <fx:ARRAY-DIMENSION>
+                                <fx:DIMENSION>0</fx:DIMENSION>
+                                <fx:MINIMUM-SIZE>255</fx:MINIMUM-SIZE>
+                            </fx:ARRAY-DIMENSION>
+                            <fx:ARRAY-DIMENSION>
+                                <fx:DIMENSION>1</fx:DIMENSION>
+                                <fx:MINIMUM-SIZE>32</fx:MINIMUM-SIZE>
+                            </fx:ARRAY-DIMENSION>
+                        </fx:ARRAY-DECLARATION>
+                        <fx:POSITION>1</fx:POSITION>
+                    </fx:MEMBER>
+                    <fx:MEMBER ID="weekday">
+                        <ho:SHORT-NAME>weekday</ho:SHORT-NAME>
+                        <fx:DATATYPE-REF ID-REF="ENUM_Weekday"/>
+                        <fx:POSITION>2</fx:POSITION>
+                    </fx:MEMBER>
+                </fx:MEMBERS>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:ENUM-DATATYPE-TYPE" ID="ENUM_error_id">
+                <ho:SHORT-NAME>error_id</ho:SHORT-NAME>
+                <fx:ENUMERATION-ELEMENTS>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>0</fx:VALUE>
+                        <fx:SYNONYM>Limit exceeded</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>1</fx:VALUE>
+                        <fx:SYNONYM>Value undefined</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>2</fx:VALUE>
+                        <fx:SYNONYM>Internal error</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>3</fx:VALUE>
+                        <fx:SYNONYM>Signal not valid</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                </fx:ENUMERATION-ELEMENTS>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:ENUM-DATATYPE-TYPE" ID="ENUM_Weekday">
+                <ho:SHORT-NAME>weekday</ho:SHORT-NAME>
+                <fx:ENUMERATION-ELEMENTS>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>0</fx:VALUE>
+                        <fx:SYNONYM>MONDAY</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>1</fx:VALUE>
+                        <fx:SYNONYM>TUESDAY</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>2</fx:VALUE>
+                        <fx:SYNONYM>WEDNESDAY</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>3</fx:VALUE>
+                        <fx:SYNONYM>THURSDAY</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>4</fx:VALUE>
+                        <fx:SYNONYM>FRIDAY</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>5</fx:VALUE>
+                        <fx:SYNONYM>SATURDAY</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                    <fx:ENUM-ELEMENT>
+                        <fx:VALUE>6</fx:VALUE>
+                        <fx:SYNONYM>SUNDAY</fx:SYNONYM>
+                    </fx:ENUM-ELEMENT>
+                </fx:ENUMERATION-ELEMENTS>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMMON-DATATYPE-TYPE" ID="CDT_string">
+
+                <ho:SHORT-NAME>string</ho:SHORT-NAME>
+                <fx:CODING-REF ID-REF="coding_string"/>
+            </fx:DATATYPE>
+            <fx:DATATYPE xsi:type="fx:COMPLEX-DATATYPE-TYPE" ho:OID="_08C4BE9399BE4073936F12897DB36143" ID="_507445673">
+                <ho:SHORT-NAME>FesModeAvailabilityArray</ho:SHORT-NAME>
+                <fx:ELEMENT-REVISIONS>
+                <fx:ELEMENT-REVISION>
+                    <ho:REVISION-LABEL>18</ho:REVISION-LABEL>
+                    <ho:STATE>OPEN</ho:STATE>
+                </fx:ELEMENT-REVISION>
+                </fx:ELEMENT-REVISIONS>
+                <fx:PACKAGE-REF ID-REF="_506786738"/>
+                <fx:COMPLEX-DATATYPE-CLASS>TYPEDEF</fx:COMPLEX-DATATYPE-CLASS>
+                <fx:MEMBERS>
+                <fx:MEMBER ho:OID="_CDF1FFE7BD924854B94D8F2561B991BC" ID="_507445674">
+                    <ho:SHORT-NAME>FesModeAvailabilityArray</ho:SHORT-NAME>
+                    <fx:DATATYPE-REF ID-REF="CDT_uint8"/>
+                    <fx:ARRAY-DECLARATION>
+                    <fx:ARRAY-DIMENSION>
+                      <fx:DIMENSION>1</fx:DIMENSION>
+                      <fx:MAXIMUM-SIZE>8</fx:MAXIMUM-SIZE>
+                    </fx:ARRAY-DIMENSION>
+                    </fx:ARRAY-DECLARATION>
+                    <fx:UTILIZATION>
+                    <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
+                    </fx:UTILIZATION>
+                    <fx:POSITION>0</fx:POSITION>
+                </fx:MEMBER>
+                </fx:MEMBERS>
+            </fx:DATATYPE>
+        </fx:DATATYPES>
+        <fx:SIGNALS>
+            <fx:SIGNAL ID="signal_sig1">
+                <ho:SHORT-NAME>sig1</ho:SHORT-NAME>
+                <fx:CODING-REF ID-REF="coding_simple"/>
+            </fx:SIGNAL>
+        </fx:SIGNALS>
+    </fx:ELEMENTS>
+    <fx:PROCESSING-INFORMATION>
+        <fx:CODINGS>
+            <fx:CODING ID="coding_uint8" ho:OID="coding_uint8">
+                <ho:SHORT-NAME>uint8</ho:SHORT-NAME>
+                <fx:ELEMENT-REVISIONS>
+                    <fx:ELEMENT-REVISION>
+                        <ho:REVISION-LABEL>1</ho:REVISION-LABEL>
+                        <ho:STATE>CLOSED</ho:STATE>
+                    </fx:ELEMENT-REVISION>
+                </fx:ELEMENT-REVISIONS>
+                <ho:CODED-TYPE CATEGORY="STANDARD-LENGTH-TYPE" ho:BASE-DATA-TYPE="A_UINT8">
+                    <ho:BIT-LENGTH>8</ho:BIT-LENGTH>
+                </ho:CODED-TYPE>
+            </fx:CODING>
+            <fx:CODING ID="coding_int32" ho:OID="coding_int32">
+                <ho:SHORT-NAME>coding_int32</ho:SHORT-NAME>
+                <ho:CODED-TYPE ho:BASE-DATA-TYPE="A_INT32" CATEGORY="STANDARD-LENGTH-TYPE">
+                    <ho:BIT-LENGTH>32</ho:BIT-LENGTH>
+                </ho:CODED-TYPE>
+            </fx:CODING>
+            <fx:CODING ID="coding_simple" ho:OID="coding_simple">
+                <ho:SHORT-NAME>coding_simple</ho:SHORT-NAME>
+                <ho:CODED-TYPE ho:BASE-DATA-TYPE="A_INT32" CATEGORY="STANDARD-LENGTH-TYPE">
+                    <ho:BIT-LENGTH>32</ho:BIT-LENGTH>
+                </ho:CODED-TYPE>
+                <ho:COMPU-METHODS>
+                    <ho:COMPU-METHOD>
+                        <ho:SHORT-NAME>simple coding rule</ho:SHORT-NAME>
+                        <ho:CATEGORY>LINEAR</ho:CATEGORY>
+                        <ho:PHYS-CONSTRS>
+                          <ho:SCALE-CONSTR>
+                                <ho:LOWER-LIMIT INTERVAL-TYPE="INFINITE"/>
+                                <ho:UPPER-LIMIT INTERVAL-TYPE="INFINITE"/>
+                          </ho:SCALE-CONSTR>
+                        </ho:PHYS-CONSTRS>
+                    </ho:COMPU-METHOD>
+                </ho:COMPU-METHODS>
+            </fx:CODING>
+            <fx:CODING ID="coding_string" ho:OID="coding_string">
+                <ho:SHORT-NAME>coding_string</ho:SHORT-NAME>
+                <ho:CODED-TYPE ho:BASE-DATA-TYPE="A_ASCIISTRING" CATEGORY="MIN-MAX-LENGTH-TYPE">
+                    <ho:MIN-LENGTH>0</ho:MIN-LENGTH>
+                </ho:CODED-TYPE>
+            </fx:CODING>
+            <fx:CODING ID="CODING-dummy">
+                <ho:SHORT-NAME>Dummy</ho:SHORT-NAME>
+                <ho:DESC>Coding of dummy</ho:DESC>
+                <ho:PHYSICAL-TYPE ho:BASE-DATA-TYPE="A_UINT16">
+                    <ho:PRECISION>0.1</ho:PRECISION>
+                </ho:PHYSICAL-TYPE>
+                <ho:CODED-TYPE ho:BASE-DATA-TYPE="A_UINT16" CATEGORY="STANDARD-LENGTH-TYPE" ENCODING="UNSIGNED">
+                    <ho:BIT-LENGTH>16</ho:BIT-LENGTH>
+                </ho:CODED-TYPE>
+                <ho:COMPU-METHODS>
+                    <ho:COMPU-METHOD>
+                        <ho:SHORT-NAME>Speed_Calculation_Rule</ho:SHORT-NAME>
+                        <ho:CATEGORY>LINEAR</ho:CATEGORY>
+                        <ho:UNIT-REF ID-REF="UNIT-Dummy"/>
+                        <ho:PHYS-CONSTRS>
+                          <ho:SCALE-CONSTR>
+                                <ho:LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</ho:LOWER-LIMIT>
+                                <ho:UPPER-LIMIT INTERVAL-TYPE="OPEN">15.75</ho:UPPER-LIMIT>
+                          </ho:SCALE-CONSTR>
+                        </ho:PHYS-CONSTRS>
+                        <ho:INTERNAL-CONSTRS>
+                          <ho:SCALE-CONSTR VALIDITY="NOT-VALID">
+                                <ho:LOWER-LIMIT>255</ho:LOWER-LIMIT>
+                                <ho:UPPER-LIMIT>255</ho:UPPER-LIMIT>
+                          </ho:SCALE-CONSTR>
+                        </ho:INTERNAL-CONSTRS>
+                        <ho:COMPU-INTERNAL-TO-PHYS>
+                            <ho:COMPU-SCALES>
+                                <ho:COMPU-SCALE>
+                                    <ho:LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</ho:LOWER-LIMIT>
+                                    <ho:UPPER-LIMIT INTERVAL-TYPE="OPEN">400</ho:UPPER-LIMIT>
+                                    <ho:COMPU-RATIONAL-COEFFS>
+                                        <ho:COMPU-NUMERATOR>
+                                          <ho:V>-1</ho:V>
+                                          <ho:V>20</ho:V>
+                                          <ho:V>1000</ho:V>
+                                        </ho:COMPU-NUMERATOR>
+                                        <ho:COMPU-DENOMINATOR>
+                                          <ho:V>51</ho:V>
+                                          <ho:V>-2</ho:V>
+                                          <ho:V>3</ho:V>
+                                        </ho:COMPU-DENOMINATOR>
+                                    </ho:COMPU-RATIONAL-COEFFS>
+                                    <ho:COMPU-CONST>
+                                        <ho:VT>1.0</ho:VT>
+                                    </ho:COMPU-CONST>
+                                </ho:COMPU-SCALE>
+                                <ho:COMPU-SCALE>
+                                    <ho:LOWER-LIMIT>0</ho:LOWER-LIMIT>
+                                    <ho:UPPER-LIMIT INTERVAL-TYPE="INFINITE"/>
+                                    <ho:COMPU-RATIONAL-COEFFS>
+                                        <ho:COMPU-NUMERATOR>
+                                          <ho:V ho:ORDER="2">1000.00</ho:V>
+                                          <ho:V ho:ORDER="1">20.23</ho:V>
+                                          <ho:V ho:ORDER="0">-1.4</ho:V>
+                                        </ho:COMPU-NUMERATOR>
+                                        <ho:COMPU-DENOMINATOR>
+                                          <ho:V ho:ORDER="1">-2.4</ho:V>
+                                          <ho:V ho:ORDER="0">51.45</ho:V>
+                                          <ho:V ho:ORDER="2">3.6</ho:V>
+                                        </ho:COMPU-DENOMINATOR>
+                                    </ho:COMPU-RATIONAL-COEFFS>
+                                    <ho:COMPU-CONST>
+                                        <ho:V>1.0</ho:V>
+                                    </ho:COMPU-CONST>
+                                </ho:COMPU-SCALE>
+                            </ho:COMPU-SCALES>
+                            <ho:COMPU-DEFAULT-VALUE>
+                                <ho:V>0.1</ho:V>
+                            </ho:COMPU-DEFAULT-VALUE>
+                        </ho:COMPU-INTERNAL-TO-PHYS>
+                    </ho:COMPU-METHOD>
+                </ho:COMPU-METHODS>
+            </fx:CODING>
+        </fx:CODINGS>
+    </fx:PROCESSING-INFORMATION>
+</fx:FIBEX>

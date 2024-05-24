@@ -1,0 +1,96 @@
+"""
+    Copyright 2022 Continental Corporation
+
+    :file: swt_wrapper.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script containing test case(s) for the wrapper of the incoming messages
+        from the ControlBridge
+
+    :author:
+        - Fabian Janker (uif41320) <fabian.janker@continental-corporation.com>
+"""
+
+# PTF or custom import area
+from helper_files.ControlBridge import controlbridge_Variables
+from helper_files.General import global_Variables
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.report import (
+    DETAILS,
+    EXPECTED,
+    PRECONDITION,
+    TESTSTEP,
+    TESTTAG,
+    VERIFIES,
+)
+from ptf.verify_utils import ptf_asserts
+
+
+def SWT_WRAPPER_CHANNEL_TEST():
+    DETAILS("Test case to check if the channel of the wrapper is correctly")
+
+    VERIFIES("The test is verifying, that the channel is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("controlbridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    TESTSTEP("Checking if the channel of the wrapper is correct")
+    EXPECTED("Channel: player")
+    TESTSTEP("Load recording.")
+    # sending the message to load a recording into the player
+    recording_path = global_Variables.recording_dir(is_zrec=True)
+    recv_load_recording = next_api.execute.load_recording(recording_path)
+    ptf_asserts.verify(bool(recv_load_recording), True, "Timeout while loading the recording. Message received: {}".format(recv_load_recording))
+    TESTSTEP("Recording is loaded")
+    TESTSTEP("Check if the channel is NextPlayer")
+    EXPECTED("channel: {}".format(controlbridge_Variables.RECEIVE_CHANNEL_PLAYER))
+    ptf_asserts.verify(recv_load_recording["channel"], controlbridge_Variables.RECEIVE_CHANNEL_PLAYER, "The received channel is not NextPlayer. Message received: {}".format(recv_load_recording))
+
+    TESTSTEP("POSTCONDITION: Close the recording")
+    EXPECTED("event: SimulationStateIsIdle")
+    recv_close_recording = next_api.execute.close_recording()
+    ptf_asserts.verify(bool(recv_close_recording), True, "Timeout while closing the recording. Message received: {}".format(recv_close_recording))
+    TESTSTEP("POSTCONDITION: Recording is closed")
+
+
+def SWT_WRAPPER_SOURCE_TEST():
+    DETAILS("Test case to check if the source of the wrapper is correct")
+
+    VERIFIES("The test is verifying, that the source is correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("controlbridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    PRECONDITION("Load recording.")
+    # sending the message to load a recording into the player
+    recording_path = global_Variables.recording_dir(is_zrec=True)
+    recv_load_recording = next_api.execute.load_recording(recording_path)
+    ptf_asserts.verify(bool(recv_load_recording), True, "Timeout while loading the recording. Message received: {}".format(recv_load_recording))
+    PRECONDITION(" Recording is loaded")
+    TESTSTEP("Check if the source is NextBridge")
+    EXPECTED("source: {}".format(controlbridge_Variables.EXPECTED_SOURCE_RECORDING_LOADED))
+    ptf_asserts.verify(recv_load_recording["source"], controlbridge_Variables.EXPECTED_SOURCE_RECORDING_LOADED, "The received source is not NextBridge. Message received: {}".format(recv_load_recording))
+
+    TESTSTEP("POSTCONDITION: Close the recording")
+    EXPECTED("event: SimulationStateIsIdle")
+    recv_close_recording = next_api.execute.close_recording()
+    ptf_asserts.verify(bool(recv_close_recording), True, "Timeout while closing the recording. Message received: {}".format(recv_close_recording))
+    TESTSTEP("POSTCONDITION: Recording is closed")

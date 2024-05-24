@@ -1,0 +1,680 @@
+{
+  "visuConfig": [
+    {
+      "uniqueKey": 3,
+      "key": "signalExporter",
+      "text": "Signal Exporter",
+      "value": "signalExporter",
+      "configurableParameters": [
+        {
+          "key": "url",
+          "name": "Data Stream Url",
+          "type": "word",
+          "value": "ws://127.0.0.1",
+          "setting": "advanced"
+        },
+        {
+          "key": "port",
+          "name": "Data Stream Port",
+          "type": "integer",
+          "value": "8080",
+          "setting": "advanced"
+        },
+        {
+          "key": "dataStreams",
+          "name": "Data Streams",
+          "type": "array",
+          "value": [
+            "ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_nearest.uiVersionNumber",
+            "SIM VFB.out.test_type_A_sync_nearest.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_nearest.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_A_sync_nearest.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_A_sync_nearest.sSigHeader.eSigStatus",
+            "SIM VFB.out.test_type_B_sync_nearest.uiVersionNumber",
+            "SIM VFB.out.test_type_B_sync_nearest.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_B_sync_nearest.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_B_sync_nearest.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_B_sync_nearest.sSigHeader.eSigStatus"
+          ],
+          "hidden": true
+        },
+        {
+          "key": "outputDirectory",
+          "name": "Output Directory",
+          "type": "word",
+          "value": "D:\\test_component_export\\nearest",
+          "hidden": true
+        },
+        {
+          "key": "filename",
+          "name": "Filename",
+          "type": "word",
+          "value": "",
+          "hidden": true
+        },
+        {
+          "key": "exporter",
+          "name": "Exporter",
+          "type": "word",
+          "value": {
+            "key": "Csv Exporter",
+            "text": ".csv",
+            "value": ".csv",
+            "content": "Csv Exporter",
+            "type": ".csv",
+            "info": "Writes the selected signals in a .csv file.",
+            "className": "_8YSqyosY2Nldk6QLJbRe0g==",
+            "data-option": true
+          },
+          "hidden": true
+        },
+        {
+          "key": "triggerSignal",
+          "name": "Trigger Signal",
+          "type": "word",
+          "value": "ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp",
+          "hidden": true
+        },
+        {
+          "key": "triggerSelection",
+          "name": "Trigger Selection",
+          "type": "word",
+          "value": "Signal",
+          "hidden": true
+        },
+        {
+          "key": "x",
+          "name": "Screen Position (x)",
+          "type": "integer",
+          "value": 50,
+          "setting": "window"
+        },
+        {
+          "key": "y",
+          "name": "Screen Position (y)",
+          "type": "integer",
+          "value": 0,
+          "setting": "window"
+        },
+        {
+          "key": "windowwidth",
+          "name": "Window Width",
+          "type": "integer",
+          "value": 900,
+          "hidden": true,
+          "setting": "window"
+        },
+        {
+          "key": "windowheight",
+          "name": "Window Height",
+          "type": "integer",
+          "value": 762,
+          "hidden": true,
+          "setting": "window"
+        },
+        {
+          "key": "customTitle",
+          "name": "Custom Title",
+          "type": "string",
+          "value": "",
+          "setting": "window"
+        },
+        {
+          "key": "renderingindex",
+          "name": "Rendering Index",
+          "type": "integer",
+          "value": 0,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "alwaysontop",
+          "name": "Always on top",
+          "type": "boolean",
+          "value": false,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "show",
+          "name": "Show",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "enableClose",
+          "name": "Enable Close",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "enableSettings",
+          "name": "Enable Settings",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "uniqueKey": 38,
+      "key": "signalExporter",
+      "text": "Signal Exporter",
+      "value": "signalExporter",
+      "configurableParameters": [
+        {
+          "key": "url",
+          "name": "Data Stream Url",
+          "type": "word",
+          "value": "ws://127.0.0.1",
+          "setting": "advanced"
+        },
+        {
+          "key": "port",
+          "name": "Data Stream Port",
+          "type": "integer",
+          "value": "8080",
+          "setting": "advanced"
+        },
+        {
+          "key": "dataStreams",
+          "name": "Data Streams",
+          "type": "array",
+          "value": [
+            "ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_exact.uiVersionNumber",
+            "SIM VFB.out.test_type_A_sync_exact.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_exact.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_A_sync_exact.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_A_sync_exact.sSigHeader.eSigStatus",
+            "SIM VFB.out.test_type_B_sync_exact.uiVersionNumber",
+            "SIM VFB.out.test_type_B_sync_exact.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_B_sync_exact.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_B_sync_exact.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_B_sync_exact.sSigHeader.eSigStatus"
+          ],
+          "hidden": true
+        },
+        {
+          "key": "outputDirectory",
+          "name": "Output Directory",
+          "type": "word",
+          "value": "D:\\test_component_export\\exact",
+          "hidden": true
+        },
+        {
+          "key": "filename",
+          "name": "Filename",
+          "type": "word",
+          "value": "",
+          "hidden": true
+        },
+        {
+          "key": "exporter",
+          "name": "Exporter",
+          "type": "word",
+          "value": "",
+          "hidden": true
+        },
+        {
+          "key": "triggerSignal",
+          "name": "Trigger Signal",
+          "type": "word",
+          "value": "ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp",
+          "hidden": true
+        },
+        {
+          "key": "triggerSelection",
+          "name": "Trigger Selection",
+          "type": "word",
+          "value": "Signal",
+          "hidden": true
+        },
+        {
+          "key": "x",
+          "name": "Screen Position (x)",
+          "type": "integer",
+          "value": 50,
+          "setting": "window"
+        },
+        {
+          "key": "y",
+          "name": "Screen Position (y)",
+          "type": "integer",
+          "value": 0,
+          "setting": "window"
+        },
+        {
+          "key": "windowwidth",
+          "name": "Window Width",
+          "type": "integer",
+          "value": 900,
+          "hidden": true,
+          "setting": "window"
+        },
+        {
+          "key": "windowheight",
+          "name": "Window Height",
+          "type": "integer",
+          "value": 762,
+          "hidden": true,
+          "setting": "window"
+        },
+        {
+          "key": "customTitle",
+          "name": "Custom Title",
+          "type": "string",
+          "value": "",
+          "setting": "window"
+        },
+        {
+          "key": "renderingindex",
+          "name": "Rendering Index",
+          "type": "integer",
+          "value": 1,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "alwaysontop",
+          "name": "Always on top",
+          "type": "boolean",
+          "value": false,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "show",
+          "name": "Show",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "enableClose",
+          "name": "Enable Close",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "enableSettings",
+          "name": "Enable Settings",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "uniqueKey": 45,
+      "key": "signalExporter",
+      "text": "Signal Exporter",
+      "value": "signalExporter",
+      "configurableParameters": [
+        {
+          "key": "url",
+          "name": "Data Stream Url",
+          "type": "word",
+          "value": "ws://127.0.0.1",
+          "setting": "advanced"
+        },
+        {
+          "key": "port",
+          "name": "Data Stream Port",
+          "type": "integer",
+          "value": "8080",
+          "setting": "advanced"
+        },
+        {
+          "key": "dataStreams",
+          "name": "Data Streams",
+          "type": "array",
+          "value": [
+            "ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_latest.uiVersionNumber",
+            "SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_A_sync_latest.sSigHeader.eSigStatus",
+            "SIM VFB.out.test_type_B_sync_latest.uiVersionNumber",
+            "SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_B_sync_latest.sSigHeader.eSigStatus"
+          ],
+          "hidden": true
+        },
+        {
+          "key": "outputDirectory",
+          "name": "Output Directory",
+          "type": "word",
+          "value": "D:\\test_component_export\\latest",
+          "hidden": true
+        },
+        {
+          "key": "filename",
+          "name": "Filename",
+          "type": "word",
+          "value": "",
+          "hidden": true
+        },
+        {
+          "key": "exporter",
+          "name": "Exporter",
+          "type": "word",
+          "value": "",
+          "hidden": true
+        },
+        {
+          "key": "triggerSignal",
+          "name": "Trigger Signal",
+          "type": "word",
+          "value": "ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp",
+          "hidden": true
+        },
+        {
+          "key": "triggerSelection",
+          "name": "Trigger Selection",
+          "type": "word",
+          "value": "Signal",
+          "hidden": true
+        },
+        {
+          "key": "x",
+          "name": "Screen Position (x)",
+          "type": "integer",
+          "value": 50,
+          "setting": "window"
+        },
+        {
+          "key": "y",
+          "name": "Screen Position (y)",
+          "type": "integer",
+          "value": 0,
+          "setting": "window"
+        },
+        {
+          "key": "windowwidth",
+          "name": "Window Width",
+          "type": "integer",
+          "value": 900,
+          "hidden": true,
+          "setting": "window"
+        },
+        {
+          "key": "windowheight",
+          "name": "Window Height",
+          "type": "integer",
+          "value": 762,
+          "hidden": true,
+          "setting": "window"
+        },
+        {
+          "key": "customTitle",
+          "name": "Custom Title",
+          "type": "string",
+          "value": "",
+          "setting": "window"
+        },
+        {
+          "key": "renderingindex",
+          "name": "Rendering Index",
+          "type": "integer",
+          "value": 2,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "alwaysontop",
+          "name": "Always on top",
+          "type": "boolean",
+          "value": false,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "show",
+          "name": "Show",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "enableClose",
+          "name": "Enable Close",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "enableSettings",
+          "name": "Enable Settings",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "uniqueKey": 60,
+      "key": "tableview",
+      "text": "Table View",
+      "value": "tableview",
+      "configurableParameters": [
+        {
+          "key": "url",
+          "name": "Data Source Url",
+          "type": "word",
+          "value": "ws://127.0.0.1",
+          "setting": "advanced"
+        },
+        {
+          "key": "port",
+          "name": "Data Source Port",
+          "type": "integer",
+          "value": "8080",
+          "setting": "advanced"
+        },
+        {
+          "key": "dataStreams",
+          "name": "Data Streams",
+          "type": "multiDataStream",
+          "maximumDataStreams": 128,
+          "value": [
+            "ARS540 Device.recording_output.trigger_B.sSigHeader.uiTimeStamp",
+            "ARS540 Device.recording_output.trigger_A.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_A_sync_latest.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_A_sync_latest.sSigHeader.eSigStatus",
+            "SIM VFB.out.test_type_A_sync_latest.uiVersionNumber",
+            "SIM VFB.out.test_type_A_sync_latest.payload",
+            "SIM VFB.out.test_type_A_sync_nearest.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_nearest.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_A_sync_nearest.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_A_sync_nearest.sSigHeader.eSigStatus",
+            "SIM VFB.out.test_type_A_sync_nearest.uiVersionNumber",
+            "SIM VFB.out.test_type_A_sync_nearest.payload",
+            "SIM VFB.out.test_type_B_sync_nearest.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_B_sync_nearest.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_B_sync_nearest.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_B_sync_nearest.sSigHeader.eSigStatus",
+            "SIM VFB.out.test_type_B_sync_nearest.uiVersionNumber",
+            "SIM VFB.out.test_type_B_sync_nearest.payload",
+            "SIM VFB.out.test_type_A_sync_exact.uiVersionNumber",
+            "SIM VFB.out.test_type_A_sync_exact.payload",
+            "SIM VFB.out.test_type_B_sync_exact.uiVersionNumber",
+            "SIM VFB.out.test_type_B_sync_exact.payload",
+            "SIM VFB.out.test_type_B_sync_latest.uiVersionNumber",
+            "SIM VFB.out.test_type_B_sync_latest.payload",
+            "SIM VFB.out.test_type_A_sync_exact.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_A_sync_exact.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_A_sync_exact.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_A_sync_exact.sSigHeader.eSigStatus",
+            "SIM VFB.out.test_type_B_sync_exact.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_B_sync_exact.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_B_sync_exact.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_B_sync_exact.sSigHeader.eSigStatus",
+            "SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiTimeStamp",
+            "SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiMeasurementCounter",
+            "SIM VFB.out.test_type_B_sync_latest.sSigHeader.uiCycleCounter",
+            "SIM VFB.out.test_type_B_sync_latest.sSigHeader.eSigStatus"
+          ]
+        },
+        {
+          "key": "windowheight",
+          "name": "Window Height",
+          "type": "integer",
+          "value": 350,
+          "setting": "window"
+        },
+        {
+          "key": "windowwidth",
+          "name": "Window Width",
+          "type": "integer",
+          "value": 650,
+          "setting": "window"
+        },
+        {
+          "key": "customTitle",
+          "name": "Custom Title",
+          "type": "string",
+          "value": "",
+          "setting": "window"
+        },
+        {
+          "key": "x",
+          "name": "Screen Position (x)",
+          "type": "integer",
+          "setting": "window"
+        },
+        {
+          "key": "y",
+          "name": "Screen Position (y)",
+          "type": "integer",
+          "setting": "window"
+        },
+        {
+          "key": "renderingindex",
+          "name": "Rendering Index",
+          "type": "integer",
+          "value": 3,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "alwaysontop",
+          "name": "Always on top",
+          "type": "boolean",
+          "value": false,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "show",
+          "name": "Show",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "enableClose",
+          "name": "Enable Close",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        },
+        {
+          "key": "enableSettings",
+          "name": "Enable Settings",
+          "type": "boolean",
+          "value": true,
+          "setting": "window",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "gridConfig": {
+    "gridEnabled": false,
+    "gridSnapEnabled": false,
+    "snappingSize": {
+      "x": 25,
+      "y": 25
+    },
+    "autoSnappingType": {
+      "off": false,
+      "top": true,
+      "sides": true,
+      "corners": true
+    }
+  },
+  "generalSettings": {
+    "isCacheLimited": false,
+    "cacheSize": 500,
+    "hideWelcomePage": false,
+    "defaultSession": "Restore",
+    "cleanOnJumpToBeginning": true,
+    "userSilFactor": 10
+  },
+  "layout": {
+    "id": "grp-f73a",
+    "direction": "horizontal",
+    "panels": [
+      {
+        "id": "pnl-8667",
+        "tabs": [
+          {
+            "id": "tab-c503",
+            "name": "Signal Exporter",
+            "icon": "download",
+            "uniqueKey": 3,
+            "panelId": "pnl-8667"
+          },
+          {
+            "id": "tab-d73f",
+            "name": "Signal Exporter",
+            "icon": "download",
+            "uniqueKey": 38,
+            "panelId": "pnl-8667"
+          },
+          {
+            "id": "tab-215e",
+            "name": "Signal Exporter",
+            "icon": "download",
+            "uniqueKey": 45,
+            "panelId": "pnl-8667"
+          },
+          {
+            "id": "tab-43b9",
+            "name": "Table View",
+            "icon": "table",
+            "uniqueKey": 60,
+            "panelId": "pnl-8667"
+          }
+        ],
+        "queue": [
+          "tab-d73f",
+          "tab-215e",
+          "tab-43b9",
+          "tab-c503"
+        ]
+      }
+    ]
+  }
+}

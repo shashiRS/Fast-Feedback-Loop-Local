@@ -1,0 +1,6 @@
+attribute "version";
+attribute "json_name";
+
+table videoStream(version: "0.0.1"){
+  test:string (json_name: "ADC5xx"); // full json output -> no parsing needed
+}

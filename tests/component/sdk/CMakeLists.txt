@@ -1,0 +1,7 @@
+add_subdirectory(config_design)
+add_subdirectory(cxx_interface_test)
+add_subdirectory(cxx_std_test)
+add_subdirectory(initchain)
+add_subdirectory(profiler)
+add_subdirectory(testapp)
+add_subdirectory(testlifecycleapp)

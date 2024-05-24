@@ -1,0 +1,64 @@
+{
+  "SimulationInput": {
+    "radar_mi_663": {
+      "RecordingLocation": [
+        "D:\\workspace\\$ENV(recording_folder)$\\test_configs\\test_recording.rec"
+      ]
+    }
+  },
+  "SimulationExport": {
+    "simpleKPI_fromFirstSIL": {
+      "ExportSignals": {
+        "Signals": [
+          "ADC4xx_Filter.EMF.EmfGlobalTimestamp.u_VersionNumber",
+          "ADC4xx_Filter.EMF.EmfGlobalTimestamp.SigHeader.uiTimeStamp",
+          "ADC4xx_Filter.EMF.EmfGlobalTimestamp.SigHeader.uiMeasurementCounter",
+          "ADC4xx_Filter.EMF.EmfGlobalTimestamp.SigHeader.uiCycleCounter",
+          "ADC4xx_Filter.EMF.EmfGlobalTimestamp.SigHeader.eSigStatus",
+          "SIM VFB.NextChain_0.providePort_EmfGlobalTimestamp.versionNumber",
+          "SIM VFB.NextChain_0.providePort_EmfGlobalTimestamp.sSigHeader.uiTimeStamp",
+          "SIM VFB.NextChain_0.providePort_EmfGlobalTimestamp.sSigHeader.uiMeasurementCounter",
+          "SIM VFB.NextChain_0.providePort_EmfGlobalTimestamp.sSigHeader.uiCycleCounter",
+          "SIM VFB.NextChain_0.providePort_EmfGlobalTimestamp.sSigHeader.eSigStatus",
+          "SIM VFB.NextChain_1.providePort_EmfGlobalTimestamp.versionNumber",
+          "SIM VFB.NextChain_1.providePort_EmfGlobalTimestamp.sSigHeader.uiTimeStamp",
+          "SIM VFB.NextChain_1.providePort_EmfGlobalTimestamp.sSigHeader.uiMeasurementCounter",
+          "SIM VFB.NextChain_1.providePort_EmfGlobalTimestamp.sSigHeader.uiCycleCounter",
+          "SIM VFB.NextChain_1.providePort_EmfGlobalTimestamp.sSigHeader.eSigStatus"
+        ],
+        "Trigger": "SIM VFB.NextChain_1.providePort_EmfGlobalTimestamp.sSigHeader.uiMeasurementCounter",
+        "ExportType": "csv"
+      },
+      "Output": {
+        "OutputPath": "$ENV(OUTPUT_DATA_PATH)$",
+        "OutputName": "$ENV(OUTPUT_FILE_NAME)$",
+        "Overwrite": true
+      }
+    }
+  },
+  "SimulationRun": {
+    "exportReplayNoSimulation": {
+      "Run": {
+        "load_recording": 120,
+        "start_export": "runExport",
+        "play_recording": "EOF",
+        "wait_until_end_of_file": "$ENV(TIMEOUT)$"
+      },
+      "Teardown": {
+        "stop_export": true
+      }
+    }
+  },
+  "SimulationFlows": {
+    "runKPI": {
+      "SimulationInput": "radar_mi_663",
+      "SimulationExport": [
+        "simpleKPI_fromFirstSIL"
+      ],
+      "SimulationRun": "exportReplayNoSimulation",
+      "BackendSettings": {
+        "BackendDirectory": "./"
+      }
+    }
+  }
+}

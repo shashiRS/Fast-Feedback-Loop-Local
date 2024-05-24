@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02D0AB67-C832-3652-8A26-F0A27AA24ADE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>next_sdk</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">next_sdk.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">next_sdk</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;SPDLOG_COMPILED_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_LOG_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;ECAL_C_DLL;CMAKE_INTDIR="Release";next_sdk_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;SPDLOG_COMPILED_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_LOG_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_THREAD_NO_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;ECAL_C_DLL;CMAKE_INTDIR=\"Release\";next_sdk_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -E copy D:/.bbs_conan/0d0c747/1/bin/ecal_core_c.dll D:/.bbs_conan/dbe9207ff6ddb/1/bin/mts_sentinel.dll D:/.bbs_conan/0d0c747/1/bin/ecal_core.dll D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/sdk/sdk/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\.bbs_conan\2dbadcf\1\lib\libboost_filesystem-vc141-mt-x64-1_80.lib;D:\.bbs_conan\2dbadcf\1\lib\libboost_log-vc141-mt-x64-1_80.lib;D:\.bbs_conan\f529bc3\1\lib\jsoncpp.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_core_c.lib;D:\.bbs_conan\dbe9207ff6ddb\1\lib\mts_sentinel.lib;D:\.bbs_conan\4e258c5\1\lib\spdlog.lib;D:\.bbs_conan\2dbadcf\1\lib\libboost_filesystem-vc141-mt-x64-1_80.lib;D:\.bbs_conan\2dbadcf\1\lib\libboost_atomic-vc141-mt-x64-1_80.lib;advapi32.lib;bcrypt.lib;mswsock.lib;psapi.lib;secur32.lib;synchronization.lib;ws2_32.lib;D:\.bbs_conan\2dbadcf\1\lib\libboost_regex-vc141-mt-x64-1_80.lib;D:\.bbs_conan\2dbadcf\1\lib\libboost_thread-vc141-mt-x64-1_80.lib;D:\.bbs_conan\2dbadcf\1\lib\libboost_chrono-vc141-mt-x64-1_80.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_core.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_proto.lib;D:\.bbs_conan\a9d6a69\1\lib\libprotobuf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/.bbs_conan/4e258c5/1/lib;D:/.bbs_conan/4e258c5/1/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/sdk/sdk/Release/next_sdk.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/sdk/sdk/Release/next_sdk.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/sdk/sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -SD:/TATA/LATEST_NXT_REPO/next -BD:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa --check-stamp-file D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/sdk/sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\4e258c5\1\lib\cmake\spdlog\spdlogConfig.cmake;D:\.bbs_conan\4e258c5\1\lib\cmake\spdlog\spdlogConfigTargets-release.cmake;D:\.bbs_conan\4e258c5\1\lib\cmake\spdlog\spdlogConfigTargets.cmake;D:\.bbs_conan\4e258c5\1\lib\cmake\spdlog\spdlogConfigVersion.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\CheckIncludeFile.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\CheckLibraryExists.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindThreads.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\CMakeFiles\cmake.verify_globs;D:\TATA\LATEST_NXT_REPO\next\src\cmake\version_info\version.h.in;D:\TATA\LATEST_NXT_REPO\next\src\cmake\version_info\version_info.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\ecal_singleton.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\base_event_binary_impl.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_client.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_client.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_manager.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_manager.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_publisher.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_publisher.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_server.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_server.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_subscriber.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\event_base\event_subscriber.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\cycle_event.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\cycle_information_event.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\lifecycle_state.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\lifecycle_trigger.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\log_event.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\request_config_from_client.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\request_config_from_server.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\request_config_value_from_server.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\send_config_to_client.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\send_config_tags_to_server.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\send_config_to_server.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\send_config_value_to_client.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\status_code_event.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\session_event.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\update_topic_cache.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\events\version_info.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\lifecycle_interface.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\logger.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\log_router.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\log_router.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\profiler.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\shutdown_handler.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\simple_init_chain.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\user_hash\user_hash.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\src\version_manager.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\sdk.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\sdk_config.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\sdk_macros.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\ecal\ecal_singleton.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\base_event.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\base_event_binary.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\base_event_binary_blocking.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\base_event_binary_impl.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\event_base\event_types.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\cycle_event.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\cycle_information_event.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\lifecycle_state.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\lifecycle_trigger.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\log_event.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\request_config_from_client.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\request_config_from_server.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\request_config_value_from_server.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\send_config_to_client.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\send_config_tags_to_server.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\send_config_to_server.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\send_config_value_to_client.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\status_code_event.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\session_event.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\update_topic_cache.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\events\version_info.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\init_chain\simple_init_chain.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\lifecycle\lifecycle_interface.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\logger\logger.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\logger\logger_data_types.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\profiler\profiler.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\shutdown_handler\shutdown_handler.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\string_helper\strings.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\types\package_data_types.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\user_hash\user_hash.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface\next\sdk\version_manager\version_manager.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\bin_version.h" />
+    <ResourceCompile Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\version_info.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\ZERO_CHECK.vcxproj">
+      <Project>{844D7AFA-1068-3A52-A3EB-0E963B318426}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

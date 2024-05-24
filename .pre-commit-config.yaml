@@ -1,0 +1,58 @@
+# See https://pre-commit.com/hooks.html for more hooks
+# Set up:
+#   pip install pre-commit
+#   pre-commit install
+#   pre-commit run --files <file(s)>
+
+# Files to specifically exclude from the pre-commit hooks.
+exclude: |
+    (?x)^(
+        .git/.*|
+        .github/.*|
+        doc/.*|
+        scripts/cip.py|
+    )$
+
+repos:
+  # General
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-yaml
+        args: [--allow-multiple-documents]
+
+  # C / C++
+-   repo: https://github.com/ssciwr/clang-format-hook
+    rev: v12.0.1.2
+    hooks:
+    -   id: clang-format
+        files: \.(c|cc|cxx|cpp|h|hpp|hxx)$
+        always_run: true
+
+  # YAML
+-   repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+    rev: v2.5.0  # Newest version, which works with Python 3.6.8
+    hooks:
+    -   id: pretty-format-yaml
+        args: [--autofix, --indent, '4', --preserve-quotes]
+
+  # Python Black
+-   repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 23.9.1
+    hooks:
+    -   id: black
+        # It is recommended to specify the latest version of Python
+        # supported by your project here, or alternatively use
+        # pre-commit's default_language_version, see
+        # https://pre-commit.com/#top_level-default_language_version
+        args: ["--target-version", "py36", "--target-version", "py38", "--target-version", "py39"]
+
+  # Flake8
+-   repo: https://github.com/PyCQA/flake8
+    rev: 3.7.9
+    hooks:
+    -   id: flake8
+        args: [--min-python-version, '3.6.1']
+        additional_dependencies: [flake8-typing-imports==1.9.0]

@@ -1,0 +1,22 @@
+{
+  "CEM200_COH": {
+    "version": "0.0.1",
+    "in_port": {
+      "m_pSefInputIf": {
+        "sync": {
+          "sync_timestamp": 35
+        }
+      }
+    }
+  }, 
+  "test": {
+    "version": "0.0.1",
+    "in_port": {
+      "m_pSefInputIf": {
+        "sync": {
+          "sync_timestamp": 35
+        }
+      }
+    }
+  }
+}

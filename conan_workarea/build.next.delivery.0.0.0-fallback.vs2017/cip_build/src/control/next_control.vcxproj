@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FD743AB5-016F-3553-B4E9-34ABD9C9AD94}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>next_control</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\control\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">next_control.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">next_control</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\control;D:\TATA\LATEST_NXT_REPO\next\src\control\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\udex\interface;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\7b93f5\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CONTROL_LIBRARY_BUILD;DELIVERY_RELEASE;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;SPDLOG_COMPILED_LIB;ECAL_C_DLL;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;CMAKE_INTDIR="Release";next_control_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CONTROL_LIBRARY_BUILD;DELIVERY_RELEASE;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;SPDLOG_COMPILED_LIB;ECAL_C_DLL;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;CMAKE_INTDIR=\"Release\";next_control_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\control;D:\TATA\LATEST_NXT_REPO\next\src\control\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\udex\interface;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\7b93f5\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\control;D:\TATA\LATEST_NXT_REPO\next\src\control\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\udex\interface;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\f529bc3\1\include;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\7b93f5\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -E copy D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/udex/Release/next_udex.dll D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/sdk/appsupport/Release/next_appsupport.dll D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/sdk/sdk/Release/next_sdk.dll D:/.bbs_conan/0d0c747/1/bin/ecal_core_c.dll D:/.bbs_conan/0d0c747/1/bin/ecal_core.dll D:/.bbs_conan/dbe9207ff6ddb/1/bin/mts_sentinel.dll D:/.bbs_conan/7b93f5/1/bin/mtscpp.dll D:/.bbs_conan/7b93f5/1/bin/mtsc.dll D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/control/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\.bbs_conan\2dbadcf\1\lib\libboost_filesystem-vc141-mt-x64-1_80.lib;D:\.bbs_conan\f529bc3\1\lib\jsoncpp.lib;..\udex\Release\next_udex.lib;bcrypt.lib;synchronization.lib;D:\.bbs_conan\2dbadcf\1\lib\libboost_atomic-vc141-mt-x64-1_80.lib;..\sdk\appsupport\Release\next_appsupport.lib;..\sdk\sdk\Release\next_sdk.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_core_c.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_core.lib;D:\.bbs_conan\0d0c747\1\lib\ecal_proto.lib;D:\.bbs_conan\a9d6a69\1\lib\libprotobuf.lib;D:\.bbs_conan\dbe9207ff6ddb\1\lib\mts_sentinel.lib;D:\.bbs_conan\4e258c5\1\lib\spdlog.lib;D:\.bbs_conan\7b93f5\1\lib\mtscpp.lib;D:\.bbs_conan\7b93f5\1\lib\mtsc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/.bbs_conan/4e258c5/1/lib;D:/.bbs_conan/4e258c5/1/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/control/Release/next_control.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/control/Release/next_control.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\control\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/control/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -SD:/TATA/LATEST_NXT_REPO/next -BD:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --check-stamp-file D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/control/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\cmake.verify_globs;D:\TATA\LATEST_NXT_REPO\next\src\control\src\version_info\version.h.in;D:\TATA\LATEST_NXT_REPO\next\src\control\src\version_info\version_info.rc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\control\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\lib_version.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\base_ctrl_data_generator\control_data_generator.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\base_ctrl_data_generator\control_data_generator.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_client_impl.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_master_impl.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_client.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_master.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_master_impl.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\orchestrator\orchestrator_client_impl.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\interface\next\control\orchestrator\orchestrator_client.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\interface\next\control\orchestrator\orchestrator_master.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\interface\next\control\orchestrator\flow_control_config.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\interface\next\control\log_collector\log_collector.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\log_collector.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\log_collector_impl.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\log_collector_impl.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\rotating_file_sink_log_event_data.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\log_collector\rotating_file_sink_log_event_data.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\event_control\open_recording_status_event.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\event_control\orchestrator_event_binary.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\event_control\player_state_event.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\control\src\event_control\player_command.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\control\bin_version.h" />
+    <ResourceCompile Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\control\version_info.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\ZERO_CHECK.vcxproj">
+      <Project>{31315C89-0C78-3648-850D-699C75683780}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\sdk\appsupport\next_appsupport.vcxproj">
+      <Project>{00A06896-70A5-3F90-8390-370DCEB6F760}</Project>
+      <Name>next_appsupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\sdk\sdk\next_sdk.vcxproj">
+      <Project>{7B139563-CAE2-3B48-9D2F-42DD61E89657}</Project>
+      <Name>next_sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\udex\next_udex.vcxproj">
+      <Project>{E476E885-7752-3556-AAD3-7BCEBA091DC2}</Project>
+      <Name>next_udex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

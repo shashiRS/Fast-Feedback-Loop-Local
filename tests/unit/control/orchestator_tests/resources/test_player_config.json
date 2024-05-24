@@ -1,0 +1,87 @@
+{
+  "next_player": {
+    "orchestrator": {
+      "flow1": {
+        "meta": {
+          "delay": 0,
+          "sync": true
+        },
+        "type": "signal_name",
+        "value": "ADC4xx.EMF.EmfGlobalTimestamp",
+        "clients": {
+          "EmfNodeTriggering": {
+            "runSequencer_response": {}
+          },
+          "client1": {
+            "portname1": {}
+          }
+        }
+      },
+      "anotherFlow": {
+        "meta": {
+          "delay": 100,
+          "sync": false
+        },
+        "type": "cycle_start",
+        "value": 123,
+        "clients": {
+          "client1": {
+            "port1": {}
+          },
+          "client2": {
+            "port2": {}
+          },
+          "client3": {
+            "port3": {}
+          }
+        }
+      },
+      "flowTimeBased": {
+          "meta": {
+              "delay": 0,
+              "sync": true
+          },
+          "type": "time_stamp",
+          "value": "40000",
+          "clients": {
+              "test_timebased_0": {
+                  "Test_timebased_0_m_event_trigger": {}
+              }
+          }
+      },
+      "invalidClients": {
+        "meta": {
+          "delay": 100,
+          "sync": false
+        },
+        "type": "cycle_start",
+        "value": 123,
+        "clients": {
+          "client1": {
+          },
+          "client2": {
+            "port2": {}
+          },
+          "client3": {
+          }
+        }
+      }
+    },
+    "trigger": {
+      "EmfNodeTriggering": {
+        "function": "runSequencer_response",
+        "triggervalue": "ADC4xx.EMF.EmfGlobalTimestamp"
+      }
+    },
+    "stepping": {
+      "time_step": "40000"
+    },
+    "realtime_factor": "10",
+    "filters": {
+      "url": [
+      ],
+      "expression": [
+      ]
+    }
+  }
+}

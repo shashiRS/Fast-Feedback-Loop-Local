@@ -1,0 +1,2 @@
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/next-config.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/next-config-version.cmake

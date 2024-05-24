@@ -1,0 +1,131 @@
+file_identifier "PR01";
+attribute "version";
+
+namespace GuiSchema;
+
+struct XYZ{
+  x:float;
+  y:float;
+  z:float;
+}
+
+enum PrimitiveType:int {
+  None = -1, circle, rectangle, triangle, text, sphere, line, cone, boxOutline, pyramid, arc , ellipse
+}
+
+table PrimitiveBasic {
+  type:PrimitiveType;     // Required - defines the type of primitve
+  id:int;                 // Required - Unique ID for this primitive regarding sensor id and all privmitives send by this sensor
+  color:string;           // Optional - Hex code for the color of the primitive. If this is not present the color of
+  opacity:double;         // Optional - number from 0 to 1 representing the opacity of the primitive.
+}
+
+table Sphere (version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  scale: XYZ;                 // Required - scale regarding all axis
+  rotation: XYZ;              // Required - rotation of sphere
+  radius: double = 1;         // Optional - radius of the sphere
+}
+
+table Circle (version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  scale: XYZ;                 // Required - scale regarding all axis
+  rotation: XYZ;              // Required - rotation of circle
+  radius: double = 1;         // Optional - radius of the circle
+}
+
+
+table Rectangle(version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  scale: XYZ;                 // Required - scale regarding all axis
+  rotation: XYZ;              // Required - rotation of rectangle
+  filled:bool;                // Required - Input true for a filled rectangle, or false for an outline of a rectangle
+  dashed:bool;                // Optional - Set to true for primitive with dashed outline.
+  lineWidth: double = 1;      // Optional - width of the edge of the rectangle
+}
+
+table Triangle (version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  scale: XYZ;                 // Required - scale regarding all axis
+  rotation: XYZ;              // Required - rotation of rectangle
+  lineWidth: double = 1;      // Optional - width of the edge of the triangle
+}
+
+table Line (version: "0.0.1") {
+   basicInfo: PrimitiveBasic;   // Required - shared common information about a privmitive
+   points: [XYZ];               // Required - center point regarding the global coordinate system
+   lineWidth: double = 1;       // Optional - width of the line
+}
+
+table Cone(version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  scale: XYZ;                 // Required - scale regarding all axis
+  rotation: XYZ;              // Required - rotation of rectangle
+  height: double = 1;         // Optional - height of the cone
+  radius: double = 0.5;       // Optional - radius of the cone
+}
+
+table Pyramid(version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  scale: XYZ;                 // Required - scale regarding all axis
+  rotation: XYZ;              // Required - rotation of rectangle
+  height: double = 1;         // Optional - height of the pyramid
+  radius: double = 0.5;       // Optional - radius from the center to the corner points to the ground plane of the pyramid 
+}
+
+table Text (version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  text:string;                // Required - Text to be displayed
+  fontSize:int;               // Required - Font Size
+}
+
+table BoxOutline(version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  scale: XYZ;                 // Required - scale regarding all axis
+  rotation: XYZ;              // Required - rotation of rectangle
+}
+
+table Arc(version: "0.0.1") {
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system
+  radius: float;              // Required - radius of the arc
+  startAngle: float;          // Required - start angle of circle part for the arc
+  endAngle: float;            // Required - end angle of circle part for the arc
+  lineWidth: double = 1;      // Optional - width of the arc line
+}
+
+table Ellipse(version: "0.0.1") 
+{   
+  basicInfo: PrimitiveBasic;  // Required - shared common information about a privmitive   
+  centerPoint: XYZ;           // Required - center point regarding the global coordinate system   
+  radiusX: float;             // Required - radius of the ellipse in x direction   
+  radiusY: float;             // Required - radius of the ellipse in y direction   
+  startAngle: float;          // Required - start angle of ellipse part for the arc
+  endAngle: float;            // Required - end angle of ellipse part for the arc
+  rotation: XYZ;              // Required - rotation of the ellipse
+  lineWidth: double = 1;      // Optional - width of the ellipse line
+}
+
+table PrimitiveList(version: "0.0.1") {
+  circles: [Circle];
+  rectangles: [Rectangle];
+  triangles: [Triangle];
+  texts: [Text];
+  spheres: [Sphere];
+  lines: [Line];
+  cones: [Cone];
+  boxOutlines: [BoxOutline];
+  pyramids: [Pyramid];
+  arcs: [Arc];
+  ellipses: [Ellipse];
+}
+
+root_type PrimitiveList;

@@ -1,0 +1,47 @@
+{
+  "Test": {
+    "in_port": {
+      "test_port": {
+        "sync": {
+          "mode": "Timestamp",
+          "algo": "GET_LAST_ELEMENT"
+        }
+      }
+    },
+    "composition": {
+      "test_port": {
+        "url": [
+          "ADC4xxTesttest_port",
+          "SRR5xx_Front_Right.SW_Every10ms.sRamDataFreeze"
+        ],
+        "m_pSefInputIf": [
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu1"
+        ],
+        "m_pEmlInputIf": [
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+          {
+            "alternatives": [
+              "CEM200_TPF2.m_tpObjectList",
+              "MFC5xx Device.TPF2.m_tpObjectList"
+            ]
+          },
+          {
+            "alternatives1": [
+              "CEM200_TPF2.m_tpObjectList1",
+              "MFC5xx Device.TPF2.m_tpObjectList1"
+            ]
+          }
+        ],
+        "m_pEmlInputIffail": [
+          "MFC5xx Device.FCU.ARSSepTuple3_Fcu",
+          {
+            "alternatives": {
+              "asdf": "1"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

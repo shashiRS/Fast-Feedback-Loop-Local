@@ -1,0 +1,51 @@
+file_identifier "TP01";
+attribute "version";
+
+namespace GuiSchema;
+
+enum TrafficParticipantClass:int {
+  None = -1, car, truck, motorcycle, pedestrian, bicycle
+}
+
+enum TrafficParticipantState:int {
+  None = -1, static, dyn
+}
+
+table TrafficParticipant (version: "0.0.1") {        // refer to this table name when sending data
+
+  id:int;                                            // Required - Unique id per sensor and data class. Used for displaying data.
+  pX:float;                                          // Required - X Position of the unified reference point.
+  pY:float;                                          // Required - Y Position of the unified reference point.
+  x:float;                                           // Required - X Position of the center of the traffic participant.
+  y:float;                                           // Required - Y Position of the center of the traffic participant.
+  unifiedYaw:float;                                  // Required - Yaw of the traffic participant - Counterclockwise from x axis.
+  length:float;                                      // Required - Length of the traffic participant in meters.
+  width:float;                                       // Required - Width of the traffic participant in meters.
+
+  vX:float;                                          // Optional - X Component of the traffic participant's velocity vector.
+  vY:float;                                          // Optional - Y Component of the traffic participant's velocity vector.
+  times:float;                                       // Optional - Timestamp for the traffic participant, in seconds.
+  uniqueId:int;                                      // Optional - Unique Identifier for the traffic participant - this is the displayed on top of each traffic participant.
+  unifiedRefPoint:int;                               // Optional - The number of the unified reference point
+                                                     // For reference on unified reference points see: https://confluence-adas.zone2.agileci.conti.de/display/TRC/Unified+Data+Interface+for+TPs
+  unifiedClassIf:TrafficParticipantClass;            // Optional - enum containing the class of the traffic participant
+  unifiedDynProp:TrafficParticipantState;            // Optional - if "Static", indicates that traffic participant is static.
+  sensor:string;                                     // Optional - sensor name of detecting sensor.
+
+  color:string;                                      // Optional - Color for the unified reference point. If not existing, will try to find
+                                                     // the sensor color through the "sensorUid" attribute or "sensor" attribute (see bellow).
+  opacity:float;                                     // Optional - The opactiy of the traffic participant. Must be between 0 and 1.
+                                                     // This only applies when 3D models are enabled. If not specified, default is 1.
+
+  braking:bool;                                      // Optional - Indicates whether the traffic participant is braking or not.
+  indicatingLeft:bool;                               // Optional - Indicates whether the traffic participant is indicating left or not.
+  indicatingRight:bool;                              // Optional - Indicates whether the traffic participant is indicating right or not.
+  showExclamation:bool;                              // Optional - If true a 3D exclamation mark will be shown on top of the traffic participant
+  pColor:string;
+}
+
+table TrafficParticipantList {                       // creates wrapper around your constructed data structures
+  trafficParticipants:[TrafficParticipant];          // Required - List of Traffic Participants for a single sensor
+}
+
+root_type TrafficParticipantList;

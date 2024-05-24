@@ -1,0 +1,9 @@
+{
+ "options": [],
+ "root": {
+  "name": "next.generic",
+  "version": "0.0.0-fallback",
+  "user": null,
+  "channel": null
+ }
+}

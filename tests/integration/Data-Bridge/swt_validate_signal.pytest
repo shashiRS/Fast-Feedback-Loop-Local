@@ -1,0 +1,322 @@
+"""
+    Copyright 2022 Continental Corporation
+
+    :file: swt_validate_signal.pytest
+    :platform: Windows, Linux
+    :synopsis:
+        Script containing test to validate the given values from signals broadcast by the DataBridge
+    :author:
+        - Fabian Janker (uif41320) <fabian.janker@continental-corporation.com>
+"""
+
+import csv
+import json
+
+from helper_files.ControlBridge import controlbridge_Variables
+from helper_files.DataBridge import databridge_Variables
+from helper_files.General import eCal_handler, precondition
+from ptf.ptf_utils.global_params import get_parameter
+from ptf.ptf_utils.parameterized import parameterized
+from ptf.ptf_utils.report import (
+    DETAILS,
+    EXPECTED,
+    PRECONDITION,
+    TESTSTEP,
+    TESTTAG,
+    VERIFIES,
+)
+from ptf.verify_utils import ptf_asserts, ptf_expects
+
+
+# parameter for the folder structure
+# can be edited in the ConTest GUI
+@parameterized(
+    [
+        (
+            "ADC4xx.EML.EmlOutput.egoVehKinematic.sigHeader.eSigStatus",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_REC_LOC,
+        ),
+        (
+            "ADC4xx.EML.EmlOutput.egoVehKinematic.sigHeader.uiCycleCounter",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_REC_LOC,
+        ),
+    ],
+    stop_on_first_failure=True,
+)
+def SWT_VALIDATE_SIGNAL_WITH_RECORDING(uri, csv_path):
+    DETAILS("Test case to validate that the values of the signals from a recording are correct")
+
+    VERIFIES("The test is verifying, that the values of the signals are correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("databridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    uri_list = uri.split(".")
+
+    precondition.precondition_databridge_with_recording()
+
+    PRECONDITION("Updating the signals")
+    # sending the message to update the signals
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_UPDATE_SIGNALS, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    response_update = next_api.websocket.databridge_broadcast.recv()
+    ptf_asserts.verify(bool(response_update), True, "Timeout raised while sending or receiving")
+
+    response_json_update = json.loads(response_update)
+    try:
+        recv_event_update = response_json_update["event"]
+        ptf_expects.expect_eq(
+            recv_event_update,
+            databridge_Variables.EXPECTED_EVENT_UPDATING_SIGNALS,
+            "The event of the update is not correct",
+        )
+    except IndexError as e:
+        ptf_asserts.fail("response of update not correct. Error: {}".format(e))
+
+    PRECONDITION("Confirm the signal")
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.databridge_confirm_signal(uri), False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    with open(csv_path, newline="") as csvfile:
+        recording_signals = csv.reader(csvfile, delimiter=";")
+        row1 = next(recording_signals)
+        colum_index = 0
+        for index in row1:
+            if index == uri:
+                break
+            colum_index += 1
+        ptf_expects.expect_lt(colum_index, len(row1), "The uri is not in the csv")
+        ptf_expects.expect_eq(row1[colum_index], uri, "This is the wrong uri")
+
+        PRECONDITION("Recording is playing")
+        controlbridge_websocket.send_with_delay(controlbridge_Variables.CONTROLBRIDGE_PLAY_RECORDING, 5)
+
+        TESTSTEP("Checking if the value of the payload is correct")
+        for row in recording_signals:
+            response_signal = next_api.websocket.databridge_broadcast.recv()
+            ptf_asserts.verify(bool(response_signal), True, "Timeout raised while sending or receiving")
+
+            response_json_signal = json.loads(response_signal)[0]
+            try:
+                json_buildup = response_json_signal["dataStream"]["signalList"]
+                for index in uri_list:
+                    json_buildup = json_buildup[index]
+                ptf_expects.expect_eq(str(json_buildup), row[colum_index], "The values are not equal")
+            except IndexError:
+                ptf_expects.fail("The payload of the responded Signal is not correct")
+
+    TESTSTEP("POSTCONDITION: Close the signal")
+    EXPECTED("Signal is closed properly")
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_CLOSE_SIGNAL, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    TESTSTEP("POSTCONDITION: Close the recording")
+    EXPECTED("Recording is closed properly")
+    # if controlbridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        controlbridge_websocket.send(controlbridge_Variables.CONTROLBRIDGE_CLOSE_RECORDING),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+
+# parameter for the folder structure
+# can be edited in the ConTest GUI
+@parameterized(
+    [
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_signed_char[0]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_signed_char[1]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_unsigned_char[0]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_unsigned_char[1]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_short[0]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_short[1]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_unsigned_short[0]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_unsigned_short[1]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_int64_t[0]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_int64_t[1]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_uint64_t[0]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_uint64_t[1]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_float[0]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_float[1]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_double[0]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.ConstantVariables.const_double[1]",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.CounterVariables.counter_uint64_t",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+        (
+            "test_signal.View1.Group1.CounterVariables.counter_double",
+            databridge_Variables.DEFAULT_EXPECTED_VALUES_WITHOUT_REC_PATH,
+        ),
+    ],
+    stop_on_first_failure=True,
+)
+def SWT_VALIDATE_SIGNAL_WITHOUT_RECORDING(uri, csv_path):
+    DETAILS("Test case to validate that the values of the signals " + "from a mockComponent are correct")
+
+    VERIFIES("The test is verifying, that the values of the signals are correct")
+
+    TESTTAG("blackbox")
+    TESTTAG("integration")
+    TESTTAG("design-driven")
+    TESTTAG("sil")
+    TESTTAG("databridge")
+
+    PRECONDITION("ControlBridge, DataBridge & Next_Player has started (global setup)")
+    PRECONDITION("Connection to the ControlBridge and DataBridge")
+
+    # getting the next_api
+    next_api = get_parameter("next_api")
+
+    uri_list = uri.split(".")
+
+    PRECONDITION("Initializing the eCal_Handler for the mockComponent")
+    mock_component = eCal_handler.Handler("test_signal")
+
+    precondition.precondition_databridge_without_recording()
+
+    PRECONDITION("Updating the signals")
+    # sending the message to update the signals
+    # if databridge_websocket returns False, a timeout has occurred
+    ptf_asserts.verify(
+        next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_UPDATE_SIGNALS, False),
+        True,
+        "Timeout raised while sending or receiving",
+    )
+
+    response_update = next_api.websocket.databridge_broadcast.recv()
+    ptf_asserts.verify(bool(response_update), True, "Timeout raised while sending or receiving")
+
+    response_json_update = json.loads(response_update)
+    try:
+        recv_event_update = response_json_update["event"]
+        ptf_expects.expect_eq(
+            recv_event_update,
+            databridge_Variables.EXPECTED_EVENT_UPDATING_SIGNALS,
+            "The event of the update is not correct",
+        )
+
+        PRECONDITION("Confirm the signal")
+        ptf_asserts.verify(
+            next_api.websocket.databridge.send(databridge_Variables.databridge_confirm_signal(uri), False),
+            True,
+            "Timeout raised while sending or receiving",
+        )
+
+        with open(csv_path, newline="") as csvfile:
+            test_signals = csv.reader(csvfile, delimiter=";")
+            row1 = next(test_signals)
+            colum_index = 0
+            for index in row1:
+                if index == uri:
+                    break
+                colum_index += 1
+            ptf_expects.expect_lt(colum_index, len(row1), "The uri is not in the csv")
+            ptf_expects.expect_eq(row1[colum_index], uri, "This is the wrong uri")
+
+            PRECONDITION("Start publishing the Signal")
+            mock_component.startSignalinThread(5)
+
+            TESTSTEP("Checking if the value of the payload is correct")
+            for row in test_signals:
+                response_signal = next_api.websocket.databridge_broadcast.recv()
+                ptf_asserts.verify(bool(response_signal), True, "Timeout raised while sending or receiving")
+
+                response_json_signal = json.loads(response_signal)[0]
+                try:
+                    json_buildup = response_json_signal["dataStream"]["signalList"]
+                    for index in uri_list:
+                        json_buildup = json_buildup[index]
+                    if str(json_buildup).find(".") != -1:
+                        ptf_expects.expect_eq(str(f"{json_buildup:f}"), row[colum_index], "The values are not equal")
+                    else:
+                        ptf_expects.expect_eq(str(json_buildup), row[colum_index], "The values are not equal")
+
+                except IndexError:
+                    ptf_expects.fail("The payload of the responded Signal is not correct")
+
+    except IndexError as e:
+        ptf_asserts.fail(e.with_traceback(None))
+
+    finally:
+        TESTSTEP("POSTCONDITION:Stop publishing the signal")
+        EXPECTED("Signal stop properly")
+        mock_component.stopSignal()
+
+        TESTSTEP("POSTCONDITION: Close the signal")
+        EXPECTED("Signal is closed properly")
+        ptf_asserts.verify(
+            next_api.websocket.databridge.send(databridge_Variables.DATABRIDGE_CLOSE_SIGNAL, False),
+            True,
+            "Timeout raised while sending or receiving",
+        )
+
+        TESTSTEP("POSTCONDITION: Close the eCal_Handler")
+        mock_component.closeSignal()

@@ -1,0 +1,48 @@
+<SdlFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" ByteAlignment="1" Version="2.0">
+	<View Name="array_root" CycleID="2">
+		<Group Name="simple_float_arrays" Address="90100000" ArrayLen="1" Size="80">
+			<Signal Name="ten_floats" Offset="0" ArrayLen="10" Type="float" Bitmask="ffffffff" ByteOrder="little-endian"
+					Size="4"/>
+			<Signal Name="ten_more_floats" Offset="28" ArrayLen="10" Type="float" Bitmask="ffffffff"
+					ByteOrder="little-endian" Size="4"/>
+		</Group>
+		<Group Name="array_of_structs" Address="901103E8" ArrayLen="1" Size="88">
+			<SubGroup Name="first_group" Offset="0" ArrayLen="5" Size="12">
+				<Signal Name="big_int" Offset="0" ArrayLen="1" Type="uint64" Bitmask="ffffffffffffffff"
+						ByteOrder="little-endian" Size="8"/>
+				<Signal Name="unsigned_short" Offset="8" ArrayLen="1" Type="ushort" Bitmask="ffff"
+						ByteOrder="little-endian" Size="2"/>
+				<Signal Name="another_unsigned_short" Offset="A" ArrayLen="1" Type="ushort" Bitmask="ffff"
+						ByteOrder="little-endian" Size="2"/>
+			</SubGroup>
+			<SubGroup Name="second_group" Offset="3C" ArrayLen="7" Size="4">
+				<Signal Name="unsigned_char1" Offset="0" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+						Size="1"/>
+				<Signal Name="unsigned_char2" Offset="1" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+						Size="1"/>
+				<Signal Name="unsigned_char3" Offset="2" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+						Size="1"/>
+				<Signal Name="unsigned_char4" Offset="3" ArrayLen="1" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+						Size="1"/>
+			</SubGroup>
+		</Group>
+		<Group Name="array_of_array" Address="90110440" ArrayLen="1" Size="336">
+			<SubGroup Name="array_group" Offset="0" ArrayLen="10" Size="21">
+				<Signal Name="unsigned_short_array" Offset="0" ArrayLen="10" Type="ushort" Bitmask="ffff"
+						ByteOrder="little-endian" Size="2"/>
+				<Signal Name="unsigned_char" Offset="14" ArrayLen="1" Type="uchar" Bitmask="ff"
+						ByteOrder="little-endian" Size="1"/>
+			</SubGroup>
+			<SubGroup Name="second_group" Offset="D2" ArrayLen="7" Size="18">
+				<Signal Name="unsigned_char1" Offset="0" ArrayLen="6" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+						Size="1"/>
+				<Signal Name="unsigned_char2" Offset="6" ArrayLen="5" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+						Size="1"/>
+				<Signal Name="unsigned_char3" Offset="B" ArrayLen="4" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+						Size="1"/>
+				<Signal Name="unsigned_char4" Offset="F" ArrayLen="3" Type="uchar" Bitmask="ff" ByteOrder="big-endian"
+						Size="1"/>
+			</SubGroup>
+		</Group>
+	</View>
+</SdlFile>

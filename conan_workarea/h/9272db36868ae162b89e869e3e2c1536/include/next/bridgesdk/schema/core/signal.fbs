@@ -1,0 +1,24 @@
+include "types.fbs";
+
+namespace Core;
+
+table Signal {
+  hash: uint64;
+  value: AnyValue;
+}
+
+table SignalInfo {
+  signal_name: string;
+  hash: uint64;
+}
+
+table SignalList {
+  new_signal_info: [SignalInfo];
+  signals: [Signal];
+}
+
+table SignalRequest {
+  signal_name: [string]; // ADC5xx.EMF.TimestampArray[1].SingleTimestamp[5]
+}
+
+root_type SignalList;

@@ -1,0 +1,163 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "system_ReferenceCamera::@49529f32e3688985eeac"
+		},
+		{
+			"id" : "system_SignalRawData::@22e42e4ebaef673ba5ae"
+		},
+		{
+			"id" : "system_PerformanceViewer::@f2d759da6916c184f1dd"
+		},
+		{
+			"id" : "system_RecExporter::@e8c44badc7a8b5e036ec"
+		},
+		{
+			"id" : "system_SignalList::@a2a07e81f1305a17aefd"
+		},
+		{
+			"id" : "view3D_Road::@b5d73ab195cada9065bf"
+		},
+		{
+			"id" : "view3D_ArrayTpObjects::@98298d5547827a08860d"
+		},
+		{
+			"id" : "view3D_EgoVehicle::@b9dd8977096b7a47d256"
+		},
+		{
+			"id" : "view3D_PointCloud::@fa55524bd12404108687"
+		},
+		{
+			"id" : "system_RawFrameView::@5d1cf7eaae12ab5cbddc"
+		},
+		{
+			"id" : "view3D_CanTpObjects::@7086ff83c0678f896257"
+		},
+		{
+			"id" : "system_SignalProvider::@0765b1f158643f2a94da"
+		},
+		{
+			"id" : "view3D_StructTpObjects::@c3ef8984c7de46d7b925"
+		},
+		{
+			"id" : "GENERATE_next_flatbuffers_view_update::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "next_sdk::@48e9f1697bc1a73bde0c"
+		},
+		{
+			"id" : "next_control::@55c7869fca2c028a7ab9"
+		},
+		{
+			"id" : "next_udex::@cfd9f172500fc71560ef"
+		},
+		{
+			"id" : "GENERATE_next_flatbuffers_core::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "next_appsupport::@46c4a43b3fe5f69dd73e"
+		},
+		{
+			"id" : "GENERATE_next_flatbuffers_3d_view::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "GENERATE_next_flatbuffers_profiler::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "next_plugin::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "controlbridge_lib::@d77ed9da38454457a00f"
+		},
+		{
+			"id" : "create_bfbs_header::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "next_controlbridge::@d77ed9da38454457a00f"
+		},
+		{
+			"id" : "next_databridge::@a5998d0aea8dac04538d"
+		},
+		{
+			"id" : "databridge_lib::@a5998d0aea8dac04538d"
+		},
+		{
+			"id" : "system_ECalMonitor::@bb53a5b0b35e6cc305a8"
+		},
+		{
+			"id" : "system_SignalExporter::@e9c025a81deeacbb0b9d"
+		},
+		{
+			"id" : "web_server::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "GENERATE_next_flatbuffers::@8abc7c48d23ada670e3b"
+		},
+		{
+			"id" : "base64::@30fb4d7fc146c31f9e3e"
+		},
+		{
+			"id" : "next::@fee56474c770db7d84e5"
+		},
+		{
+			"id" : "dummy_processor::@6cbe9369438f7cad7fce"
+		},
+		{
+			"id" : "next_example_node::@d3fe6910583af1fa8efc"
+		},
+		{
+			"id" : "lib_test_component_node::@901129d936c1ccacfa5f"
+		},
+		{
+			"id" : "next_player::@2d5ae9c105164480b127"
+		},
+		{
+			"id" : "next_container::@4272d2aee4c7c5cab932"
+		},
+		{
+			"id" : "matchbox_example_app::@4bdad513493fb68b1268"
+		},
+		{
+			"id" : "rec_generator::@7747fc303bbfc2268b34"
+		},
+		{
+			"id" : "test_component_node::@901129d936c1ccacfa5f"
+		},
+		{
+			"id" : "next_subscriber_app::@2c99a52f2d5ed434cddd"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80A9F25D-8FC4-31C4-B39A-80C32C8F4D6C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>controlbridge_lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\controlbridge\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">controlbridge_lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">controlbridge_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler;D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\LifeCycleOrchestrator;D:\TATA\LATEST_NXT_REPO\next\src\control\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\f529bc3\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;SPDLOG_COMPILED_LIB;ECAL_C_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;SPDLOG_COMPILED_LIB;ECAL_C_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler;D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\LifeCycleOrchestrator;D:\TATA\LATEST_NXT_REPO\next\src\control\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\f529bc3\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler;D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\LifeCycleOrchestrator;D:\TATA\LATEST_NXT_REPO\next\src\control\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\sdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\interface;D:\TATA\LATEST_NXT_REPO\next\src\sdk\appsupport\interface;D:\.bbs_conan\0d0c747\1\include;D:\.bbs_conan\a9d6a69\1\include;D:\.bbs_conan\2dbadcf\1\include\boost-1_80;D:\.bbs_conan\4e258c5\1\include;D:\.bbs_conan\dbe9207ff6ddb\1\include;D:\.bbs_conan\f529bc3\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/controlbridge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -SD:/TATA/LATEST_NXT_REPO/next -BD:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa --check-stamp-file D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/src/bridges/controlbridge/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\CMakeFiles\cmake.verify_globs;D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\version_info\version.h.in;D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\version_info\version_info.rc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\controlbridge\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\player_control_manager.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\gui_command_parser.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\EventHandler\player_event_distributor.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\EventHandler\version_info_event_distributor.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\LifeCycleOrchestrator\lifecycle_orchestrator.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\log_distributor\log_distributor.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\http_post\http_post.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\http_post\websocket_client_async.cpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\close_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\close_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\fastforward_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\fastforward_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_to_end_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_to_end_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_binary_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_binary_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_file_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_file_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_project_directory_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_project_directory_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\pause_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\pause_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\play_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\play_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\rewind_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\rewind_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\step_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\step_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\update_sil_factor_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\update_sil_factor_handler.h" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\ConfigManager\config_manager.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\ConfigManager\config_manager.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\log_distributor\log_distributor.hpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_code_manager\status_code_manager.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_code_manager\status_code_manager.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\condition.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\condition.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\condition_handler.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\condition_handler.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\status_queue_manager.hpp" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\status_queue_manager.cpp" />
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\TelemetryHandler\telemetry_handler.h" />
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\TelemetryHandler\telemetry_handler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\ZERO_CHECK.vcxproj">
+      <Project>{844D7AFA-1068-3A52-A3EB-0E963B318426}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\appsupport\next_appsupport.vcxproj">
+      <Project>{7CFCB062-06EB-35E7-9619-618E9D0C76EC}</Project>
+      <Name>next_appsupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\control\next_control.vcxproj">
+      <Project>{5A9CC7DA-8435-355D-8BCE-3C70A6001FD9}</Project>
+      <Name>next_control</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\sdk\sdk\next_sdk.vcxproj">
+      <Project>{02D0AB67-C832-3652-8A26-F0A27AA24ADE}</Project>
+      <Name>next_sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\bridgesdk\web_server.vcxproj">
+      <Project>{407B8079-85E4-3541-999C-70DBD066EA0C}</Project>
+      <Name>web_server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

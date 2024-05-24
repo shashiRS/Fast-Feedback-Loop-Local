@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "definitions": {
+    "GuiSchema_GroundLine" : {
+      "type" : "object",
+      "properties" : {
+        "id" : {
+                "type" : "integer", "minimum" : -2147483648, "maximum" : 2147483647
+              },
+        "pointsX" : {
+                "type" : "array", "items" : {"type" : "number"}
+              },
+        "pointsY" : {
+                "type" : "array", "items" : {"type" : "number"}
+              },
+        "dashed" : {
+                "type" : "boolean"
+              },
+        "lineWidth" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_GroundLineList" : {
+      "type" : "object",
+      "properties" : {
+        "groundLines" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_GroundLine"}
+              }
+      },
+      "additionalProperties" : false
+    }
+  },
+  "$ref" : "#/definitions/GuiSchema_GroundLineList"
+}

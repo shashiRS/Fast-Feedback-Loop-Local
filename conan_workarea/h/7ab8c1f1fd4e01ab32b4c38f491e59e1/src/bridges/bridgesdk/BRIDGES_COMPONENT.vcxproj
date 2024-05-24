@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{246496CB-F5FE-330C-A01C-E49E8B94BFD4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BRIDGES_COMPONENT</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\bridgesdk\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TATA/LATEST_NXT_REPO/next/src/bridges/bridgesdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\85e48f2e4ee1e\1\bin\cmake.exe -SD:/TATA/LATEST_NXT_REPO/next -BD:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1 --check-stamp-file D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/7ab8c1f1fd4e01ab32b4c38f491e59e1/src/bridges/bridgesdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\.bbs_conan\85e48f2e4ee1e\1\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\CMakeFiles\cmake.verify_globs;D:\TATA\LATEST_NXT_REPO\next\src\cmake\version_info\version.h.in;D:\TATA\LATEST_NXT_REPO\next\src\cmake\version_info\version_info.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\ZERO_CHECK.vcxproj">
+      <Project>{31315C89-0C78-3648-850D-699C75683780}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\controlbridge\next_controlbridge.vcxproj">
+      <Project>{F083090B-206B-3B77-B975-0FC8E2ACCA2E}</Project>
+      <Name>next_controlbridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\databridge\next_databridge.vcxproj">
+      <Project>{954862A8-B94C-36B1-8CDC-EC06CCA0DF99}</Project>
+      <Name>next_databridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\bridgesdk\next_plugin.vcxproj">
+      <Project>{AAF001A8-6E5B-3D48-8085-B56835DE5FE1}</Project>
+      <Name>next_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\system_EcalMonitor\system_ECalMonitor.vcxproj">
+      <Project>{D5A5A221-D3A4-3144-90FB-0B743CCBEE3D}</Project>
+      <Name>system_ECalMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\system_RecExporter\system_RecExporter.vcxproj">
+      <Project>{300903D3-B126-3F5C-A0B6-59503B71CFA1}</Project>
+      <Name>system_RecExporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\system_ReferenceCamera\system_ReferenceCamera.vcxproj">
+      <Project>{0835126F-F633-3B90-A246-64EB054B5DD7}</Project>
+      <Name>system_ReferenceCamera</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj">
+      <Project>{875A8E8F-1B44-36CC-82C2-8F5DC0E8BD9D}</Project>
+      <Name>system_SignalExporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\system_SignalList\system_SignalList.vcxproj">
+      <Project>{D9E777C5-CDB6-3BE9-AE2E-1CD7C57486D3}</Project>
+      <Name>system_SignalList</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\system_SignalProvider\system_SignalProvider.vcxproj">
+      <Project>{027F7A9C-B2DA-3FDE-A0F8-3AE8D8B78021}</Project>
+      <Name>system_SignalProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\system_SignalRawData\system_SignalRawData.vcxproj">
+      <Project>{D3B22409-E842-39A6-AEA1-1BC3B1278117}</Project>
+      <Name>system_SignalRawData</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\view3D_ArrayTpObjects\view3D_ArrayTpObjects.vcxproj">
+      <Project>{BDDA0D1C-E976-358C-B8CB-4629B617B986}</Project>
+      <Name>view3D_ArrayTpObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\view3D_CanTpObjects\view3D_CanTpObjects.vcxproj">
+      <Project>{FB4E7CE9-E0FD-3A9D-90A8-740ACA0A2A62}</Project>
+      <Name>view3D_CanTpObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\view3D_EgoVehicle\view3D_EgoVehicle.vcxproj">
+      <Project>{477C43F8-656D-3EBF-8DA4-290B71437054}</Project>
+      <Name>view3D_EgoVehicle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\view3D_PointCloud\view3D_PointCloud.vcxproj">
+      <Project>{76DE4758-383E-3ABC-BA59-6DE8F6072AA2}</Project>
+      <Name>view3D_PointCloud</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\view3D_Road\view3D_Road.vcxproj">
+      <Project>{B353FA67-11B5-3177-86F1-279C8257F541}</Project>
+      <Name>view3D_Road</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\7ab8c1f1fd4e01ab32b4c38f491e59e1\src\bridges\plugins\core\view3D_StructTpObjects\view3D_StructTpObjects.vcxproj">
+      <Project>{A20A90F7-8D61-35A9-9A4C-C1F7C18569AB}</Project>
+      <Name>view3D_StructTpObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

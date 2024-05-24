@@ -1,0 +1,81 @@
+{
+  "connectionConfig": {
+    "dataEndpointIp": "ws://127.0.0.1",
+    "dataEndpointPort": "8080",
+    "dataRequestIp": "ws://127.0.0.1",
+    "dataRequestPort": "8082",
+    "controlEndpointIp": "ws://127.0.0.1",
+    "controlEndpointPort": "8200"
+  },
+  "processManager": {
+    "processList": [
+      {
+        "filePath": "test_component_node.exe",
+        "name": "test_component_node",
+        "id": "c697e2dc-6c00-4310-9dd9-8e7376e97c45",
+        "workingDir": "",
+        "host": "Localhost",
+        "description": "",
+        "argument": "-n",
+        "isRootPathConfigured": true,
+        "autoStart": false,
+        "isProcessChecked": true,
+        "env": [],
+        "status": "Idle"
+      },
+      {
+        "filePath": "next_controlbridge.exe",
+        "name": "next_controlbridge",
+        "id": "664ec410-542a-4a97-b5b1-a0624ca7da1b",
+        "workingDir": "",
+        "host": "Localhost",
+        "description": "",
+        "argument": "",
+        "isRootPathConfigured": true,
+        "autoStart": false,
+        "isProcessChecked": true,
+        "env": [],
+        "status": "Idle"
+      },
+      {
+        "filePath": "next_databridge.exe",
+        "name": "next_databridge",
+        "id": "80aecda2-ca4f-4da7-be73-3af8d300b5af",
+        "workingDir": "",
+        "host": "Localhost",
+        "description": "",
+        "argument": "",
+        "isRootPathConfigured": true,
+        "autoStart": false,
+        "isProcessChecked": true,
+        "env": [],
+        "status": "Idle"
+      },
+      {
+        "filePath": "next_player.exe",
+        "name": "next_player",
+        "id": "90716b8b-2a53-451a-a14c-d06b8d79b5a2",
+        "workingDir": "",
+        "host": "Localhost",
+        "description": "",
+        "argument": "",
+        "isRootPathConfigured": true,
+        "autoStart": false,
+        "isProcessChecked": true,
+        "env": [],
+        "status": "Idle"
+      }
+    ],
+    "rootPath": {
+      "isEnabled": true,
+      "path": "D:\\Next_Repos\\next\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
+    }
+  },
+  "generalSettings": {
+    "allowPackageDrop": true,
+    "enableDataSynchronization": false
+  },
+  "deploymentConfig": {
+    "deploymentSteps": []
+  }
+}

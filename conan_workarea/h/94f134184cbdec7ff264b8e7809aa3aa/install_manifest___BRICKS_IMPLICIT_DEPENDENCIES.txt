@@ -1,0 +1,10 @@
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/BRIDGES_COMPONENT/required_siblings.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/BRIDGES_COMPONENT/required_packages.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/CONTROL_COMPONENT/required_siblings.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/NEXT_COMPONENT/required_siblings.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/PLAYER_COMPONENT/required_siblings.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/SDK_COMPONENT/required_siblings.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/SDK_COMPONENT/required_packages.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/UDEX_COMPONENT/required_siblings.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/next/share/cmake/next/UDEX_COMPONENT/required_packages.cmake
+D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/9272db36868ae162b89e869e3e2c1536/.bricks/aggregated.json

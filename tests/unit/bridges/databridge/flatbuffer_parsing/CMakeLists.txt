@@ -1,0 +1,55 @@
+set (TEST_PACKAGE flatbuffer_parsing_test)
+
+next_create_test(
+  NAME ${TEST_PACKAGE}
+  SRCS
+    flatbuffer_ego_test.cpp
+    flatbuffer_cpuprofiler_test.cpp
+    flatbuffer_network_graph_test.cpp
+    flatbuffer_freegeometry_test.cpp
+    flatbuffer_groundline_test.cpp
+    flatbuffer_parsing_test.cpp
+    flatbuffer_pointcloud_test.cpp
+    flatbuffer_primitive_line_test.cpp
+    flatbuffer_primitive_rectangle_test.cpp
+    flatbuffer_primitive_text_test.cpp
+    flatbuffer_primitive_sphere_test.cpp
+    flatbuffer_primitive_circle_test.cpp
+    flatbuffer_primitive_triangle_test.cpp
+    flatbuffer_primitive_pyramid_test.cpp
+    flatbuffer_primitive_cone_test.cpp
+    flatbuffer_primitive_box_outline_test.cpp
+    flatbuffer_primitive_arc_test.cpp
+    flatbuffer_eCAL_monitor_test.cpp
+    flatbuffer_traffic_test.cpp
+    ${DATABRIDGE_SRC_DIR}/DataManager/OutputManager/plugin_data_class_parser.h
+  RESOURCES
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/profiler/basic_info.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/profiler/cpu_profiler.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/profiler/network_graph.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/3d_view/egovehicle.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/3d_view/freegeometry.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/3d_view/groundline.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/3d_view/pointcloud.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/3d_view/primitive.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/3d_view/trafficparticipant.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/3d_view/view_update.fbs
+    ${BRIDGESDK_INTERFACE_DIR}/next/bridgesdk/schema/core/signal_update.fbs
+    ${CMAKE_CURRENT_SOURCE_DIR}/custompointcloud.fbs
+  PUBLICLINKLIBS
+    databridge_lib
+    Boost::boost
+    Boost::date_time
+    flatbuffers::flatbuffers
+    jsoncpp_static
+    next_control::next_control
+    next_flatbuffers_3d_view
+    next_flatbuffers_profiler
+    next_flatbuffers_core
+  INSTALLTARGETS
+    mts_sentinel::client
+)
+
+add_dependencies(${TEST_PACKAGE}
+  GENERATE_next_flatbuffers_profiler
+)

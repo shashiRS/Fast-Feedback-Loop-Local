@@ -1,0 +1,13 @@
+file_identifier "NE01";
+attribute "version";
+
+table NextExporter(version: "0.0.1"){
+      filename:string;              // Name of node/process
+      status:string;                // Meta information for node
+      numberOfPackages:uint64=0;    // number of exported packages
+      timestamp:uint64=0;           // current timestamp
+}
+
+root_type NextExporter;
+
+

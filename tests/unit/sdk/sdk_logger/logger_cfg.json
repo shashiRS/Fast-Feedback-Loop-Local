@@ -1,0 +1,28 @@
+{
+  "test": {
+    "logging": {
+      "console": {
+          "active": true,
+          "loglevel": "info"
+      },
+	  "file": {
+          "active": true,
+          "loglevel": "debug",
+          "filename": "test.log"
+		  
+      },
+	  "global": {
+          "active": true,
+          "loglevel": "warn",
+          "sendfrequency": 200
+      }
+    }
+  },
+  "next_controlbridge": {
+    "logging": {
+      "global": {
+          "filename": "global.log"
+      }
+	}
+  }
+}

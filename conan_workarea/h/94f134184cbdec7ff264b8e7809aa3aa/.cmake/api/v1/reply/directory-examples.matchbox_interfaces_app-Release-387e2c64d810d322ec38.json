@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/.bricks/decorated_install.cmake",
+			"examples/matchbox_interfaces_app/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "NEXT_COMPONENT",
+			"destination" : "examples/matchbox_example_app",
+			"paths" : 
+			[
+				"examples/matchbox_interfaces_app/Release/matchbox_example_app.exe"
+			],
+			"targetId" : "matchbox_example_app::@4bdad513493fb68b1268",
+			"targetIndex" : 20,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/matchbox_interfaces_app",
+		"source" : "examples/matchbox_interfaces_app"
+	}
+}

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\close_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\fastforward_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_to_end_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_binary_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_file_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_project_directory_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\pause_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\play_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\rewind_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\step_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\update_sil_factor_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\ConfigManager\config_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_code_manager\status_code_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\condition_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\status_queue_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\TelemetryHandler\telemetry_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\close_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\fastforward_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_to_end_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_binary_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_file_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_project_directory_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\pause_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\play_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\rewind_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\step_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\update_sil_factor_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\ConfigManager\config_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\log_distributor\log_distributor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_code_manager\status_code_manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\condition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\condition_handler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\status_queue_manager\status_queue_manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\TelemetryHandler\telemetry_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\controlbridge\bin_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TATA\LATEST_NXT_REPO\next\src\bridges\controlbridge\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\TATA\LATEST_NXT_REPO\next\conan_workarea\h\94f134184cbdec7ff264b8e7809aa3aa\src\bridges\controlbridge\version_info.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5C012A49-367D-3CF3-8F32-823C93801291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{51FCA844-B143-3928-B5F2-7A5277A977A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

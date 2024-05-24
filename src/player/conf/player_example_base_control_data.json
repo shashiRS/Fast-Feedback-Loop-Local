@@ -1,0 +1,48 @@
+{
+   "next_player":{
+      "orchestrator":{
+         "flow1":{
+            "meta":{
+               "delay":0,
+               "sync":true,
+               "control_data_generation":{
+                  "sdl_file":"sig_header.sdl",
+                  "member_data":{
+                     "SigHeader.uiTimeStamp":"ADC5xx_Device.VD_DATA.IuVehDynamicsPort.sSigHeader.uiTimeStamp",
+                     "SigHeader.uiMeasurementCounter":"ADC5xx_Device.VD_DATA.IuVehDynamicsPort.sSigHeader.uiMeasurementCounter",
+                     "SigHeader.uiCycleCounter":"ADC5xx_Device.VD_DATA.IuVehDynamicsPort.sSigHeader.uiCycleCounter",
+                     "SigHeader.eSigStatus":"ADC5xx_Device.VD_DATA.IuVehDynamicsPort.sSigHeader.eSigStatus",
+                     "SigHeader.a_reserve":[
+                        1,
+						2,
+						2,
+						3
+                     ]
+                  }
+               }
+            },
+            "type":"signal_name",
+            "value":"ADC5xx_Device.EM_DATA.EmApParkingBoxPort",
+            "clients":{
+               "generic":{
+                  "SimpleTrigger":{
+                     
+                  }
+               }
+            }
+         }
+      },
+      "stepping":{
+         "time_step":"40000"
+      },
+      "realtime_factor":"10",
+      "filters":{
+         "url":[
+            
+         ],
+         "expression":[
+            
+         ]
+      }
+   }
+}

@@ -1,0 +1,1941 @@
+{
+    "packages": {
+        "Boost": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::boost": {
+                    "depending_targets": [
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::boost",
+                    "target_type": "INTERFACE"
+                },
+                "Boost::diagnostic_definitions": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "Boost::diagnostic_definitions",
+                    "target_type": "INTERFACE"
+                },
+                "Boost::disable_autolinking": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "Boost::disable_autolinking",
+                    "target_type": "INTERFACE"
+                },
+                "Boost::dynamic_linking": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "Boost::dynamic_linking",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "Flatbuffers": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "flatbuffers::flatbuffers": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "flatbuffers::flatbuffers",
+                    "target_type": "STATIC"
+                },
+                "flatbuffers::flatc": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "flatbuffers::flatc",
+                    "target_type": "EXECUTABLE"
+                }
+            }
+        },
+        "Git": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Git::Git": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "Git::Git",
+                    "target_type": "EXECUTABLE"
+                }
+            }
+        },
+        "Protobuf": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "protobuf::libprotobuf": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "protobuf::libprotobuf",
+                    "target_type": "UNKNOWN"
+                },
+                "protobuf::libprotobuf-lite": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "protobuf::libprotobuf-lite",
+                    "target_type": "UNKNOWN"
+                },
+                "protobuf::libprotoc": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "protobuf::libprotoc",
+                    "target_type": "UNKNOWN"
+                },
+                "protobuf::protoc": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "protobuf::protoc",
+                    "target_type": "EXECUTABLE"
+                }
+            }
+        },
+        "Python": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Python::Interpreter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "Python::Interpreter",
+                    "target_type": "EXECUTABLE"
+                }
+            }
+        },
+        "Threads": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Threads::Threads": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "Threads::Threads",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "boost_atomic": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::atomic": {
+                    "depending_targets": [
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::atomic",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_chrono": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::chrono": {
+                    "depending_targets": [
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::chrono",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_container": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::container": {
+                    "depending_targets": [
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::container",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_date_time": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::date_time": {
+                    "depending_targets": [
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::date_time",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_filesystem": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::filesystem": {
+                    "depending_targets": [
+                        "Boost::atomic",
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "$<$<CONFIG:release>:bcrypt",
+                        "Boost::atomic",
+                        "Boost::headers",
+                        "synchronization>"
+                    ],
+                    "name": "Boost::filesystem",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_headers": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::headers": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "Boost::headers",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "boost_json": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::json": {
+                    "depending_targets": [
+                        "Boost::container",
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::container",
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::json",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_log": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::log": {
+                    "depending_targets": [
+                        "Boost::atomic",
+                        "Boost::chrono",
+                        "Boost::filesystem",
+                        "Boost::headers",
+                        "Boost::regex",
+                        "Boost::thread",
+                        "bcrypt",
+                        "mswsock",
+                        "psapi",
+                        "secur32",
+                        "synchronization"
+                    ],
+                    "link_library_exprs": [
+                        "$<$<CONFIG:release>:advapi32",
+                        "Boost::atomic",
+                        "Boost::chrono",
+                        "Boost::filesystem",
+                        "Boost::headers",
+                        "Boost::regex",
+                        "Boost::thread",
+                        "bcrypt",
+                        "mswsock",
+                        "psapi",
+                        "secur32",
+                        "synchronization",
+                        "ws2_32>"
+                    ],
+                    "name": "Boost::log",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_program_options": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::program_options": {
+                    "depending_targets": [
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::program_options",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_regex": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::regex": {
+                    "depending_targets": [
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::regex",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_system": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::system": {
+                    "depending_targets": [
+                        "Boost::headers"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::headers"
+                    ],
+                    "name": "Boost::system",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "boost_thread": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "Boost::thread": {
+                    "depending_targets": [
+                        "Boost::chrono",
+                        "Boost::headers",
+                        "Threads::Threads"
+                    ],
+                    "link_library_exprs": [
+                        "Boost::chrono",
+                        "Boost::headers",
+                        "Threads::Threads"
+                    ],
+                    "name": "Boost::thread",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "eCAL": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "eCAL::app_pb": {
+                    "depending_targets": [
+                        "protobuf::libprotobuf"
+                    ],
+                    "link_library_exprs": [
+                        "protobuf::libprotobuf"
+                    ],
+                    "name": "eCAL::app_pb",
+                    "target_type": "STATIC"
+                },
+                "eCAL::core": {
+                    "depending_targets": [
+                        "eCAL::proto"
+                    ],
+                    "link_library_exprs": [
+                        "eCAL::proto"
+                    ],
+                    "name": "eCAL::core",
+                    "target_type": "SHARED"
+                },
+                "eCAL::core_c": {
+                    "depending_targets": [
+                        "eCAL::core"
+                    ],
+                    "link_library_exprs": [
+                        "eCAL::core"
+                    ],
+                    "name": "eCAL::core_c",
+                    "target_type": "SHARED"
+                },
+                "eCAL::core_pb": {
+                    "depending_targets": [
+                        "protobuf::libprotobuf"
+                    ],
+                    "link_library_exprs": [
+                        "protobuf::libprotobuf"
+                    ],
+                    "name": "eCAL::core_pb",
+                    "target_type": "STATIC"
+                },
+                "eCAL::ecal-utils": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "eCAL::ecal-utils",
+                    "target_type": "STATIC"
+                },
+                "eCAL::hdf5": {
+                    "depending_targets": [
+                        "eCAL::ecal-utils",
+                        "eCAL::measurement_base",
+                        "hdf5::hdf5-static"
+                    ],
+                    "link_library_exprs": [
+                        "$<LINK_ONLY:eCAL::ecal-utils>",
+                        "$<LINK_ONLY:hdf5::hdf5-static>",
+                        "eCAL::measurement_base"
+                    ],
+                    "name": "eCAL::hdf5",
+                    "target_type": "STATIC"
+                },
+                "eCAL::measurement_base": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "eCAL::measurement_base",
+                    "target_type": "INTERFACE"
+                },
+                "eCAL::measurement_hdf5": {
+                    "depending_targets": [
+                        "eCAL::hdf5",
+                        "eCAL::measurement_base"
+                    ],
+                    "link_library_exprs": [
+                        "$<LINK_ONLY:eCAL::hdf5>",
+                        "eCAL::measurement_base"
+                    ],
+                    "name": "eCAL::measurement_hdf5",
+                    "target_type": "STATIC"
+                },
+                "eCAL::message": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "eCAL::message",
+                    "target_type": "INTERFACE"
+                },
+                "eCAL::pb": {
+                    "depending_targets": [
+                        "eCAL::core_pb"
+                    ],
+                    "link_library_exprs": [
+                        "eCAL::core_pb"
+                    ],
+                    "name": "eCAL::pb",
+                    "target_type": "STATIC"
+                },
+                "eCAL::proto": {
+                    "depending_targets": [
+                        "protobuf::libprotobuf"
+                    ],
+                    "link_library_exprs": [
+                        "protobuf::libprotobuf"
+                    ],
+                    "name": "eCAL::proto",
+                    "target_type": "STATIC"
+                },
+                "eCAL::rec_addon_core": {
+                    "depending_targets": [
+                        "Threads::Threads"
+                    ],
+                    "link_library_exprs": [
+                        "$<LINK_ONLY:Threads::Threads>"
+                    ],
+                    "name": "eCAL::rec_addon_core",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "jsoncpp": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "JsonCpp::JsonCpp": {
+                    "depending_targets": [
+                        "jsoncpp_static"
+                    ],
+                    "link_library_exprs": [
+                        "jsoncpp_static"
+                    ],
+                    "name": "JsonCpp::JsonCpp",
+                    "target_type": "INTERFACE"
+                },
+                "jsoncpp_object": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "jsoncpp_object",
+                    "target_type": "OBJECT"
+                },
+                "jsoncpp_static": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "jsoncpp_static",
+                    "target_type": "STATIC"
+                }
+            }
+        },
+        "mts_amba_processor": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_amba_processor::mts_amba_processor": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_amba_processor::mts_amba_processor",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_arxml": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_arxml::mts_arxml": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_arxml::mts_arxml",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_asap2": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_asap2::mts_asap2": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_asap2::mts_asap2",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_can": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_can::mts_can": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_can::mts_can",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_can_arxml_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_can_arxml_parser::mts_can_arxml_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_can_arxml_parser::mts_can_arxml_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_can_data_matcher": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_can_data_matcher::mts_can_data_matcher": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_can_data_matcher::mts_can_data_matcher",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_can_fibex_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_can_fibex_parser::mts_can_fibex_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_can_fibex_parser::mts_can_fibex_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_can_formatter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_can_formatter::mts_can_formatter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_can_formatter::mts_can_formatter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_core_lib": {
+            "external": false,
+            "groups": {},
+            "targets": {
+                "mts_core_lib::libraries": {
+                    "depending_targets": [
+                        "mts_arxml::mts_arxml",
+                        "mts_asap2::mts_asap2",
+                        "mts_can::mts_can",
+                        "mts_dbc::mts_dbc",
+                        "mts_ecu::mts_ecu",
+                        "mts_eth::mts_eth",
+                        "mts_fibex::mts_fibex",
+                        "mts_flexray::mts_flexray",
+                        "mts_gps::mts_gps",
+                        "mts_mdf::mts_mdf",
+                        "mts_nmea::mts_nmea",
+                        "mts_opc::mts_opc",
+                        "mts_rec::mts_rec",
+                        "mts_ref_cam::mts_ref_cam",
+                        "mts_rrec::mts_rrec",
+                        "mts_rt_range::mts_rt_range",
+                        "mts_sdc::mts_sdc",
+                        "mts_swc::mts_swc",
+                        "mts_zrec::mts_zrec",
+                        "mtsc::mtsc",
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mts_arxml::mts_arxml",
+                        "mts_asap2::mts_asap2",
+                        "mts_can::mts_can",
+                        "mts_dbc::mts_dbc",
+                        "mts_ecu::mts_ecu",
+                        "mts_eth::mts_eth",
+                        "mts_fibex::mts_fibex",
+                        "mts_flexray::mts_flexray",
+                        "mts_gps::mts_gps",
+                        "mts_mdf::mts_mdf",
+                        "mts_nmea::mts_nmea",
+                        "mts_opc::mts_opc",
+                        "mts_rec::mts_rec",
+                        "mts_ref_cam::mts_ref_cam",
+                        "mts_rrec::mts_rrec",
+                        "mts_rt_range::mts_rt_range",
+                        "mts_sdc::mts_sdc",
+                        "mts_swc::mts_swc",
+                        "mts_zrec::mts_zrec",
+                        "mtsc::mtsc",
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_core_lib::libraries",
+                    "target_type": "INTERFACE"
+                },
+                "mts_core_lib::modules": {
+                    "depending_targets": [
+                        "mts_amba_processor::mts_amba_processor",
+                        "mts_arxml::mts_arxml",
+                        "mts_asap2::mts_asap2",
+                        "mts_can_arxml_parser::mts_can_arxml_parser",
+                        "mts_can_data_matcher::mts_can_data_matcher",
+                        "mts_can_fibex_parser::mts_can_fibex_parser",
+                        "mts_can_formatter::mts_can_formatter",
+                        "mts_csv_exporter::mts_csv_exporter",
+                        "mts_dbc::mts_dbc",
+                        "mts_dbc_parser::mts_dbc_parser",
+                        "mts_ecu_data_matcher::mts_ecu_data_matcher",
+                        "mts_ecu_formatter::mts_ecu_formatter",
+                        "mts_ecu_sd_formatter::mts_ecu_sd_formatter",
+                        "mts_ecu_sd_provider::mts_ecu_sd_provider",
+                        "mts_ethernet_arxml_parser::mts_ethernet_arxml_parser",
+                        "mts_ethernet_data_matcher::mts_ethernet_data_matcher",
+                        "mts_ethernet_fibex_parser::mts_ethernet_fibex_parser",
+                        "mts_ethernet_formatter::mts_ethernet_formatter",
+                        "mts_exporter::mts_exporter",
+                        "mts_ffmpeg::avcodec",
+                        "mts_ffmpeg::avformat",
+                        "mts_ffmpeg::avutil",
+                        "mts_ffmpeg::swresample",
+                        "mts_ffmpeg::swscale",
+                        "mts_fibex::mts_fibex",
+                        "mts_flexray_data_matcher::mts_flexray_data_matcher",
+                        "mts_flexray_fibex_parser::mts_flexray_fibex_parser",
+                        "mts_flexray_formatter::mts_flexray_formatter",
+                        "mts_gps_data_matcher::mts_gps_data_matcher",
+                        "mts_gps_formatter::mts_gps_formatter",
+                        "mts_gps_sdl_parser::mts_gps_sdl_parser",
+                        "mts_mdf::mts_mdf",
+                        "mts_mfc5xx_processor::mts_mfc5xx_processor",
+                        "mts_nmea::mts_nmea",
+                        "mts_opc::mts_opc",
+                        "mts_pcap_reader::mts_pcap_reader",
+                        "mts_rec_exporter::mts_rec_exporter",
+                        "mts_rec_reader::mts_rec_reader",
+                        "mts_ref_cam_data_matcher::mts_ref_cam_data_matcher",
+                        "mts_ref_cam_formatter::mts_ref_cam_formatter",
+                        "mts_ref_cam_parser::mts_ref_cam_parser",
+                        "mts_rrec_reader::mts_rrec_reader",
+                        "mts_rt_range_data_matcher::mts_rt_range_data_matcher",
+                        "mts_rt_range_formatter::mts_rt_range_formatter",
+                        "mts_rt_range_parser::mts_rt_range_parser",
+                        "mts_rt_range_probe::mts_rt_range_probe",
+                        "mts_sdc::mts_sdc",
+                        "mts_sdc_parser::mts_sdc_parser",
+                        "mts_sdl_parser::mts_sdl_parser",
+                        "mts_signal_storage::mts_signal_storage",
+                        "mts_svc_processor::mts_svc_processor",
+                        "mts_swc::mts_swc",
+                        "mts_swc_parser::mts_swc_parser",
+                        "mts_udex_extractor::mts_udex_extractor",
+                        "mts_velodyne_probe::mts_velodyne_probe",
+                        "mts_xtypes_data_matcher::mts_xtypes_data_matcher",
+                        "mts_xtypes_parser::mts_xtypes_parser",
+                        "mts_zrec_reader::mts_zrec_reader",
+                        "mtsc::mtsc",
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mts_amba_processor::mts_amba_processor",
+                        "mts_arxml::mts_arxml",
+                        "mts_asap2::mts_asap2",
+                        "mts_can_arxml_parser::mts_can_arxml_parser",
+                        "mts_can_data_matcher::mts_can_data_matcher",
+                        "mts_can_fibex_parser::mts_can_fibex_parser",
+                        "mts_can_formatter::mts_can_formatter",
+                        "mts_csv_exporter::mts_csv_exporter",
+                        "mts_dbc::mts_dbc",
+                        "mts_dbc_parser::mts_dbc_parser",
+                        "mts_ecu_data_matcher::mts_ecu_data_matcher",
+                        "mts_ecu_formatter::mts_ecu_formatter",
+                        "mts_ecu_sd_formatter::mts_ecu_sd_formatter",
+                        "mts_ecu_sd_provider::mts_ecu_sd_provider",
+                        "mts_ethernet_arxml_parser::mts_ethernet_arxml_parser",
+                        "mts_ethernet_data_matcher::mts_ethernet_data_matcher",
+                        "mts_ethernet_fibex_parser::mts_ethernet_fibex_parser",
+                        "mts_ethernet_formatter::mts_ethernet_formatter",
+                        "mts_exporter::mts_exporter",
+                        "mts_ffmpeg::avcodec",
+                        "mts_ffmpeg::avformat",
+                        "mts_ffmpeg::avutil",
+                        "mts_ffmpeg::swresample",
+                        "mts_ffmpeg::swscale",
+                        "mts_fibex::mts_fibex",
+                        "mts_flexray_data_matcher::mts_flexray_data_matcher",
+                        "mts_flexray_fibex_parser::mts_flexray_fibex_parser",
+                        "mts_flexray_formatter::mts_flexray_formatter",
+                        "mts_gps_data_matcher::mts_gps_data_matcher",
+                        "mts_gps_formatter::mts_gps_formatter",
+                        "mts_gps_sdl_parser::mts_gps_sdl_parser",
+                        "mts_mdf::mts_mdf",
+                        "mts_mfc5xx_processor::mts_mfc5xx_processor",
+                        "mts_nmea::mts_nmea",
+                        "mts_opc::mts_opc",
+                        "mts_pcap_reader::mts_pcap_reader",
+                        "mts_rec_exporter::mts_rec_exporter",
+                        "mts_rec_reader::mts_rec_reader",
+                        "mts_ref_cam_data_matcher::mts_ref_cam_data_matcher",
+                        "mts_ref_cam_formatter::mts_ref_cam_formatter",
+                        "mts_ref_cam_parser::mts_ref_cam_parser",
+                        "mts_rrec_reader::mts_rrec_reader",
+                        "mts_rt_range_data_matcher::mts_rt_range_data_matcher",
+                        "mts_rt_range_formatter::mts_rt_range_formatter",
+                        "mts_rt_range_parser::mts_rt_range_parser",
+                        "mts_rt_range_probe::mts_rt_range_probe",
+                        "mts_sdc::mts_sdc",
+                        "mts_sdc_parser::mts_sdc_parser",
+                        "mts_sdl_parser::mts_sdl_parser",
+                        "mts_signal_storage::mts_signal_storage",
+                        "mts_svc_processor::mts_svc_processor",
+                        "mts_swc::mts_swc",
+                        "mts_swc_parser::mts_swc_parser",
+                        "mts_udex_extractor::mts_udex_extractor",
+                        "mts_velodyne_probe::mts_velodyne_probe",
+                        "mts_xtypes_data_matcher::mts_xtypes_data_matcher",
+                        "mts_xtypes_parser::mts_xtypes_parser",
+                        "mts_zrec_reader::mts_zrec_reader",
+                        "mtsc::mtsc",
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_core_lib::modules",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_csv_exporter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_csv_exporter::mts_csv_exporter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_csv_exporter::mts_csv_exporter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_dbc": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_dbc::mts_dbc": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_dbc::mts_dbc",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_dbc_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_dbc_parser::mts_dbc_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_dbc_parser::mts_dbc_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ecu": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ecu::mts_ecu": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_ecu::mts_ecu",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_ecu_data_matcher": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ecu_data_matcher::mts_ecu_data_matcher": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ecu_data_matcher::mts_ecu_data_matcher",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ecu_formatter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ecu_formatter::mts_ecu_formatter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ecu_formatter::mts_ecu_formatter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ecu_sd_formatter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ecu_sd_formatter::mts_ecu_sd_formatter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ecu_sd_formatter::mts_ecu_sd_formatter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ecu_sd_provider": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ecu_sd_provider::mts_ecu_sd_provider": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ecu_sd_provider::mts_ecu_sd_provider",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_eth": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_eth::mts_eth": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_eth::mts_eth",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_ethernet_arxml_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ethernet_arxml_parser::mts_ethernet_arxml_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ethernet_arxml_parser::mts_ethernet_arxml_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ethernet_data_matcher": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ethernet_data_matcher::mts_ethernet_data_matcher": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ethernet_data_matcher::mts_ethernet_data_matcher",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ethernet_fibex_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ethernet_fibex_parser::mts_ethernet_fibex_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ethernet_fibex_parser::mts_ethernet_fibex_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ethernet_formatter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ethernet_formatter::mts_ethernet_formatter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ethernet_formatter::mts_ethernet_formatter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_exporter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_exporter::mts_exporter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_exporter::mts_exporter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ffmpeg": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ffmpeg::avcodec": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ffmpeg::avcodec",
+                    "target_type": "SHARED"
+                },
+                "mts_ffmpeg::avformat": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ffmpeg::avformat",
+                    "target_type": "SHARED"
+                },
+                "mts_ffmpeg::avutil": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ffmpeg::avutil",
+                    "target_type": "SHARED"
+                },
+                "mts_ffmpeg::mts_ffmpeg": {
+                    "depending_targets": [
+                        "FFmpeg::avcodec",
+                        "FFmpeg::avformat",
+                        "FFmpeg::avutil",
+                        "FFmpeg::swresample",
+                        "FFmpeg::swscale"
+                    ],
+                    "link_library_exprs": [
+                        "FFmpeg::avcodec",
+                        "FFmpeg::avformat",
+                        "FFmpeg::avutil",
+                        "FFmpeg::swresample",
+                        "FFmpeg::swscale"
+                    ],
+                    "name": "mts_ffmpeg::mts_ffmpeg",
+                    "target_type": "STATIC"
+                },
+                "mts_ffmpeg::swresample": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ffmpeg::swresample",
+                    "target_type": "SHARED"
+                },
+                "mts_ffmpeg::swscale": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ffmpeg::swscale",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_fibex": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_fibex::mts_fibex": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_fibex::mts_fibex",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_flexray": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_flexray::mts_flexray": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_flexray::mts_flexray",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_flexray_data_matcher": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_flexray_data_matcher::mts_flexray_data_matcher": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_flexray_data_matcher::mts_flexray_data_matcher",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_flexray_fibex_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_flexray_fibex_parser::mts_flexray_fibex_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_flexray_fibex_parser::mts_flexray_fibex_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_flexray_formatter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_flexray_formatter::mts_flexray_formatter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_flexray_formatter::mts_flexray_formatter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_gps": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_gps::mts_gps": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_gps::mts_gps",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_gps_data_matcher": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_gps_data_matcher::mts_gps_data_matcher": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_gps_data_matcher::mts_gps_data_matcher",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_gps_formatter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_gps_formatter::mts_gps_formatter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_gps_formatter::mts_gps_formatter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_gps_sdl_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_gps_sdl_parser::mts_gps_sdl_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_gps_sdl_parser::mts_gps_sdl_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_mdf": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_mdf::mts_mdf": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_mdf::mts_mdf",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_mfc5xx_processor": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_mfc5xx_processor::mts_mfc5xx_processor": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_mfc5xx_processor::mts_mfc5xx_processor",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_nmea": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_nmea::mts_nmea": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_nmea::mts_nmea",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_opc": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_opc::mts_opc": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_opc::mts_opc",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_pcap_reader": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_pcap_reader::mts_pcap_reader": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_pcap_reader::mts_pcap_reader",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_rec": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rec::mts_rec": {
+                    "depending_targets": [
+                        "mtsc::mtsc"
+                    ],
+                    "link_library_exprs": [
+                        "mtsc::mtsc"
+                    ],
+                    "name": "mts_rec::mts_rec",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_rec_exporter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rec_exporter::mts_rec_exporter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_rec_exporter::mts_rec_exporter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_rec_reader": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rec_reader::mts_rec_reader": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_rec_reader::mts_rec_reader",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ref_cam": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ref_cam::mts_ref_cam": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ref_cam::mts_ref_cam",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_ref_cam_data_matcher": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ref_cam_data_matcher::mts_ref_cam_data_matcher": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ref_cam_data_matcher::mts_ref_cam_data_matcher",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ref_cam_formatter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ref_cam_formatter::mts_ref_cam_formatter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ref_cam_formatter::mts_ref_cam_formatter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_ref_cam_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_ref_cam_parser::mts_ref_cam_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_ref_cam_parser::mts_ref_cam_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_rrec": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rrec::mts_rrec": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_rrec::mts_rrec",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_rrec_reader": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rrec_reader::mts_rrec_reader": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_rrec_reader::mts_rrec_reader",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_rt_range": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rt_range::mts_rt_range": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_rt_range::mts_rt_range",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_rt_range_data_matcher": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rt_range_data_matcher::mts_rt_range_data_matcher": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_rt_range_data_matcher::mts_rt_range_data_matcher",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_rt_range_formatter": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rt_range_formatter::mts_rt_range_formatter": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_rt_range_formatter::mts_rt_range_formatter",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_rt_range_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rt_range_parser::mts_rt_range_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_rt_range_parser::mts_rt_range_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_rt_range_probe": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_rt_range_probe::mts_rt_range_probe": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_rt_range_probe::mts_rt_range_probe",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_sdc": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_sdc::mts_sdc": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_sdc::mts_sdc",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_sdc_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_sdc_parser::mts_sdc_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_sdc_parser::mts_sdc_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_sdl_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_sdl_parser::mts_sdl_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_sdl_parser::mts_sdl_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_sentinel": {
+            "external": false,
+            "groups": {},
+            "targets": {
+                "mts_sentinel::client": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_sentinel::client",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_signal_storage": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_signal_storage::mts_signal_storage": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_signal_storage::mts_signal_storage",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_svc_processor": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_svc_processor::mts_svc_processor": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_svc_processor::mts_svc_processor",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_swc": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_swc::mts_swc": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_swc::mts_swc",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_swc_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_swc_parser::mts_swc_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_swc_parser::mts_swc_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_udex_extractor": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_udex_extractor::mts_udex_extractor": {
+                    "depending_targets": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "link_library_exprs": [
+                        "mtscpp::mtscpp"
+                    ],
+                    "name": "mts_udex_extractor::mts_udex_extractor",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_velodyne_probe": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_velodyne_probe::mts_velodyne_probe": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_velodyne_probe::mts_velodyne_probe",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_xtypes_data_matcher": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_xtypes_data_matcher::mts_xtypes_data_matcher": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_xtypes_data_matcher::mts_xtypes_data_matcher",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_xtypes_parser": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_xtypes_parser::mts_xtypes_parser": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_xtypes_parser::mts_xtypes_parser",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mts_zrec": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_zrec::mts_zrec": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_zrec::mts_zrec",
+                    "target_type": "INTERFACE"
+                }
+            }
+        },
+        "mts_zrec_reader": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mts_zrec_reader::mts_zrec_reader": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mts_zrec_reader::mts_zrec_reader",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mtsc": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mtsc::mtsc": {
+                    "depending_targets": [],
+                    "link_library_exprs": [],
+                    "name": "mtsc::mtsc",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "mtscpp": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "mtscpp::mtscpp": {
+                    "depending_targets": [
+                        "Threads::Threads",
+                        "mtsc::mtsc"
+                    ],
+                    "link_library_exprs": [
+                        "Threads::Threads",
+                        "mtsc::mtsc"
+                    ],
+                    "name": "mtscpp::mtscpp",
+                    "target_type": "SHARED"
+                }
+            }
+        },
+        "next": {
+            "external": false,
+            "groups": {
+                "BRIDGES_COMPONENT": {
+                    "depends": {
+                        "groups": [
+                            "SDK_COMPONENT",
+                            "UDEX_COMPONENT"
+                        ],
+                        "packages": {
+                            "mtscpp": []
+                        }
+                    },
+                    "location": {
+                        "directory": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/BRIDGES_COMPONENT",
+                        "file": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+                        "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT"
+                    },
+                    "targets": {
+                        "next::next_controlbridge": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::next_controlbridge",
+                            "target_type": "EXECUTABLE"
+                        },
+                        "next::next_databridge": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::next_databridge",
+                            "target_type": "EXECUTABLE"
+                        },
+                        "next::next_plugin": {
+                            "depending_targets": [
+                                "mtscpp::mtscpp",
+                                "next::next_sdk",
+                                "next::next_udex"
+                            ],
+                            "link_library_exprs": [
+                                "mtscpp::mtscpp",
+                                "next::next_sdk",
+                                "next::next_udex"
+                            ],
+                            "name": "next::next_plugin",
+                            "target_type": "SHARED"
+                        },
+                        "next::system_ECalMonitor": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::system_ECalMonitor",
+                            "target_type": "SHARED"
+                        },
+                        "next::system_RecExporter": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::system_RecExporter",
+                            "target_type": "SHARED"
+                        },
+                        "next::system_ReferenceCamera": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::system_ReferenceCamera",
+                            "target_type": "SHARED"
+                        },
+                        "next::system_SignalExporter": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::system_SignalExporter",
+                            "target_type": "SHARED"
+                        },
+                        "next::system_SignalList": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::system_SignalList",
+                            "target_type": "SHARED"
+                        },
+                        "next::system_SignalProvider": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::system_SignalProvider",
+                            "target_type": "SHARED"
+                        },
+                        "next::system_SignalRawData": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::system_SignalRawData",
+                            "target_type": "SHARED"
+                        },
+                        "next::view3D_ArrayTpObjects": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::view3D_ArrayTpObjects",
+                            "target_type": "SHARED"
+                        },
+                        "next::view3D_CanTpObjects": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::view3D_CanTpObjects",
+                            "target_type": "SHARED"
+                        },
+                        "next::view3D_EgoVehicle": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::view3D_EgoVehicle",
+                            "target_type": "SHARED"
+                        },
+                        "next::view3D_PointCloud": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::view3D_PointCloud",
+                            "target_type": "SHARED"
+                        },
+                        "next::view3D_Road": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::view3D_Road",
+                            "target_type": "SHARED"
+                        },
+                        "next::view3D_StructTpObjects": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::view3D_StructTpObjects",
+                            "target_type": "SHARED"
+                        }
+                    }
+                },
+                "CONTROL_COMPONENT": {
+                    "depends": {
+                        "groups": [
+                            "SDK_COMPONENT"
+                        ],
+                        "packages": {}
+                    },
+                    "location": {
+                        "directory": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/CONTROL_COMPONENT",
+                        "file": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/CONTROL_COMPONENT/exported-targets.cmake",
+                        "install_dir": "next/share/cmake/next/CONTROL_COMPONENT"
+                    },
+                    "targets": {
+                        "next::next_control": {
+                            "depending_targets": [
+                                "next::next_sdk"
+                            ],
+                            "link_library_exprs": [
+                                "next::next_sdk"
+                            ],
+                            "name": "next::next_control",
+                            "target_type": "SHARED"
+                        }
+                    }
+                },
+                "NEXT_COMPONENT": {
+                    "depends": {
+                        "groups": [
+                            "CONTROL_COMPONENT",
+                            "SDK_COMPONENT"
+                        ],
+                        "packages": {}
+                    },
+                    "location": {
+                        "directory": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/NEXT_COMPONENT",
+                        "file": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/NEXT_COMPONENT/exported-targets.cmake",
+                        "install_dir": "next/share/cmake/next/NEXT_COMPONENT"
+                    },
+                    "targets": {
+                        "next::lib_test_component_node": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::lib_test_component_node",
+                            "target_type": "SHARED"
+                        },
+                        "next::matchbox_example_app": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::matchbox_example_app",
+                            "target_type": "EXECUTABLE"
+                        },
+                        "next::next": {
+                            "depending_targets": [
+                                "next::next_appsupport",
+                                "next::next_control",
+                                "next::next_sdk"
+                            ],
+                            "link_library_exprs": [
+                                "next::next_appsupport",
+                                "next::next_control",
+                                "next::next_sdk"
+                            ],
+                            "name": "next::next",
+                            "target_type": "SHARED"
+                        },
+                        "next::next_container": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::next_container",
+                            "target_type": "EXECUTABLE"
+                        },
+                        "next::next_example_node": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::next_example_node",
+                            "target_type": "EXECUTABLE"
+                        },
+                        "next::next_subscriber_app": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::next_subscriber_app",
+                            "target_type": "EXECUTABLE"
+                        },
+                        "next::rec_generator": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::rec_generator",
+                            "target_type": "EXECUTABLE"
+                        },
+                        "next::test_component_node": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::test_component_node",
+                            "target_type": "EXECUTABLE"
+                        }
+                    }
+                },
+                "PLAYER_COMPONENT": {
+                    "depends": {
+                        "groups": [],
+                        "packages": {}
+                    },
+                    "location": {
+                        "directory": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/PLAYER_COMPONENT",
+                        "file": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/PLAYER_COMPONENT/exported-targets.cmake",
+                        "install_dir": "next/share/cmake/next/PLAYER_COMPONENT"
+                    },
+                    "targets": {
+                        "next::next_player": {
+                            "depending_targets": [],
+                            "link_library_exprs": [],
+                            "name": "next::next_player",
+                            "target_type": "EXECUTABLE"
+                        }
+                    }
+                },
+                "SDK_COMPONENT": {
+                    "depends": {
+                        "groups": [],
+                        "packages": {
+                            "Threads": [],
+                            "eCAL": [],
+                            "mts_sentinel": [],
+                            "spdlog": []
+                        }
+                    },
+                    "location": {
+                        "directory": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/SDK_COMPONENT",
+                        "file": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/SDK_COMPONENT/exported-targets.cmake",
+                        "install_dir": "next/share/cmake/next/SDK_COMPONENT"
+                    },
+                    "targets": {
+                        "next::next_appsupport": {
+                            "depending_targets": [
+                                "next::next_sdk"
+                            ],
+                            "link_library_exprs": [
+                                "next::next_sdk"
+                            ],
+                            "name": "next::next_appsupport",
+                            "target_type": "SHARED"
+                        },
+                        "next::next_sdk": {
+                            "depending_targets": [
+                                "Threads::Threads",
+                                "eCAL::core",
+                                "eCAL::core_c",
+                                "mts_sentinel::client",
+                                "spdlog::spdlog"
+                            ],
+                            "link_library_exprs": [
+                                "$<LINK_ONLY:Threads::Threads>",
+                                "Threads::Threads",
+                                "eCAL::core",
+                                "eCAL::core_c",
+                                "mts_sentinel::client",
+                                "spdlog::spdlog"
+                            ],
+                            "name": "next::next_sdk",
+                            "target_type": "SHARED"
+                        }
+                    }
+                },
+                "UDEX_COMPONENT": {
+                    "depends": {
+                        "groups": [
+                            "SDK_COMPONENT"
+                        ],
+                        "packages": {
+                            "mts_can": [],
+                            "mts_ecu": [],
+                            "mts_eth": [],
+                            "mts_flexray": [],
+                            "mts_gps": [],
+                            "mts_ref_cam": [],
+                            "mts_rt_range": [],
+                            "mtscpp": []
+                        }
+                    },
+                    "location": {
+                        "directory": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/UDEX_COMPONENT",
+                        "file": "D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/ab8bf2a503d8c409460d0e4d3433fc62/next/share/cmake/next/UDEX_COMPONENT/exported-targets.cmake",
+                        "install_dir": "next/share/cmake/next/UDEX_COMPONENT"
+                    },
+                    "targets": {
+                        "next::next_udex": {
+                            "depending_targets": [
+                                "mts_can::mts_can",
+                                "mts_ecu::mts_ecu",
+                                "mts_eth::mts_eth",
+                                "mts_flexray::mts_flexray",
+                                "mts_gps::mts_gps",
+                                "mts_ref_cam::mts_ref_cam",
+                                "mts_rt_range::mts_rt_range",
+                                "mtscpp::mtscpp",
+                                "next::next_sdk"
+                            ],
+                            "link_library_exprs": [
+                                "mts_can::mts_can",
+                                "mts_ecu::mts_ecu",
+                                "mts_eth::mts_eth",
+                                "mts_flexray::mts_flexray",
+                                "mts_gps::mts_gps",
+                                "mts_ref_cam::mts_ref_cam",
+                                "mts_rt_range::mts_rt_range",
+                                "mtscpp::mtscpp",
+                                "next::next_sdk"
+                            ],
+                            "name": "next::next_udex",
+                            "target_type": "SHARED"
+                        }
+                    }
+                }
+            },
+            "targets": {}
+        },
+        "spdlog": {
+            "external": true,
+            "groups": {},
+            "targets": {
+                "spdlog::spdlog": {
+                    "depending_targets": [
+                        "Threads::Threads"
+                    ],
+                    "link_library_exprs": [
+                        "Threads::Threads"
+                    ],
+                    "name": "spdlog::spdlog",
+                    "target_type": "STATIC"
+                },
+                "spdlog::spdlog_header_only": {
+                    "depending_targets": [
+                        "Threads::Threads"
+                    ],
+                    "link_library_exprs": [
+                        "Threads::Threads"
+                    ],
+                    "name": "spdlog::spdlog_header_only",
+                    "target_type": "INTERFACE"
+                }
+            }
+        }
+    }
+}

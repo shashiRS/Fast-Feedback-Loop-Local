@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CEM200_COH>
+  <node_attr attr1="test" attr2="test2">
+    <elem_attr attr1="1" attr2="2">val1</elem_attr>
+    <elem_simple>val2</elem_simple>
+  </node_attr>
+</CEM200_COH>

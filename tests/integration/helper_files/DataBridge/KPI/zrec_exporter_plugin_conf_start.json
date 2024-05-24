@@ -1,0 +1,14 @@
+{
+        "channel" : "DataStream",
+        "event" : "WidgetRequestsDataStreamUpdateEvent",
+        "payload" :
+        {
+                "arguments" : "{\"event\":\"UserPressedStartSignalExportingButton\",\"listofURLs\":[ \"ARS4B0.ARS60Cycle.NVM_DEM_Ev_Inact_Act_Counter.NvM_ui16_EventInActiveActiveCounter\", \"ARS4B0.ARS60Cycle.NVM_DEM_Ev_Inact_Act_Counter.NvM_ui16_AlignmentByte\", \"ARS4xx.ARS204Cycle.Valid_Signal_Group_1.Static_Array_1[0]\", \"ARS4xx.ARS204Cycle.Valid_Signal_Group_1.Static_Array_1[1]\",\"ARS_CAN_1.CanIncSignal.FrameINCSignalCAN.Counter\", \"ARS_CAN_1.CanIncSignal.TESTEXT.Counter\", \"ARS_CAN_2.CanIncSignal.FrameINCSignalCAN.Counter\",\"ARS_CAN_2.CanIncSignal.TESTEXT.Counter\", \"ARS_CAN_2.CanIncSignal.FrameINCSignalCAN.Counter\",\"ARS_CAN_2.CanIncSignal.TESTEXT.Counter\", \"ARS_GPS.GPSCycle.NMEA_GPGGA.Latitude\", \"ARS_GPS.GPSCycle.NMEA_GPGGA.UTCTime\", \"ARS_GPS.GPSCycle.NMEA_GPGGA.LatitudeHemi\",\"ARS4B0.ARS60Cycle.NVM_DEM_Readiness_Flag_Array.NVM_DEM_Readiness_Flag_Array[9]\",\"ARS4B0.ARS60Cycle.NVM_DEM_Readiness_Flag_Array.NVM_DEM_Readiness_Flag_Array[0]\"],\"triggerURL\":\"ARS4B0.ARS60Cycle.NVM_DEM_Ev_Inact_Act_Counter.NvM_ui16_AlignmentByte\",\"fileFormat\":\".csv\",\"outputFolder\":\"D:\\\\export_z\\\\\"}",
+                "dataClass" :
+                {
+                        "name" : "NextExporter",
+                        "version" : "0.0.1"
+                }
+        },
+        "source" : "NextGUI"
+}

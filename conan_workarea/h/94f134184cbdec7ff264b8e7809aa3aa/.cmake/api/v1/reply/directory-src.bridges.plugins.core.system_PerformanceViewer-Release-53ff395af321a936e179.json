@@ -1,0 +1,107 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"next_create_plugin"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/.bricks/decorated_install.cmake",
+			"src/cmake/pluginhelper.cmake",
+			"src/bridges/plugins/core/system_PerformanceViewer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 114,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 119,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin/plugins/core/system_PerformanceViewer",
+			"paths" : 
+			[
+				"databridge/plugins/core/system_PerformanceViewer/system_PerformanceViewer.dll"
+			],
+			"targetId" : "system_PerformanceViewer::@f2d759da6916c184f1dd",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin/plugins/core/system_PerformanceViewer",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/databridge/plugins/core/system_PerformanceViewer/system_PerformanceViewer.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin/plugins/core/system_PerformanceViewer",
+			"paths" : 
+			[
+				"src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/basic_info.fbs",
+				"src/bridges/bridgesdk/interface/next/bridgesdk/schema/profiler/cpu_profiler.fbs"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/bridges/plugins/core/system_PerformanceViewer",
+		"source" : "src/bridges/plugins/core/system_PerformanceViewer"
+	}
+}

@@ -1,0 +1,201 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "ref": "next.delivery/0.0.0-fallback",
+    "options": "",
+    "requires": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "10",
+     "7",
+     "8",
+     "9",
+     "5",
+     "11"
+    ],
+    "build_requires": [
+     "6",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21"
+    ],
+    "path": "conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "mts-core-lib/0.9.10@3rdparty/releases",
+    "options": "",
+    "package_id": "bfd6743e76284205113608472741a9bf2d7370b6",
+    "prev": "0",
+    "context": "host"
+   },
+   "2": {
+    "ref": "spdlog.generic/1.12.0@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "3": {
+    "ref": "ecal.measurement/5.13.0-rc6-c72f8b7@cip/releases",
+    "options": "",
+    "package_id": "7b212507a3fb605ec864b28a861afe5ddfd61521",
+    "prev": "0",
+    "requires": [
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "2",
+     "9",
+     "10"
+    ],
+    "context": "host"
+   },
+   "4": {
+    "ref": "asio.generic/1.28.1@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "5": {
+    "ref": "hdf5.generic/1.14.1@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "6": {
+    "ref": "protobuf/3.11.4-tb8@3rdparty/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "7": {
+    "ref": "recycle.generic/7.0.0@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "8": {
+    "ref": "simpleini.generic/4.20.0@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "9": {
+    "ref": "tclap.generic/1.2.5@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "10": {
+    "ref": "tcp_pubsub.generic/1.0.4@cip/releases",
+    "options": "",
+    "package_id": "f753bb49dbdbaf2ca5b68a672f1de0966e342fbb",
+    "prev": "0",
+    "requires": [
+     "4",
+     "7"
+    ],
+    "context": "host"
+   },
+   "11": {
+    "ref": "mts-sentinel/0.2.2@3rdparty/releases",
+    "options": "",
+    "package_id": "bfd6743e76284205113608472741a9bf2d7370b6",
+    "prev": "0",
+    "context": "host"
+   },
+   "12": {
+    "ref": "jsoncpp.generic/1.9.5-1@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "13": {
+    "ref": "VFR_Utilities.generic/1.2.0@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "14": {
+    "ref": "flatbuffers/2.0.6-tb2@3rdparty/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "15": {
+    "ref": "cip_adaption_boost.generic/1.80.0-release3@cip/releases",
+    "options": "",
+    "package_id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+    "prev": "0",
+    "context": "host"
+   },
+   "16": {
+    "ref": "bricks_cmake_groups.__system/1.12.1@cip/releases",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "17": {
+    "ref": "bricks_cmake_core.__system/1.4.0@cip/releases",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "18": {
+    "ref": "make/4.4.1@3rdparty/releases",
+    "options": "",
+    "package_id": "60b04a80ac4dd5c23f1acffacc679e9902e636e5",
+    "prev": "0",
+    "context": "host"
+   },
+   "19": {
+    "ref": "cmake/3.25.0@3rdparty/releases",
+    "options": "",
+    "package_id": "60b04a80ac4dd5c23f1acffacc679e9902e636e5",
+    "prev": "0",
+    "context": "host"
+   },
+   "20": {
+    "ref": "bricks_cmake_checks.__system/1.8.0@cip/releases",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "21": {
+    "ref": "cip_build_system_platforms.__system/3.55.6@cip/releases",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbricks_platform_name=vs2017\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=15\nos=Windows\nos_build=Windows\nVFR_Utilities.generic/1.2.0@cip/releases:arch=x86_64\nVFR_Utilities.generic/1.2.0@cip/releases:arch_build=x86_64\nVFR_Utilities.generic/1.2.0@cip/releases:bricks_platform_name=vs2017\nVFR_Utilities.generic/1.2.0@cip/releases:build_type=Release\nVFR_Utilities.generic/1.2.0@cip/releases:compiler=Visual Studio\nVFR_Utilities.generic/1.2.0@cip/releases:compiler.runtime=MD\nVFR_Utilities.generic/1.2.0@cip/releases:compiler.version=15\nVFR_Utilities.generic/1.2.0@cip/releases:os=Windows\nVFR_Utilities.generic/1.2.0@cip/releases:os_build=Windows\nasio.generic/1.28.1@cip/releases:arch=x86_64\nasio.generic/1.28.1@cip/releases:arch_build=x86_64\nasio.generic/1.28.1@cip/releases:bricks_platform_name=vs2017\nasio.generic/1.28.1@cip/releases:build_type=Release\nasio.generic/1.28.1@cip/releases:compiler=Visual Studio\nasio.generic/1.28.1@cip/releases:compiler.runtime=MD\nasio.generic/1.28.1@cip/releases:compiler.version=15\nasio.generic/1.28.1@cip/releases:os=Windows\nasio.generic/1.28.1@cip/releases:os_build=Windows\nbricks_cmake_checks.__system/1.8.0@cip/releases:arch=x86_64\nbricks_cmake_checks.__system/1.8.0@cip/releases:arch_build=x86_64\nbricks_cmake_checks.__system/1.8.0@cip/releases:bricks_platform_name=vs2017\nbricks_cmake_checks.__system/1.8.0@cip/releases:build_type=Release\nbricks_cmake_checks.__system/1.8.0@cip/releases:compiler=Visual Studio\nbricks_cmake_checks.__system/1.8.0@cip/releases:compiler.runtime=MD\nbricks_cmake_checks.__system/1.8.0@cip/releases:compiler.version=15\nbricks_cmake_checks.__system/1.8.0@cip/releases:os=Windows\nbricks_cmake_checks.__system/1.8.0@cip/releases:os_build=Windows\nbricks_cmake_core.__system/1.4.0@cip/releases:arch=x86_64\nbricks_cmake_core.__system/1.4.0@cip/releases:arch_build=x86_64\nbricks_cmake_core.__system/1.4.0@cip/releases:bricks_platform_name=vs2017\nbricks_cmake_core.__system/1.4.0@cip/releases:build_type=Release\nbricks_cmake_core.__system/1.4.0@cip/releases:compiler=Visual Studio\nbricks_cmake_core.__system/1.4.0@cip/releases:compiler.runtime=MD\nbricks_cmake_core.__system/1.4.0@cip/releases:compiler.version=15\nbricks_cmake_core.__system/1.4.0@cip/releases:os=Windows\nbricks_cmake_core.__system/1.4.0@cip/releases:os_build=Windows\nbricks_cmake_groups.__system/1.12.1@cip/releases:arch=x86_64\nbricks_cmake_groups.__system/1.12.1@cip/releases:arch_build=x86_64\nbricks_cmake_groups.__system/1.12.1@cip/releases:bricks_platform_name=ubuntu_20_04_x86_64\nbricks_cmake_groups.__system/1.12.1@cip/releases:build_type=Debug\nbricks_cmake_groups.__system/1.12.1@cip/releases:compiler=gcc\nbricks_cmake_groups.__system/1.12.1@cip/releases:compiler.libcxx=libstdc++\nbricks_cmake_groups.__system/1.12.1@cip/releases:compiler.version=9.3.0\nbricks_cmake_groups.__system/1.12.1@cip/releases:os=Linux\nbricks_cmake_groups.__system/1.12.1@cip/releases:os_build=Linux\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:arch=x86_64\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:arch_build=x86_64\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:bricks_platform_name=vs2017\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:build_type=Release\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:compiler=Visual Studio\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:compiler.runtime=MD\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:compiler.version=15\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:os=Windows\ncip_adaption_boost.generic/1.80.0-release3@cip/releases:os_build=Windows\ncip_build_system_platforms.__system/3.55.6@cip/releases:arch=x86_64\ncip_build_system_platforms.__system/3.55.6@cip/releases:arch_build=x86_64\ncip_build_system_platforms.__system/3.55.6@cip/releases:bricks_platform_name=ubuntu_20_04_x86_64\ncip_build_system_platforms.__system/3.55.6@cip/releases:build_type=Debug\ncip_build_system_platforms.__system/3.55.6@cip/releases:compiler=gcc\ncip_build_system_platforms.__system/3.55.6@cip/releases:compiler.libcxx=libstdc++\ncip_build_system_platforms.__system/3.55.6@cip/releases:compiler.version=9.3.0\ncip_build_system_platforms.__system/3.55.6@cip/releases:os=Linux\ncip_build_system_platforms.__system/3.55.6@cip/releases:os_build=Linux\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:arch=x86_64\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:arch_build=x86_64\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:bricks_platform_name=vs2017\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:build_type=Release\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:compiler=Visual Studio\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:compiler.runtime=MD\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:compiler.version=15\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:os=Windows\necal.measurement/5.13.0-rc6-c72f8b7@cip/releases:os_build=Windows\nhdf5.generic/1.14.1@cip/releases:arch=x86_64\nhdf5.generic/1.14.1@cip/releases:arch_build=x86_64\nhdf5.generic/1.14.1@cip/releases:bricks_platform_name=vs2017\nhdf5.generic/1.14.1@cip/releases:build_type=Release\nhdf5.generic/1.14.1@cip/releases:compiler=Visual Studio\nhdf5.generic/1.14.1@cip/releases:compiler.runtime=MD\nhdf5.generic/1.14.1@cip/releases:compiler.version=15\nhdf5.generic/1.14.1@cip/releases:os=Windows\nhdf5.generic/1.14.1@cip/releases:os_build=Windows\njsoncpp.generic/1.9.5-1@cip/releases:arch=x86_64\njsoncpp.generic/1.9.5-1@cip/releases:arch_build=x86_64\njsoncpp.generic/1.9.5-1@cip/releases:bricks_platform_name=vs2017\njsoncpp.generic/1.9.5-1@cip/releases:build_type=Release\njsoncpp.generic/1.9.5-1@cip/releases:compiler=Visual Studio\njsoncpp.generic/1.9.5-1@cip/releases:compiler.runtime=MD\njsoncpp.generic/1.9.5-1@cip/releases:compiler.version=15\njsoncpp.generic/1.9.5-1@cip/releases:os=Windows\njsoncpp.generic/1.9.5-1@cip/releases:os_build=Windows\nrecycle.generic/7.0.0@cip/releases:arch=x86_64\nrecycle.generic/7.0.0@cip/releases:arch_build=x86_64\nrecycle.generic/7.0.0@cip/releases:bricks_platform_name=vs2017\nrecycle.generic/7.0.0@cip/releases:build_type=Release\nrecycle.generic/7.0.0@cip/releases:compiler=Visual Studio\nrecycle.generic/7.0.0@cip/releases:compiler.runtime=MD\nrecycle.generic/7.0.0@cip/releases:compiler.version=15\nrecycle.generic/7.0.0@cip/releases:os=Windows\nrecycle.generic/7.0.0@cip/releases:os_build=Windows\nsimpleini.generic/4.20.0@cip/releases:arch=x86_64\nsimpleini.generic/4.20.0@cip/releases:arch_build=x86_64\nsimpleini.generic/4.20.0@cip/releases:bricks_platform_name=vs2017\nsimpleini.generic/4.20.0@cip/releases:build_type=Release\nsimpleini.generic/4.20.0@cip/releases:compiler=Visual Studio\nsimpleini.generic/4.20.0@cip/releases:compiler.runtime=MD\nsimpleini.generic/4.20.0@cip/releases:compiler.version=15\nsimpleini.generic/4.20.0@cip/releases:os=Windows\nsimpleini.generic/4.20.0@cip/releases:os_build=Windows\nspdlog.generic/1.12.0@cip/releases:arch=x86_64\nspdlog.generic/1.12.0@cip/releases:arch_build=x86_64\nspdlog.generic/1.12.0@cip/releases:bricks_platform_name=vs2017\nspdlog.generic/1.12.0@cip/releases:build_type=Release\nspdlog.generic/1.12.0@cip/releases:compiler=Visual Studio\nspdlog.generic/1.12.0@cip/releases:compiler.runtime=MD\nspdlog.generic/1.12.0@cip/releases:compiler.version=15\nspdlog.generic/1.12.0@cip/releases:os=Windows\nspdlog.generic/1.12.0@cip/releases:os_build=Windows\ntclap.generic/1.2.5@cip/releases:arch=x86_64\ntclap.generic/1.2.5@cip/releases:arch_build=x86_64\ntclap.generic/1.2.5@cip/releases:bricks_platform_name=vs2017\ntclap.generic/1.2.5@cip/releases:build_type=Release\ntclap.generic/1.2.5@cip/releases:compiler=Visual Studio\ntclap.generic/1.2.5@cip/releases:compiler.runtime=MD\ntclap.generic/1.2.5@cip/releases:compiler.version=15\ntclap.generic/1.2.5@cip/releases:os=Windows\ntclap.generic/1.2.5@cip/releases:os_build=Windows\ntcp_pubsub.generic/1.0.4@cip/releases:arch=x86_64\ntcp_pubsub.generic/1.0.4@cip/releases:arch_build=x86_64\ntcp_pubsub.generic/1.0.4@cip/releases:bricks_platform_name=vs2017\ntcp_pubsub.generic/1.0.4@cip/releases:build_type=Release\ntcp_pubsub.generic/1.0.4@cip/releases:compiler=Visual Studio\ntcp_pubsub.generic/1.0.4@cip/releases:compiler.runtime=MD\ntcp_pubsub.generic/1.0.4@cip/releases:compiler.version=15\ntcp_pubsub.generic/1.0.4@cip/releases:os=Windows\ntcp_pubsub.generic/1.0.4@cip/releases:os_build=Windows\n[options]\n[build_requires]\n[env]\nCC=cl.exe\nCXX=cl.exe"
+}

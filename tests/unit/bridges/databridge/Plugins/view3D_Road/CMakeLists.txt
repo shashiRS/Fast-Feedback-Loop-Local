@@ -1,0 +1,31 @@
+next_create_test(
+  NAME view3D_RoadModel_test
+  SRCS
+    road_model_test.cpp
+    ${PLUGINS_SRC_DIR}/core/view3D_Road/roadmodel.cpp
+    ${PLUGINS_SRC_DIR}/core/view3D_Road/roadmodel_flatbuffer_converter.cpp
+  RESOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/general_info_file_dump.txt
+    ${CMAKE_CURRENT_SOURCE_DIR}/payload_data_file_dump.txt
+  PRIVATEINCLUDEDIRS
+    ${PLUGINS_SRC_DIR}/core/view3D_Road
+    ${PLUGINS_INTERFACE_DIR}
+    ${UNIT_TEST_COMMON_DIR}
+    ${DATABRIDGE_INTERFACE_DIR}
+  PRIVATELINKLIBS
+    Boost::filesystem
+    flatbuffers::flatbuffers
+    jsoncpp_static
+    next_udex::next_udex
+    next_plugin
+    next_flatbuffers_3d_view
+    next_sdk::next_appsupport
+  USESDB
+  INSTALLTARGETS
+    mts_sentinel::client
+    mts_core_lib::modules
+)
+
+add_dependencies(view3D_RoadModel_test
+  GENERATE_next_flatbuffers_3d_view
+)

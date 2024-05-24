@@ -1,0 +1,37 @@
+# https://cip-docs.cmo.conti.de/static/docfiles/CQG1%20User%20Documentation/master/pre_receive_hooks_check_in_gate/pre_receive_hooks_page.html
+# https://github-am.geo.conti.de/ADCU-CIP/CQG1-config-demo/blob/master/conf/pre-receive-hook.yml
+
+'version': 1.0
+'validators':
+    'git_commit_validator':
+        # Optional parameter to switch on/off check of email-domains. Default is True.
+        'check_email_addresses': True
+
+    'jira_issue_validator':
+        'jira_configuration':
+            
+            # The following example project keys need to be replaced with your own Jira project keys
+            # The wildcard character '*' is supported within Jira project keys
+            'SIMEN':
+                'server': 'https://jira.auto.continental.cloud'
+                'jql': '(status in("In Progress", "To be integrated", Accepted) OR Flagged is not EMPTY) AND Sprint is not EMPTY'
+
+    # This config example also represents the default values
+    'filename_check_validator':
+        'forbidden_character_list':
+            - ':'
+            - ';'
+            - ','
+            - '['
+            - ']'
+            - '<'
+            - '>'
+            - '"'
+            - '?'
+            - '*'
+            - '|'
+
+# log_level is used to configure the amount of log messages from the pre-receive-hook
+# supported levels are DEBUG, INFO, WARNING and ERROR
+# Wrong project config setting will enable default level INFO
+'log_level': 'INFO'

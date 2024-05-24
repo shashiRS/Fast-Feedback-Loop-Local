@@ -1,0 +1,25 @@
+<SdlFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" ByteAlignment="1" Version="2.0">
+	<View Name="View1" CycleID="207">
+		<Group Name="Group3" Address="20353000" ArrayLen="1" Size="112">
+			<Signal Name="versionNumber" Offset="0" ArrayLen="1" Type="ulong" Bitmask="FFFFFFFF" ByteOrder="little-endian" Size="4"/>
+
+			<SubGroup Name="ConstantVariables" Offset="8" ArrayLen="1" Size="88">
+				<Signal Name="const_signed_char" Offset="0" ArrayLen="2" Type="char" Bitmask="FF" ByteOrder="little-endian" Size="1"/>
+				<Signal Name="const_unsigned_char" Offset="2" ArrayLen="2" Type="uchar" Bitmask="FF" ByteOrder="little-endian" Size="1"/>
+				<Signal Name="const_short" Offset="4" ArrayLen="2" Type="short" Bitmask="FFFF" ByteOrder="little-endian" Size="2"/>
+				<Signal Name="const_unsigned_short" Offset="8" ArrayLen="2" Type="ushort" Bitmask="FFFF" ByteOrder="little-endian" Size="2"/>
+				<Signal Name="const_long" Offset="C" ArrayLen="2" Type="long" Bitmask="FFFFFFFF" ByteOrder="little-endian" Size="4"/>
+				<Signal Name="const_unsigned_long" Offset="14" ArrayLen="2" Type="ulong" Bitmask="FFFFFFFF" ByteOrder="little-endian" Size="4"/>
+        	
+				<Signal Name="const_int64_t" Offset="20" ArrayLen="2" Type="int64" Bitmask="FFFFFFFFFFFFFFFF" ByteOrder="little-endian" Size="8"/>
+				<Signal Name="const_uint64_t" Offset="30" ArrayLen="2" Type="uint64" Bitmask="FFFFFFFFFFFFFFFF" ByteOrder="little-endian" Size="8"/>
+				<Signal Name="const_float" Offset="40" ArrayLen="2" Type="float" Bitmask="FFFFFFFF" ByteOrder="little-endian" Size="4"/>
+				<Signal Name="const_double" Offset="48" ArrayLen="2" Type="double" Bitmask="FFFFFFFFFFFFFFFF" ByteOrder="little-endian" Size="8"/>
+			</SubGroup>
+			<SubGroup Name="CounterVariables" Offset="60" ArrayLen="1" Size="16">
+				<Signal Name="counter_uint64_t" Offset="0" ArrayLen="1" Type="uint64" Bitmask="FFFFFFFFFFFFFFFF" ByteOrder="little-endian" Size="8"/>
+				<Signal Name="counter_double" Offset="8" ArrayLen="1" Type="double" Bitmask="FFFFFFFFFFFFFFFF" ByteOrder="little-endian" Size="8"/>
+			</SubGroup>
+		</Group>
+	</View>
+</SdlFile>

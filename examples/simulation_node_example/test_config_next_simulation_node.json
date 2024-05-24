@@ -1,0 +1,93 @@
+{
+  "TestNode": {
+    "composition": {
+      "TestPort1": {
+        "url": "ADC500_MTA.SVU32xFrontCAM.Image"
+      }
+    },
+    "dataAvailabilityMode": "DATA_BASED",
+    "in_port": {
+      "TestPort1": {
+        "data": {
+          "type": "TestSigHeader"
+        },
+        "port": {
+          "size": "100",
+          "version": "1"
+        },
+        "sync": {
+          "algo": "GET_LAST_ELEMENT",
+          "mode": "Timestamp",
+          "sync_id": {
+            "name": "",
+            "url": ""
+          },
+          "syncref": {
+            "mode": "undefined",
+            "url": "undefined"
+          },
+          "timestamp": {
+            "name": "",
+            "url": ""
+          }
+        }
+      }
+    },
+    "logging": {
+      "console": {
+        "loglevel": "DEBUG"
+      },
+      "file": {
+        "loglevel": "DEBUG"
+      },
+      "router": {
+        "loglevel": "DEBUG"
+      }
+    },
+    "out_port": {
+      "View1.Group1": {
+        "port": {
+          "size": "112",
+          "version": "1"
+        }
+      },
+      "View1.Group11": {
+        "port": {
+          "size": "112",
+          "version": "1"
+        }
+      }
+    },
+    "system_services": {
+      "timestamp": {
+        "mode": "signal",
+        "signal_unit": "us",
+        "signal_url": "undefined"
+      }
+    }
+  },
+  "next_player": {
+    "buffer_size": {
+      "max_read_ahead_MB": "30"
+    },
+    "orchestrator": {
+      "flow1": {
+        "clients": {
+          "TestNode": {
+            "exec1": ""
+          }
+        },
+        "meta": {
+          "delay": "0",
+          "sync": "1"
+        },
+        "type": "signal_name",
+        "value": "ADC500_MTA.Channel_0.Camera_0"
+      }
+    },
+    "realtime_factor": "10",
+    "stepping": {
+      "time_step": "40000"
+    }
+  }
+}
