@@ -1,10 +1,10 @@
 {
     "SimulationInput": {
         "simInput": {
-            "RecordingLocation": "D:\\TATA\\TATARECS\\Usecase_2_E_Upto 5kmph_Pedistrain_2.1.14.rrec"
+            "RecordingLocation": "//cw01.contiwan.com/Root/Loc/blr3/didr3320/recordings/Usecase_2_E_Upto 5kmph_Pedistrain_2.1.14.rrec"
         },
         "simInput1": {
-            "RecordingLocation": "D:\\TATA\\TATARECS\\Usecase_1_E_more than 9kmph_Pedistrain_2.1.14.rrec"
+            "RecordingLocation": "//cw01.contiwan.com/Root/Loc/blr3/didr3320/recordings/Usecase_1_E_more than 9kmph_Pedistrain_2.1.14.rrec"
         }
     },
     "SimulationExport": {
@@ -22,7 +22,7 @@
                 "ExportType": ".bsig"
             },
             "Output": {
-                    "OutputPath": "D:\\TATA\\bsigs\\new_bsigs\\next",
+                    "OutputPath": "//cw01.contiwan.com/Root/Loc/blr3/didr3320/FFL_output/",
                     "OutputName": "$INPUT$",
                     "Overwrite": true
                 }
@@ -41,7 +41,7 @@
                 "ExportType": ".bsig"
             },
             "Output": {
-                    "OutputPath": "D:\\TATA\\bsigs\\new_bsigs\\next",
+                    "OutputPath": "//cw01.contiwan.com/Root/Loc/blr3/didr3320/FFL_output/",
                     "OutputName": "$INPUT$",
                     "Overwrite": true
                 }
@@ -52,7 +52,7 @@
                 "Nodes": [
                     {
                         "Executable": "ecal_swc_aptrjctlgeneric",
-                    "ExecutablePath": "D:\\TATA\\LATEST_NXT_REPO\\next\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin",
+                    "ExecutablePath": "conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin",
                     "Arguments": "-n"
                     }
                 ]
@@ -62,7 +62,7 @@
             "executeSim": {
                 "Setup": {
                     "start_nodes": "SimulationNodes",
-                    "load_backend_config": "D:\\TATA\\LATEST_NXT_REPO\\next\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin\\playerdefaultconfig.json"
+                    "load_backend_config": "conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin\\playerdefaultconfig.json"
                 },
                 "Run": {
                     "load_recording": "SimulationInput",
@@ -85,7 +85,7 @@
                     "simNodes"
                 ],
                 "BackendSettings": {
-                    "BackendDirectory": "D:\\TATA\\LATEST_NXT_REPO\\next\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
+                    "BackendDirectory": "conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
                 }
             },
             "runSim1": {
@@ -98,7 +98,7 @@
                     "simNodes"
                 ],
                 "BackendSettings": {
-                    "BackendDirectory": "D:\\TATA\\LATEST_NXT_REPO\\next\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
+                    "BackendDirectory": "conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
                 }
             }
         },
