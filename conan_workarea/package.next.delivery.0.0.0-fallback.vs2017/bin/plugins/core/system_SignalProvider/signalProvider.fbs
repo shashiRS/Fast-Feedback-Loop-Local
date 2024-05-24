@@ -1,6 +1,0 @@
-attribute "version";
-attribute "json_name";
-
-table signals(version: "0.0.1"){
-  test:string (json_name: "SignalList"); // full json output -> no parsing needed
-}

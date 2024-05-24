@@ -1,7 +1,0 @@
-# list of modules which are required in to build and upload utils wheel packages
-twine
-wheel
-pyyaml
-tabulate
-lxml
-bs4

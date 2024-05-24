@@ -1,9 +1,0 @@
-# CMake generation dependency list for this directory.
-D:/.bbs_conan/85e48f2e4ee1e/1/share/cmake-3.25/Modules/FindGit.cmake
-D:/.bbs_conan/85e48f2e4ee1e/1/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
-D:/.bbs_conan/85e48f2e4ee1e/1/share/cmake-3.25/Modules/FindPackageMessage.cmake
-D:/.bbs_conan/85e48f2e4ee1e/1/share/cmake-3.25/Modules/GNUInstallDirs.cmake
-D:/TATA/LATEST_NXT_REPO/next/conan_workarea/h/94f134184cbdec7ff264b8e7809aa3aa/CMakeFiles/cmake.verify_globs
-D:/TATA/LATEST_NXT_REPO/next/src/player/CMakeLists.txt
-D:/TATA/LATEST_NXT_REPO/next/src/player/version_info/version.h.in
-D:/TATA/LATEST_NXT_REPO/next/src/player/version_info/version_info.rc
