@@ -16,6 +16,6 @@ pip install bs4
 pip install websocket-client==1.3.1
 
 set ECAL_DATA=conan_workarea\package.next.generic.0.0.0-fallback.vs2017\bin
-set PYTHONPATH=%PYTHONPATH%;%1"\next\src\py_api"
-py next_py_api\next_api.py -c %2
+set PYTHONPATH=%PYTHONPATH%;%1"\src\py_api"
+py src\next_py_api\next_api.py -c %2
 popd
