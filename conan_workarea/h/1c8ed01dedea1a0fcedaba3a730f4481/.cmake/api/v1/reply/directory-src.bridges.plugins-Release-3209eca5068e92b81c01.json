@@ -1,0 +1,54 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/.bricks/decorated_install.cmake",
+			"src/bridges/plugins/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "include/",
+			"paths" : 
+			[
+				{
+					"from" : "src/bridges/plugins/interface",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/bridges/plugins",
+		"source" : "src/bridges/plugins"
+	}
+}

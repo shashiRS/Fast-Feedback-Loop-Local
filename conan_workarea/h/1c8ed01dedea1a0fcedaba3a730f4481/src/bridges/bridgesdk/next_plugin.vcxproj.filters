@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_private.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_datapublisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_datapublisher_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_datasubscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_datasubscriber_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_3D_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_3D_view_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_signal_explorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_signal_explorer_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_signal_extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_signal_extractor_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_regex_searcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\datatypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons\plugin_datapublisher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_datapublisher_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons\plugin_datasubscriber.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_datasubscriber_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons\plugin_3D_view.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_3D_view_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons\plugin_signal_explorer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_signal_explorer_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons\plugin_signal_extractor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\Plugin\plugin_signal_extractor_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\plugin_addons\plugin_regex_searcher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\bin_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\src\bridges\bridgesdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\thirdparty\base64\base64.dir\$(Configuration)\base64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\version_info.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3EAD8AAC-09CF-32E7-B709-635509729C2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{F862FCAA-2555-37D6-9171-5B4A6C4C1728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{11F2C70D-7421-3E37-916A-8D334E4FB588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

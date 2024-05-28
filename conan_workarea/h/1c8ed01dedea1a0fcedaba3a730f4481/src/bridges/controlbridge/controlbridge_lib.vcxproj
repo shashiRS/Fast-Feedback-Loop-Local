@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A8BD18F-B4DF-3F5B-B3FA-D445F1EFDEA5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>controlbridge_lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\controlbridge\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">controlbridge_lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">controlbridge_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler;D:\Next-python_API\next\src\bridges\controlbridge\LifeCycleOrchestrator;D:\Next-python_API\next\src\control\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\Next-python_API\next\src\bridges\bridgesdk\interface;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\a2cb08\1\include\boost-1_80;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\05150c\1\include;D:\.bbs_conan\f99f7b\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;SPDLOG_COMPILED_LIB;ECAL_C_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_SYSTEM_NO_LIB;SPDLOG_COMPILED_LIB;ECAL_C_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler;D:\Next-python_API\next\src\bridges\controlbridge\LifeCycleOrchestrator;D:\Next-python_API\next\src\control\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\Next-python_API\next\src\bridges\bridgesdk\interface;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\a2cb08\1\include\boost-1_80;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\05150c\1\include;D:\.bbs_conan\f99f7b\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler;D:\Next-python_API\next\src\bridges\controlbridge\LifeCycleOrchestrator;D:\Next-python_API\next\src\control\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\Next-python_API\next\src\bridges\bridgesdk\interface;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\a2cb08\1\include\boost-1_80;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\05150c\1\include;D:\.bbs_conan\f99f7b\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\src\bridges\controlbridge\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Next-python_API/next/src/bridges/controlbridge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\1e35b5\1\bin\cmake.exe -SD:/Next-python_API/next -BD:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481 --check-stamp-file D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/controlbridge/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\cmake.verify_globs;D:\Next-python_API\next\src\bridges\controlbridge\version_info\version.h.in;D:\Next-python_API\next\src\bridges\controlbridge\version_info\version_info.rc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\controlbridge\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\player_control_manager.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\gui_command_parser.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\EventHandler\player_event_distributor.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\EventHandler\version_info_event_distributor.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\LifeCycleOrchestrator\lifecycle_orchestrator.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\log_distributor\log_distributor.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\http_post\http_post.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\http_post\websocket_client_async.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\close_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\close_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\fastforward_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\fastforward_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_to_end_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\jump_to_end_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_binary_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_binary_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_file_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_file_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_project_directory_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\open_project_directory_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\pause_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\pause_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\play_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\play_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\rewind_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\rewind_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\step_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\step_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\update_sil_factor_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\CommandHandler\PlayerCommandHandler\update_sil_factor_handler.h" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\ConfigManager\config_manager.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\ConfigManager\config_manager.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\log_distributor\log_distributor.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\status_code_manager\status_code_manager.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\status_code_manager\status_code_manager.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\status_queue_manager\condition.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\status_queue_manager\condition.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\status_queue_manager\condition_handler.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\status_queue_manager\condition_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\status_queue_manager\status_queue_manager.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\status_queue_manager\status_queue_manager.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\controlbridge\TelemetryHandler\telemetry_handler.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\controlbridge\TelemetryHandler\telemetry_handler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\ZERO_CHECK.vcxproj">
+      <Project>{1BBF1513-E862-314F-9B29-2049EB7917C3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\next_appsupport.vcxproj">
+      <Project>{0AD9633D-D54A-3ED7-8564-85A3D8E9BD48}</Project>
+      <Name>next_appsupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\control\next_control.vcxproj">
+      <Project>{955EE346-4720-3821-947A-5FFBE8FA736C}</Project>
+      <Name>next_control</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\sdk\next_sdk.vcxproj">
+      <Project>{1232878E-B9B4-335F-8C34-A9C84672E3AE}</Project>
+      <Name>next_sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\web_server.vcxproj">
+      <Project>{50CB96F2-7F3A-3BA2-ACFF-484FEC15E464}</Project>
+      <Name>web_server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

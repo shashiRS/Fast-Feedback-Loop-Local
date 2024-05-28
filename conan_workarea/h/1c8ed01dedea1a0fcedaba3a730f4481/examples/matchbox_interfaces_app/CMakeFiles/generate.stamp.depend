@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/CMakeFiles/cmake.verify_globs
+D:/Next-python_API/next/examples/matchbox_interfaces_app/CMakeLists.txt
+D:/Next-python_API/next/src/cmake/install_helper.cmake
+D:/Next-python_API/next/src/cmake/link_helper.cmake

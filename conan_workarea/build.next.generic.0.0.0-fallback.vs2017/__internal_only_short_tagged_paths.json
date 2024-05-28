@@ -1,0 +1,359 @@
+{
+    "all": [
+        {
+            "key": "VFR_Utilities.generic",
+            "original_path": "D:/.bbs_conan/b9d1f2/1",
+            "path": "D:/.bbs_conan/b9d1f2/1"
+        },
+        {
+            "key": "asio.generic",
+            "original_path": "D:/.bbs_conan/ef297c/1",
+            "path": "D:/.bbs_conan/ef297c/1"
+        },
+        {
+            "key": "bricks_cmake_checks.__system",
+            "original_path": "D:/.bbs_conan/c77abb/1",
+            "path": "D:/.bbs_conan/c77abb/1"
+        },
+        {
+            "key": "bricks_cmake_core.__system",
+            "original_path": "D:/.bbs_conan/94a71d/1",
+            "path": "D:/.bbs_conan/94a71d/1"
+        },
+        {
+            "key": "bricks_cmake_groups.__system",
+            "original_path": "D:/.bbs_conan/1e3a16/1",
+            "path": "D:/.bbs_conan/1e3a16/1"
+        },
+        {
+            "key": "cip_adaption_boost.generic",
+            "original_path": "D:/.bbs_conan/a2cb08/1",
+            "path": "D:/.bbs_conan/a2cb08/1"
+        },
+        {
+            "key": "cip_build_system_platforms.__system",
+            "original_path": "D:/.bbs_conan/8dd44f/1",
+            "path": "D:/.bbs_conan/8dd44f/1"
+        },
+        {
+            "key": "cmake",
+            "original_path": "D:/.bbs_conan/1e35b5/1",
+            "path": "D:/.bbs_conan/1e35b5/1"
+        },
+        {
+            "key": "ecal.measurement",
+            "original_path": "D:/.bbs_conan/861632/1",
+            "path": "D:/.bbs_conan/861632/1"
+        },
+        {
+            "key": "flatbuffers",
+            "original_path": "D:/.bbs_conan/8f563d/1",
+            "path": "D:/.bbs_conan/8f563d/1"
+        },
+        {
+            "key": "hdf5.generic",
+            "original_path": "D:/.bbs_conan/575ef6/1",
+            "path": "D:/.bbs_conan/575ef6/1"
+        },
+        {
+            "key": "jsoncpp.generic",
+            "original_path": "D:/.bbs_conan/f99f7b/1",
+            "path": "D:/.bbs_conan/f99f7b/1"
+        },
+        {
+            "key": "make",
+            "original_path": "D:/.bbs_conan/ed40e4/1",
+            "path": "D:/.bbs_conan/ed40e4/1"
+        },
+        {
+            "key": "mts-core-lib",
+            "original_path": "D:/.bbs_conan/c926df/1",
+            "path": "D:/.bbs_conan/c926df/1"
+        },
+        {
+            "key": "mts-sentinel",
+            "original_path": "D:/.bbs_conan/05150c/1",
+            "path": "D:/.bbs_conan/05150c/1"
+        },
+        {
+            "key": "opencv.generic",
+            "original_path": "D:/.bbs_conan/0d3178/1",
+            "path": "D:/.bbs_conan/0d3178/1"
+        },
+        {
+            "key": "protobuf",
+            "original_path": "D:/.bbs_conan/d8cf06/1",
+            "path": "D:/.bbs_conan/d8cf06/1"
+        },
+        {
+            "key": "recycle.generic",
+            "original_path": "D:/.bbs_conan/821b1a/1",
+            "path": "D:/.bbs_conan/821b1a/1"
+        },
+        {
+            "key": "simpleini.generic",
+            "original_path": "D:/.bbs_conan/906693/1",
+            "path": "D:/.bbs_conan/906693/1"
+        },
+        {
+            "key": "spdlog.generic",
+            "original_path": "D:/.bbs_conan/bd8589/1",
+            "path": "D:/.bbs_conan/bd8589/1"
+        },
+        {
+            "key": "tclap.generic",
+            "original_path": "D:/.bbs_conan/d57d72/1",
+            "path": "D:/.bbs_conan/d57d72/1"
+        },
+        {
+            "key": "tcp_pubsub.generic",
+            "original_path": "D:/.bbs_conan/f65a98/1",
+            "path": "D:/.bbs_conan/f65a98/1"
+        },
+        {
+            "key": "tracy",
+            "original_path": "D:/.bbs_conan/962cbc/1",
+            "path": "D:/.bbs_conan/962cbc/1"
+        }
+    ],
+    "build": [
+        {
+            "key": "VFR_Utilities.generic",
+            "original_path": "D:/.bbs_conan/b9d1f2/1",
+            "path": "D:/.bbs_conan/b9d1f2/1"
+        },
+        {
+            "key": "bricks_cmake_checks.__system",
+            "original_path": "D:/.bbs_conan/c77abb/1",
+            "path": "D:/.bbs_conan/c77abb/1"
+        },
+        {
+            "key": "bricks_cmake_core.__system",
+            "original_path": "D:/.bbs_conan/94a71d/1",
+            "path": "D:/.bbs_conan/94a71d/1"
+        },
+        {
+            "key": "bricks_cmake_groups.__system",
+            "original_path": "D:/.bbs_conan/1e3a16/1",
+            "path": "D:/.bbs_conan/1e3a16/1"
+        },
+        {
+            "key": "cip_adaption_boost.generic",
+            "original_path": "D:/.bbs_conan/a2cb08/1",
+            "path": "D:/.bbs_conan/a2cb08/1"
+        },
+        {
+            "key": "cip_build_system_platforms.__system",
+            "original_path": "D:/.bbs_conan/8dd44f/1",
+            "path": "D:/.bbs_conan/8dd44f/1"
+        },
+        {
+            "key": "cmake",
+            "original_path": "D:/.bbs_conan/1e35b5/1",
+            "path": "D:/.bbs_conan/1e35b5/1"
+        },
+        {
+            "key": "flatbuffers",
+            "original_path": "D:/.bbs_conan/8f563d/1",
+            "path": "D:/.bbs_conan/8f563d/1"
+        },
+        {
+            "key": "jsoncpp.generic",
+            "original_path": "D:/.bbs_conan/f99f7b/1",
+            "path": "D:/.bbs_conan/f99f7b/1"
+        },
+        {
+            "key": "make",
+            "original_path": "D:/.bbs_conan/ed40e4/1",
+            "path": "D:/.bbs_conan/ed40e4/1"
+        },
+        {
+            "key": "opencv.generic",
+            "original_path": "D:/.bbs_conan/0d3178/1",
+            "path": "D:/.bbs_conan/0d3178/1"
+        },
+        {
+            "key": "protobuf",
+            "original_path": "D:/.bbs_conan/d8cf06/1",
+            "path": "D:/.bbs_conan/d8cf06/1"
+        },
+        {
+            "key": "spdlog.generic",
+            "original_path": "D:/.bbs_conan/bd8589/1",
+            "path": "D:/.bbs_conan/bd8589/1"
+        }
+    ],
+    "deploy": [
+        {
+            "key": "asio.generic",
+            "original_path": "D:/.bbs_conan/ef297c/1",
+            "path": "D:/.bbs_conan/ef297c/1"
+        },
+        {
+            "key": "ecal.measurement",
+            "original_path": "D:/.bbs_conan/861632/1",
+            "path": "D:/.bbs_conan/861632/1"
+        },
+        {
+            "key": "hdf5.generic",
+            "original_path": "D:/.bbs_conan/575ef6/1",
+            "path": "D:/.bbs_conan/575ef6/1"
+        },
+        {
+            "key": "mts-core-lib",
+            "original_path": "D:/.bbs_conan/c926df/1",
+            "path": "D:/.bbs_conan/c926df/1"
+        },
+        {
+            "key": "mts-sentinel",
+            "original_path": "D:/.bbs_conan/05150c/1",
+            "path": "D:/.bbs_conan/05150c/1"
+        },
+        {
+            "key": "recycle.generic",
+            "original_path": "D:/.bbs_conan/821b1a/1",
+            "path": "D:/.bbs_conan/821b1a/1"
+        },
+        {
+            "key": "simpleini.generic",
+            "original_path": "D:/.bbs_conan/906693/1",
+            "path": "D:/.bbs_conan/906693/1"
+        },
+        {
+            "key": "tclap.generic",
+            "original_path": "D:/.bbs_conan/d57d72/1",
+            "path": "D:/.bbs_conan/d57d72/1"
+        },
+        {
+            "key": "tcp_pubsub.generic",
+            "original_path": "D:/.bbs_conan/f65a98/1",
+            "path": "D:/.bbs_conan/f65a98/1"
+        },
+        {
+            "key": "tracy",
+            "original_path": "D:/.bbs_conan/962cbc/1",
+            "path": "D:/.bbs_conan/962cbc/1"
+        }
+    ],
+    "platform": [
+        {
+            "key": "cip_build_system_platforms.__system",
+            "original_path": "D:/.bbs_conan/8dd44f/1",
+            "path": "D:/.bbs_conan/8dd44f/1"
+        }
+    ],
+    "production": [
+        {
+            "key": "VFR_Utilities.generic",
+            "original_path": "D:/.bbs_conan/b9d1f2/1",
+            "path": "D:/.bbs_conan/b9d1f2/1"
+        },
+        {
+            "key": "asio.generic",
+            "original_path": "D:/.bbs_conan/ef297c/1",
+            "path": "D:/.bbs_conan/ef297c/1"
+        },
+        {
+            "key": "cip_adaption_boost.generic",
+            "original_path": "D:/.bbs_conan/a2cb08/1",
+            "path": "D:/.bbs_conan/a2cb08/1"
+        },
+        {
+            "key": "cmake",
+            "original_path": "D:/.bbs_conan/1e35b5/1",
+            "path": "D:/.bbs_conan/1e35b5/1"
+        },
+        {
+            "key": "ecal.measurement",
+            "original_path": "D:/.bbs_conan/861632/1",
+            "path": "D:/.bbs_conan/861632/1"
+        },
+        {
+            "key": "flatbuffers",
+            "original_path": "D:/.bbs_conan/8f563d/1",
+            "path": "D:/.bbs_conan/8f563d/1"
+        },
+        {
+            "key": "hdf5.generic",
+            "original_path": "D:/.bbs_conan/575ef6/1",
+            "path": "D:/.bbs_conan/575ef6/1"
+        },
+        {
+            "key": "jsoncpp.generic",
+            "original_path": "D:/.bbs_conan/f99f7b/1",
+            "path": "D:/.bbs_conan/f99f7b/1"
+        },
+        {
+            "key": "make",
+            "original_path": "D:/.bbs_conan/ed40e4/1",
+            "path": "D:/.bbs_conan/ed40e4/1"
+        },
+        {
+            "key": "mts-core-lib",
+            "original_path": "D:/.bbs_conan/c926df/1",
+            "path": "D:/.bbs_conan/c926df/1"
+        },
+        {
+            "key": "mts-sentinel",
+            "original_path": "D:/.bbs_conan/05150c/1",
+            "path": "D:/.bbs_conan/05150c/1"
+        },
+        {
+            "key": "opencv.generic",
+            "original_path": "D:/.bbs_conan/0d3178/1",
+            "path": "D:/.bbs_conan/0d3178/1"
+        },
+        {
+            "key": "protobuf",
+            "original_path": "D:/.bbs_conan/d8cf06/1",
+            "path": "D:/.bbs_conan/d8cf06/1"
+        },
+        {
+            "key": "recycle.generic",
+            "original_path": "D:/.bbs_conan/821b1a/1",
+            "path": "D:/.bbs_conan/821b1a/1"
+        },
+        {
+            "key": "simpleini.generic",
+            "original_path": "D:/.bbs_conan/906693/1",
+            "path": "D:/.bbs_conan/906693/1"
+        },
+        {
+            "key": "spdlog.generic",
+            "original_path": "D:/.bbs_conan/bd8589/1",
+            "path": "D:/.bbs_conan/bd8589/1"
+        },
+        {
+            "key": "tclap.generic",
+            "original_path": "D:/.bbs_conan/d57d72/1",
+            "path": "D:/.bbs_conan/d57d72/1"
+        },
+        {
+            "key": "tcp_pubsub.generic",
+            "original_path": "D:/.bbs_conan/f65a98/1",
+            "path": "D:/.bbs_conan/f65a98/1"
+        },
+        {
+            "key": "tracy",
+            "original_path": "D:/.bbs_conan/962cbc/1",
+            "path": "D:/.bbs_conan/962cbc/1"
+        }
+    ],
+    "system": [
+        {
+            "key": "bricks_cmake_checks.__system",
+            "original_path": "D:/.bbs_conan/c77abb/1",
+            "path": "D:/.bbs_conan/c77abb/1"
+        },
+        {
+            "key": "bricks_cmake_core.__system",
+            "original_path": "D:/.bbs_conan/94a71d/1",
+            "path": "D:/.bbs_conan/94a71d/1"
+        },
+        {
+            "key": "bricks_cmake_groups.__system",
+            "original_path": "D:/.bbs_conan/1e3a16/1",
+            "path": "D:/.bbs_conan/1e3a16/1"
+        }
+    ]
+}

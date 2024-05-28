@@ -1,0 +1,462 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"install_runtime",
+			"install_mts_sentinel",
+			"__bricks_install_handle_export_names_with_components"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/.bricks/decorated_install.cmake",
+			"src/cmake/install_lib.cmake",
+			"src/bridges/bridgesdk/CMakeLists.txt",
+			"D:/.bbs_conan/1e3a16/1/cmake/pre/decorators/install_export_names.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 221,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 208,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 221,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 168,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 88,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 177,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 184,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 190,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 196,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 214,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 221,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 31
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/bridgesdk/next_flatbuffers_3d_view",
+					"to" : "."
+				},
+				{
+					"from" : "conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/bridgesdk/next_flatbuffers_profiler",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "include/next/bridgesdk/",
+			"paths" : 
+			[
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/databridge/schema"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/bridges/bridgesdk/Release/next_plugin.lib"
+			],
+			"targetId" : "next_plugin::@8abc7c48d23ada670e3b",
+			"targetIndex" : 28,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/bridges/bridgesdk/Release/next_plugin.dll"
+			],
+			"targetId" : "next_plugin::@8abc7c48d23ada670e3b",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "next/share/cmake/next/BRIDGES_COMPONENT",
+			"exportName" : "next-BRIDGES_COMPONENT",
+			"exportTargets" : 
+			[
+				{
+					"id" : "next_plugin::@8abc7c48d23ada670e3b",
+					"index" : 28
+				},
+				{
+					"id" : "next_controlbridge::@d77ed9da38454457a00f",
+					"index" : 24
+				},
+				{
+					"id" : "next_databridge::@a5998d0aea8dac04538d",
+					"index" : 25
+				},
+				{
+					"id" : "system_ECalMonitor::@bb53a5b0b35e6cc305a8",
+					"index" : 32
+				},
+				{
+					"id" : "system_SignalExporter::@e9c025a81deeacbb0b9d",
+					"index" : 37
+				},
+				{
+					"id" : "system_RawFrameView::@5d1cf7eaae12ab5cbddc",
+					"index" : 34
+				},
+				{
+					"id" : "system_RecExporter::@e8c44badc7a8b5e036ec",
+					"index" : 35
+				},
+				{
+					"id" : "system_ReferenceCamera::@49529f32e3688985eeac",
+					"index" : 36
+				},
+				{
+					"id" : "system_SignalList::@a2a07e81f1305a17aefd",
+					"index" : 38
+				},
+				{
+					"id" : "system_SignalProvider::@0765b1f158643f2a94da",
+					"index" : 39
+				},
+				{
+					"id" : "system_SignalRawData::@22e42e4ebaef673ba5ae",
+					"index" : 40
+				},
+				{
+					"id" : "view3D_ArrayTpObjects::@98298d5547827a08860d",
+					"index" : 41
+				},
+				{
+					"id" : "view3D_CanTpObjects::@7086ff83c0678f896257",
+					"index" : 42
+				},
+				{
+					"id" : "view3D_EgoVehicle::@b9dd8977096b7a47d256",
+					"index" : 43
+				},
+				{
+					"id" : "view3D_Road::@b5d73ab195cada9065bf",
+					"index" : 45
+				},
+				{
+					"id" : "view3D_PointCloud::@fa55524bd12404108687",
+					"index" : 44
+				},
+				{
+					"id" : "view3D_StructTpObjects::@c3ef8984c7de46d7b925",
+					"index" : 46
+				},
+				{
+					"id" : "system_PerformanceViewer::@f2d759da6916c184f1dd",
+					"index" : 33
+				}
+			],
+			"paths" : 
+			[
+				"src/bridges/bridgesdk/CMakeFiles/Export/866a3806eca197ddea2389083613dbd9/exported-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"runtimeDependencySetName" : "next_plugin",
+			"runtimeDependencySetType" : "library",
+			"type" : "runtimeDependencySet"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/bridgesdk/Release/next_plugin.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/udex/Release/next_udex.dll",
+				"D:/.bbs_conan/c926df/1/bin/mtscpp.dll",
+				"D:/.bbs_conan/c926df/1/bin/mtsc.dll",
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/appsupport/Release/next_appsupport.dll",
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/sdk/Release/next_sdk.dll",
+				"D:/.bbs_conan/861632/1/bin/ecal_core_c.dll",
+				"D:/.bbs_conan/861632/1/bin/ecal_core.dll",
+				"D:/.bbs_conan/05150c/1/bin/mts_sentinel.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/bridgesdk/Release",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/bridgesdk/Release",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "src/bridges/bridgesdk/interface",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "BRIDGES_COMPONENT",
+			"destination" : "bin",
+			"type" : "importedRuntimeArtifacts"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/bridges/bridgesdk",
+		"source" : "src/bridges/bridgesdk"
+	}
+}

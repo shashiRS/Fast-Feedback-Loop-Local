@@ -1,0 +1,33 @@
+include "egovehicle.fbs";
+include "groundline.fbs";
+include "pointcloud.fbs";
+include "primitive.fbs";
+include "trafficparticipant.fbs";
+
+file_identifier "SU01";
+attribute "version";
+
+namespace GuiSchema;
+
+table MetaInformation (version: "0.0.1") {
+    time:ulong;
+    reference_frame:string;
+    cache_name:string;
+    life_time:ulong;
+    widget_stream:string;
+}
+
+table ViewUpdate (version: "0.0.1"){
+
+    meta:MetaInformation;
+
+    primitives:PrimitiveList;
+    traffic_objects:TrafficParticipantList;
+    point_clouds:PointCloudList;
+    ground_lines:GroundLineList;
+    ego_vehicles:EgoVehicleList;
+}
+
+
+
+root_type ViewUpdate;

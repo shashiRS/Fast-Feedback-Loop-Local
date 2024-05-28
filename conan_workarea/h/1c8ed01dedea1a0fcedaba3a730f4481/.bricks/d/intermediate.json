@@ -1,0 +1,5875 @@
+[
+{
+    "line_type": "header",
+    "target": "protobuf::libprotobuf",
+    "file": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindProtobuf.cmake",
+    "dir": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "install_dir": "../../../../../.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "package": "Protobuf",
+    "group": "",
+    "target_type": "UNKNOWN",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/d8cf06/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf",
+    "property": "IMPORTED_LOCATION",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotobuf.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotobuf.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "DEBUG",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf",
+    "property": "IMPORTED_LOCATION_DEBUG",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotobuf.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_11",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "PROTOBUF_USE_DLLS",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "protobuf::libprotobuf-lite",
+    "file": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindProtobuf.cmake",
+    "dir": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "install_dir": "../../../../../.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "package": "Protobuf",
+    "group": "",
+    "target_type": "UNKNOWN",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf-lite",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/d8cf06/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf-lite",
+    "property": "IMPORTED_LOCATION",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotobuf-lite.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf-lite",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf-lite",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotobuf-lite.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf-lite",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "DEBUG",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf-lite",
+    "property": "IMPORTED_LOCATION_DEBUG",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotobuf-lite.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotobuf-lite",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "PROTOBUF_USE_DLLS",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "protobuf::libprotoc",
+    "file": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindProtobuf.cmake",
+    "dir": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "install_dir": "../../../../../.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "package": "Protobuf",
+    "group": "",
+    "target_type": "UNKNOWN",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotoc",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/d8cf06/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotoc",
+    "property": "IMPORTED_LOCATION",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotoc.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotoc",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotoc",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotoc.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotoc",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "DEBUG",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotoc",
+    "property": "IMPORTED_LOCATION_DEBUG",
+    "value": "D:/.bbs_conan/d8cf06/1/lib/libprotoc.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotoc",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_11",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "protobuf::libprotoc",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "PROTOBUF_USE_DLLS",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "protobuf::protoc",
+    "file": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindProtobuf.cmake",
+    "dir": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "install_dir": "../../../../../.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "package": "Protobuf",
+    "group": "",
+    "target_type": "EXECUTABLE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "protobuf::protoc",
+    "property": "IMPORTED_LOCATION",
+    "value": "D:/.bbs_conan/d8cf06/1/bin/protoc.exe",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "Boost::headers",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_headers-1.80.0/boost_headers-config.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_headers-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_headers-1.80.0",
+    "package": "boost_headers",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::headers",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "Boost::date_time",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_date_time-1.80.0/libboost_date_time-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_date_time-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_date_time-1.80.0",
+    "package": "boost_date_time",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::date_time",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::date_time",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_DATE_TIME_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::date_time",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::date_time",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::date_time",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_date_time-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::date_time",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::date_time",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::date_time",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::atomic",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_atomic-1.80.0/libboost_atomic-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_atomic-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_atomic-1.80.0",
+    "package": "boost_atomic",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::atomic",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::atomic",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_ATOMIC_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::atomic",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::atomic",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::atomic",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_atomic-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::atomic",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::atomic",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::atomic",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::filesystem",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_filesystem-1.80.0/libboost_filesystem-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_filesystem-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_filesystem-1.80.0",
+    "package": "boost_filesystem",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_FILESYSTEM_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_filesystem-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "$<$<CONFIG:release>:bcrypt;synchronization>",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::atomic",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::filesystem",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::container",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_container-1.80.0/libboost_container-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_container-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_container-1.80.0",
+    "package": "boost_container",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::container",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::container",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_CONTAINER_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::container",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::container",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::container",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_container-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::container",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::container",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::container",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::json",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_json-1.80.0/libboost_json-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_json-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_json-1.80.0",
+    "package": "boost_json",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_JSON_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_json-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::container",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::json",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::program_options",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_program_options-1.80.0/libboost_program_options-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_program_options-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_program_options-1.80.0",
+    "package": "boost_program_options",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::program_options",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::program_options",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_PROGRAM_OPTIONS_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::program_options",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::program_options",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::program_options",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_program_options-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::program_options",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::program_options",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::program_options",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::system",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_system-1.80.0/libboost_system-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_system-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_system-1.80.0",
+    "package": "boost_system",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::system",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::system",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_SYSTEM_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::system",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::system",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::system",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_system-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::system",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::system",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::system",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::chrono",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_chrono-1.80.0/libboost_chrono-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_chrono-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_chrono-1.80.0",
+    "package": "boost_chrono",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::chrono",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::chrono",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_CHRONO_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::chrono",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::chrono",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::chrono",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_chrono-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::chrono",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::chrono",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::chrono",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::regex",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_regex-1.80.0/libboost_regex-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_regex-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_regex-1.80.0",
+    "package": "boost_regex",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::regex",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::regex",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_REGEX_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::regex",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::regex",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::regex",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_regex-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::regex",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::regex",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::regex",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Threads::Threads",
+    "file": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindThreads.cmake",
+    "dir": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "install_dir": "../../../../../.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "package": "Threads",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "header",
+    "target": "Boost::thread",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_thread-1.80.0/libboost_thread-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_thread-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_thread-1.80.0",
+    "package": "boost_thread",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_THREAD_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_thread-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::chrono",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::thread",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Threads::Threads",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::log",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_log-1.80.0/libboost_log-variant-vc141-mt-x64-1_80-static.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/boost_log-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/boost_log-1.80.0",
+    "package": "boost_log",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/a2cb08/1/include/boost-1_80",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_LOG_NO_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/a2cb08/1/lib/libboost_log-vc141-mt-x64-1_80.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "MAP_IMPORTED_CONFIG_MINSIZEREL",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "MAP_IMPORTED_CONFIG_RELWITHDEBINFO",
+    "value": "Release",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "$<$<CONFIG:release>:advapi32;bcrypt;mswsock;psapi;secur32;synchronization;ws2_32>",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::atomic",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::chrono",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::filesystem",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::regex",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::thread",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::log",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::boost",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0/BoostConfig.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0",
+    "package": "Boost",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::boost",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Boost::headers",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Boost::diagnostic_definitions",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0/BoostConfig.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0",
+    "package": "Boost",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "header",
+    "target": "Boost::disable_autolinking",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0/BoostConfig.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0",
+    "package": "Boost",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "header",
+    "target": "Boost::dynamic_linking",
+    "file": "D:/.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0/BoostConfig.cmake",
+    "dir": "D:/.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0",
+    "install_dir": "../../../../../.bbs_conan/a2cb08/1/lib/cmake/Boost-1.80.0",
+    "package": "Boost",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Boost::diagnostic_definitions",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_LIB_DIAGNOSTIC",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::disable_autolinking",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_ALL_NO_LIB",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "Boost::dynamic_linking",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BOOST_ALL_DYN_LINK",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "eCAL::proto",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::proto",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_14",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::proto",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::proto",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "protobuf::libprotobuf",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::pb",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::pb",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_14",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::pb",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::pb",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "eCAL::core_pb",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::core_pb",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_pb",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_14",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_pb",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_pb",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "protobuf::libprotobuf",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::app_pb",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::app_pb",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_14",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::app_pb",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::app_pb",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "protobuf::libprotobuf",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::core_c",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_c",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "ECAL_C_DLL;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_c",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "eCAL::core",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::core",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "eCAL::proto",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::ecal-utils",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::ecal-utils",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_14",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::ecal-utils",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::rec_addon_core",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::rec_addon_core",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_14",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::rec_addon_core",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::rec_addon_core",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "$<LINK_ONLY:Threads::Threads>",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::measurement_hdf5",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::measurement_hdf5",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::measurement_hdf5",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "eCAL::measurement_base;$<LINK_ONLY:eCAL::hdf5>",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::hdf5",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::hdf5",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_14",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::hdf5",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::hdf5",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "eCAL::measurement_base;$<LINK_ONLY:eCAL::ecal-utils>;eCAL::measurement_base;$<LINK_ONLY:hdf5::hdf5-static>",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::message",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::message",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "eCAL::measurement_base",
+    "file": "D:/.bbs_conan/861632/1/lib/cmake/eCAL/eCALTargets.cmake",
+    "dir": "D:/.bbs_conan/861632/1/lib/cmake/eCAL",
+    "install_dir": "../../../../../.bbs_conan/861632/1/lib/cmake/eCAL",
+    "package": "eCAL",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::measurement_base",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/861632/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::proto",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::proto",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::proto",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_proto.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::pb",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::pb",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::pb",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_pb.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_pb",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_pb",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_pb",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_core_pb.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::app_pb",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::app_pb",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::app_pb",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_app_pb.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_c",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_c",
+    "property": "IMPORTED_IMPLIB_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_core_c.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core_c",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/bin/ecal_core_c.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core",
+    "property": "IMPORTED_IMPLIB_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_core.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::core",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/bin/ecal_core.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::ecal-utils",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::ecal-utils",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::ecal-utils",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_ecal-utils.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::rec_addon_core",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::rec_addon_core",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::rec_addon_core",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_rec_addon_core.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::measurement_hdf5",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::measurement_hdf5",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::measurement_hdf5",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/measurement_hdf5.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::hdf5",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "eCAL::hdf5",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "eCAL::hdf5",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/861632/1/lib/ecal_hdf5.lib",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "flatbuffers::flatbuffers",
+    "file": "D:/.bbs_conan/8f563d/1/lib/cmake/flatbuffers/FlatbuffersTargets.cmake",
+    "dir": "D:/.bbs_conan/8f563d/1/lib/cmake/flatbuffers",
+    "install_dir": "../../../../../.bbs_conan/8f563d/1/lib/cmake/flatbuffers",
+    "package": "Flatbuffers",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "flatbuffers::flatbuffers",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/8f563d/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "flatbuffers::flatbuffers",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "flatbuffers::flatbuffers",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "flatbuffers::flatbuffers",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/8f563d/1/lib/flatbuffers.lib",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "flatbuffers::flatc",
+    "file": "D:/.bbs_conan/8f563d/1/lib/cmake/flatbuffers/FlatcTargets.cmake",
+    "dir": "D:/.bbs_conan/8f563d/1/lib/cmake/flatbuffers",
+    "install_dir": "../../../../../.bbs_conan/8f563d/1/lib/cmake/flatbuffers",
+    "package": "Flatbuffers",
+    "group": "",
+    "target_type": "EXECUTABLE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "flatbuffers::flatc",
+    "property": "INTERFACE_COMPILE_OPTIONS",
+    "value": "$<$<CONFIG:Release>:/MT>",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "flatbuffers::flatc",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "flatbuffers::flatc",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/8f563d/1/bin/flatc.exe",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "jsoncpp_static",
+    "file": "D:/.bbs_conan/f99f7b/1/lib/cmake/jsoncpp/jsoncpp-targets.cmake",
+    "dir": "D:/.bbs_conan/f99f7b/1/lib/cmake/jsoncpp",
+    "install_dir": "../../../../../.bbs_conan/f99f7b/1/lib/cmake/jsoncpp",
+    "package": "jsoncpp",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_static",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_11;cxx_auto_type;cxx_decltype;cxx_default_function_template_args;cxx_defaulted_functions;cxx_delegating_constructors;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_lambdas;cxx_long_long_type;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_right_angle_brackets;cxx_rvalue_references;cxx_static_assert;cxx_strong_enums;cxx_trailing_return_types;cxx_uniform_initialization;cxx_variadic_macros;cxx_variadic_templates",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_static",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/f99f7b/1/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "jsoncpp_object",
+    "file": "D:/.bbs_conan/f99f7b/1/lib/cmake/jsoncpp/jsoncpp-targets.cmake",
+    "dir": "D:/.bbs_conan/f99f7b/1/lib/cmake/jsoncpp",
+    "install_dir": "../../../../../.bbs_conan/f99f7b/1/lib/cmake/jsoncpp",
+    "package": "jsoncpp",
+    "group": "",
+    "target_type": "OBJECT",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_object",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_11;cxx_auto_type;cxx_decltype;cxx_default_function_template_args;cxx_defaulted_functions;cxx_delegating_constructors;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_lambdas;cxx_long_long_type;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_right_angle_brackets;cxx_rvalue_references;cxx_static_assert;cxx_strong_enums;cxx_trailing_return_types;cxx_uniform_initialization;cxx_variadic_macros;cxx_variadic_templates",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_object",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/f99f7b/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_static",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_static",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_static",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/f99f7b/1/lib/jsoncpp.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_object",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_object",
+    "property": "IMPORTED_COMMON_LANGUAGE_RUNTIME_RELEASE",
+    "value": "",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "jsoncpp_object",
+    "property": "IMPORTED_OBJECTS_RELEASE",
+    "value": "D:/.bbs_conan/f99f7b/1/lib/objects-Release/jsoncpp_object/json_reader.obj;D:/.bbs_conan/f99f7b/1/lib/objects-Release/jsoncpp_object/json_value.obj;D:/.bbs_conan/f99f7b/1/lib/objects-Release/jsoncpp_object/json_writer.obj",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "JsonCpp::JsonCpp",
+    "file": "D:/.bbs_conan/f99f7b/1/lib/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake",
+    "dir": "D:/.bbs_conan/f99f7b/1/lib/cmake/jsoncpp",
+    "install_dir": "../../../../../.bbs_conan/f99f7b/1/lib/cmake/jsoncpp",
+    "package": "jsoncpp",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "JsonCpp::JsonCpp",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "jsoncpp_static",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mtsc::mtsc",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mtsc/mtscTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mtsc",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mtsc",
+    "package": "mtsc",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mtsc::mtsc",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtsc::mtsc",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mtsc.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtsc::mtsc",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mtsc::mtsc",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mtsc.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtsc::mtsc",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mtsc.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mtscpp::mtscpp",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mtscpp/mtscppTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mtscpp",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mtscpp",
+    "package": "mtscpp",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "INTERFACE_COMPILE_OPTIONS",
+    "value": "/FC;/bigobj",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtsc::mtsc;Threads::Threads",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mtscpp.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mtscpp.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mtscpp::mtscpp",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mtscpp.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_opc::mts_opc",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_opc/mts_opcTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_opc",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_opc",
+    "package": "mts_opc",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_opc::mts_opc",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_opc::mts_opc",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_opc::mts_opc",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_opc::mts_opc",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_opc.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_opc::mts_opc",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_opc::mts_opc",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_opc.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_opc::mts_opc",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_opc.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_sdc::mts_sdc",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_sdc/mts_sdcTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_sdc",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_sdc",
+    "package": "mts_sdc",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc::mts_sdc",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc::mts_sdc",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc::mts_sdc",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_sdc.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc::mts_sdc",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc::mts_sdc",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_sdc.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc::mts_sdc",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_sdc.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_swc::mts_swc",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_swc/mts_swcTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_swc",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_swc",
+    "package": "mts_swc",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_swc::mts_swc",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_swc::mts_swc",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_swc::mts_swc",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_swc.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_swc::mts_swc",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_swc::mts_swc",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_swc.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_swc::mts_swc",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_swc.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_asap2::mts_asap2",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_asap2/mts_asap2Targets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_asap2",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_asap2",
+    "package": "mts_asap2",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_asap2::mts_asap2",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_asap2::mts_asap2",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_asap2::mts_asap2",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_asap2.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_asap2::mts_asap2",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_asap2::mts_asap2",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_asap2.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_asap2::mts_asap2",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_asap2.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_fibex::mts_fibex",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_fibex/mts_fibexTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_fibex",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_fibex",
+    "package": "mts_fibex",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_fibex::mts_fibex",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_fibex::mts_fibex",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_fibex::mts_fibex",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_fibex.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_fibex::mts_fibex",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_fibex::mts_fibex",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_fibex.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_fibex::mts_fibex",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_fibex.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_arxml::mts_arxml",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_arxml/mts_arxmlTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_arxml",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_arxml",
+    "package": "mts_arxml",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_arxml::mts_arxml",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_arxml::mts_arxml",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_arxml::mts_arxml",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_arxml.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_arxml::mts_arxml",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_arxml::mts_arxml",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_arxml.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_arxml::mts_arxml",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_arxml.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ecu::mts_ecu",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu/mts_ecuTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ecu",
+    "package": "mts_ecu",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu::mts_ecu",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu::mts_ecu",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_can::mts_can",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can/mts_canTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_can",
+    "package": "mts_can",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can::mts_can",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can::mts_can",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_dbc::mts_dbc",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_dbc/mts_dbcTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_dbc",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_dbc",
+    "package": "mts_dbc",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc::mts_dbc",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc::mts_dbc",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc::mts_dbc",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_dbc.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc::mts_dbc",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc::mts_dbc",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_dbc.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc::mts_dbc",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_dbc.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_eth::mts_eth",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_eth/mts_ethTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_eth",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_eth",
+    "package": "mts_eth",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_eth::mts_eth",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_eth::mts_eth",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_flexray::mts_flexray",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_flexray/mts_flexrayTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_flexray",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_flexray",
+    "package": "mts_flexray",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray::mts_flexray",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray::mts_flexray",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_gps::mts_gps",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_gps/mts_gpsTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_gps",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_gps",
+    "package": "mts_gps",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_gps::mts_gps",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_nmea::mts_nmea",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_nmea/mts_nmeaTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_nmea",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_nmea",
+    "package": "mts_nmea",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_nmea::mts_nmea",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_nmea::mts_nmea",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_nmea.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_nmea::mts_nmea",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_nmea::mts_nmea",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_nmea.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_nmea::mts_nmea",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_nmea.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ref_cam::mts_ref_cam",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ref_cam/mts_ref_camTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ref_cam",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ref_cam",
+    "package": "mts_ref_cam",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam::mts_ref_cam",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rt_range::mts_rt_range",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range/mts_rt_rangeTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rt_range",
+    "package": "mts_rt_range",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range::mts_rt_range",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range::mts_rt_range",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rrec::mts_rrec",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rrec/mts_rrecTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rrec",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rrec",
+    "package": "mts_rrec",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rrec::mts_rrec",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rec::mts_rec",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rec/mts_recTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rec",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rec",
+    "package": "mts_rec",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rec::mts_rec",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rec::mts_rec",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtsc::mtsc",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_zrec::mts_zrec",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_zrec/mts_zrecTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_zrec",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_zrec",
+    "package": "mts_zrec",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_zrec::mts_zrec",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_mdf::mts_mdf",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_mdf/mts_mdfTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_mdf",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_mdf",
+    "package": "mts_mdf",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_mdf::mts_mdf",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_mdf::mts_mdf",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_mdf::mts_mdf",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_mdf.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_mdf::mts_mdf",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_mdf::mts_mdf",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_mdf.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_mdf::mts_mdf",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_mdf.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_sdl_parser::mts_sdl_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_sdl_parser/mts_sdl_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_sdl_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_sdl_parser",
+    "package": "mts_sdl_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdl_parser::mts_sdl_parser",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdl_parser::mts_sdl_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_sdl_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdl_parser::mts_sdl_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_sdl_parser::mts_sdl_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_sdl_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_xtypes_parser::mts_xtypes_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_xtypes_parser/mts_xtypes_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_xtypes_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_xtypes_parser",
+    "package": "mts_xtypes_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_xtypes_parser::mts_xtypes_parser",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_xtypes_parser::mts_xtypes_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_xtypes_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_xtypes_parser::mts_xtypes_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_xtypes_parser::mts_xtypes_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_xtypes_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_csv_exporter::mts_csv_exporter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_csv_exporter/mts_csv_exporterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_csv_exporter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_csv_exporter",
+    "package": "mts_csv_exporter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_csv_exporter::mts_csv_exporter",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_csv_exporter::mts_csv_exporter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_csv_exporter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_csv_exporter::mts_csv_exporter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_csv_exporter::mts_csv_exporter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_csv_exporter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_exporter::mts_exporter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_exporter/mts_exporterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_exporter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_exporter",
+    "package": "mts_exporter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_exporter::mts_exporter",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_exporter::mts_exporter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_exporter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_exporter::mts_exporter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_exporter::mts_exporter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_exporter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ecu_data_matcher::mts_ecu_data_matcher",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu_data_matcher/mts_ecu_data_matcherTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu_data_matcher",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ecu_data_matcher",
+    "package": "mts_ecu_data_matcher",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_data_matcher::mts_ecu_data_matcher",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ecu_data_matcher.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_data_matcher::mts_ecu_data_matcher",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_data_matcher::mts_ecu_data_matcher",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ecu_data_matcher.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ecu_formatter::mts_ecu_formatter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu_formatter/mts_ecu_formatterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu_formatter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ecu_formatter",
+    "package": "mts_ecu_formatter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_formatter::mts_ecu_formatter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ecu_formatter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_formatter::mts_ecu_formatter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_formatter::mts_ecu_formatter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ecu_formatter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ecu_sd_formatter::mts_ecu_sd_formatter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu_sd_formatter/mts_ecu_sd_formatterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu_sd_formatter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ecu_sd_formatter",
+    "package": "mts_ecu_sd_formatter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_sd_formatter::mts_ecu_sd_formatter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ecu_sd_formatter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_sd_formatter::mts_ecu_sd_formatter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_sd_formatter::mts_ecu_sd_formatter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ecu_sd_formatter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ecu_sd_provider::mts_ecu_sd_provider",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu_sd_provider/mts_ecu_sd_providerTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ecu_sd_provider",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ecu_sd_provider",
+    "package": "mts_ecu_sd_provider",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_sd_provider::mts_ecu_sd_provider",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_sd_provider::mts_ecu_sd_provider",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ecu_sd_provider.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_sd_provider::mts_ecu_sd_provider",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ecu_sd_provider::mts_ecu_sd_provider",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ecu_sd_provider.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_swc_parser::mts_swc_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_swc_parser/mts_swc_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_swc_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_swc_parser",
+    "package": "mts_swc_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_swc_parser::mts_swc_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_swc_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_swc_parser::mts_swc_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_swc_parser::mts_swc_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_swc_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_sdc_parser::mts_sdc_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_sdc_parser/mts_sdc_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_sdc_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_sdc_parser",
+    "package": "mts_sdc_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc_parser::mts_sdc_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_sdc_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc_parser::mts_sdc_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_sdc_parser::mts_sdc_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_sdc_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_can_arxml_parser::mts_can_arxml_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can_arxml_parser/mts_can_arxml_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can_arxml_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_can_arxml_parser",
+    "package": "mts_can_arxml_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can_arxml_parser::mts_can_arxml_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_can_arxml_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can_arxml_parser::mts_can_arxml_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_can_arxml_parser::mts_can_arxml_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_can_arxml_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_can_data_matcher::mts_can_data_matcher",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can_data_matcher/mts_can_data_matcherTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can_data_matcher",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_can_data_matcher",
+    "package": "mts_can_data_matcher",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can_data_matcher::mts_can_data_matcher",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_can_data_matcher.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can_data_matcher::mts_can_data_matcher",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_can_data_matcher::mts_can_data_matcher",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_can_data_matcher.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_can_fibex_parser::mts_can_fibex_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can_fibex_parser/mts_can_fibex_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can_fibex_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_can_fibex_parser",
+    "package": "mts_can_fibex_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can_fibex_parser::mts_can_fibex_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_can_fibex_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can_fibex_parser::mts_can_fibex_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_can_fibex_parser::mts_can_fibex_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_can_fibex_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_can_formatter::mts_can_formatter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can_formatter/mts_can_formatterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_can_formatter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_can_formatter",
+    "package": "mts_can_formatter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can_formatter::mts_can_formatter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_can_formatter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_can_formatter::mts_can_formatter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_can_formatter::mts_can_formatter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_can_formatter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_dbc_parser::mts_dbc_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_dbc_parser/mts_dbc_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_dbc_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_dbc_parser",
+    "package": "mts_dbc_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc_parser::mts_dbc_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_dbc_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc_parser::mts_dbc_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_dbc_parser::mts_dbc_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_dbc_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ethernet_arxml_parser::mts_ethernet_arxml_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ethernet_arxml_parser/mts_ethernet_arxml_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ethernet_arxml_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ethernet_arxml_parser",
+    "package": "mts_ethernet_arxml_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_arxml_parser::mts_ethernet_arxml_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ethernet_arxml_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_arxml_parser::mts_ethernet_arxml_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_arxml_parser::mts_ethernet_arxml_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ethernet_arxml_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ethernet_data_matcher::mts_ethernet_data_matcher",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ethernet_data_matcher/mts_ethernet_data_matcherTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ethernet_data_matcher",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ethernet_data_matcher",
+    "package": "mts_ethernet_data_matcher",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_data_matcher::mts_ethernet_data_matcher",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ethernet_data_matcher.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_data_matcher::mts_ethernet_data_matcher",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_data_matcher::mts_ethernet_data_matcher",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ethernet_data_matcher.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ethernet_fibex_parser::mts_ethernet_fibex_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ethernet_fibex_parser/mts_ethernet_fibex_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ethernet_fibex_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ethernet_fibex_parser",
+    "package": "mts_ethernet_fibex_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_fibex_parser::mts_ethernet_fibex_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ethernet_fibex_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_fibex_parser::mts_ethernet_fibex_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_fibex_parser::mts_ethernet_fibex_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ethernet_fibex_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ethernet_formatter::mts_ethernet_formatter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ethernet_formatter/mts_ethernet_formatterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ethernet_formatter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ethernet_formatter",
+    "package": "mts_ethernet_formatter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_formatter::mts_ethernet_formatter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ethernet_formatter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_formatter::mts_ethernet_formatter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ethernet_formatter::mts_ethernet_formatter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ethernet_formatter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_flexray_formatter::mts_flexray_formatter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_flexray_formatter/mts_flexray_formatterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_flexray_formatter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_flexray_formatter",
+    "package": "mts_flexray_formatter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_formatter::mts_flexray_formatter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_flexray_formatter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_formatter::mts_flexray_formatter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_formatter::mts_flexray_formatter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_flexray_formatter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_flexray_fibex_parser::mts_flexray_fibex_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_flexray_fibex_parser/mts_flexray_fibex_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_flexray_fibex_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_flexray_fibex_parser",
+    "package": "mts_flexray_fibex_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_fibex_parser::mts_flexray_fibex_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_flexray_fibex_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_fibex_parser::mts_flexray_fibex_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_fibex_parser::mts_flexray_fibex_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_flexray_fibex_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_flexray_data_matcher::mts_flexray_data_matcher",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_flexray_data_matcher/mts_flexray_data_matcherTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_flexray_data_matcher",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_flexray_data_matcher",
+    "package": "mts_flexray_data_matcher",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_data_matcher::mts_flexray_data_matcher",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_flexray_data_matcher.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_data_matcher::mts_flexray_data_matcher",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_flexray_data_matcher::mts_flexray_data_matcher",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_flexray_data_matcher.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_gps_formatter::mts_gps_formatter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_gps_formatter/mts_gps_formatterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_gps_formatter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_gps_formatter",
+    "package": "mts_gps_formatter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_formatter::mts_gps_formatter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_gps_formatter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_formatter::mts_gps_formatter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_formatter::mts_gps_formatter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_gps_formatter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_gps_sdl_parser::mts_gps_sdl_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_gps_sdl_parser/mts_gps_sdl_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_gps_sdl_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_gps_sdl_parser",
+    "package": "mts_gps_sdl_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_sdl_parser::mts_gps_sdl_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_gps_sdl_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_sdl_parser::mts_gps_sdl_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_sdl_parser::mts_gps_sdl_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_gps_sdl_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_gps_data_matcher::mts_gps_data_matcher",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_gps_data_matcher/mts_gps_data_matcherTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_gps_data_matcher",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_gps_data_matcher",
+    "package": "mts_gps_data_matcher",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_data_matcher::mts_gps_data_matcher",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_gps_data_matcher.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_data_matcher::mts_gps_data_matcher",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_gps_data_matcher::mts_gps_data_matcher",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_gps_data_matcher.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ref_cam_formatter::mts_ref_cam_formatter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_formatter/mts_ref_cam_formatterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_formatter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_formatter",
+    "package": "mts_ref_cam_formatter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_formatter::mts_ref_cam_formatter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ref_cam_formatter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_formatter::mts_ref_cam_formatter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_formatter::mts_ref_cam_formatter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ref_cam_formatter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ref_cam_parser::mts_ref_cam_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_parser/mts_ref_cam_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_parser",
+    "package": "mts_ref_cam_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_parser::mts_ref_cam_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ref_cam_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_parser::mts_ref_cam_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_parser::mts_ref_cam_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ref_cam_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ref_cam_data_matcher::mts_ref_cam_data_matcher",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_data_matcher/mts_ref_cam_data_matcherTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_data_matcher",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ref_cam_data_matcher",
+    "package": "mts_ref_cam_data_matcher",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_data_matcher::mts_ref_cam_data_matcher",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_ref_cam_data_matcher.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_data_matcher::mts_ref_cam_data_matcher",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ref_cam_data_matcher::mts_ref_cam_data_matcher",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_ref_cam_data_matcher.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rt_range_probe::mts_rt_range_probe",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range_probe/mts_rt_range_probeTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range_probe",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rt_range_probe",
+    "package": "mts_rt_range_probe",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_probe::mts_rt_range_probe",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_rt_range_probe.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_probe::mts_rt_range_probe",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_probe::mts_rt_range_probe",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_rt_range_probe.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rt_range_data_matcher::mts_rt_range_data_matcher",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range_data_matcher/mts_rt_range_data_matcherTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range_data_matcher",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rt_range_data_matcher",
+    "package": "mts_rt_range_data_matcher",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_data_matcher::mts_rt_range_data_matcher",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_rt_range_data_matcher.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_data_matcher::mts_rt_range_data_matcher",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_data_matcher::mts_rt_range_data_matcher",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_rt_range_data_matcher.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rt_range_formatter::mts_rt_range_formatter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range_formatter/mts_rt_range_formatterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range_formatter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rt_range_formatter",
+    "package": "mts_rt_range_formatter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_formatter::mts_rt_range_formatter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_rt_range_formatter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_formatter::mts_rt_range_formatter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_formatter::mts_rt_range_formatter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_rt_range_formatter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rt_range_parser::mts_rt_range_parser",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range_parser/mts_rt_range_parserTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rt_range_parser",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rt_range_parser",
+    "package": "mts_rt_range_parser",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_parser::mts_rt_range_parser",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_rt_range_parser.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_parser::mts_rt_range_parser",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_rt_range_parser::mts_rt_range_parser",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_rt_range_parser.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_velodyne_probe::mts_velodyne_probe",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_velodyne_probe/mts_velodyne_probeTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_velodyne_probe",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_velodyne_probe",
+    "package": "mts_velodyne_probe",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_velodyne_probe::mts_velodyne_probe",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_velodyne_probe.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_velodyne_probe::mts_velodyne_probe",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_velodyne_probe::mts_velodyne_probe",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_velodyne_probe.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_signal_storage::mts_signal_storage",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_signal_storage/mts_signal_storageTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_signal_storage",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_signal_storage",
+    "package": "mts_signal_storage",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_signal_storage::mts_signal_storage",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_signal_storage::mts_signal_storage",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_signal_storage::mts_signal_storage",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_signal_storage.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_signal_storage::mts_signal_storage",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_signal_storage::mts_signal_storage",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_signal_storage.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_udex_extractor::mts_udex_extractor",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_udex_extractor/mts_udex_extractorTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_udex_extractor",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_udex_extractor",
+    "package": "mts_udex_extractor",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_udex_extractor::mts_udex_extractor",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_udex_extractor::mts_udex_extractor",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_udex_extractor::mts_udex_extractor",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_udex_extractor.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_udex_extractor::mts_udex_extractor",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_udex_extractor::mts_udex_extractor",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELWITHDEBINFO",
+    "value": "mts_signal_storage::mts_signal_storage",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_udex_extractor::mts_udex_extractor",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_udex_extractor.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_xtypes_data_matcher::mts_xtypes_data_matcher",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_xtypes_data_matcher/mts_xtypes_data_matcherTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_xtypes_data_matcher",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_xtypes_data_matcher",
+    "package": "mts_xtypes_data_matcher",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_xtypes_data_matcher::mts_xtypes_data_matcher",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_xtypes_data_matcher.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_xtypes_data_matcher::mts_xtypes_data_matcher",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_xtypes_data_matcher::mts_xtypes_data_matcher",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_xtypes_data_matcher.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rrec_reader::mts_rrec_reader",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rrec_reader/mts_rrec_readerTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rrec_reader",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rrec_reader",
+    "package": "mts_rrec_reader",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rrec_reader::mts_rrec_reader",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rrec_reader::mts_rrec_reader",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_rrec_reader.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rrec_reader::mts_rrec_reader",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_rrec_reader::mts_rrec_reader",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_rrec_reader.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rec_exporter::mts_rec_exporter",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rec_exporter/mts_rec_exporterTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rec_exporter",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rec_exporter",
+    "package": "mts_rec_exporter",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rec_exporter::mts_rec_exporter",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rec_exporter::mts_rec_exporter",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_rec_exporter.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rec_exporter::mts_rec_exporter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_rec_exporter::mts_rec_exporter",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_rec_exporter.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_rec_reader::mts_rec_reader",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rec_reader/mts_rec_readerTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_rec_reader",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_rec_reader",
+    "package": "mts_rec_reader",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rec_reader::mts_rec_reader",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rec_reader::mts_rec_reader",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_rec_reader.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_rec_reader::mts_rec_reader",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_rec_reader::mts_rec_reader",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_rec_reader.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_zrec_reader::mts_zrec_reader",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_zrec_reader/mts_zrec_readerTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_zrec_reader",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_zrec_reader",
+    "package": "mts_zrec_reader",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_zrec_reader::mts_zrec_reader",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_zrec_reader::mts_zrec_reader",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_zrec_reader.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_zrec_reader::mts_zrec_reader",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_zrec_reader::mts_zrec_reader",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_zrec_reader.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_pcap_reader::mts_pcap_reader",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_pcap_reader/mts_pcap_readerTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_pcap_reader",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_pcap_reader",
+    "package": "mts_pcap_reader",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_pcap_reader::mts_pcap_reader",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_pcap_reader::mts_pcap_reader",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_pcap_reader.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_pcap_reader::mts_pcap_reader",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_pcap_reader::mts_pcap_reader",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_pcap_reader.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_ffmpeg::mts_ffmpeg",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg/mts_ffmpegTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "package": "mts_ffmpeg",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ffmpeg::mts_ffmpeg",
+    "property": "INTERFACE_COMPILE_FEATURES",
+    "value": "cxx_std_17",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ffmpeg::mts_ffmpeg",
+    "property": "INTERFACE_COMPILE_OPTIONS",
+    "value": "$<$<CXX_COMPILER_ID:GNU>:-Werror;-Wall;-Wextra;-Wno-conversion;-Wno-sign-conversion>;$<$<CXX_COMPILER_ID:MSVC>:-DNOMINMAX;-D_CRT_SECURE_NO_WARNINGS;/W4;/WX;/FC;/experimental:external;/external:W0;/wd4244>",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ffmpeg::mts_ffmpeg",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ffmpeg::mts_ffmpeg",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "FFmpeg::avformat;FFmpeg::avcodec;FFmpeg::swresample;FFmpeg::avutil;FFmpeg::swscale",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ffmpeg::mts_ffmpeg",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_ffmpeg::mts_ffmpeg",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_ffmpeg::mts_ffmpeg",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/lib/mts_ffmpeg.lib",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "FFmpeg::avformat",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg/FFmpegTargets-relwithdebinfo.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "package": "mts_ffmpeg",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::avformat",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::avformat",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/avformat-60.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "FFmpeg::avcodec",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg/FFmpegTargets-relwithdebinfo.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "package": "mts_ffmpeg",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::avcodec",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::avcodec",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/avcodec-60.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "FFmpeg::avutil",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg/FFmpegTargets-relwithdebinfo.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "package": "mts_ffmpeg",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::avutil",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::avutil",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/avutil-58.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "FFmpeg::swresample",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg/FFmpegTargets-relwithdebinfo.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "package": "mts_ffmpeg",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::swresample",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::swresample",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/swresample-4.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "FFmpeg::swscale",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg/FFmpegTargets-relwithdebinfo.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_ffmpeg",
+    "package": "mts_ffmpeg",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::swscale",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "FFmpeg::swscale",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/swscale-7.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_mfc5xx_processor::mts_mfc5xx_processor",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_mfc5xx_processor/mts_mfc5xx_processorTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_mfc5xx_processor",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_mfc5xx_processor",
+    "package": "mts_mfc5xx_processor",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_mfc5xx_processor::mts_mfc5xx_processor",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_mfc5xx_processor::mts_mfc5xx_processor",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_mfc5xx_processor.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_mfc5xx_processor::mts_mfc5xx_processor",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_mfc5xx_processor::mts_mfc5xx_processor",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_mfc5xx_processor.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_svc_processor::mts_svc_processor",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_svc_processor/mts_svc_processorTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_svc_processor",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_svc_processor",
+    "package": "mts_svc_processor",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_svc_processor::mts_svc_processor",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_svc_processor::mts_svc_processor",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_svc_processor.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_svc_processor::mts_svc_processor",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_svc_processor::mts_svc_processor",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_svc_processor.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_amba_processor::mts_amba_processor",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_amba_processor/mts_amba_processorTargets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_amba_processor",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_amba_processor",
+    "package": "mts_amba_processor",
+    "group": "",
+    "target_type": "SHARED",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_amba_processor::mts_amba_processor",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include;D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_amba_processor::mts_amba_processor",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/c926df/1/sourcelink/mts_amba_processor.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_amba_processor::mts_amba_processor",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_amba_processor::mts_amba_processor",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/c926df/1/bin/mts_amba_processor.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "Python::Interpreter",
+    "file": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindPython/Support.cmake",
+    "dir": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindPython",
+    "install_dir": "../../../../../.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindPython",
+    "package": "Python",
+    "group": "",
+    "target_type": "EXECUTABLE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Python::Interpreter",
+    "property": "IMPORTED_LOCATION",
+    "value": "D:/Next-python_API/next/venv/Scripts/python.exe",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "Git::Git",
+    "file": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindGit.cmake",
+    "dir": "D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "install_dir": "../../../../../.bbs_conan/1e35b5/1/share/cmake-3.25/Modules",
+    "package": "Git",
+    "group": "",
+    "target_type": "EXECUTABLE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "Git::Git",
+    "property": "IMPORTED_LOCATION",
+    "value": "C:/Users/uig44320/AppData/Local/Programs/Git/cmd/git.exe",
+    "append": true
+},
+{
+    "line_type": "header",
+    "target": "spdlog::spdlog",
+    "file": "D:/.bbs_conan/bd8589/1/lib/cmake/spdlog/spdlogConfigTargets.cmake",
+    "dir": "D:/.bbs_conan/bd8589/1/lib/cmake/spdlog",
+    "install_dir": "../../../../../.bbs_conan/bd8589/1/lib/cmake/spdlog",
+    "package": "spdlog",
+    "group": "",
+    "target_type": "STATIC",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "spdlog::spdlog",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "SPDLOG_COMPILED_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "spdlog::spdlog",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/bd8589/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "spdlog::spdlog",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Threads::Threads",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "spdlog::spdlog_header_only",
+    "file": "D:/.bbs_conan/bd8589/1/lib/cmake/spdlog/spdlogConfigTargets.cmake",
+    "dir": "D:/.bbs_conan/bd8589/1/lib/cmake/spdlog",
+    "install_dir": "../../../../../.bbs_conan/bd8589/1/lib/cmake/spdlog",
+    "package": "spdlog",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": true,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "spdlog::spdlog_header_only",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/bd8589/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "spdlog::spdlog_header_only",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "Threads::Threads",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "spdlog::spdlog",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "spdlog::spdlog",
+    "property": "IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE",
+    "value": "CXX",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "spdlog::spdlog",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/.bbs_conan/bd8589/1/lib/spdlog.lib",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_plugin",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_plugin",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include;D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_plugin",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp;next::next_sdk;next::next_udex",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_controlbridge",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "EXECUTABLE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_controlbridge",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_databridge",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "EXECUTABLE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_databridge",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_ECalMonitor",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_ECalMonitor",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_SignalExporter",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalExporter",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "UNICODE;BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_RawFrameView",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_RawFrameView",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_RecExporter",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_RecExporter",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "UNICODE;BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_ReferenceCamera",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_ReferenceCamera",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_SignalList",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalList",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_SignalProvider",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalProvider",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_SignalRawData",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalRawData",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::view3D_ArrayTpObjects",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_ArrayTpObjects",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::view3D_CanTpObjects",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_CanTpObjects",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::view3D_EgoVehicle",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_EgoVehicle",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::view3D_Road",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_Road",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::view3D_PointCloud",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_PointCloud",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::view3D_StructTpObjects",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_StructTpObjects",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::system_PerformanceViewer",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/BRIDGES_COMPONENT",
+    "install_dir": "next/share/cmake/next/BRIDGES_COMPONENT",
+    "package": "next",
+    "group": "BRIDGES_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_PerformanceViewer",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "BRIDGESDKSHARED",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_plugin",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_plugin",
+    "property": "IMPORTED_IMPLIB_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/lib/next_plugin.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_plugin",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_plugin.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_controlbridge",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_controlbridge",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_controlbridge.exe",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_databridge",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_databridge",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_databridge.exe",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_ECalMonitor",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_ECalMonitor",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "eCAL::core;next::next_plugin",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_ECalMonitor",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_ECalMonitor/system_ECalMonitor.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalExporter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalExporter",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin;next::next_appsupport",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalExporter",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_SignalExporter/system_SignalExporter.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_RawFrameView",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_RawFrameView",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_RawFrameView",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_RawFrameView/system_RawFrameView.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_RecExporter",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_RecExporter",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin;next::next_appsupport;mts_swc::mts_swc",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_RecExporter",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_RecExporter/system_RecExporter.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_ReferenceCamera",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_ReferenceCamera",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_ReferenceCamera",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_ReferenceCamera/system_ReferenceCamera.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalList",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalList",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalList",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_SignalList/system_SignalList.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalProvider",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalProvider",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_udex;next::next_plugin",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalProvider",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_SignalProvider/system_SignalProvider.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalRawData",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalRawData",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_SignalRawData",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_SignalRawData/system_SignalRawData.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_ArrayTpObjects",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_ArrayTpObjects",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_ArrayTpObjects",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/view3D_ArrayTpObjects/view3D_ArrayTpObjects.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_CanTpObjects",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_CanTpObjects",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin;next::next_appsupport",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_CanTpObjects",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/view3D_CanTpObjects/view3D_CanTpObjects.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_EgoVehicle",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_EgoVehicle",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin;next::next_appsupport",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_EgoVehicle",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/view3D_EgoVehicle/view3D_EgoVehicle.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_Road",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_Road",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin;next::next_appsupport;next::next_udex",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_Road",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/view3D_Road/view3D_Road.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_PointCloud",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_PointCloud",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin;next::next_appsupport;next::next_udex",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_PointCloud",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/view3D_PointCloud/view3D_PointCloud.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_StructTpObjects",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_StructTpObjects",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_plugin;next::next_appsupport;next::next_udex",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::view3D_StructTpObjects",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/view3D_StructTpObjects/view3D_StructTpObjects.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_PerformanceViewer",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::system_PerformanceViewer",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "eCAL::core;next::next_plugin",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::system_PerformanceViewer",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/plugins/core/system_PerformanceViewer/system_PerformanceViewer.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_control",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/CONTROL_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/CONTROL_COMPONENT",
+    "install_dir": "next/share/cmake/next/CONTROL_COMPONENT",
+    "package": "next",
+    "group": "CONTROL_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_control",
+    "property": "INTERFACE_COMPILE_OPTIONS",
+    "value": "$<$<CXX_COMPILER_ID:MSVC>:/Zc:__cplusplus>",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_control",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include;D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_control",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "next::next_sdk",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_control",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_control",
+    "property": "IMPORTED_IMPLIB_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/lib/next_control.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_control",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "eCAL::core;next::next_appsupport;next::next_udex",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_control",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_control.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT",
+    "install_dir": "next/share/cmake/next/NEXT_COMPONENT",
+    "package": "next",
+    "group": "NEXT_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next",
+    "property": "INTERFACE_COMPILE_OPTIONS",
+    "value": "$<$<CXX_COMPILER_ID:MSVC>:/Zc:__cplusplus>",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include;D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "next::next_control;next::next_appsupport;next::next_sdk",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_container",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT",
+    "install_dir": "next/share/cmake/next/NEXT_COMPONENT",
+    "package": "next",
+    "group": "NEXT_COMPONENT",
+    "target_type": "EXECUTABLE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_container",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::matchbox_example_app",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT",
+    "install_dir": "next/share/cmake/next/NEXT_COMPONENT",
+    "package": "next",
+    "group": "NEXT_COMPONENT",
+    "target_type": "EXECUTABLE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_example_node",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT",
+    "install_dir": "next/share/cmake/next/NEXT_COMPONENT",
+    "package": "next",
+    "group": "NEXT_COMPONENT",
+    "target_type": "EXECUTABLE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_subscriber_app",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/NEXT_COMPONENT",
+    "install_dir": "next/share/cmake/next/NEXT_COMPONENT",
+    "package": "next",
+    "group": "NEXT_COMPONENT",
+    "target_type": "EXECUTABLE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next",
+    "property": "IMPORTED_IMPLIB_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/lib/next.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_udex",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_container",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_container",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_container.exe",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::matchbox_example_app",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::matchbox_example_app",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/examples/matchbox_example_app/matchbox_example_app.exe",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_example_node",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_example_node",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/examples/next_example_node/next_example_node.exe",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_subscriber_app",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_subscriber_app",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/examples/next_subscriber_app/next_subscriber_app.exe",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_player",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/PLAYER_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/PLAYER_COMPONENT",
+    "install_dir": "next/share/cmake/next/PLAYER_COMPONENT",
+    "package": "next",
+    "group": "PLAYER_COMPONENT",
+    "target_type": "EXECUTABLE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_player",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include;D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_player",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_player",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_player.exe",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_sdk",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/SDK_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/SDK_COMPONENT",
+    "install_dir": "next/share/cmake/next/SDK_COMPONENT",
+    "package": "next",
+    "group": "SDK_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_sdk",
+    "property": "INTERFACE_COMPILE_DEFINITIONS",
+    "value": "SPDLOG_COMPILED_LIB",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_sdk",
+    "property": "INTERFACE_COMPILE_OPTIONS",
+    "value": "$<$<CXX_COMPILER_ID:MSVC>:/Zc:__cplusplus>",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_sdk",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include;D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_sdk",
+    "property": "INTERFACE_LINK_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_sdk",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "eCAL::core;eCAL::core_c;mts_sentinel::client;spdlog::spdlog;$<LINK_ONLY:Threads::Threads>;Threads::Threads",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_appsupport",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/SDK_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/SDK_COMPONENT",
+    "install_dir": "next/share/cmake/next/SDK_COMPONENT",
+    "package": "next",
+    "group": "SDK_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_appsupport",
+    "property": "INTERFACE_COMPILE_OPTIONS",
+    "value": "$<$<CXX_COMPILER_ID:MSVC>:/Zc:__cplusplus>",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_appsupport",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include;D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_appsupport",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "next::next_sdk",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_sdk",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_sdk",
+    "property": "IMPORTED_IMPLIB_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/lib/next_sdk.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_sdk",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_sdk.dll",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_appsupport",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_appsupport",
+    "property": "IMPORTED_IMPLIB_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/lib/next_appsupport.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_appsupport",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_appsupport.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "next::next_udex",
+    "file": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/UDEX_COMPONENT/exported-targets.cmake",
+    "dir": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/UDEX_COMPONENT",
+    "install_dir": "next/share/cmake/next/UDEX_COMPONENT",
+    "package": "next",
+    "group": "UDEX_COMPONENT",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_udex",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include;D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_udex",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtscpp::mtscpp;mts_ecu::mts_ecu;mts_can::mts_can;mts_eth::mts_eth;mts_flexray::mts_flexray;mts_rt_range::mts_rt_range;mts_gps::mts_gps;mts_ref_cam::mts_ref_cam;next::next_sdk",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_udex",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELEASE",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "next::next_udex",
+    "property": "IMPORTED_IMPLIB_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/lib/next_udex.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_udex",
+    "property": "IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE",
+    "value": "next::next_appsupport;eCAL::core",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "next::next_udex",
+    "property": "IMPORTED_LOCATION_RELEASE",
+    "value": "D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/bin/next_udex.dll",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_core_lib::libraries",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_core_lib/mts_core_lib-libraries-targets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_core_lib",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_core_lib",
+    "package": "mts_core_lib",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_core_lib::libraries",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_core_lib::libraries",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtsc::mtsc;mtscpp::mtscpp;mts_opc::mts_opc;mts_sdc::mts_sdc;mts_swc::mts_swc;mts_asap2::mts_asap2;mts_fibex::mts_fibex;mts_arxml::mts_arxml;mts_ecu::mts_ecu;mts_can::mts_can;mts_dbc::mts_dbc;mts_eth::mts_eth;mts_gps::mts_gps;mts_nmea::mts_nmea;mts_ref_cam::mts_ref_cam;mts_rt_range::mts_rt_range;mts_flexray::mts_flexray;mts_rrec::mts_rrec;mts_rec::mts_rec;mts_zrec::mts_zrec;mts_mdf::mts_mdf",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_core_lib::modules",
+    "file": "D:/.bbs_conan/c926df/1/lib/cmake/mts_core_lib/mts_core_lib-modules-targets.cmake",
+    "dir": "D:/.bbs_conan/c926df/1/lib/cmake/mts_core_lib",
+    "install_dir": "../../../../../.bbs_conan/c926df/1/lib/cmake/mts_core_lib",
+    "package": "mts_core_lib",
+    "group": "",
+    "target_type": "INTERFACE",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_core_lib::modules",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/c926df/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_core_lib::modules",
+    "property": "INTERFACE_LINK_LIBRARIES",
+    "value": "mtsc::mtsc;mtscpp::mtscpp;mts_sdl_parser::mts_sdl_parser;mts_xtypes_parser::mts_xtypes_parser;mts_csv_exporter::mts_csv_exporter;mts_exporter::mts_exporter;mts_opc::mts_opc;mts_sdc::mts_sdc;mts_swc::mts_swc;mts_asap2::mts_asap2;mts_fibex::mts_fibex;mts_arxml::mts_arxml;mts_ecu_data_matcher::mts_ecu_data_matcher;mts_ecu_formatter::mts_ecu_formatter;mts_ecu_sd_formatter::mts_ecu_sd_formatter;mts_ecu_sd_provider::mts_ecu_sd_provider;mts_swc_parser::mts_swc_parser;mts_sdc_parser::mts_sdc_parser;mts_can_arxml_parser::mts_can_arxml_parser;mts_can_data_matcher::mts_can_data_matcher;mts_can_fibex_parser::mts_can_fibex_parser;mts_can_formatter::mts_can_formatter;mts_dbc::mts_dbc;mts_dbc_parser::mts_dbc_parser;mts_ethernet_arxml_parser::mts_ethernet_arxml_parser;mts_ethernet_data_matcher::mts_ethernet_data_matcher;mts_ethernet_fibex_parser::mts_ethernet_fibex_parser;mts_ethernet_formatter::mts_ethernet_formatter;mts_nmea::mts_nmea;mts_gps_formatter::mts_gps_formatter;mts_gps_sdl_parser::mts_gps_sdl_parser;mts_gps_data_matcher::mts_gps_data_matcher;mts_ref_cam_formatter::mts_ref_cam_formatter;mts_ref_cam_parser::mts_ref_cam_parser;mts_ref_cam_data_matcher::mts_ref_cam_data_matcher;mts_rt_range_probe::mts_rt_range_probe;mts_rt_range_data_matcher::mts_rt_range_data_matcher;mts_rt_range_formatter::mts_rt_range_formatter;mts_rt_range_parser::mts_rt_range_parser;mts_velodyne_probe::mts_velodyne_probe;mts_flexray_formatter::mts_flexray_formatter;mts_flexray_fibex_parser::mts_flexray_fibex_parser;mts_flexray_data_matcher::mts_flexray_data_matcher;mts_signal_storage::mts_signal_storage;mts_udex_extractor::mts_udex_extractor;mts_xtypes_data_matcher::mts_xtypes_data_matcher;mts_rrec_reader::mts_rrec_reader;mts_rec_exporter::mts_rec_exporter;mts_rec_reader::mts_rec_reader;mts_zrec_reader::mts_zrec_reader;mts_mdf::mts_mdf;mts_pcap_reader::mts_pcap_reader;mts_mfc5xx_processor::mts_mfc5xx_processor;mts_svc_processor::mts_svc_processor;mts_amba_processor::mts_amba_processor;FFmpeg::avformat;FFmpeg::avcodec;FFmpeg::swresample;FFmpeg::avutil;FFmpeg::swscale",
+    "append": false
+},
+{
+    "line_type": "header",
+    "target": "mts_sentinel::client",
+    "file": "D:/.bbs_conan/05150c/1/lib/cmake/mts_sentinel/mts_sentinel-client-targets.cmake",
+    "dir": "D:/.bbs_conan/05150c/1/lib/cmake/mts_sentinel",
+    "install_dir": "../../../../../.bbs_conan/05150c/1/lib/cmake/mts_sentinel",
+    "package": "mts_sentinel",
+    "group": "",
+    "target_type": "SHARED",
+    "external": false,
+    "duplicate": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sentinel::client",
+    "property": "INTERFACE_INCLUDE_DIRECTORIES",
+    "value": "D:/.bbs_conan/05150c/1/include;D:/.bbs_conan/05150c/1/include",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sentinel::client",
+    "property": "MTS_SOURCE_LINK",
+    "value": "D:/.bbs_conan/05150c/1/sourcelink/client.sourcelink.json",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sentinel::client",
+    "property": "IMPORTED_CONFIGURATIONS",
+    "value": "RELWITHDEBINFO",
+    "append": true
+},
+{
+    "line_type": "property",
+    "target": "mts_sentinel::client",
+    "property": "IMPORTED_IMPLIB_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/05150c/1/lib/mts_sentinel.lib",
+    "append": false
+},
+{
+    "line_type": "property",
+    "target": "mts_sentinel::client",
+    "property": "IMPORTED_LOCATION_RELWITHDEBINFO",
+    "value": "D:/.bbs_conan/05150c/1/bin/mts_sentinel.dll",
+    "append": false
+},
+null
+]

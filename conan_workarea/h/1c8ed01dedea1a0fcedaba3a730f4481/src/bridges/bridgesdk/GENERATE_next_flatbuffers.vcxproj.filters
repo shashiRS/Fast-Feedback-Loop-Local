@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\4de9c2951e8a425fad7dffb1d81b4bbe\fov.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\4de9c2951e8a425fad7dffb1d81b4bbe\path.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\4de9c2951e8a425fad7dffb1d81b4bbe\roadsign.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\4de9c2951e8a425fad7dffb1d81b4bbe\tunnel.bfbs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\253d15e5e206025ae4dd0ea07999d543\fov_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\253d15e5e206025ae4dd0ea07999d543\path_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\253d15e5e206025ae4dd0ea07999d543\roadsign_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\253d15e5e206025ae4dd0ea07999d543\tunnel_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\dc1d59bccc911c130ec264e02ed13d74\GENERATE_next_flatbuffers.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Next-python_API\next\src\bridges\bridgesdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\CMakeFiles\GENERATE_next_flatbuffers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{090D234C-9CC4-395D-95C3-2F436381ADDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

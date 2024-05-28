@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{740B46B7-BB27-324C-B6E2-B221E5C2A051}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BRIDGES_COMPONENT</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\src\bridges\bridgesdk\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Next-python_API/next/src/bridges/bridgesdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\1e35b5\1\bin\cmake.exe -SD:/Next-python_API/next -BD:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481 --check-stamp-file D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/bridgesdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\cmake.verify_globs;D:\Next-python_API\next\src\cmake\version_info\version.h.in;D:\Next-python_API\next\src\cmake\version_info\version_info.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\ZERO_CHECK.vcxproj">
+      <Project>{1BBF1513-E862-314F-9B29-2049EB7917C3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\controlbridge\next_controlbridge.vcxproj">
+      <Project>{B83631BF-90C3-3329-8F01-80D7D292487E}</Project>
+      <Name>next_controlbridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\databridge\next_databridge.vcxproj">
+      <Project>{0B552955-EFAA-30CF-BDBF-F109010A0AFF}</Project>
+      <Name>next_databridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_plugin.vcxproj">
+      <Project>{2A9E8290-752D-353F-9C73-419C6C053908}</Project>
+      <Name>next_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_EcalMonitor\system_ECalMonitor.vcxproj">
+      <Project>{EA0C410A-B85E-3B22-984A-BA37FD0D6801}</Project>
+      <Name>system_ECalMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_PerformanceViewer\system_PerformanceViewer.vcxproj">
+      <Project>{FFB869CD-94E6-3A90-A0B6-D9D7E3D1780F}</Project>
+      <Name>system_PerformanceViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_RawFrameView\system_RawFrameView.vcxproj">
+      <Project>{6BB770A5-E587-3CBE-B334-B4A25636CFAF}</Project>
+      <Name>system_RawFrameView</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_RecExporter\system_RecExporter.vcxproj">
+      <Project>{606E694A-5B38-3B63-922B-28025B8E5CDD}</Project>
+      <Name>system_RecExporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_ReferenceCamera\system_ReferenceCamera.vcxproj">
+      <Project>{2F8B3ABE-738A-3364-A8BD-88E70299C382}</Project>
+      <Name>system_ReferenceCamera</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_SignalExporter\system_SignalExporter.vcxproj">
+      <Project>{E5D58C42-C526-3CDE-B6A9-4CACEAA52956}</Project>
+      <Name>system_SignalExporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_SignalList\system_SignalList.vcxproj">
+      <Project>{DEB1CF37-0E73-30F8-9FC8-7A7252F246BE}</Project>
+      <Name>system_SignalList</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_SignalProvider\system_SignalProvider.vcxproj">
+      <Project>{58B8937C-3A4E-30DD-A5EA-2FF903983CC6}</Project>
+      <Name>system_SignalProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\system_SignalRawData\system_SignalRawData.vcxproj">
+      <Project>{3849B046-4FBB-338E-8A77-D54EB7076A0F}</Project>
+      <Name>system_SignalRawData</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\view3D_ArrayTpObjects\view3D_ArrayTpObjects.vcxproj">
+      <Project>{F165ECF1-D3CC-3B57-8020-F85B791509A3}</Project>
+      <Name>view3D_ArrayTpObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\view3D_CanTpObjects\view3D_CanTpObjects.vcxproj">
+      <Project>{518B4C39-FCBE-3875-87EF-F78B65B2B47F}</Project>
+      <Name>view3D_CanTpObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\view3D_EgoVehicle\view3D_EgoVehicle.vcxproj">
+      <Project>{E61FD2C3-A8ED-3D76-8041-AFF67AB410B3}</Project>
+      <Name>view3D_EgoVehicle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\view3D_PointCloud\view3D_PointCloud.vcxproj">
+      <Project>{3BE29033-73E2-33F5-80F7-497E7403B172}</Project>
+      <Name>view3D_PointCloud</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\view3D_Road\view3D_Road.vcxproj">
+      <Project>{BB51A1ED-6FAE-354D-A6EE-38747501EBB6}</Project>
+      <Name>view3D_Road</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\view3D_StructTpObjects\view3D_StructTpObjects.vcxproj">
+      <Project>{83EEAD59-CC37-3E8D-9A6F-A09B204E6D15}</Project>
+      <Name>view3D_StructTpObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

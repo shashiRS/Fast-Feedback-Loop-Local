@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0AD9633D-D54A-3ED7-8564-85A3D8E9BD48}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>next_appsupport</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">next_appsupport.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">next_appsupport</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\include;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\.bbs_conan\a2cb08\1\include\boost-1_80;D:\.bbs_conan\f99f7b\1\include;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\05150c\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;ECAL_C_DLL;CMAKE_INTDIR="Release";next_appsupport_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;ECAL_C_DLL;CMAKE_INTDIR=\"Release\";next_appsupport_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\include;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\.bbs_conan\a2cb08\1\include\boost-1_80;D:\.bbs_conan\f99f7b\1\include;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\05150c\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\include;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\.bbs_conan\a2cb08\1\include\boost-1_80;D:\.bbs_conan\f99f7b\1\include;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\05150c\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+D:\.bbs_conan\1e35b5\1\bin\cmake.exe -E copy D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/sdk/Release/next_sdk.dll D:/.bbs_conan/861632/1/bin/ecal_core_c.dll D:/.bbs_conan/861632/1/bin/ecal_core.dll D:/.bbs_conan/05150c/1/bin/mts_sentinel.dll D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/appsupport/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\.bbs_conan\a2cb08\1\lib\libboost_system-vc141-mt-x64-1_80.lib;D:\.bbs_conan\a2cb08\1\lib\libboost_filesystem-vc141-mt-x64-1_80.lib;D:\.bbs_conan\a2cb08\1\lib\libboost_program_options-vc141-mt-x64-1_80.lib;D:\.bbs_conan\f99f7b\1\lib\jsoncpp.lib;..\sdk\Release\next_sdk.lib;bcrypt.lib;synchronization.lib;D:\.bbs_conan\a2cb08\1\lib\libboost_atomic-vc141-mt-x64-1_80.lib;D:\.bbs_conan\861632\1\lib\ecal_core_c.lib;D:\.bbs_conan\861632\1\lib\ecal_core.lib;D:\.bbs_conan\861632\1\lib\ecal_proto.lib;D:\.bbs_conan\d8cf06\1\lib\libprotobuf.lib;D:\.bbs_conan\05150c\1\lib\mts_sentinel.lib;D:\.bbs_conan\bd8589\1\lib\spdlog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/.bbs_conan/bd8589/1/lib;D:/.bbs_conan/bd8589/1/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/appsupport/Release/next_appsupport.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/appsupport/Release/next_appsupport.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\src\sdk\appsupport\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Next-python_API/next/src/sdk/appsupport/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\1e35b5\1\bin\cmake.exe -SD:/Next-python_API/next -BD:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481 --check-stamp-file D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/appsupport/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\cmake.verify_globs;D:\Next-python_API\next\src\cmake\version_info\version.h.in;D:\Next-python_API\next\src\cmake\version_info\version_info.rc.in;D:\Next-python_API\next\src\sdk\appsupport\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_types.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_base.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_base.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_client.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_client.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_base_impl.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_base_impl.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_change_hook_handler.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_change_hook_handler.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_comp_data.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_comp_data.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_comp_data_impl.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_comp_data_impl.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_comp_data_storage.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_data_datatypes.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_database_IO.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_database_IO.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_database_IO_impl.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_database_IO_impl.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_database_manager.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_database_manager.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_database_manager_impl.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_database_manager_impl.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_utilities.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_server.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_server.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\cmd_options.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\cmd_options\cmd_options.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\cmd_options_impl.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\cmd_options_impl.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\license_checker\license_checker.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\license_checker\license_checker.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\life_cycle\lifecycle_base.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\log_connector\log_connector.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\log_connector\log_connector.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\next_status_code\next_status_code.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\next_status_code\next_status_code.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\lifecycle\lifecycle_base.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\config\config_change_hook_collection.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_change_hook_collection.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_key_generator.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_key_generator_orchestrator.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_key_generator_player.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_key_generator_databridge.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_key_generator_logger.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\session_handler\session_server.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\session_handler\session_client.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\session_handler\session_server.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\session_handler\session_server_impl.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\session_handler\session_server_impl.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\session_handler\session_client.cpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\session_handler\session_client_impl.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\session_handler\session_client_impl.hpp" />
+    <ClCompile Include="D:\Next-python_API\next\src\sdk\appsupport\src\startup.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\src\system_information.h" />
+    <ClInclude Include="D:\Next-python_API\next\src\sdk\appsupport\interface\next\appsupport\config\config_tags.hpp" />
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\bin_version.h" />
+    <ResourceCompile Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\version_info.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\ZERO_CHECK.vcxproj">
+      <Project>{1BBF1513-E862-314F-9B29-2049EB7917C3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\sdk\next_sdk.vcxproj">
+      <Project>{1232878E-B9B4-335F-8C34-A9C84672E3AE}</Project>
+      <Name>next_sdk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/CMakeParseArguments.cmake
+D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/CMakeFiles/cmake.verify_globs
+D:/Next-python_API/next/src/CMakeLists.txt
+D:/Next-python_API/next/src/cmake/build_flatbuffers.cmake
+D:/Next-python_API/next/src/cmake/install_lib.cmake
+D:/Next-python_API/next/src/cmake/install_python_api.cmake
+D:/Next-python_API/next/src/cmake/pluginhelper.cmake
+D:/Next-python_API/next/src/cmake/testhelper.cmake
+D:/Next-python_API/next/src/cmake/version_helper.cmake

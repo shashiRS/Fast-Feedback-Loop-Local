@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/.bbs_conan/0d3178/1/OpenCVConfig-version.cmake
+D:/.bbs_conan/0d3178/1/OpenCVConfig.cmake
+D:/.bbs_conan/0d3178/1/x64/vc15/staticlib/OpenCVConfig.cmake
+D:/.bbs_conan/0d3178/1/x64/vc15/staticlib/OpenCVModules-release.cmake
+D:/.bbs_conan/0d3178/1/x64/vc15/staticlib/OpenCVModules.cmake
+D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+D:/.bbs_conan/1e35b5/1/share/cmake-3.25/Modules/FindPackageMessage.cmake
+D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/CMakeFiles/cmake.verify_globs
+D:/Next-python_API/next/src/bridges/plugins/core/system_RawFrameView/CMakeLists.txt

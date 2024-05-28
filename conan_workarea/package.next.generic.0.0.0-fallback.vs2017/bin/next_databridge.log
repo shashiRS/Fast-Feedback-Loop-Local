@@ -1,0 +1,163 @@
+[24-05-08][16:52:15.305][thread 3536][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-08][16:52:20.426][thread 3536][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][12:00:51.856][thread 25184][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][12:00:56.736][thread 25184][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][12:56:35.980][thread 24504][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][12:56:40.922][thread 24504][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][14:11:26.044][thread 12768][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][14:11:31.172][thread 12768][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][14:26:32.126][thread 26652][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][14:26:37.051][thread 26652][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][14:51:44.141][thread 24848][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][14:51:49.055][thread 24848][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][14:56:40.933][thread 27136][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][14:56:45.972][thread 27136][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][15:44:06.019][thread 28136][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][15:44:11.017][thread 28136][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][16:40:19.505][thread 12184][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][16:40:24.527][thread 12184][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][16:46:16.159][thread 22280][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][16:46:21.155][thread 22280][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][17:46:33.042][thread 27308][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-10][17:46:38.001][thread 27308][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-10][17:46:42.904][thread 27308][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-10][17:46:43.127][thread 30108][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-10][17:46:43.128][thread 26700][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-10][17:46:43.339][thread 13688][plugin_manager.cpp][info] Resetting plugins...
+[24-05-10][17:46:46.045][thread 26700][signal_exporter.cpp][info] == Full subscribe, 2 signals ==
+[24-05-10][17:46:46.046][thread 26700][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2241][Text: Exporting started]
+[24-05-10][17:47:01.499][thread 26700][rec_exporter.cpp][info] == RecExporter stopped ==
+[24-05-10][17:47:01.502][thread 26700][system_RecExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_RecExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-10][17:47:01.502][thread 26700][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-10][17:47:01.505][thread 30108][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-10][17:47:01.506][thread 30108][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-10][17:47:01.507][thread 30108][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][12:16:16.868][thread 28844][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][12:16:22.014][thread 28844][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][12:16:22.435][thread 28844][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][12:16:22.655][thread 35268][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][12:16:22.656][thread 29552][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][12:16:22.656][thread 29552][system_SignalExporter::NextExporter-0][error] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2441][Text: Trigger not set. Export not possible.]
+[24-05-14][12:16:22.657][thread 29552][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][12:16:22.657][thread 29552][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][12:16:22.659][thread 29552][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][12:27:07.491][thread 36204][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][12:27:12.471][thread 36204][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][12:27:12.694][thread 36204][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][12:27:12.921][thread 14228][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][12:27:12.921][thread 1896][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][12:27:12.922][thread 1896][system_SignalExporter::NextExporter-0][error] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2441][Text: Trigger not set. Export not possible.]
+[24-05-14][12:27:12.923][thread 1896][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][12:27:12.923][thread 1896][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][12:27:12.924][thread 1896][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][15:23:29.871][thread 33640][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][15:23:35.016][thread 33640][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][15:23:39.685][thread 33640][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][15:23:39.906][thread 892][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:23:39.908][thread 29576][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][15:23:40.246][thread 34848][plugin_manager.cpp][info] Resetting plugins...
+[24-05-14][15:23:43.960][thread 29576][signal_exporter.cpp][info] == Full subscribe, 2 signals ==
+[24-05-14][15:23:43.961][thread 29576][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2241][Text: Exporting started]
+[24-05-14][15:23:58.590][thread 29576][rec_exporter.cpp][info] == RecExporter stopped ==
+[24-05-14][15:23:58.591][thread 29576][system_RecExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_RecExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:23:58.592][thread 29576][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:23:58.593][thread 892][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][15:23:58.593][thread 892][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:23:58.594][thread 892][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][15:30:41.127][thread 27120][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][15:30:45.967][thread 27120][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][15:30:50.619][thread 27120][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][15:30:50.837][thread 14868][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:30:50.837][thread 22064][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][15:30:51.083][thread 31304][plugin_manager.cpp][info] Resetting plugins...
+[24-05-14][15:30:53.931][thread 22064][signal_exporter.cpp][info] == Full subscribe, 2 signals ==
+[24-05-14][15:30:53.932][thread 22064][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2241][Text: Exporting started]
+[24-05-14][15:31:08.940][thread 22064][rec_exporter.cpp][info] == RecExporter stopped ==
+[24-05-14][15:31:08.942][thread 22064][system_RecExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_RecExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:31:08.943][thread 14868][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][15:31:08.943][thread 14868][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:31:08.943][thread 22064][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:31:08.944][thread 14868][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][15:35:15.423][thread 36156][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][15:35:20.175][thread 36156][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][15:35:24.808][thread 36156][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][15:35:25.047][thread 34576][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:35:25.048][thread 10648][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][15:35:25.353][thread 20484][plugin_manager.cpp][info] Resetting plugins...
+[24-05-14][15:35:28.223][thread 10648][signal_exporter.cpp][info] == Full subscribe, 2 signals ==
+[24-05-14][15:35:28.224][thread 10648][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2241][Text: Exporting started]
+[24-05-14][15:35:43.297][thread 10648][rec_exporter.cpp][info] == RecExporter stopped ==
+[24-05-14][15:35:43.299][thread 10648][system_RecExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_RecExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:35:43.341][thread 10648][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:35:43.343][thread 34576][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][15:35:43.343][thread 34576][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:35:43.344][thread 34576][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][15:39:44.674][thread 31032][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][15:39:49.489][thread 31032][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][15:39:49.900][thread 31032][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][15:39:50.112][thread 18548][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:39:50.113][thread 34468][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][15:39:50.113][thread 34468][system_SignalExporter::NextExporter-0][error] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2441][Text: Trigger not set. Export not possible.]
+[24-05-14][15:39:50.114][thread 34468][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][15:39:50.114][thread 34468][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:39:50.115][thread 34468][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][15:44:29.902][thread 20400][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][15:44:34.797][thread 20400][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][15:44:39.419][thread 20400][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][15:44:39.650][thread 14868][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:44:39.650][thread 36044][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][15:44:39.921][thread 3356][plugin_manager.cpp][info] Resetting plugins...
+[24-05-14][15:44:42.839][thread 36044][signal_exporter.cpp][info] == Full subscribe, 2 signals ==
+[24-05-14][15:44:42.840][thread 36044][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2241][Text: Exporting started]
+[24-05-14][15:44:57.690][thread 36044][rec_exporter.cpp][info] == RecExporter stopped ==
+[24-05-14][15:44:57.691][thread 36044][system_RecExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_RecExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:44:57.733][thread 36044][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:44:57.735][thread 14868][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][15:44:57.736][thread 14868][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:44:57.736][thread 14868][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][15:46:07.876][thread 7872][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][15:46:12.591][thread 7872][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][15:46:13.012][thread 7872][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][15:46:13.242][thread 29276][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:46:13.242][thread 3356][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][15:46:13.243][thread 3356][system_SignalExporter::NextExporter-0][error] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2441][Text: Trigger not set. Export not possible.]
+[24-05-14][15:46:13.244][thread 3356][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][15:46:13.244][thread 3356][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:46:13.245][thread 3356][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-14][15:50:30.981][thread 24708][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-14][15:50:35.825][thread 24708][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-14][15:50:36.237][thread 24708][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-14][15:50:36.461][thread 31440][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-14][15:50:36.461][thread 7620][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-14][15:50:36.462][thread 7620][system_SignalExporter::NextExporter-0][error] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2441][Text: Trigger not set. Export not possible.]
+[24-05-14][15:50:36.463][thread 7620][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-14][15:50:36.463][thread 7620][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-14][15:50:36.464][thread 7620][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-15][17:22:36.213][thread 22848][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-15][17:22:41.374][thread 22848][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-15][17:23:06.345][thread 22848][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-15][17:23:06.573][thread 28608][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-15][17:23:06.575][thread 12232][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-15][17:23:06.575][thread 12232][system_SignalExporter::NextExporter-0][error] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2441][Text: Trigger not set. Export not possible.]
+[24-05-15][17:23:06.576][thread 12232][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-15][17:23:06.576][thread 12232][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-15][17:23:06.576][thread 12232][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-15][17:35:55.464][thread 26504][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-15][17:36:00.408][thread 26504][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-15][17:36:00.813][thread 26504][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2271][Text: [DataBridge] Setup backend config finished]
+[24-05-15][17:36:01.025][thread 17760][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_RecExporter found to update plugin.
+[24-05-15][17:36:01.025][thread 28584][signal_exporter.cpp][info] == SignalExporter starting ==
+[24-05-15][17:36:01.026][thread 28584][system_SignalExporter::NextExporter-0][error] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2441][Text: Trigger not set. Export not possible.]
+[24-05-15][17:36:01.026][thread 28584][signal_exporter.cpp][info] == SignalExporter stopped ==
+[24-05-15][17:36:01.026][thread 28584][system_SignalExporter::NextExporter-0][info] NEXT_STATUS_CODE: [Component: system_SignalExporter::NextExporter-0][StatusCode: 2242][Text: Exporting stopped]
+[24-05-15][17:36:01.028][thread 28584][plugin_manager.cpp][warning] Update plugin failed for instance Update_Instance for source NextExporter-0 of plugin system_SignalExporter found to update plugin.
+[24-05-20][11:04:03.950][thread 25008][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-20][11:04:09.081][thread 25008][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-20][11:08:21.427][thread 7788][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-20][11:08:26.399][thread 7788][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-20][11:50:04.629][thread 23420][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-20][11:50:09.594][thread 23420][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-20][12:06:38.376][thread 14992][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-20][12:06:43.268][thread 14992][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]
+[24-05-22][09:38:50.980][thread 39588][main.cpp][info] Hello World! I am the DATA BRIDGE
+[24-05-22][09:38:56.031][thread 39588][next_databridge][info] NEXT_STATUS_CODE: [Component: next_databridge][StatusCode: 2211][Text: [DataBridge] Init finished]

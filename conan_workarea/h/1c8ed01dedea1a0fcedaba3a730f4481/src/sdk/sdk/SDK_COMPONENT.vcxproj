@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB5ADAFB-EC24-3C19-A27A-6DDE12C19634}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SDK_COMPONENT</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\src\sdk\sdk\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Next-python_API/next/src/sdk/sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\1e35b5\1\bin\cmake.exe -SD:/Next-python_API/next -BD:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481 --check-stamp-file D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\CheckIncludeFile.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\CheckLibraryExists.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindGit.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindPackageMessage.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\FindThreads.cmake;D:\.bbs_conan\1e35b5\1\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\.bbs_conan\bd8589\1\lib\cmake\spdlog\spdlogConfig.cmake;D:\.bbs_conan\bd8589\1\lib\cmake\spdlog\spdlogConfigTargets-release.cmake;D:\.bbs_conan\bd8589\1\lib\cmake\spdlog\spdlogConfigTargets.cmake;D:\.bbs_conan\bd8589\1\lib\cmake\spdlog\spdlogConfigVersion.cmake;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\cmake.verify_globs;D:\Next-python_API\next\src\cmake\version_info\version.h.in;D:\Next-python_API\next\src\cmake\version_info\version_info.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\ZERO_CHECK.vcxproj">
+      <Project>{1BBF1513-E862-314F-9B29-2049EB7917C3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\next_appsupport.vcxproj">
+      <Project>{0AD9633D-D54A-3ED7-8564-85A3D8E9BD48}</Project>
+      <Name>next_appsupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\sdk\next_sdk.vcxproj">
+      <Project>{1232878E-B9B4-335F-8C34-A9C84672E3AE}</Project>
+      <Name>next_sdk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

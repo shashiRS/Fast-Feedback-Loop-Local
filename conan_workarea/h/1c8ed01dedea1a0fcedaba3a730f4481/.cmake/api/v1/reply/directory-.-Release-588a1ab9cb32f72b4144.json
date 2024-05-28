@@ -1,0 +1,210 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"include",
+			"project"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/.bricks/decorated_install.cmake",
+			"D:/.bbs_conan/1e3a16/1/cmake/post/pkg_config/create_main_config.cmake",
+			"D:/.bbs_conan/1e3a16/1/cmake/post/create_cmake_config.cmake",
+			"D:/.bbs_conan/1e3a16/1/cmake/project_include.cmake",
+			"D:/.bbs_conan/94a71d/1/cmake/post/bricks_post_system_module.cmake",
+			"D:/.bbs_conan/94a71d/1/cmake/bricks_project_include.cmake",
+			"CMakeLists.txt",
+			"D:/.bbs_conan/1e3a16/1/cmake/post/pkg_config/create_version_config.cmake",
+			"D:/.bbs_conan/1e3a16/1/cmake/post/project_compile_commands.cmake",
+			"D:/.bbs_conan/1e3a16/1/cmake/post/handle_implicit_dependencies.cmake",
+			"D:/.bbs_conan/1e3a16/1/cmake/post/defer_inclusion_of_dependency_calculation.cmake:15:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"file" : 4,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 29,
+				"parent" : 4
+			},
+			{
+				"file" : 3,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 20,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 36,
+				"parent" : 8
+			},
+			{
+				"file" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 8
+			},
+			{
+				"file" : 7,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 86,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"file" : 8,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 22,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 19
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 1,
+				"parent" : 21
+			},
+			{
+				"file" : 9,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 200,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 24
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 12,
+			"component" : "PACKAGE_INFO",
+			"destination" : "next/share/cmake/next",
+			"paths" : 
+			[
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/next-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "PACKAGE_INFO",
+			"destination" : "next/share/cmake/next",
+			"paths" : 
+			[
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/next-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "PACKAGE_INFO",
+			"destination" : ".bricks",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/compile_commands.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "__BRICKS_IMPLICIT_DEPENDENCIES",
+			"scriptFile" : "conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/.bricks/d/install_dependencies.cmake",
+			"type" : "script"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

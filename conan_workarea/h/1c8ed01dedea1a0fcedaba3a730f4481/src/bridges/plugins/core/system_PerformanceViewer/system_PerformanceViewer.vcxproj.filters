@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\plugins\core\system_PerformanceViewer\performance_viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\plugins\core\system_PerformanceViewer\next_cpu_profiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\plugins\core\system_PerformanceViewer\performance_viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_profiler\next\bridgesdk\schema\profiler\basic_info_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_profiler\next\bridgesdk\schema\profiler\cpu_profiler_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_profiler\next\bridgesdk\schema\profiler\ecal_monitor_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_profiler\next\bridgesdk\schema\profiler\network_graph_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\src\bridges\plugins\core\system_PerformanceViewer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\profiler\basic_info.bfbs" />
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\profiler\cpu_profiler.bfbs" />
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\profiler\ecal_monitor.bfbs" />
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\profiler\network_graph.bfbs" />
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\basic_info.fbs" />
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\cpu_profiler.fbs" />
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\ecal_monitor.fbs" />
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\profiler\network_graph.fbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3EAD8AAC-09CF-32E7-B709-635509729C2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{11F2C70D-7421-3E37-916A-8D334E4FB588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

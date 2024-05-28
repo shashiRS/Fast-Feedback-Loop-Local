@@ -1,0 +1,91 @@
+{
+    "SimulationInput": {
+        "simInput": {
+            "RecordingLocation": "D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec"
+        }
+    },
+    "SimulationExport": {
+        "extractSimSignals": {
+            "ExportSignals": {
+                "Signals": [
+                    "ADC5xx_Device.CAMERA_DATA.CameraRawFC.sSigHeader.uiTimeStamp",
+                    "ADC5xx_Device.CAMERA_DATA.CameraRawFC.sSigHeader.uiMeasurementCounter"  
+                ],
+                "Trigger": "ADC5xx_Device.CAMERA_DATA.CameraRawFC.sSigHeader.uiMeasurementCounter",
+                "ExportType": ".bsig"
+            },
+            "Output": {
+                "OutputPath": "D:\\Next-python_API\\next\\src\\py_api",
+                "OutputName": "Output",
+                "Overwrite": true
+            }
+        }
+    },
+    "SimulationNodes": {
+        "simNodes": {
+            "Nodes": [
+                {
+                    "Executable": "ecal_swc_isp1",
+                    "ExecutablePath": "$ENV(NEXT_BIN_FOLDER)$",
+                    "EnvVariables": "LD_LIBRARY_PATH=$ENV(NEXT_LIB_FOLDER)$",
+                    "Arguments": "-n"
+                },
+                {
+                    "Executable": "ecal_swc_chips_wide_1",
+                    "ExecutablePath": "$ENV(NEXT_BIN_FOLDER)$",
+                    "EnvVariables": "LD_LIBRARY_PATH=$ENV(NEXT_LIB_FOLDER)$",
+                    "Arguments": "-n"
+                },
+                {
+                    "Executable": "ecal_swc_ofc_1",
+                    "ExecutablePath": "$ENV(NEXT_BIN_FOLDER)$",
+                    "EnvVariables": "LD_LIBRARY_PATH=$ENV(NEXT_LIB_FOLDER)$",
+                    "Arguments": "-n"
+                },
+                {
+                    "Executable": "ecal_swc_oft_1",
+                    "ExecutablePath": "$ENV(NEXT_BIN_FOLDER)$",
+                    "EnvVariables": "LD_LIBRARY_PATH=$ENV(NEXT_LIB_FOLDER)$",
+                    "Arguments": "-n"
+                }
+            ]
+        }
+    },
+    "SimulationRun": {
+        "executeSim": {
+            "Setup": {
+                "start_nodes": "SimulationNodes",
+                "load_backend_config": "$ENV(NEXT_BIN_FOLDER)$/simulation_config.json"
+            },
+            "Run": {
+                "load_recording": "SimulationInput",
+                "start_export": "SimulationExport",
+                "play_recording": true,
+                "wait_until_end_of_file": 300,
+                "stop_export": true
+            }
+        }
+    },
+    "SimulationFlows": {
+        "runSim": {
+            "SimulationInput": "simInput",
+            "SimulationExport": [
+                "extractSimSignals"
+            ],
+            "SimulationRun": "executeSim",
+            "SimulationNodes": [
+                "simNodes"
+            ],
+            "BackendSettings": {
+                "BackendDirectory": "$ENV(NEXT_BIN_FOLDER)$",
+                "BackendConfig": "$ENV(NEXT_BIN_FOLDER)$/simulation_config.json"
+            }
+        }
+    },
+    "GlobalSettings": {
+        "Logging": {
+            "LogFileLevel": "DEBUG",
+            "LogConsoleLevel": "DEBUG"
+        }
+    }
+}

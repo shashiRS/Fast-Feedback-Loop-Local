@@ -1,0 +1,2 @@
+D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/next-config.cmake
+D:/Next-python_API/next/conan_workarea/h/a46a893170079f8cf853273dce3eed78/next/share/cmake/next/next-config-version.cmake

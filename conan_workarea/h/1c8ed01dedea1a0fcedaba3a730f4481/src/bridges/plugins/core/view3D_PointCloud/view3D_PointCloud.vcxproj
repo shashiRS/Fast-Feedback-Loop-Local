@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3BE29033-73E2-33F5-80F7-497E7403B172}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>view3D_PointCloud</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\plugins\core\view3D_PointCloud\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">view3D_PointCloud.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">view3D_PointCloud</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\src\bridges\plugins\interface;D:\Next-python_API\next\src\bridges\bridgesdk\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\Next-python_API\next\src\udex\interface;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\.bbs_conan\f99f7b\1\include;D:\.bbs_conan\c926df\1\include;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\05150c\1\include;D:\.bbs_conan\8f563d\1\include;D:\.bbs_conan\a2cb08\1\include\boost-1_80;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;BRIDGESDKSHARED;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;ECAL_C_DLL;CMAKE_INTDIR="Release";view3D_PointCloud_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;BRIDGESDKSHARED;_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_DISABLE_VISIBILITY;ECAL_C_DLL;CMAKE_INTDIR=\"Release\";view3D_PointCloud_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\src\bridges\plugins\interface;D:\Next-python_API\next\src\bridges\bridgesdk\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\Next-python_API\next\src\udex\interface;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\.bbs_conan\f99f7b\1\include;D:\.bbs_conan\c926df\1\include;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\05150c\1\include;D:\.bbs_conan\8f563d\1\include;D:\.bbs_conan\a2cb08\1\include\boost-1_80;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Next-python_API\next\src\bridges\plugins\interface;D:\Next-python_API\next\src\bridges\bridgesdk\interface;D:\Next-python_API\next\src\sdk\sdk\interface;D:\Next-python_API\next\src\udex\interface;D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view;D:\Next-python_API\next\src\sdk\appsupport\interface;D:\.bbs_conan\f99f7b\1\include;D:\.bbs_conan\c926df\1\include;D:\.bbs_conan\bd8589\1\include;D:\.bbs_conan\861632\1\include;D:\.bbs_conan\d8cf06\1\include;D:\.bbs_conan\05150c\1\include;D:\.bbs_conan\8f563d\1\include;D:\.bbs_conan\a2cb08\1\include\boost-1_80;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\.bbs_conan\1e35b5\1\bin\cmake.exe -E copy_if_different D:/Next-python_API/next/src/bridges/bridgesdk/interface/next/bridgesdk/schema/3d_view/pointcloud.fbs D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/databridge/plugins/core/view3D_PointCloud
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\.bbs_conan\1e35b5\1\bin\cmake.exe -E copy_if_different D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/databridge/schema/3d_view/pointcloud.bfbs D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/databridge/plugins/core/view3D_PointCloud
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\.bbs_conan\f99f7b\1\lib\jsoncpp.lib;..\..\..\bridgesdk\Release\next_plugin.lib;D:\.bbs_conan\8f563d\1\lib\flatbuffers.lib;..\..\..\..\udex\Release\next_udex.lib;..\..\..\..\sdk\appsupport\Release\next_appsupport.lib;D:\.bbs_conan\c926df\1\lib\mtscpp.lib;D:\.bbs_conan\c926df\1\lib\mtsc.lib;..\..\..\..\sdk\sdk\Release\next_sdk.lib;D:\.bbs_conan\861632\1\lib\ecal_core_c.lib;D:\.bbs_conan\861632\1\lib\ecal_core.lib;D:\.bbs_conan\861632\1\lib\ecal_proto.lib;D:\.bbs_conan\d8cf06\1\lib\libprotobuf.lib;D:\.bbs_conan\05150c\1\lib\mts_sentinel.lib;D:\.bbs_conan\bd8589\1\lib\spdlog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/.bbs_conan/bd8589/1/lib;D:/.bbs_conan/bd8589/1/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/plugins/core/view3D_PointCloud/Release/view3D_PointCloud.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/databridge/plugins/core/view3D_PointCloud/view3D_PointCloud.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\src\bridges\plugins\core\view3D_PointCloud\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Next-python_API/next/src/bridges/plugins/core/view3D_PointCloud/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\.bbs_conan\1e35b5\1\bin\cmake.exe -SD:/Next-python_API/next -BD:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481 --check-stamp-file D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/bridges/plugins/core/view3D_PointCloud/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\plugins\core\view3D_PointCloud\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\plugins\core\view3D_PointCloud\point_cloud.h" />
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\plugins\core\view3D_PointCloud\point_cloud.cpp" />
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\plugins\core\view3D_PointCloud\url_mapper.h" />
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\egovehicle_generated.h" />
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\freegeometry_generated.h" />
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\groundline_generated.h" />
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\pointcloud_generated.h" />
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\primitive_generated.h" />
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\trafficparticipant_generated.h" />
+    <ClInclude Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_flatbuffers_3d_view\next\bridgesdk\schema\3d_view\view_update_generated.h" />
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\3d_view\egovehicle.bfbs">
+    </None>
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\3d_view\freegeometry.bfbs">
+    </None>
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\3d_view\groundline.bfbs">
+    </None>
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\3d_view\pointcloud.bfbs">
+    </None>
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\3d_view\primitive.bfbs">
+    </None>
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\3d_view\trafficparticipant.bfbs">
+    </None>
+    <None Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\databridge\schema\3d_view\view_update.bfbs">
+    </None>
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\egovehicle.fbs">
+    </None>
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\freegeometry.fbs">
+    </None>
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\groundline.fbs">
+    </None>
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\pointcloud.fbs">
+    </None>
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\primitive.fbs">
+    </None>
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\trafficparticipant.fbs">
+    </None>
+    <None Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\schema\3d_view\view_update.fbs">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\ZERO_CHECK.vcxproj">
+      <Project>{1BBF1513-E862-314F-9B29-2049EB7917C3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\GENERATE_next_flatbuffers_3d_view.vcxproj">
+      <Project>{3818BD4C-4F66-3B26-ACD8-880EC6DED91A}</Project>
+      <Name>GENERATE_next_flatbuffers_3d_view</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\appsupport\next_appsupport.vcxproj">
+      <Project>{0AD9633D-D54A-3ED7-8564-85A3D8E9BD48}</Project>
+      <Name>next_appsupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\bridges\bridgesdk\next_plugin.vcxproj">
+      <Project>{2A9E8290-752D-353F-9C73-419C6C053908}</Project>
+      <Name>next_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\sdk\sdk\next_sdk.vcxproj">
+      <Project>{1232878E-B9B4-335F-8C34-A9C84672E3AE}</Project>
+      <Name>next_sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Next-python_API\next\conan_workarea\h\1c8ed01dedea1a0fcedaba3a730f4481\src\udex\next_udex.vcxproj">
+      <Project>{0D8F713A-BA67-3C91-9B34-EB0B2D9332AD}</Project>
+      <Name>next_udex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

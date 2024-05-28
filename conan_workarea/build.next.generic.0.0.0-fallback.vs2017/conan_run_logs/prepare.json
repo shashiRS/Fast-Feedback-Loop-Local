@@ -1,0 +1,1221 @@
+{
+    "error": false,
+    "installed": [
+        {
+            "recipe": {
+                "id": "mts-core-lib/0.9.8@3rdparty/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:48.166985",
+                "dependency": true,
+                "name": "mts-core-lib",
+                "version": "0.9.8",
+                "user": "3rdparty",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "bfd6743e76284205113608472741a9bf2d7370b6",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:19:49.723450",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "libs": [
+                            "mts_arxml",
+                            "mts_asap2",
+                            "mts_cfb",
+                            "mts_dbc",
+                            "mts_ffmpeg",
+                            "mts_fibex",
+                            "mts_mdf",
+                            "mts_nmea",
+                            "mts_opc",
+                            "mts_sdc",
+                            "mts_swc",
+                            "mts_xml",
+                            "mtsc",
+                            "mtscpp"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\c926df\\1",
+                        "version": "0.9.8",
+                        "description": "Magno MTS Core Libraries for Windows and Linux (64-bit)",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "tracy/0.9.0-tb4@3rdparty/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:48.620850",
+                "dependency": true,
+                "name": "tracy",
+                "version": "0.9.0-tb4",
+                "user": "3rdparty",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:42.004299",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "libs": [
+                            "TracyClient",
+                            "TracyServer"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\962cbc\\1",
+                        "version": "0.9.0-tb4",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "ecal.measurement/5.13.0-rc6-c72f8b7@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:49.341811",
+                "dependency": true,
+                "name": "ecal.measurement",
+                "version": "5.13.0-rc6-c72f8b7",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "7b212507a3fb605ec864b28a861afe5ddfd61521",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:46.932372",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\861632\\1",
+                        "version": "5.13.0-rc6-c72f8b7",
+                        "description": "Eclipse eCAL repo for bricksification",
+                        "filter_empty": true,
+                        "public_deps": [
+                            "asio.generic",
+                            "hdf5.generic",
+                            "protobuf",
+                            "recycle.generic",
+                            "simpleini.generic",
+                            "spdlog.generic",
+                            "tclap.generic",
+                            "tcp_pubsub.generic"
+                        ],
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "asio.generic/1.28.1@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:49.956288",
+                "dependency": true,
+                "name": "asio.generic",
+                "version": "1.28.1",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:15:12.215203",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\ef297c\\1",
+                        "version": "1.28.1",
+                        "description": "The asio project",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "hdf5.generic/1.14.1@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:50.579622",
+                "dependency": true,
+                "name": "hdf5.generic",
+                "version": "1.14.1",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:17:53.018191",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\575ef6\\1",
+                        "version": "1.14.1",
+                        "description": "The hdf5 library",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "protobuf/3.11.4-tb8@3rdparty/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:51.039484",
+                "dependency": true,
+                "name": "protobuf",
+                "version": "3.11.4-tb8",
+                "user": "3rdparty",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:33.721575",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "libs": [
+                            "libprotobuf",
+                            "libprotobuf-lite",
+                            "libprotoc"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\d8cf06\\1",
+                        "version": "3.11.4-tb8",
+                        "description": "the continental tool environment wrapper around protobuf",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "recycle.generic/7.0.0@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:51.642075",
+                "dependency": true,
+                "name": "recycle.generic",
+                "version": "7.0.0",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:34.519451",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\821b1a\\1",
+                        "version": "7.0.0",
+                        "description": "The recycle project contains two types of resource pools shared_pool and unique_pool",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "simpleini.generic/4.20.0@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:52.240113",
+                "dependency": true,
+                "name": "simpleini.generic",
+                "version": "4.20.0",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:35.257036",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\906693\\1",
+                        "version": "4.20.0",
+                        "description": "The simpleini library",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "spdlog.generic/1.12.0@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:52.840499",
+                "dependency": true,
+                "name": "spdlog.generic",
+                "version": "1.12.0",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:36.571555",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\bd8589\\1",
+                        "version": "1.12.0",
+                        "description": "very fast, header-only/compiled, C++ logging library",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "tclap.generic/1.2.5@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:53.451087",
+                "dependency": true,
+                "name": "tclap.generic",
+                "version": "1.2.5",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:37.369799",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\d57d72\\1",
+                        "version": "1.2.5",
+                        "description": "The cip adaption for tclap",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "tcp_pubsub.generic/1.0.4@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:54.077428",
+                "dependency": true,
+                "name": "tcp_pubsub.generic",
+                "version": "1.0.4",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "f753bb49dbdbaf2ca5b68a672f1de0966e342fbb",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:43.346344",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\f65a98\\1",
+                        "version": "1.0.4",
+                        "description": "The tcp_pubsub project",
+                        "filter_empty": true,
+                        "public_deps": [
+                            "asio.generic",
+                            "recycle.generic"
+                        ],
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "mts-sentinel/0.2.2@3rdparty/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:54.559532",
+                "dependency": true,
+                "name": "mts-sentinel",
+                "version": "0.2.2",
+                "user": "3rdparty",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "bfd6743e76284205113608472741a9bf2d7370b6",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:20:53.811670",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "libs": [
+                            "mts_sentinel"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\05150c\\1",
+                        "version": "0.2.2",
+                        "description": "mts-sentinel 0.2.2 for Windows and Linux (64-bit)",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "VFR_Utilities.generic/1.2.0@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:58.872495",
+                "dependency": true,
+                "name": "VFR_Utilities.generic",
+                "version": "1.2.0",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:15:09.518307",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\b9d1f2\\1",
+                        "version": "1.2.0",
+                        "description": "Utilities package that contains helper libraries for Virtual Frameworks development",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "flatbuffers/2.0.6-tb2@3rdparty/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:59.325571",
+                "dependency": true,
+                "name": "flatbuffers",
+                "version": "2.0.6-tb2",
+                "user": "3rdparty",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:17:47.101875",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "libs": [
+                            "flatbuffers"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\8f563d\\1",
+                        "version": "2.0.6-tb2",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "opencv.generic/4.5.5-4@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:14:59.933197",
+                "dependency": true,
+                "name": "opencv.generic",
+                "version": "4.5.5-4",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:22:26.499362",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\0d3178\\1",
+                        "version": "4.5.5-4",
+                        "description": "Wraps OpenCV mirror as a bricks component",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "cip_adaption_boost.generic/1.80.0-release3@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:15:00.536640",
+                "dependency": true,
+                "name": "cip_adaption_boost.generic",
+                "version": "1.80.0-release3",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:16:14.909514",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\a2cb08\\1",
+                        "version": "1.80.0-release3",
+                        "description": "The Boost project provides free peer-reviewed portable C++ source libraries.",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "jsoncpp.generic/1.9.5-1@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:15:01.131562",
+                "dependency": true,
+                "name": "jsoncpp.generic",
+                "version": "1.9.5-1",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "1321c436f6bcd43da059f50adfb7b82065024cb4",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:17:54.068092",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\f99f7b\\1",
+                        "version": "1.9.5-1",
+                        "description": "JsonCpp library",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "bricks_cmake_groups.__system/1.12.1@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:15:01.739198",
+                "dependency": true,
+                "name": "bricks_cmake_groups.__system",
+                "version": "1.12.1",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:15:14.505559",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\1e3a16\\1",
+                        "version": "1.12.1",
+                        "description": "Bricks system package for grouping targets",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "bricks_cmake_core.__system/1.4.0@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:15:02.329435",
+                "dependency": true,
+                "name": "bricks_cmake_core.__system",
+                "version": "1.4.0",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:15:13.695349",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\94a71d\\1",
+                        "version": "1.4.0",
+                        "description": "Bricks CMake decorator core package",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "cmake/3.25.0@3rdparty/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:15:02.779536",
+                "dependency": true,
+                "name": "cmake",
+                "version": "3.25.0",
+                "user": "3rdparty",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "60b04a80ac4dd5c23f1acffacc679e9902e636e5",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:17:43.995996",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\1e35b5\\1",
+                        "version": "3.25.0",
+                        "description": "cmake 3.25.0 for Windows and Linux",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "cip_build_system_platforms.__system/3.55.5@cip/releases",
+                "downloaded": false,
+                "exported": false,
+                "error": null,
+                "remote": null,
+                "time": "2024-05-08T10:15:02.788258",
+                "dependency": true,
+                "name": "cip_build_system_platforms.__system",
+                "version": "3.55.5",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+                    "downloaded": false,
+                    "exported": false,
+                    "error": null,
+                    "remote": null,
+                    "time": "2024-05-08T10:22:46.941931",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\8dd44f\\1",
+                        "version": "3.55.5",
+                        "description": "Platforms for cip build system",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "make/4.4.1@3rdparty/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:15:03.249961",
+                "dependency": true,
+                "name": "make",
+                "version": "4.4.1",
+                "user": "3rdparty",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "60b04a80ac4dd5c23f1acffacc679e9902e636e5",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:17:55.177812",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\ed40e4\\1",
+                        "version": "4.4.1",
+                        "description": "Make 4.4.1",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        },
+        {
+            "recipe": {
+                "id": "bricks_cmake_checks.__system/1.8.0@cip/releases",
+                "downloaded": true,
+                "exported": false,
+                "error": null,
+                "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                "time": "2024-05-08T10:15:03.845884",
+                "dependency": true,
+                "name": "bricks_cmake_checks.__system",
+                "version": "1.8.0",
+                "user": "cip",
+                "channel": "releases"
+            },
+            "packages": [
+                {
+                    "id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+                    "downloaded": true,
+                    "exported": false,
+                    "error": null,
+                    "remote": "https://eu.artifactory.conti.de/artifactory/api/conan/c_adas_cip_conan_I",
+                    "time": "2024-05-08T10:15:12.966432",
+                    "built": false,
+                    "cpp_info": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": [
+                            "res"
+                        ],
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": [
+                            ""
+                        ],
+                        "frameworkdirs": [
+                            "Frameworks"
+                        ],
+                        "rootpath": "D:\\.bbs_conan\\c77abb\\1",
+                        "version": "1.8.0",
+                        "description": "Bricks CMake Sanity Checks",
+                        "filter_empty": true,
+                        "configs": {}
+                    }
+                }
+            ]
+        }
+    ]
+}

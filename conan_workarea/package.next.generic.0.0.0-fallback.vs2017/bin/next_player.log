@@ -1,0 +1,62 @@
+[24-05-08][16:52:18.221][thread 34768][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][12:00:54.705][thread 24276][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][12:56:38.906][thread 14452][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][14:11:28.979][thread 27300][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][14:26:34.981][thread 26504][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][14:51:46.940][thread 11052][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][14:56:43.886][thread 15924][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][15:44:08.843][thread 26848][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][16:40:22.389][thread 24792][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][16:46:18.988][thread 19460][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][17:46:35.985][thread 10196][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-10][17:46:39.201][thread 10196][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4153][Text: [Player] Start to load the recording.]
+[24-05-10][17:46:39.203][thread 10196][state_opening.hpp][info] Opening file [D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec]
+[24-05-10][17:46:42.119][thread 13668][cycle_information_event.cpp][warning] CycleInformation::deserializeEventPayload :: failed to deserialize
+[24-05-10][17:46:42.123][thread 10196][control_data_generator.cpp][warning] Could not find SDL file specified in configuration of the orchestrator: 
+[24-05-10][17:46:42.127][thread 10196][core_lib_hash_manager.hpp][warning] Failed to get reader expression: 1.1: syntax error, unexpected end of expression, expecting integer or name or name with space or string literal
+[24-05-10][17:46:42.127][thread 10196][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4251][Text: [Player] Loading Recording successful.]
+[24-05-10][17:46:46.054][thread 10196][state_ready.hpp][info] [PlayerStateMachine] : exit state READY using [command_STEP_FORWARD]
+[24-05-14][12:16:19.787][thread 30876][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-14][12:27:10.291][thread 36788][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-14][15:23:32.819][thread 35388][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-14][15:23:36.223][thread 35388][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4153][Text: [Player] Start to load the recording.]
+[24-05-14][15:23:36.224][thread 35388][state_opening.hpp][info] Opening file [D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec]
+[24-05-14][15:23:39.035][thread 10968][cycle_information_event.cpp][warning] CycleInformation::deserializeEventPayload :: failed to deserialize
+[24-05-14][15:23:39.037][thread 35388][control_data_generator.cpp][warning] Could not find SDL file specified in configuration of the orchestrator: 
+[24-05-14][15:23:39.040][thread 35388][core_lib_hash_manager.hpp][warning] Failed to get reader expression: 1.1: syntax error, unexpected end of expression, expecting integer or name or name with space or string literal
+[24-05-14][15:23:39.041][thread 35388][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4251][Text: [Player] Loading Recording successful.]
+[24-05-14][15:23:43.980][thread 35388][state_ready.hpp][info] [PlayerStateMachine] : exit state READY using [command_STEP_FORWARD]
+[24-05-14][15:30:43.883][thread 32392][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-14][15:30:47.161][thread 32392][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4153][Text: [Player] Start to load the recording.]
+[24-05-14][15:30:47.163][thread 32392][state_opening.hpp][info] Opening file [D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec]
+[24-05-14][15:30:49.862][thread 26752][cycle_information_event.cpp][warning] CycleInformation::deserializeEventPayload :: failed to deserialize
+[24-05-14][15:30:49.864][thread 32392][control_data_generator.cpp][warning] Could not find SDL file specified in configuration of the orchestrator: 
+[24-05-14][15:30:49.865][thread 32392][core_lib_hash_manager.hpp][warning] Failed to get reader expression: 1.1: syntax error, unexpected end of expression, expecting integer or name or name with space or string literal
+[24-05-14][15:30:49.865][thread 32392][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4251][Text: [Player] Loading Recording successful.]
+[24-05-14][15:30:53.941][thread 32392][state_ready.hpp][info] [PlayerStateMachine] : exit state READY using [command_STEP_FORWARD]
+[24-05-14][15:35:18.156][thread 28988][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-14][15:35:21.412][thread 28988][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4153][Text: [Player] Start to load the recording.]
+[24-05-14][15:35:21.413][thread 28988][state_opening.hpp][info] Opening file [D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec]
+[24-05-14][15:35:24.134][thread 11800][cycle_information_event.cpp][warning] CycleInformation::deserializeEventPayload :: failed to deserialize
+[24-05-14][15:35:24.136][thread 28988][control_data_generator.cpp][warning] Could not find SDL file specified in configuration of the orchestrator: 
+[24-05-14][15:35:24.136][thread 28988][core_lib_hash_manager.hpp][warning] Failed to get reader expression: 1.1: syntax error, unexpected end of expression, expecting integer or name or name with space or string literal
+[24-05-14][15:35:24.136][thread 28988][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4251][Text: [Player] Loading Recording successful.]
+[24-05-14][15:35:28.248][thread 28988][state_ready.hpp][info] [PlayerStateMachine] : exit state READY using [command_STEP_FORWARD]
+[24-05-14][15:39:47.498][thread 31852][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-14][15:44:32.610][thread 33484][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-14][15:44:36.018][thread 33484][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4153][Text: [Player] Start to load the recording.]
+[24-05-14][15:44:36.020][thread 33484][state_opening.hpp][info] Opening file [D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec]
+[24-05-14][15:44:38.706][thread 31116][cycle_information_event.cpp][warning] CycleInformation::deserializeEventPayload :: failed to deserialize
+[24-05-14][15:44:38.707][thread 33484][control_data_generator.cpp][warning] Could not find SDL file specified in configuration of the orchestrator: 
+[24-05-14][15:44:38.708][thread 33484][core_lib_hash_manager.hpp][warning] Failed to get reader expression: 1.1: syntax error, unexpected end of expression, expecting integer or name or name with space or string literal
+[24-05-14][15:44:38.708][thread 33484][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4251][Text: [Player] Loading Recording successful.]
+[24-05-14][15:44:42.876][thread 33484][state_ready.hpp][info] [PlayerStateMachine] : exit state READY using [command_STEP_FORWARD]
+[24-05-14][15:46:10.704][thread 35868][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-14][15:50:33.966][thread 34504][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-15][17:22:38.977][thread 27304][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-15][17:35:58.286][thread 25952][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-20][11:04:06.693][thread 10492][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-20][11:08:24.364][thread 15504][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-20][11:50:07.245][thread 23376][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-20][12:06:41.114][thread 20920][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]
+[24-05-22][09:38:53.678][thread 1504][next_player][info] NEXT_STATUS_CODE: [Component: next_player][StatusCode: 4211][Text: [Player] Entry state new finished]

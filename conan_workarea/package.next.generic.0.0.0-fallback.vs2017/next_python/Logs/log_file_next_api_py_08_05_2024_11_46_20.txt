@@ -1,0 +1,15 @@
+[2024-05-08][11:46:20][next_api.py][ERROR] Wrong -c option detected: 
+Location (config_file.json) doesn't exist. Please check if config file exists
+[2024-05-08][11:46:20][next_api.py][ERROR] ----------------------------------------------------------------------------------------------------
+[2024-05-08][11:46:20][next_api.py][ERROR] RuntimeError Occurred:
+Wrong -c option detected: 
+Location (config_file.json) doesn't exist. Please check if config file exists
+[2024-05-08][11:46:20][next_api.py][ERROR] Traceback (most recent call last):
+  File "D:\Next-python_API\next\src\py_api\next_api.py", line 767, in main
+    verify_args(args)
+  File "D:\Next-python_API\next\src\py_api\next_api.py", line 591, in verify_args
+    raise RuntimeError(error_message)
+RuntimeError: Wrong -c option detected: 
+Location (config_file.json) doesn't exist. Please check if config file exists
+
+[2024-05-08][11:46:20][next_api.py][ERROR] ----------------------------------------------------------------------------------------------------

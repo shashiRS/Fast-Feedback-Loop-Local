@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\WebServer\tcp_session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Next-python_API\next\src\bridges\bridgesdk\WebServer\web_server_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\interface\next\bridgesdk\web_server.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\WebServer\include\tcp_session.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Next-python_API\next\src\bridges\bridgesdk\WebServer\include\web_server_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Next-python_API\next\src\bridges\bridgesdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3EAD8AAC-09CF-32E7-B709-635509729C2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{11F2C70D-7421-3E37-916A-8D334E4FB588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

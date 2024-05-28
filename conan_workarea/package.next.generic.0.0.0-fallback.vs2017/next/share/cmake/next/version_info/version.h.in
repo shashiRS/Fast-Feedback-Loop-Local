@@ -1,0 +1,12 @@
+#pragma once
+
+// Version information
+#define VERSIONINFO_MAJOR       @PROJECT_VERSION_MAJOR@
+#define VERSIONINFO_MINOR       @PROJECT_VERSION_MINOR@
+#define VERSIONINFO_PATCH       @PROJECT_VERSION_PATCH@
+#define VERSIONINFO_STR         @PROJECT_VERSION_MAJOR@@PROJECT_VERSION_MINOR@@PROJECT_VERSION_PATCH@
+
+#define VERSIONINFO_FILEVERSION           L""
+#define VERSIONINFO_PROJECTVERSION_STR    L"@PROJECT_SEMANTIC_VERSION@ - @PROJECT_GIT_HASH@"
+#define VERSIONINFO_COMPANY               L"Continental Corporation ADAS"
+#define VERSIONINFO_COPYRIGHT             L"(c) Continental Corporation; All rights reserved."

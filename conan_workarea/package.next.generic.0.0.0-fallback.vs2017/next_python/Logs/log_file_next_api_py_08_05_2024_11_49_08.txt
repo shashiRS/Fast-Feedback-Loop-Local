@@ -1,0 +1,64 @@
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_INPUT_FILE)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_INPUT_FILE)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_OUTPUT_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_OUTPUT_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_OUTPUT_FILENAME)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_OUTPUT_FILENAME)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_BIN_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_BIN_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_LIB_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_LIB_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_BIN_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_BIN_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_LIB_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_LIB_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_BIN_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_BIN_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_LIB_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_LIB_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_BIN_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_BIN_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_LIB_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_LIB_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_BIN_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_BIN_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_BIN_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_BIN_FOLDER)$
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Could not find the value of the environment variable.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] The given variable will not be unwrapped and will return the return_unsuccessful_case_variable: $ENV(NEXT_BIN_FOLDER)$.
+[2024-05-08][11:49:08][helper_functions.py][ERROR] Variable used: $ENV(NEXT_BIN_FOLDER)$
+[2024-05-08][11:49:08][next_config_handler.py][INFO] File log level is changed to 10
+[2024-05-08][11:49:08][next_config_handler.py][INFO] Console log level is changed to 10
+[2024-05-08][11:49:08][simulation_input.py][INFO] $ENV(NEXT_INPUT_FILE)$ not found!
+[2024-05-08][11:49:08][simulation_nodes.py][INFO] Environment variable LD_LIBRARY_PATH with value: $ENV(NEXT_LIB_FOLDER)$ exist
+[2024-05-08][11:49:08][simulation_nodes.py][INFO] Environment variable LD_LIBRARY_PATH with value: $ENV(NEXT_LIB_FOLDER)$ exist
+[2024-05-08][11:49:08][simulation_nodes.py][INFO] Environment variable LD_LIBRARY_PATH with value: $ENV(NEXT_LIB_FOLDER)$ exist
+[2024-05-08][11:49:08][next_api.py][ERROR] ----------------------------------------------------------------------------------------------------
+[2024-05-08][11:49:08][next_api.py][ERROR] Exception Occurred: 'ECAL_DATA'
+[2024-05-08][11:49:08][next_api.py][ERROR] Traceback (most recent call last):
+  File "D:\Next-python_API\next\src\py_api\next_api.py", line 783, in main
+    api.process_config()
+  File "D:\Next-python_API\next\src\py_api\next_api.py", line 399, in process_config
+    self.process_handler = next_process_handler.ProcessHandler(
+  File "D:\Next-python_API\next\src\py_api\next_py_api\api_utils\next_process_handler.py", line 57, in __init__
+    if os.environ["ECAL_DATA"]:
+  File "C:\LegacyApp\Python\Python39\lib\os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'ECAL_DATA'
+
+[2024-05-08][11:49:08][next_api.py][ERROR] ----------------------------------------------------------------------------------------------------
+[2024-05-08][11:49:08][next_api.py][INFO] Exiting Next API Platform
+[2024-05-08][11:49:08][next_api.py][INFO] Destructor called, API Closed.

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "definitions": {
+    "GuiSchema_ShapePoint" : {
+      "type" : "object",
+      "properties" : {
+        "x" : {
+                "type" : "number"
+              },
+        "y" : {
+                "type" : "number"
+              },
+        "z" : {
+                "type" : "number"
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_EgoVehicle" : {
+      "type" : "object",
+      "properties" : {
+        "width" : {
+                "type" : "number"
+              },
+        "length" : {
+                "type" : "number"
+              },
+        "x" : {
+                "type" : "number"
+              },
+        "y" : {
+                "type" : "number"
+              },
+        "yaw" : {
+                "type" : "number"
+              },
+        "velocity" : {
+                "type" : "number"
+              },
+        "yawRate" : {
+                "type" : "number"
+              },
+        "height" : {
+                "type" : "number"
+              },
+        "shapePoints" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_ShapePoint"}
+              }
+      },
+      "additionalProperties" : false
+    },
+    "GuiSchema_EgoVehicleList" : {
+      "type" : "object",
+      "properties" : {
+        "egoVehicles" : {
+                "type" : "array", "items" : {"$ref" : "#/definitions/GuiSchema_EgoVehicle"}
+              }
+      },
+      "additionalProperties" : false
+    }
+  },
+  "$ref" : "#/definitions/GuiSchema_EgoVehicleList"
+}

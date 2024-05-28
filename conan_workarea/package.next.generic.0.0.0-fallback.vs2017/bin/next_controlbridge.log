@@ -1,0 +1,96 @@
+[24-05-08][16:52:13.286][thread 39164][main.cpp][info] Controlbridge start up initialized
+[24-05-08][16:52:17.348][thread 39164][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-08][16:52:17.784][thread 39164][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][12:00:49.834][thread 25592][main.cpp][info] Controlbridge start up initialized
+[24-05-10][12:00:53.872][thread 25592][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][12:00:54.253][thread 25592][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][12:56:33.958][thread 22984][main.cpp][info] Controlbridge start up initialized
+[24-05-10][12:56:38.026][thread 22984][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][12:56:38.444][thread 22984][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][14:11:24.037][thread 26876][main.cpp][info] Controlbridge start up initialized
+[24-05-10][14:11:28.107][thread 26876][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][14:11:28.541][thread 26876][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][14:26:30.115][thread 13592][main.cpp][info] Controlbridge start up initialized
+[24-05-10][14:26:34.139][thread 13592][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][14:26:34.523][thread 13592][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][14:51:42.132][thread 26820][main.cpp][info] Controlbridge start up initialized
+[24-05-10][14:51:46.288][thread 26820][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][14:51:46.706][thread 26820][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][14:56:38.925][thread 25912][main.cpp][info] Controlbridge start up initialized
+[24-05-10][14:56:42.968][thread 25912][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][14:56:43.391][thread 25912][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][15:44:04.007][thread 28412][main.cpp][info] Controlbridge start up initialized
+[24-05-10][15:44:08.137][thread 28412][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][15:44:08.559][thread 28412][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][16:40:17.490][thread 26200][main.cpp][info] Controlbridge start up initialized
+[24-05-10][16:40:21.527][thread 26200][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][16:40:22.059][thread 26200][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][16:46:14.138][thread 27404][main.cpp][info] Controlbridge start up initialized
+[24-05-10][16:46:18.286][thread 27404][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][16:46:18.688][thread 27404][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][17:46:31.032][thread 14848][main.cpp][info] Controlbridge start up initialized
+[24-05-10][17:46:35.111][thread 14848][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-10][17:46:35.532][thread 14848][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-10][17:46:38.172][thread 24332][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3273][Text: [ControlBridge] Check Websocket Connection received]
+[24-05-10][17:46:42.640][thread 20532][player_event_distributor.cpp][info] RecordingIsLoaded : D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec
+[24-05-10][17:46:46.053][thread 31024][play_handler.cpp][info] Request playing recording in Open Loop Simulation D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec+
+[24-05-14][12:16:14.848][thread 25980][main.cpp][info] Controlbridge start up initialized
+[24-05-14][12:16:18.895][thread 25980][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][12:16:19.319][thread 25980][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-14][12:27:05.481][thread 18556][main.cpp][info] Controlbridge start up initialized
+[24-05-14][12:27:09.614][thread 18556][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][12:27:10.036][thread 18556][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-14][15:23:27.860][thread 8344][main.cpp][info] Controlbridge start up initialized
+[24-05-14][15:23:31.999][thread 8344][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][15:23:32.380][thread 8344][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-14][15:23:35.187][thread 28036][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3273][Text: [ControlBridge] Check Websocket Connection received]
+[24-05-14][15:23:39.546][thread 28388][player_event_distributor.cpp][info] RecordingIsLoaded : D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec
+[24-05-14][15:23:43.978][thread 20648][play_handler.cpp][info] Request playing recording in Open Loop Simulation D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec+
+[24-05-14][15:30:39.113][thread 34948][main.cpp][info] Controlbridge start up initialized
+[24-05-14][15:30:43.192][thread 34948][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][15:30:43.626][thread 34948][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-14][15:30:46.133][thread 21188][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3273][Text: [ControlBridge] Check Websocket Connection received]
+[24-05-14][15:30:50.381][thread 28272][player_event_distributor.cpp][info] RecordingIsLoaded : D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec
+[24-05-14][15:30:53.940][thread 19632][play_handler.cpp][info] Request playing recording in Open Loop Simulation D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec+
+[24-05-14][15:35:13.393][thread 7596][main.cpp][info] Controlbridge start up initialized
+[24-05-14][15:35:17.440][thread 7596][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][15:35:17.855][thread 7596][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-14][15:35:20.369][thread 15312][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3273][Text: [ControlBridge] Check Websocket Connection received]
+[24-05-14][15:35:24.654][thread 31720][player_event_distributor.cpp][info] RecordingIsLoaded : D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec
+[24-05-14][15:35:28.242][thread 26588][play_handler.cpp][info] Request playing recording in Open Loop Simulation D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec+
+[24-05-14][15:39:42.657][thread 28832][main.cpp][info] Controlbridge start up initialized
+[24-05-14][15:39:46.691][thread 28832][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][15:39:47.043][thread 28832][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-14][15:44:27.765][thread 28180][main.cpp][info] Controlbridge start up initialized
+[24-05-14][15:44:31.826][thread 28180][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][15:44:32.272][thread 28180][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-14][15:44:34.984][thread 26884][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3273][Text: [ControlBridge] Check Websocket Connection received]
+[24-05-14][15:44:39.215][thread 30588][player_event_distributor.cpp][info] RecordingIsLoaded : D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec
+[24-05-14][15:44:42.854][thread 4768][play_handler.cpp][info] Request playing recording in Open Loop Simulation D:\\recordings\\R2.1.1_MTS REC\\2024.01.24_at_09.41.22_camera-mi_634.rrec+
+[24-05-14][15:46:05.849][thread 25112][main.cpp][info] Controlbridge start up initialized
+[24-05-14][15:46:09.957][thread 25112][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][15:46:10.387][thread 25112][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-14][15:50:28.956][thread 28540][main.cpp][info] Controlbridge start up initialized
+[24-05-14][15:50:33.082][thread 28540][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-14][15:50:33.509][thread 28540][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-15][17:22:34.003][thread 28868][main.cpp][info] Controlbridge start up initialized
+[24-05-15][17:22:38.104][thread 28868][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-15][17:22:38.528][thread 28868][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-15][17:35:53.458][thread 22648][main.cpp][info] Controlbridge start up initialized
+[24-05-15][17:35:57.582][thread 22648][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-15][17:35:58.017][thread 22648][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-20][11:04:01.925][thread 20864][main.cpp][info] Controlbridge start up initialized
+[24-05-20][11:04:06.050][thread 20864][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-20][11:04:06.457][thread 20864][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-20][11:08:19.422][thread 20304][main.cpp][info] Controlbridge start up initialized
+[24-05-20][11:08:23.488][thread 20304][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-20][11:08:23.925][thread 20304][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-20][11:50:02.437][thread 12720][main.cpp][info] Controlbridge start up initialized
+[24-05-20][11:50:06.527][thread 12720][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-20][11:50:06.944][thread 12720][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-20][12:06:36.363][thread 23748][main.cpp][info] Controlbridge start up initialized
+[24-05-20][12:06:40.388][thread 23748][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-20][12:06:40.778][thread 23748][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]
+[24-05-22][09:38:48.967][thread 37156][main.cpp][info] Controlbridge start up initialized
+[24-05-22][09:38:53.040][thread 37156][status_code_manager.cpp][info] Status Code Manager started succesfully
+[24-05-22][09:38:53.459][thread 37156][next_controlbridge][info] NEXT_STATUS_CODE: [Component: next_controlbridge][StatusCode: 3211][Text: [Controlbridge] Init finished]

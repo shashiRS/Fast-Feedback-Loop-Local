@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/.bricks/decorated_install.cmake",
+			"examples/subscriber_app/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "NEXT_COMPONENT",
+			"destination" : "examples/next_subscriber_app",
+			"paths" : 
+			[
+				"examples/subscriber_app/Release/next_subscriber_app.exe"
+			],
+			"targetId" : "next_subscriber_app::@2c99a52f2d5ed434cddd",
+			"targetIndex" : 30,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/subscriber_app",
+		"source" : "examples/subscriber_app"
+	}
+}

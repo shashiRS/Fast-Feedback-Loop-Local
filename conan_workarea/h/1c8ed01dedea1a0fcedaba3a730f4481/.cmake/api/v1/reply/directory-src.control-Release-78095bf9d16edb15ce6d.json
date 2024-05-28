@@ -1,0 +1,271 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"install_runtime",
+			"__bricks_install_handle_export_names_with_components",
+			"install_mts_sentinel"
+		],
+		"files" : 
+		[
+			"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/.bricks/decorated_install.cmake",
+			"src/cmake/install_lib.cmake",
+			"src/control/CMakeLists.txt",
+			"D:/.bbs_conan/1e3a16/1/cmake/pre/decorators/install_export_names.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 168,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 88,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 177,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 184,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 190,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 196,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 221,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 19
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/control/Release/next_control.lib"
+			],
+			"targetId" : "next_control::@55c7869fca2c028a7ab9",
+			"targetIndex" : 23,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/control/Release/next_control.dll"
+			],
+			"targetId" : "next_control::@55c7869fca2c028a7ab9",
+			"targetIndex" : 23,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "next/share/cmake/next/CONTROL_COMPONENT",
+			"exportName" : "next-CONTROL_COMPONENT",
+			"exportTargets" : 
+			[
+				{
+					"id" : "next_control::@55c7869fca2c028a7ab9",
+					"index" : 23
+				}
+			],
+			"paths" : 
+			[
+				"src/control/CMakeFiles/Export/fef6c8b8ed318457663d13792ffc8288/exported-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "bin",
+			"runtimeDependencySetName" : "next_control",
+			"runtimeDependencySetType" : "library",
+			"type" : "runtimeDependencySet"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/control/Release/next_control.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/udex/Release/next_udex.dll",
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/appsupport/Release/next_appsupport.dll",
+				"conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/sdk/sdk/Release/next_sdk.dll",
+				"D:/.bbs_conan/861632/1/bin/ecal_core_c.dll",
+				"D:/.bbs_conan/861632/1/bin/ecal_core.dll",
+				"D:/.bbs_conan/05150c/1/bin/mts_sentinel.dll",
+				"D:/.bbs_conan/c926df/1/bin/mtscpp.dll",
+				"D:/.bbs_conan/c926df/1/bin/mtsc.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/control/Release",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "D:/Next-python_API/next/conan_workarea/h/1c8ed01dedea1a0fcedaba3a730f4481/src/control/Release",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "src/control/interface",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "bin",
+			"type" : "importedRuntimeArtifacts"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "CONTROL_COMPONENT",
+			"destination" : "bin",
+			"type" : "importedRuntimeArtifacts"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/control",
+		"source" : "src/control"
+	}
+}
