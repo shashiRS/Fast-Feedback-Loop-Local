@@ -85,7 +85,8 @@
                     "simNodes"
                 ],
                 "BackendSettings": {
-                    "BackendDirectory": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
+                    "BackendDirectory": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin",
+                    "BackendConfig": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin\\adc5_joint_connection_r3.json"
                 }
             },
             "runSim1": {
@@ -98,7 +99,8 @@
                     "simNodes"
                 ],
                 "BackendSettings": {
-                    "BackendDirectory": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
+                    "BackendDirectory": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin",
+                    "BackendConfig": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin\\adc5_joint_connection_r3.json"
                 }
             }
         },
