@@ -52,7 +52,7 @@
                 "Nodes": [
                     {
                         "Executable": "ecal_swc_aptrjctlgeneric",
-                    "ExecutablePath": "conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin",
+                    "ExecutablePath": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin",
                     "Arguments": "-n"
                     }
                 ]
@@ -62,7 +62,7 @@
             "executeSim": {
                 "Setup": {
                     "start_nodes": "SimulationNodes",
-                    "load_backend_config": "conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin\\playerdefaultconfig.json"
+                    "load_backend_config": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin\\playerdefaultconfig.json"
                 },
                 "Run": {
                     "load_recording": "SimulationInput",
@@ -85,7 +85,7 @@
                     "simNodes"
                 ],
                 "BackendSettings": {
-                    "BackendDirectory": "conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
+                    "BackendDirectory": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
                 }
             },
             "runSim1": {
@@ -98,7 +98,7 @@
                     "simNodes"
                 ],
                 "BackendSettings": {
-                    "BackendDirectory": "conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
+                    "BackendDirectory": "$BASE_PATH$\\conan_workarea\\package.next.generic.0.0.0-fallback.vs2017\\bin"
                 }
             }
         },
