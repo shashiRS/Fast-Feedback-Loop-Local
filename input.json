@@ -22,7 +22,7 @@
                 "ExportType": ".bsig"
             },
             "Output": {
-                    "OutputPath": "\\\\cw01.contiwan.com\\Root\\Loc\\blr3\\didr3320\\ADC544NN-Nissan\\Recordings\\Recordings",
+                    "OutputPath": "\\\\cw01.contiwan.com\\Root\\Loc\\blr3\\didr3320\\ADC544NN-Nissan\\Recordings",
                     "OutputName": "$INPUT$",
                     "Overwrite": true
                 }
