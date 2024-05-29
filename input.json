@@ -1,10 +1,10 @@
 {
     "SimulationInput": {
         "simInput": {
-            "RecordingLocation": "\\\\cw01.contiwan.com\\Root\\Loc\\blr3\\didr3320\\ADC544NN-Nissan\\Recordings\\Usecase_1_E_mor_than_9kmph_Pedistrain_2.1.14.rrec"
+            "RecordingLocation": "D:\\JenkinsServer_Main\\workspace\\Recordings\\Usecase_1_E_mor_than_9kmph_Pedistrain_2.1.14.rrec"
         },
         "simInput1": {
-            "RecordingLocation": "\\\\cw01.contiwan.com\\Root\\Loc\\blr3\\didr3320\\ADC544NN-Nissan\\Recordings\\Usecase_2_E_Upto_5kmph_Pedistrain_2.1.14.rrec"
+            "RecordingLocation": "D:\\JenkinsServer_Main\\workspace\\Recordings\\Usecase_2_E_Upto_5kmph_Pedistrain_2.1.14.rrec"
         }
     },
     "SimulationExport": {
@@ -22,7 +22,7 @@
                 "ExportType": ".bsig"
             },
             "Output": {
-                    "OutputPath": "\\\\cw01.contiwan.com\\Root\\Loc\\blr3\\didr3320\\ADC544NN-Nissan\\Recordings",
+                    "OutputPath": "D:\\JenkinsServer_Main\\workspace\\Recordings",
                     "OutputName": "$INPUT$",
                     "Overwrite": true
                 }
@@ -41,7 +41,7 @@
                 "ExportType": ".bsig"
             },
             "Output": {
-                    "OutputPath": "\\\\cw01.contiwan.com\\\\Root\\\\Loc\\\\blr3\\\\didr3320\\\\ADC544NN-Nissan\\\\FFL_output",
+                    "OutputPath": "$BASE_PATH$\\FFL_output",
                     "OutputName": "$INPUT$",
                     "Overwrite": true
                 }
