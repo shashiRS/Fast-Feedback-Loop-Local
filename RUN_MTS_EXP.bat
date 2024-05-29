@@ -22,9 +22,9 @@ pip install websocket-client==1.3.1
 echo %CD%
 set ECAL_DATA=conan_workarea\package.next.generic.0.0.0-fallback.vs2017\bin
 set PYTHONPATH=%PYTHONPATH%;%CD%
-echo PYTHONPATH
+echo %PYTHONPATH%
 echo %2
 cd ../..
 echo %CD%
-py %CD%\src\py_api\next_py_api\next_api.py -c %2
+py %CD%\src\py_api\next_py_api\next_api.py -c "%2"
 popd
