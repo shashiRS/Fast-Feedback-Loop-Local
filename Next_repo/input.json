@@ -22,7 +22,7 @@
                 "ExportType": ".bsig"
             },
             "Output": {
-                    "OutputPath": "D:\\JenkinsServer_Main\\workspace\\Recordings",
+                    "OutputPath": "$BASE_PATH$\\FFL_output",
                     "OutputName": "$INPUT$",
                     "Overwrite": true
                 }
