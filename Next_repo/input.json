@@ -1,7 +1,7 @@
 {
     "SimulationInput": {
         "simInput": {
-            "RecordingLocation": "\\\\Ozl9704w\d\\Report_FFL\\Recordings\\Usecase_1_E_mor_than_9kmph_Pedistrain_2.1.14.rrec"
+            "RecordingLocation": "\\\\Ozl9704w\\d\\Report_FFL\\Recordings\\Usecase_1_E_mor_than_9kmph_Pedistrain_2.1.14.rrec"
         },
         "simInput1": {
             "RecordingLocation": "D:\\JenkinsServer_Main\\workspace\\Recordings\\Usecase_2_E_Upto_5kmph_Pedistrain_2.1.14.rrec"
