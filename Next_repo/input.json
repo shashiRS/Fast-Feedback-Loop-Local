@@ -16,7 +16,6 @@
                     "ADC5xx_Device.TRJPLA_DATA.TrjPlaEnvModelPort.numberOfStaticObjects_u8",
                     "ADC5xx_Device.TRJPLA_DATA.TrjPlaEnvModelPort.numberOfDynamicObjects_u8",
                     "ADC5xx_Device.TRJPLA_DATA.TrjPlaEnvModelPort.numberOfParkMarkings_u8"
-
                 ],
                 "Trigger": "ADC5xx_Device.TRJPLA_DATA.TrjPlaParkingBoxPort.uiVersionNumber",
                 "ExportType": ".bsig"
@@ -27,15 +26,14 @@
                     "Overwrite": true
                 }
         },
-            "extractSimSignals1": {
-                        "ExportSignals": {
+        "extractSimSignals1": {
+            "ExportSignals": {
                 "Signals": [
                     "ADC5xx_Device.TRJPLA_DATA.TrjPlaParkingBoxPort.uiVersionNumber",
                     "ADC5xx_Device.TRJPLA_DATA.TrjPlaParkingBoxPort.numValidParkingBoxes_nu",
                     "ADC5xx_Device.TRJPLA_DATA.TrjPlaEnvModelPort.numberOfStaticObjects_u8",
                     "ADC5xx_Device.TRJPLA_DATA.TrjPlaEnvModelPort.numberOfDynamicObjects_u8",
                     "ADC5xx_Device.TRJPLA_DATA.TrjPlaEnvModelPort.numberOfParkMarkings_u8"
-
                 ],
                 "Trigger": "ADC5xx_Device.TRJPLA_DATA.TrjPlaParkingBoxPort.uiVersionNumber",
                 "ExportType": ".bsig"
