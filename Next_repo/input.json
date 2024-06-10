@@ -22,7 +22,7 @@
             },
             "Output": {
                     "OutputPath": "$BASE_PATH$\\FFL_output",
-                    "OutputName": "$INPUT$2rec",
+                    "OutputName": "$INPUT$",
                     "Overwrite": true
                 }
         },
@@ -40,7 +40,7 @@
             },
             "Output": {
                     "OutputPath": "$BASE_PATH$\\FFL_output",
-                    "OutputName": "$INPUT$",
+                    "OutputName": "$INPUT$rec2",
                     "Overwrite": true
                 }
             }
