@@ -21,8 +21,8 @@
                 "ExportType": ".bsig"
             },
             "Output": {
-                    "OutputPath": "$BASE_PATH$\\FFL_output1",
-                    "OutputName": "$INPUT$",
+                    "OutputPath": "$BASE_PATH$\\FFL_output",
+                    "OutputName": "$INPUT$2rec",
                     "Overwrite": true
                 }
         },
