@@ -101,6 +101,8 @@ class SimulationExport:
     def _parse_configs(self, export_dict):
         for key, config in export_dict.items():
             if key == "ExportSignals":
+                print(key, config)
+                print("-------------------------------------")
                 if isinstance(config, list):
                     for i_export_signal in config:
                         self.export_signals.append(ExportSignal(i_export_signal))
@@ -108,6 +110,8 @@ class SimulationExport:
                     self.export_signals.append(ExportSignal(config))
             elif key == "Output":
                 self.output_config = OutputConfig(config)
+                print(self.output_config)
+                print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
 
 
 # pylint: enable=too-few-public-methods
