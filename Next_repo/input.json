@@ -1,8 +1,11 @@
 {
     "SimulationInput": {
         "simInput": {
-            "RecordingLocation": "D:\\JenkinsServer_Main\\workspace\\Recordings\\"
-        }      
+            "RecordingLocation": "D:\\JenkinsServer_Main\\workspace\\Recordings\\Usecase_1_E_mor_than_9kmph_Pedistrain_2.1.14.rrec"
+        },
+        "simInput1": {
+            "RecordingLocation": "D:\\JenkinsServer_Main\\workspace\\Recordings\\Usecase_2_E_Upto_5kmph_Pedistrain_2.1.14.rrec"
+        }
     },
     "SimulationExport": {
         "extractSimSignals": {
