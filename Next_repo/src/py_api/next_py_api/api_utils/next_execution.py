@@ -69,6 +69,8 @@ class NextExecution:
             LOG.info("Websocket connection is working")
         msg = exec_var.get_load_recording_msg(file)
         LOG.debug("Recording Name: %s", file)
+        print("*********************************************")
+        print("Recording Name: %s", file)
         for it in range(number_of_start_tries):
             self.websocket.controlbridge.send(msg=msg, wait_response=False)
             status_code_start_load_recording = get_status_code(
