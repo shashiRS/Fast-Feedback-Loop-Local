@@ -201,7 +201,8 @@ void SignalExporter::replaceVariables(std::string &file_name) {
     std::strftime(timeBuffer, sizeof(timeBuffer), "T%H_%M_%S", gmt_time);
     file_name.replace(timePos, 6, timeBuffer);
   }
-
+  cout << file_name.find("$INPUT$");
+  cout <<"^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^";
   if (size_t inputPos = file_name.find("$INPUT$"); inputPos != std::string::npos) {
     auto config_client = next::appsupport::ConfigClient::getConfig();
 
