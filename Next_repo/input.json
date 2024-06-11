@@ -23,7 +23,7 @@
             "Output": {
                     "OutputPath": "$BASE_PATH$\\FFL_output",
                     "OutputName": "$INPUT$",
-                    "Overwrite": true
+                    "Overwrite": false
                 }
         },
         "extractSimSignals1": {
@@ -41,7 +41,7 @@
             "Output": {
                     "OutputPath": "$BASE_PATH$\\FFL_output",
                     "OutputName": "$INPUT$rec2",
-                    "Overwrite": true
+                    "Overwrite": false
                 }
             }
         },
